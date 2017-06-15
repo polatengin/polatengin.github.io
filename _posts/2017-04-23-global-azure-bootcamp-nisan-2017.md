@@ -11,8 +11,8 @@ tags: [aspnet, aspnetcore, azure, etkinliklerim, seminer]
 
 **Türkiye**'de **İstanbul**'da bir tam gün boyunca sektör tecrübesi olan uzmanlarca gerçekleştirilen **Global Azure Bootcamp** içerisinde ben de **Azure App Services** konulu oturum gerçekleştirdim.
 
-<img class="lazy img-responsive" data-src="/assets/uploads/2017/04/gabc2017-0.jpg" />
+<img class="lazy img-responsive" data-src="/assets/uploads/2017/04/gabc2017-0.jpg" alt="Global Azure Bootcamp, Istanbul 2017" />
 
 Etkinliğe katılan herkese **teşekkür ederim**, etkinlik duyuru görselini aşağıda bulabilirsiniz.
 
-<img class="lazy img-responsive" data-src="/assets/uploads/2017/04/gabc2017-1.jpg" />
+<img class="lazy img-responsive" data-src="/assets/uploads/2017/04/gabc2017-1.jpg" alt="Global Azure Bootcamp - Ajanda, Istanbul 2017" />

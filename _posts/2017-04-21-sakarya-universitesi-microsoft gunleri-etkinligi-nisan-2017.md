@@ -11,6 +11,6 @@ tags: [etkinliklerim, seminer, uwp]
 
 Ben de **Windows 10 Universal Windows Platform (UWP)** konulu oturumda konuşmacı olarak yer aldım.
 
-<img class="lazy img-responsive" data-src="/assets/uploads/2017/04/sakarya-universitesi-microsoft-days-nisan-2017.jpg" width="600" height="338" />
+<img class="lazy img-responsive" data-src="/assets/uploads/2017/04/sakarya-universitesi-microsoft-days-nisan-2017.jpg" alt="Sakarya Üniversitesi - Microsoft Days, Nisan 2017" />
 
 Etkinliği organize eden sevgili öğrenci arkadaşım *Veli Bacık*'a ve etkinliğe katılan tüm arkadaşlara *teşekkür ederim*.

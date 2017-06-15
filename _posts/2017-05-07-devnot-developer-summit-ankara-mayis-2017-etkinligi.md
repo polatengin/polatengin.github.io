@@ -11,7 +11,7 @@ tags: [etkinliklerim, seminer, devnot, web, aspnetcore, nginx, performance]
 
 Ben de **Yük Altında Çalışan Web Uygulamaları Geliştirme** konulu oturumda konuşmacı olarak yer aldım.
 
-<img class="lazy img-responsive" data-src="/assets/uploads/2017/05/devnot-summit-ankara.jpg" width="600" height="400" />
+<img class="lazy img-responsive" data-src="/assets/uploads/2017/05/devnot-summit-ankara.jpg" alt="DevNot Summit Ankara, Mayıs 2017" />
 
 Etkinlikte gerçekleştirdim konuşmayı aşağıdaki videodan izleyebilirsiniz;
 
