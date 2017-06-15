@@ -1,0 +1,21 @@
+---
+layout: page
+title: Arşiv
+date: 2009-11-12 10:00
+author: engin.polat
+group: navigation
+order: 1
+---
+<section class="archive-post-list">
+   {% for post in site.posts %}
+       {% assign currentDate = post.date | date: "%Y" %}
+       {% if currentDate != myDate %}
+           {% unless forloop.first %}</ul>{% endunless %}
+           <h4>{{ currentDate }}</h4>
+           <ul>
+           {% assign myDate = currentDate %}
+       {% endif %}
+       <li><a href="{{ post.url }}"><span>{{ post.date | date: "%Y-%m-%d" }}</span> - {{ post.title }}</a></li>
+       {% if forloop.last %}</ul>{% endif %}
+   {% endfor %}
+</section>

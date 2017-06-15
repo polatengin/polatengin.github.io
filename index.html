@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% for post in paginator.posts %}
+<div class="blog-index">
+  <h3 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h3>
+  <div class="entry-content">{{ post.content }}</div>
+</div>
+{% endfor %}
+<nav>
+  <ul class="pager">
+  {% if paginator.previous_page %}
+    <li class="previous"><a href="{{ paginator.previous_page_path }}"><span aria-hidden="true">&larr;</span> Yeni Yazılar</a></li>
+  {% else %}
+    <li class="previous disabled"><a><span aria-hidden="true">&larr;</span> Yeni Yazılar</a></li>
+  {% endif %}
+    <li><span class="page_number">Sayfa: {{ paginator.page }} / {{ paginator.total_pages }}</span></li>
+  {% if paginator.next_page %}
+    <li class="next"><a href="{{ paginator.next_page_path }}">Eski Yazılar <span aria-hidden="true">&rarr;</span></a></li>
+  {% else %}
+    <li class="next disabled"><a>Eski Yazılar <span aria-hidden="true">&rarr;</span></a></li>
+  {% endif %}
+  </ul>
+</nav>

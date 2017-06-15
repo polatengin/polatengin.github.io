@@ -1,0 +1,27 @@
+{% capture Optionscache %}
+  <!--
+  - Dynamically set liquid variables for working with URLs/paths
+  -->
+  {% include Options/is_production %}
+  {% if site.Options.setup.provider == "custom" %}
+    {% include custom/setup %}
+  {% else %}
+    {% if is_production and site.Options.BASE_PATH and site.Options.BASE_PATH != '' %}
+      {% assign BASE_PATH = site.Options.BASE_PATH %}
+      {% assign HOME_PATH = site.Options.BASE_PATH %}
+    {% else %}
+      {% assign BASE_PATH = nil %}
+      {% assign HOME_PATH = "/" %}
+    {% endif %}
+
+    {% if site.Options.ASSET_PATH %}
+      {% assign ASSET_PATH = site.Options.ASSET_PATH %}
+    {% else %}
+      {% if layout.theme.name %}
+      {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ layout.theme.name }}{% endcapture %}
+      {% else %}
+      {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ page.theme.name }}{% endcapture %}
+      {% endif %}
+    {% endif %}  
+  {% endif %}
+{% endcapture %}{% assign Optionscache = nil %}

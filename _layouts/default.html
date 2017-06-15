@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>{{ page.title }}</title>
+  <link rel="canonical" href="http://www.enginpolat.com/" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#2196F3" />
+  <meta name="description" content="{{ page.description }}" />
+  <meta name="author" content="{{ site.author.name }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+  <link rel="stylesheet" href="/assets/bundle.min.css?v1" async />
+  <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />
+  <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="RSS Feed" />
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="z-index:99;">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed navbar-toggler-right" onclick="document.getElementsByClassName('site-menu')[0].style.display = document.getElementsByClassName('site-menu')[0].style.display=='block'?'none':'block'">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/" style="padding:8px 10px;">
+          <span class="site-logo"></span>
+          <span class="site-title">{{ site.title }}</span>
+        </a>
+      </div>
+      <div class="site-menu navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li {% if page.url == "/kategoriler/windows" %}class="active"{% endif %}><a {% if page.url == "/kategoriler/windows" %}class="active"{% endif %} href="/kategoriler/windows" title="Windows kategorisindeki makaleler">Windows</a></li>
+          <li {% if page.url == "/kategoriler/unity3d" %}class="active"{% endif %}><a {% if page.url == "/kategoriler/unity3d" %}class="active"{% endif %} href="/kategoriler/unity3d" title="Unity3D kategorisindeki makaleler">Unity3D</a></li>
+          <li {% if page.url == "/kategoriler/asp-net" %}class="active"{% endif %}><a {% if page.url == "/kategoriler/asp-net" %}class="active"{% endif %} href="/kategoriler/asp-net" title="AspNet kategorisindeki makaleler">AspNet</a></li>
+        {% assign sorted_pages = site.pages | sort:"order" %}
+        {% for node in sorted_pages %} {% if node.title != null and node.group == 'navigation' %}
+          {% if page.url == node.url %}
+          <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+          {% else %}
+          <li><a href="{{node.url}}">{{node.title}}</a></li>
+          {% endif %}
+          {% endif %}
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container" style="margin-top:50px;margin-bottom:30px;padding:0;">
+    <div class="col-sm-9">{{ content }}</div>
+    <div class="col-sm-3">
+      <div class="well well-sm row" style="margin:18px 0;padding:7px 5px;">
+        <a rel="external nofollow" class="col-md-10-12 sprite linkedin-logo" title="LinkedIn Profil" href="http://www.linkedin.com/in/polatengin" target="_blank">LinkedIn Profil</a>
+        <a rel="external nofollow" class="col-md-10-12 sprite twitter-logo" title="Twitter Profil" href="http://www.twitter.com/polatengin" target="_blank">Twitter</a>
+        <a rel="external nofollow" class="col-md-10-12 sprite rss-logo" title="Bu siteyi takip et" href="/rss.xml" target="_blank">RSS</a>
+        <a rel="external nofollow" class="col-md-10-12 sprite youtube-logo" title="enginpolat.tv" href="http://www.enginpolat.tv" target="_blank">enginpolat.tv</a>
+        <a rel="external nofollow" class="col-md-10-12 sprite meetup-logo" title="Meetup Group" href="http://www.meetup.com/Istanbul-Windows-Development-Meetup" target="_blank">Meetup Group</a>
+        <a rel="external nofollow" class="col-md-10-12 sprite channel9-logo" title="Channel 9 Profil" href="https://channel9.msdn.com/Niners/enginpolat" target="_blank">Channel 9 Profil</a>
+        <a rel="external nofollow" class="col-md-10-12 sprite me-logo" title="Hakkımda" href="http://enginpolat.me" target="_blank">Hakkımda</a>
+        <a rel="external nofollow" class="col-md-10-12 sprite mvp-logo" title="Engin Polat MVP" href="http://mvp.microsoft.com/en-us/mvp/Engin%20Polat-4038162" target="_blank">Engin Polat MVP</a>
+        <a rel="external nofollow" class="col-md-10-12 sprite rd-logo" title="Engin Polat RD" href="http://rd.microsoft.com/engin.polat#InTheSpotlightHeading" target="_blank">Engin Polat RD</a>
+        <a rel="external nofollow" class="col-md-10-12 sprite email-logo" title="Bana (engin[at]enginpolat[.]com) email ile ulaşın" href="mailto:engin@enginpolat.com" target="_blank">Bana (engin[at]enginpolat[.]com) email ile ulaşın</a>
+      </div>
+      <form class="navbar-form" style="padding:0;margin-bottom:18px;" action="/arama" role="search">
+        <div class="form-group" style="display:inline;">
+          <div class="search-bar input-group" style="display:table;">
+            <input class="form-control" name="q" placeholder="aranacak kelime..." autocomplete="off" type="text">
+            <span class="input-group-btn" style="width:1%">
+              <input class="btn btn-default" type="submit" value="Ara">
+            </span>
+          </div>
+        </div>
+      </form>
+      <div class="media well well-sm">
+        <h4>Engin Polat hakkında</h4>
+        <div class="media-left" style="padding-top:4px;">
+          <div class="media_object profile-image"></div>
+        </div>
+        <div class="media-body">
+          <p>Chief Architect, Microsoft RD, Microsoft MVP</p>
+          <p style="margin:0">Ada ve Ege'nin babası ;)</p>
+        </div>
+      </div>
+      <div class="well well-sm">
+        <h4>Seriler</h4>
+        <ul class="list-unstyled">
+          <li><a href="/etiketler#bknyv-ref">Bu Kodda Ne Yanlış Var?</a></li>
+          <li><a href="/etiketler#quiz-ref">Kısa Sınavlar</a></li>
+          <li><a href="/etiketler#euler-ref">Euler</a></li>
+          <li><a href="/kategoriler">Kategoriler</a></li>
+          <li><a href="/etiketler">Etiketler</a></li>
+        </ul>
+      </div>
+      <div class="well well-sm">
+        <h4>Kategoriler</h4>
+        <ul class="list-unstyled">
+          {% for category in site.categories %}
+            <li><a href="/kategoriler#{{ category[0] }}-ref">{{ category[0] }}</a> <span>({{ category[1].size }})</span></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="well well-sm">
+        <h4>Arşiv</h4>
+        <ul class="list-unstyled">
+          {% assign counter = 0 %}
+          {% for post in site.posts %}
+            {% assign thisyear = post.date | date: "%B %Y" %}
+            {% assign prevyear = post.previous.date | date: "%B %Y" %}
+            {% assign counter = counter | plus: 1 %}
+            {% if thisyear != prevyear %}
+              <li><a href="/arsiv#{{ post.date | date:"%B %Y" }}">{% assign m = post.date | date: "%-m" %}{% case m %}{% when '1' %}Ocak {% when '2' %}Şubat {% when '3' %}Mart {% when '4' %}Nisan {% when '5' %}Mayıs {% when '6' %}Haziran {% when '7' %}Temmuz {% when '8' %}Ağustos {% when '9' %}Eylül {% when '10' %}Ekim {% when '11' %}Kasım {% when '12' %}Aralık {% endcase %}{{ post.date | date: "%Y" }}</a> <span>({{ counter }})</span></li>
+              {% assign counter = 0 %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="well well-sm">
+        <a href="http://mvp.microsoft.com/en-us/mvp/Engin%20Polat-4038162" target="_blank"><h4 class="sprite mvp-banner">Engin Polat (MVP - Microsoft Most Valuable Professional)</h4></a>
+        <a href="http://rd.microsoft.com/engin.polat#InTheSpotlightHeading" target="_blank"><h4 class="sprite rd-banner">Engin Polat (Microsoft RD - Microsoft Regional Director)</h4></a>
+      </div>
+      <div class="well well-sm">
+        <h4>İstatistik</h4>
+        <p>Makale Adedi: {{ site.posts | size }}</p>
+      </div>
+      <a rel="license" class="creative-commons" target="_blank" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Lisansı</a>
+    </div>
+  </div>
+  <nav class="navbar-inverse navbar-fixed-bottom" style="z-index:99;min-height:25px;">
+    <div class="container">
+      <span class="text-muted" style="margin-top:2px;display:inline-block;">Tüm hakları saklıdır &copy; 2009 - {{ site.time | date: '%Y' }} {{ site.author.name }} ({{ site.tagline }})</span>
+    </div>
+  </nav>
+  <script>((window.gitter = {}).chat = {}).options = { room: 'polatengin/lobby' };document.addEventListener('gitter-sidecar-instance-started', function(e) { var chat = e.detail.chat; chat.options.activationElement.forEach(function(activationElement) { activationElement.innerHTML = 'Chat Alanı :)' }); });</script>
+  <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-11607391-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script>
+    if ('IntersectionObserver' in window) {
+      let observer = new IntersectionObserver(changes => {
+        changes.forEach(change => {
+          if (change.intersectionRatio > 0) {
+            change.target.src = change.target.dataset.src;
+            observer.unobserve(change.target);
+          }
+        });
+      });
+      const imgs = [...document.querySelectorAll('.lazy')];
+      imgs.forEach(img => observer.observe(img));
+    } else {
+      document.querySelectorAll('.lazy').forEach(a => { a.src = a.dataset.src; });
+    }
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js');
+    }
+  </script>
+</body>
+</html>

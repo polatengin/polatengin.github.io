@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>CSS ile mesaj kutuları</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <style>
+      body
+      {
+        font-family:'Lucida Grande',Verdana,Arial,Sans-Serif;
+        line-height:1.4em;
+        color: #444444;
+      }
+      .alert
+      {
+        background: #fff6bf url(exclamation.png) 15px 50% no-repeat;
+        text-align: left;
+        padding: 5px 20px 5px 45px;
+        border-top: 2px solid #ffd324;
+        border-bottom: 2px solid #ffd324;
+      }
+      .info
+      {
+        background: #f8fafc url(information.png) 15px 50% no-repeat;
+        text-align: left;
+        padding: 5px 20px 5px 45px;
+        border-top: 2px solid #b5d4fe;
+        border-bottom: 2px solid #b5d4fe;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="alert">Uyarı mesajı buraya gelecek.</p>
+    <p class="info">Bilgilendirme mesajı buraya gelecek.<br />Birden fazla satır olabilir.</p>
+  </body>
+</html>

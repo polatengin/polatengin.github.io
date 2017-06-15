@@ -1,0 +1,37 @@
+{
+  "name": "Engin Polat, Programcıdan Programcıya Blog Sitesi",
+  "short_name": "Engin Polat",
+  "icons": [{
+    "src": "/assets/logo-128.png",
+    "type": "image/png",
+    "sizes": "128x128"
+  }, {
+    "src": "/assets/logo-144.png",
+    "type": "image/png",
+    "sizes": "144x144"
+  }, {
+    "src": "/assets/logo-152.png",
+    "type": "image/png",
+    "sizes": "152x152"
+  }, {
+    "src": "/assets/logo-192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  },
+  {
+    "src": "/assets/logo-256.png",
+    "type": "image/png",
+    "sizes": "256x256"
+  },
+  {
+    "src": "/assets/logo-512.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#7d971a",
+  "theme_color": "#7d971a"
+}

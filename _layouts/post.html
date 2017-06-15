@@ -1,0 +1,77 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<div class="info">
+  <a class="btnz share facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}">Facebook Paylaş</a>
+  <a class="btnz share twitter" target="_blank" href="https://twitter.com/home?status={{ site.url }}{{ page.url }}">Twitter Paylaş</a>
+  <a class="btnz share linkedin" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}">LinkedIn Paylaş</a>
+  <a class="btnz share github" target="_blank" href="https://github.com/{{ site.author.github }}/polatengin.github.io/blob/master/_posts/{{ page.date | date: "%Y-%m-%d" }}-{{ page.url | replace: '/', '' }}.md">Github Üzerinden Katkıda Bulun</a>
+  <div class="btnz calendar">
+    <span class="calendar-icon"></span>
+    <span>{{ page.date | date: "%d" }} {% assign m = page.date | date: "%-m" %}{% case m %}{% when '1' %}Ocak {% when '2' %}Şubat {% when '3' %}Mart {% when '4' %}Nisan {% when '5' %}Mayıs {% when '6' %}Haziran {% when '7' %}Temmuz {% when '8' %}Ağustos {% when '9' %}Eylül {% when '10' %}Ekim {% when '11' %}Kasım {% when '12' %}Aralık {% endcase %}{{ page.date | date: "%Y" }}</span>
+  </div>
+  <div style="clear:both;"></div>
+</div>
+<div class="content" style="margin-top:7px;">{{ content }}</div>
+{% unless page.categories == empty %}
+  <ul class="tag_box list-inline">
+    <li>Kategori:</li>
+    {% assign categories_list = page.categories %}
+    {% include Options/categories_list %}
+  </ul>
+{% endunless %}
+{% unless page.tags == empty %}
+  <ul class="tag_box list-inline">
+    <li>Etiketler:</li>
+    {% assign tags_list = page.tags %}
+    {% include Options/tags_list %}
+  </ul>
+{% endunless %}
+{% assign hasSimilar = '' %}
+{% for post in site.related_posts %}
+  {% assign postHasSimilar = false %}
+  {% for tag in post.tags %}
+    {% for thisTag in page.tags %}
+        {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
+            {% if hasSimilar.size == 0 %}
+            <h4>İlgili diğer makaleler</h4>
+            <ul class="list-unstyled">
+            {% endif %}
+            <li>
+              <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+            {% assign postHasSimilar = true %}
+        {% endif %}
+    {% endfor %}
+  {% endfor %}
+  {% endfor %}
+{% if hasSimilar.size > 0 %}
+  </ul>
+{% endif %}
+<nav>
+  <ul class="pager">
+  {% if page.previous %}
+    <li class="previous"><a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; {{ page.previous.title }}</a></li>
+  {% else %}
+    <li class="previous disabled"><a>&larr; Önceki</a></li>
+  {% endif %}
+    <li><a href="/arsiv">Arşiv</a></li>
+  {% if page.next %}
+    <li class="next"><a href="{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }} &raquo;</a></li>
+  {% else %}
+    <li class="next disabled"><a>Sonraki &rarr;</a>
+  {% endif %}
+  </ul>
+</nav>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://polatengin.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>

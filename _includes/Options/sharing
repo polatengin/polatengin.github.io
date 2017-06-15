@@ -1,0 +1,9 @@
+{% include Options/is_production %}
+{% if is_production and site.Options.sharing.provider and page.Options.sharing != false %}
+
+{% case site.Options.sharing.provider %}
+{% when "custom" %}
+  {% include custom/sharing %}
+{% endcase %}
+
+{% endif %}

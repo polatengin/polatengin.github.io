@@ -1,0 +1,18 @@
+{% if site.Options.comments.provider and page.comments != false %}
+
+{% case site.Options.comments.provider %}
+{% when "disqus" %}
+  {% include Options/comments-providers/disqus %}
+{% when "livefyre" %}
+  {% include Options/comments-providers/livefyre %}
+{% when "intensedebate" %}
+  {% include Options/comments-providers/intensedebate %}
+{% when "facebook" %}
+  {% include Options/comments-providers/facebook %}
+{% when "duoshuo" %}
+  {% include Options/comments-providers/duoshuo %}
+{% when "custom" %}
+  {% include custom/comments %}
+{% endcase %}
+
+{% endif %}
