@@ -17,20 +17,19 @@ Uygulamada **Session** yapılandırmak için basitçe *web.config* dosyasına a�
 
 **mode** *attribute* ile **session** değişkenlerinin tutulacağı yeri belirliyoruz. Seçenekler;
 
-**InProc**
+<h4>InProc</h4>
 Uygulamanın çalıştığı sunucunun RAM hafızasında. Uygulama, çalıştığı sunucunun RAM hafızasına çok hızlı erişebileceği için tek sunuculu ortamlarda genellikle bu seçenek tercih edilir.
 
 <script src="https://gist.github.com/polatengin/3202a4df0106fd84c91930d58b8b09a5.js?file=web-inproc.config"></script>
 
-**StateServer**
+<h4>StateServer</h4>
 Uygulamanın çalıştığı sunucunun veya başka bir sunucunun RAM hafızasında. *Session* bilgileri hala RAM'de tutulduğu için hızlı erişilebilir, birden fazla sunuculu ortamlarda *session* bilgileri ortak bir yerde tutulduğu için genellikle bu seçenek tercih edilir. Örneğin, uygulamamız 2 sunucuda çalışıyorsa, kullanıcının *session* değişkenleri Sunucu1'de oluştuğunda Sunucu2 için böyle bir kullanıcı hiç varolmayacaktır. Eğer kullanıcının herhangi bir isteği Sunucu2 sunucusuna yönlenecek olursa, Sunucu2 bu isteği işleyemeyecektir. Bu sorunu çözmek için *session* bilgilerini Sunucu1 veya Sunucu2 üzerinde tutmak yerine, ortak bir *StateServer* üzerinde tutabiliriz.
 
 <script src="https://gist.github.com/polatengin/3202a4df0106fd84c91930d58b8b09a5.js?file=web-stateserver.config"></script>
 
-**SQL Server**
+<h4>SQL Server</h4>
 Tıpkı *StateServer* seçeneği gibi çalışır, farklı olarak *session* bilgileri RAM hafızada tutulmaz, *SqlServer*'da oluşturulan tablolarda tutulur. *StateServer*'a göre daha yavaştır (veritabanında sorgulama, kayıt ekleme, güncelleme adımları da araya girdiği için)
 
 Fakat *StateServer* kapanıp açılacak olursa, RAM hafıza temizleneceği için, *session* bilgileri kaybolur, *SqlServer*'da ise, kaybolmaz.
 
-<script src="https://gist.github.com/polatengin/3202a4df0106fd84c91930d58b8b09a5.js?file=web-sqlserver.config"></script>
-
+<script src="https://gist.github.com/polatengin/3202a4df0106fd84c91930d58b8b09a5.js?file=web-sqlserver.config"></script>

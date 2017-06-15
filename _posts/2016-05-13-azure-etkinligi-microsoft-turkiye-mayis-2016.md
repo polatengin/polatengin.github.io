@@ -14,4 +14,3 @@ Ben de **App Services** konulu oturumum ile etkinlikte yer aldım.
 ![](/assets/uploads/2016/05/iskur.jpg)
 
 Etkinliğe ilgi gösteren tüm katılımcılara *teşekkür* ederim.
-

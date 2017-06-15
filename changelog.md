@@ -1,6 +1,6 @@
 ## Programcıdan Programcıya
 
-### v0.0.5 (2017-07-01)
+### v0.0.5 (2017-06-15)
   * İlk `checkin`
   * Blog teması `Bootstrap` ile güncellendi
   * Yayınlanmayı bekleyen `makaleler` yayına alındı

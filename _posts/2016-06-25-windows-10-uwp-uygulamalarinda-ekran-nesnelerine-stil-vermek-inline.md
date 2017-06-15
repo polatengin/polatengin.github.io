@@ -21,8 +21,6 @@ Projeyi oluşturduktan sonra, **MainPage.xaml** dosyasını açalım ve içerisi
 
 Stilini değiştirmek istediğimiz nesnenin özelliklerini kullanarak farklı gözükmesini sağlayabiliyoruz. Örneğin, sayfaya bir <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.button" target="_blank">Button</a> nesnesi ekleyerek aşağıdaki özelliklerini değiştirebilir, ekranda varsayılan halinden farklı gözükmesini sağlayabiliriz;
 
-
-
 *   Background
 *   Foreground
 *   BorderBrush
@@ -32,4 +30,3 @@ Stilini değiştirmek istediğimiz nesnenin özelliklerini kullanarak farklı g�
 Sonuç aşağıdaki gibi olmalı;
 
 ![](/assets/uploads/2016/06/style-ornek-inline-1.png)
-

@@ -14,4 +14,3 @@ tags: [angularjs, aspnet, aspnetcore, etkinliklerim, ionicframework, mvc, semine
 Etkinliğe katılan herkese *teşekkür ederim*.
 
 ![](/assets/uploads/2016/04/webdevcamp1.jpg)
-

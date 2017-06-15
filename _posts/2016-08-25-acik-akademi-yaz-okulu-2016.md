@@ -16,4 +16,3 @@ Son birkaç yıldır olduğu gibi bu yıl da **Microsoft Yaz Okulu**na eğitmen 
 *05 Ağustos 2016*, *12 Ağustos 2016*, *23 Ağustos 2016* ve *24 Ağustos 2016* tarihlerinde **Microsoft Türkiye** ofisinde gerçekleştirdiğim seanslarda **Universal Windows Platform**, **Microsoft Azure**, **HTML**, **Javascript**, **CSS** ve **Asp.Net MVC** konularında eğitimler verdim.
 
 Tüm *Yaz Okulu* öğrencilerine, beni sabırla dinledikleri için *teşekkür ediyor*, özverili katılımlarından dolayı da *tebrik* ediyorum.
-

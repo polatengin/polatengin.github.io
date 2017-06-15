@@ -37,5 +37,4 @@ Ayrıca, **CSS3** stillerini kullanarak **Camera** görüntüsü üzerine **efek
 
 Eğer **Camera** görüntüsünün çözünürlüğünü değiştirmek istersek, *navigator.getUserMedia()* methodunun ilk parametresinde basitçe *video: true* yazmak yerine, istediğimiz çözünürlüğü aşağıdaki gibi belirtiyoruz;
 
-<script src="https://gist.github.com/polatengin/104d28edab721668a7315bc27943ae0a.js?file=Index-Video-Parameters.js"></script>
-
+<script src="https://gist.github.com/polatengin/104d28edab721668a7315bc27943ae0a.js?file=Index-Video-Parameters.js"></script>

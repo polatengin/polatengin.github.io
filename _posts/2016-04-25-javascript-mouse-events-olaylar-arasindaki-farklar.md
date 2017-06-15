@@ -30,4 +30,3 @@ Basılan *Mouse* butonu bırakıldığında gerçekleşir.
 
 **mouseover** / **mousemove**
 *Mouse*, bir *Html* elementin üzerinden geçerken gerçekleşir. Eğer *Html* element başka bir elementin içindeyse veya içerisinde başka elementler varsa da *mouseover* event (olay) gerçekleşir. *Mouse* ilgili elementin üzerinde gezdikçe *mouseover* event (olay) sadece bir defa gerçekleşir, *mousemove* event (olay) her seferinde gerçekleşir.
-

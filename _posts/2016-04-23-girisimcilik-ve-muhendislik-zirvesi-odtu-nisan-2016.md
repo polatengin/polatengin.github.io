@@ -14,4 +14,3 @@ tags: [azure, etkinliklerim, seminer]
 Ben de *22 Nisan 2016* tarihinde **Azure App Services** konulu bir **hands-on** (*uygulamalı*) oturum ile katılımcılara **Azure** platformunun yazılım geliştiriciler için kolaylıklarını anlattım.
 
 Etkinliğe katılan herkese *teşekkür ederim*.
-

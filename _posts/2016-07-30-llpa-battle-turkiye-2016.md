@@ -16,4 +16,3 @@ Her yıl topluluk üyesi eğitim merkezlerinin katılabildiği bir yarışma org
 Topluluğun **Türkiye** üyesi olan *BilgeAdam*, **29 Temmuz 2016** tarihinde *Maslak* ofisinde **LLPA Battle Turkey** (*LLPA Türkiye Yarışması*) yarışmasını gerçekleştirdi.
 
 *14 katılımcı*'nın katıldığı yarışmayı ben kazandım ve uluslararası yarışmada **Türkiye**'yi temsil etme hakkı kazandım.
-

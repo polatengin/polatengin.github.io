@@ -28,4 +28,3 @@ Artık **video** elementine hangi efekti uygulamak istiyorsak, ilgili **css clas
 <script src="https://gist.github.com/polatengin/b2765dfafc82678e23114f3cf2680668.js?file=video-blur-css.html"></script>
 
 ![](/assets/uploads/2016/04/html5-css3-video-element-effects.png)
-

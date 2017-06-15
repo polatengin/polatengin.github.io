@@ -30,4 +30,3 @@ Son olarak *&lt;head&gt;&lt;/head&gt;* elementi içerisine *&lt;script&gt;&lt;/s
 Bu durumda sayfamızın arkaplanında tam ekran video oynayacak, istersek sayfaya *butonlar*, *menüler*, *başlıklar*, *yazı alanları*, *linkler* ekleyebileceğiz;
 
 ![](/assets/uploads/2016/04/html5-video-background-1.png)
-

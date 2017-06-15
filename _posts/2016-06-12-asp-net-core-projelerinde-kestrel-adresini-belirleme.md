@@ -27,5 +27,4 @@ Proje *http://localhost:5000* adresinden çalışmaya başlayacak, istediğimiz 
 
 *Main()* methodu aşağıdaki gibi bir hale gelmiş olmalı;
 
-<script src="https://gist.github.com/polatengin/2d09105fe046f5205da5cbd127251569.js?file=Program-Main.cs"></script>
-
+<script src="https://gist.github.com/polatengin/2d09105fe046f5205da5cbd127251569.js?file=Program-Main.cs"></script>

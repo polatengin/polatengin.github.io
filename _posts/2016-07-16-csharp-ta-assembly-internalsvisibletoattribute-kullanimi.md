@@ -47,5 +47,4 @@ Bunun için **namespace** üstünde <a href="https://msdn.microsoft.com/library/
 
 **InternalsVisibelTo** *attribute*'ünün parametresi olan *PROJEADI*, **internal** *access modifier*'ına sahip **class**'ların görünür olmasını istediğimiz projelerin adı olmalı. Örneğin;
 
-<script src="https://gist.github.com/polatengin/5851e2e34124f8c6a15b1a6b97b1cdd0.js?file=VeritabaniErisimi-After.cs"></script>
-
+<script src="https://gist.github.com/polatengin/5851e2e34124f8c6a15b1a6b97b1cdd0.js?file=VeritabaniErisimi-After.cs"></script>

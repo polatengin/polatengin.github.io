@@ -12,4 +12,3 @@ tags: [etkinliklerim, seminer, uwp, windows10]
 ![](/assets/uploads/2016/05/sefertasi.jpg)
 
 Etkinliği organize eden ve beni davet eden sevgili *Ünsal Atasoy* arkadaşıma ve katılan herkese **teşekkür ederim**.
-
