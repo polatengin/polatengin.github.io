@@ -3,7 +3,7 @@ layout: default
 ---
 {% for post in paginator.posts %}
 <div class="blog-index">
-  <h3 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h3>
+  <a href="{{ root_url }}{{ post.url }}"><h3 class="entry-title">{{ post.title }}</h3></a>
   <div class="entry-content">{{ post.content }}</div>
 </div>
 {% endfor %}

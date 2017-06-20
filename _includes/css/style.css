@@ -217,3 +217,16 @@ body { letter-spacing: 0.01rem; }
 .navbar-fixed-top {
   border-bottom: 3px solid #86ab08;
 }
+.chevron {
+  border-style: solid;
+  border-width: 0.20em 0.20em 0 0;
+  content: '';
+  display: inline-block;
+  height: 0.50em;
+  position: relative;
+  transform: rotate(-45deg);
+  vertical-align: top;
+  width: 0.50em;
+  margin: 10px 3px 0 0;
+  text-indent: -9000px;
+}
