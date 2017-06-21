@@ -123,10 +123,10 @@ body { letter-spacing: 0.01rem; }
   background-color:#323b43;
 }
 .info .share:first-of-type {
-    border-radius: 5px 0 0 5px;
+    border-radius: 3px 0 0 3px;
 }
 .info .share:last-of-type {
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 3px 3px 0;
 }
 .sprite.rd-banner {
   background: url(/assets/images.png) 0 -97px;
