@@ -7,7 +7,7 @@ comments: true
 category: [Etkinlik]
 tags: [azure, webapp, storage, etkinliklerim, seminer]
 ---
-*19 Haziran 2017* akşamı **Microsoft Türkiye** ofisinde sevgili **Microsoft RD** arkadaşlarım *Daron Yöndem*, *Hakan Uzuner* ve *Adam Cogan* (son anda uçağı yetişmediği için katılamadı) ile bir etkinlik organize ettik.
+*19 Haziran 2017* akşamı **Microsoft Türkiye** ofisinde sevgili **Microsoft RD** arkadaşlarım *Daron Yöndem*, *Hakan Uzuner* ve *Adam Cogan* ile bir etkinlik organize ettik.
 
 *Fazla Mesai* ismini verdiğimiz bu etkinlikte ben de **Azure WebApps** ve **Azure Storage** konularına değindim.
 
