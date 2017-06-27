@@ -240,3 +240,39 @@ body { letter-spacing: 0.01rem; }
   margin: 10px 3px 0 0;
   text-indent: -9000px;
 }
+.about-image-0 {
+  background-image:url(https://aboutme.imgix.net/users/p/o/l/polatengin_1498303086_09.jpg?q=80&dpr=2&auto=format&fit=crop&w=45&h=45&crop=faces);
+  width:90px;
+  height:90px;
+  margin-bottom:15px;
+}
+.about-image-1 {
+  background-image:url(https://aboutme.imgix.net/users/p/o/l/polatengin_1468943917_54.jpg?q=80&dpr=2&auto=format&fit=crop&w=45&h=45&crop=faces);
+  width:90px;
+  height:90px;
+  margin-bottom:15px;
+}
+.about-image-2 {
+  background-image:url(https://aboutme.imgix.net/users/p/o/l/polatengin_1469788651_09.jpg?q=80&dpr=2&auto=format&fit=crop&w=45&h=45&crop=faces);
+  width:90px;
+  height:90px;
+  margin-bottom:15px;
+}
+.about-image-3 {
+  background-image:url(https://aboutme.imgix.net/users/p/o/l/polatengin_1470300995_36.jpg?q=80&dpr=2&auto=format&fit=crop&w=45&h=45&crop=faces);
+  width:90px;
+  height:90px;
+  margin-bottom:15px;
+}
+.about-image-4 {
+  background-image:url(https://aboutme.imgix.net/users/p/o/l/polatengin_1471095970_11.jpg?q=80&dpr=2&auto=format&fit=crop&w=45&h=45&crop=faces);
+  width:90px;
+  height:90px;
+  margin-bottom:15px;
+}
+.about-image-5 {
+  background-image:url(https://aboutme.imgix.net/background/users/p/o/l/polatengin_1468943825_91.jpg?q=80&dpr=2&auto=format&fit=crop&w=45&h=45);
+  width:90px;
+  height:90px;
+  margin-bottom:15px;
+}
