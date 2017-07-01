@@ -81,4 +81,4 @@ Bütün *index.css* dosyası aşağıdaki gibi olmalı;
 
 Tüm **Material Icon** listesini <a href="https://material.io/icons/" target="_blank">Material Icons</a> sayfasında bulabilirsiniz. Değişik *renkler* ve değişik *icon*'lar ile sizler de istediğiniz gibi bir **card** tasarımı yapabilirsiniz.
 
-<em>Not : Bu makalenin orjinalini <a href="https://hackernoon.com/build-a-minimalist-html-card-in-just-53-lines-of-code-with-flexbox-b40801927eb5" target="_blank">Build a Minimalist HTML Card in just 53 lines of code (with Flexbox)</a> adresinden okuyabilirsiniz</em>
+<em><small>Not : Bu makalenin orjinalini <a href="https://hackernoon.com/build-a-minimalist-html-card-in-just-53-lines-of-code-with-flexbox-b40801927eb5" target="_blank">Build a Minimalist HTML Card in just 53 lines of code (with Flexbox)</a> adresinden okuyabilirsiniz</small></em>
