@@ -1,6 +1,7 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:ie="http://schemas.microsoft.com/Search/2008/">
   <ShortName>Engin Polat Blog</ShortName>
   <Image height="16" width="16" type="image/icon">/favicon.ico</Image>
-  <Url type="text/html" template="/arama?q={searchTerms}" />
-  <Url type="application/x-suggestions+xml" template="/searchsuggestions?q={searchTerms}" />
+  <InputEncoding>UTF-8</InputEncoding>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <Url type="text/html" template="http://enginpolat.com/arama?q={searchTerms}" />
 </OpenSearchDescription>
