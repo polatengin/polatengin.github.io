@@ -11,34 +11,7 @@ Bazı durumlarda **Windows Phone** için geliştirdiğimiz uygulamanın o andaki
 
 Aşağıdaki *CaptureScreen()* method'u her çağırıldığında ekran görüntüsü alınacak ve *ekrangoruntuleri* dizinine o anın dosya adı ile kaydedilecek;
 
-
-
-private void CaptureScreen()
-{
-    var tt = new TranslateTransform();
-    var rv = Application.Current.RootVisual;
-    var wb = new WriteableBitmap(rv, tt);
-    wb.Render(rv, tt);
-
-    var stream = new MemoryStream();
-    wb.SaveJpeg(stream, wb.PixelWidth, wb.PixelHeight, 0, 100);
-    var b = stream.ToArray();
-    stream.Close();
-
-    using (var isf = IsolatedStorageFile.GetUserStoreForApplication())
-    {
-        if (!isf.DirectoryExists("ekrangoruntuleri"))
-        {
-            isf.CreateDirectory("ekrangoruntuleri");
-        }
-
-        using (var st = isf.CreateFile("ekrangoruntuleri\\" + DateTime.Now.Ticks + ".jpg"))
-        {
-            st.Write(b, 0, b.Length);
-        }
-    }
-}
-
+<script src="https://gist.github.com/polatengin/91b9c640f842f28dfd5537fce14c5606.js?file=CaptureScreen.cs"></script>
 
 İlk olarak <a href="http://msdn.microsoft.com/library/system.windows.media.translatetransform" title="TranslateTransform Class" target="_blank">TranslateTransform</a> sınıfından yeni bir değişken oluşturuyoruz.
 
@@ -53,4 +26,3 @@ Ekran görüntüsü alacağımız nesneyi belirlediğimiz ikinci satırda <a hre
 Eğer dizini bulamazsak <a href="http://msdn.microsoft.com/library/system.io.isolatedstorage.isolatedstoragefile.createdirectory" title="IsolatedStorageFile.CreateDirectory Method" target="_blank">CreateDirectory()</a> methodunu kullanarak ilgili dizini oluşturuyoruz.
 
 Son olarak <a href="http://msdn.microsoft.com/library/system.io.isolatedstorage.isolatedstoragefile.createfile" title="IsolatedStorageFile.CreateFile Method" target="_blank">CreateFile()</a> methodu ile *ekrangoruntuleri* dizininde yeni bir dosya oluşturuyoruz ve *MemoryStream* değişkenindeki görüntüyü kaydediyoruz.
-

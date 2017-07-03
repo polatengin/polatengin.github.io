@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Google Developer Groups (GDG) Sivas Aralık 2016 Etkinliği"
-date: 2016-12-05 16:30
+date: 2016-12-10 16:30
 author: engin.polat
 comments: true
 category: [Etkinlik]

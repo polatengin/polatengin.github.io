@@ -19,22 +19,7 @@ Hemen yeni bir proje oluşturarak *kodlamaya* başlayalım;
 
 Bir metnin sese dönüştürülerek okunması için uygulamamıza **ses** dosyalarını oynatabilecek bir nesne eklememiz yeterlidir. Bunu için *MainPage.xaml* dosyasına bir tane de <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.mediaelement" target="_blank">MediaElement</a> nesnesi ekleyelim.
 
-
-
-&lt;Page
-    x:Class="SpeechSynthesisOrnek.MainPage"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:SpeechSynthesisOrnek"&gt;
-
-    &lt;StackPanel Margin="20"&gt;
-        &lt;TextBox x:Name="Cumle" Header="Söylenecek Cümle" /&gt;
-        &lt;Button Content="Söyle" Click="Button_Click" /&gt;
-
-        &lt;MediaElement x:Name="mediaElement" /&gt;
-    &lt;/StackPanel&gt;
-
-&lt;/Page&gt;</pre>
+<script src="https://gist.github.com/polatengin/fd8bf8ed1aeab2b584239c2f90cc5fb5.js?file=MainPage.xaml"></script>
 
 Böylece uygulamanın başlangıç ekranı aşağıdaki gibi gözükmeli;
 
@@ -42,13 +27,7 @@ Böylece uygulamanın başlangıç ekranı aşağıdaki gibi gözükmeli;
 
 *MainPage.xaml.cs* dosyasında *Button_Click()* methodu aracılığıyla, butona tıklandığında yapılacak işleri yazıyoruz;
 
-<pre class="brush:csharp">private async void Button_Click(object sender, RoutedEventArgs e)
-{
-    var synth = new SpeechSynthesizer();
-    var synthStream = await synth.SynthesizeTextToStreamAsync(Cumle.Text);
-    mediaElement.SetSource(synthStream, synthStream.ContentType);
-}
-
+<script src="https://gist.github.com/polatengin/fd8bf8ed1aeab2b584239c2f90cc5fb5.js?file=MainPage.xaml.cs"></script>
 
 Bu methodun içerisinde öncelikle <a href="https://msdn.microsoft.com/library/windows/apps/windows.media.speechsynthesis.speechsynthesizer" target="_blank">SpeechSynthesizer</a> sınıfından yeni bir **değişken** oluşturduk.
 
@@ -57,4 +36,3 @@ Bu methodun içerisinde öncelikle <a href="https://msdn.microsoft.com/library/w
 *Son olarak*, ekranda yeralan <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.mediaelement" target="_blank">MediaElement</a> nesnesinin <a href="https://msdn.microsoft.com/library/windows/apps/br244338" target="_blank">SetSource()</a> methoduna <a href="https://msdn.microsoft.com/library/windows/apps/windows.media.speechsynthesis.speechsynthesisstream" target="_blank">SpeechSynthesisStream</a> tipindeki değişkenimizi **parametre** olarak vererek, oluşan sesin oynatılmasını sağladık.
 
 Böylece, ekrandaki <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textbox" target="_blank">TextBox</a> nesnesine yazılan cümle, <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.button" target="_blank">Button</a> nesnesine tıklandığında uygulama tarafından okunacak ve bizler de duyabileceğiz.
-
