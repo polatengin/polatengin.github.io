@@ -4,7 +4,7 @@ title: "XNA ile Pong oyunu yazalım – 2"
 date: 2010-03-11 10:00
 author: engin.polat
 comments: true
-category: [Programlama]
+category: [XNA]
 tags: [content, CreateInstance, draw, drawstring, islooped, method, play, ses, sound, SoundEffect, SoundEffectInstance, spritefont, update, volume, XNA]
 ---
 [XNA ile Pong oyunu yazalım - 1](http://www.enginpolat.com/xna-ile-pong-oyunu-yazalim-1/) yazıma bu yazı ile devam ediyorum.

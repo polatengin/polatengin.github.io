@@ -4,7 +4,7 @@ title: "XNA - Kısa sorular, Kısa cevaplar"
 date: 2011-06-28 10:54
 author: engin.polat
 comments: true
-category: [C#]
+category: [XNA]
 tags: [class, GameTime, GraphicsDeviceManager, initialize, IsActive, isfullscreen, IsMouseVisible, mouse, PreferredBackBufferHeight, PreferredBackBufferWidth, protected, public, ToggleFullScreen, update, void, Window.Title, XNA, xna game studio]
 ---
 ***Mouse ikonumu bulamıyorum?***

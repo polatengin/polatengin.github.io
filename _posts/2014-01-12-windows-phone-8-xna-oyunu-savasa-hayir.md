@@ -4,7 +4,7 @@ title: "Windows Phone 8 - XNA Oyunu / Savaşa Hayır"
 date: 2014-01-12 08:00
 author: engin.polat
 comments: true
-category: [C#]
+category: [XNA]
 tags: [bool, class, const, constructor, content, Content.Load, draw, elapsed, elapsedgametime, FromMilliseconds, gameloop, GameTime, getstate, intersects, isfullscreen, loadcontent, nextdouble, prefferedbackbufferheight, prefferedbackbufferwidth, pressed, private, public, random, readonly, rectangle, sprite, spritebatch, spriteeffects, spritefont, state, static, switch, texture2d, TimeSpan, TimeSpan.Zero, totalgametime, touchcollection, touchlocation, touchlocationstate, touchpanel, unloadcontent, update, vector2, xml, XNA, xna game studio]
 ---
 Bu yazımı okumadan önce <a href="http://www.enginpolat.com/kategori/windows-phone" title="enginpolat.com : Windows Phone" target="_blank">Windows Phone</a> ve <a href="http://www.enginpolat.com/kategori/xna/" title="enginpolat.com : XNA" target="_blank">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.

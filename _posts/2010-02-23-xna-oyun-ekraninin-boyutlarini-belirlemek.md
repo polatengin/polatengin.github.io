@@ -4,7 +4,7 @@ title: "XNA - Oyun ekranının boyutlarını belirlemek"
 date: 2010-02-23 18:53
 author: engin.polat
 comments: true
-category: [Programlama]
+category: [XNA]
 tags: [backbufferheight, backbufferwidth, constructor, fullscreen, game, graphics, isfullscreen, oyun, prefferedbackbufferheight, prefferedbackbufferwidth, XNA]
 ---
 **XNA** ile geliştirdiğiniz oyunlar varsayılan olarak **800 x 600** boyutlarında bir pencerede oynatılır.

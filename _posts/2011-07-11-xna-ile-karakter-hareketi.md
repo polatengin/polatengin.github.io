@@ -4,7 +4,7 @@ title: "XNA ile Karakter Hareketi"
 date: 2011-07-11 22:32
 author: engin.polat
 comments: true
-category: [C#]
+category: [XNA]
 tags: [Color, content, Content.Load, draw, getstate, graphics, graphicsdevice, GraphicsDeviceManager, iskeydown, Keyboard.GetState, keyboardstate, loadcontent, PreferredBackBufferHeight, PreferredBackBufferWidth, rectangle, sprite, spritebatch, texture2d, unloadcontent, update, vector2, XNA, xna game studio]
 ---
 Bu yazımı okumadan önce <a href="http://www.enginpolat.com/kategori/xna/" target="_blank">XNA ile Oyun Programlama</a> konulu diğer yazılarımı okumanızı tavsiye ederim.

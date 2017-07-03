@@ -4,7 +4,7 @@ title: "XNA ile ekranda UzayGemisi yönetmek"
 date: 2010-03-06 13:00
 author: engin.polat
 comments: true
-category: [Programlama]
+category: [XNA]
 tags: [const, draw, isfullscreen, loadcontent, PreferredBackBufferHeight, PreferredBackBufferWidth, readonly, rectangle, texture2d, update, Window.Title, XNA]
 ---
 Bu yazımı okumadan önce **XNA** konusundaki <a title="enginpolat.com : XNA" href="http://www.enginpolat.com/kategori/xna/" target="_self">diğer makalelerimi</a> okumanızı öneririm.

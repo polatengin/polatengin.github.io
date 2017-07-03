@@ -4,7 +4,7 @@ title: "XNA ile Pong oyunu yazalım - 1"
 date: 2010-03-07 10:30
 author: engin.polat
 comments: true
-category: [Programlama]
+category: [XNA]
 tags: [Content.Load, draw, graphics, intersects, isfullscreen, iskeydown, keybo, Keyboard.GetState, keyboardstate, loadcontent, PreferredBackBufferHeight, PreferredBackBufferWidth, rectangle, texture2d, update, vector2, XNA]
 ---
 Bu yazımı okumadan önce **XNA** konusundaki <a title="enginpolat.com : XNA" href="http://www.enginpolat.com/kategori/xna/" target="_self">diğer  makalelerimi</a> okumanızı öneririm.

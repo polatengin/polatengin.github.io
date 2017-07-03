@@ -4,7 +4,7 @@ title: "XNA Oyun Programlama Platformu Hakkında"
 date: 2013-01-30 10:00
 author: engin.polat
 comments: true
-category: [Programlama]
+category: [XNA]
 tags: [csharp, framework, gameloop, indie, vbnet, windows game, windows phone, windows8, windowsphone, XNA, xna game studio]
 ---
 Günümüzde tüm yazılım sektörü gibi oyun dünyası'da çok hızlı *gelişmeye* ve şekillenmeye başladı. Artık insanlar yeni bir oyun için aylarca beklemeye tahammül etmiyor.

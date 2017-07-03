@@ -4,7 +4,7 @@ title: "XNA Oyunu / Çanakkale Geçilmez - 1"
 date: 2011-05-11 11:25
 author: engin.polat
 comments: true
-category: [Programlama]
+category: [XNA]
 tags: [bool, class, const, constructor, CreateInstance, game, getstate, isfullscreen, iskeydown, keyboard, loadcontent, mathhelper, object orriented, OnActivated, OnDeactivated, oop, override, PreferredBackBufferHeight, PreferredBackBufferWidth, rectangle, Rotation, SoundEffect, SoundEffectInstance, texture2d, toradians, vector2, XNA]
 ---
 Bu yazımı okumadan önce **XNA** konusundaki <a title="enginpolat.com : XNA" href="http://www.enginpolat.com/kategori/xna/" target="_self">diğer   makalelerimi</a> okumanızı öneririm.

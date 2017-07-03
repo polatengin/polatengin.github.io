@@ -4,7 +4,7 @@ title: "XNA - Oyun Temelleri"
 date: 2010-02-22 17:52
 author: engin.polat
 comments: true
-category: [Programlama]
+category: [XNA]
 tags: [constructor, content, draw, getstate, iskeydown, keyboard, keyboardstate, loadcontent, location, rectangle, spritebatch, texture2d, update, vector2, XNA, xna game studio]
 ---
 **XNA** ile oyun geliştirmeye başlamadan önce, ekrana nasıl çizim yapabileceğimizi öğrenmemiz gerekiyor.

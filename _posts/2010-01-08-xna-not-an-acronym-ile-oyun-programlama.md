@@ -4,7 +4,7 @@ title: "XNA (XNA's not an acronym) ile Oyun Programlama"
 date: 2010-01-08 15:27
 author: engin.polat
 comments: true
-category: [Programlama]
+category: [XNA]
 tags: [framework, msil, visual studio 2008, visual studio 2010, xbox, XNA, xna game studio, zune]
 ---
 **XNA Oyun Programlama** yazı dizime bu yazımla başlıyorum. Öncelikle **XNA nedir?** biraz bundan bahsetmek istiyorum.

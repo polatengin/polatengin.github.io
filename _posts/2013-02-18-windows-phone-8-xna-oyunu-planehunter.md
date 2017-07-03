@@ -4,7 +4,7 @@ title: "Windows Phone 8 - XNA Oyunu / PlaneHunter"
 date: 2013-02-18 10:00
 author: engin.polat
 comments: true
-category: [Programlama]
+category: [XNA]
 tags: [bool, class, const, constructor, content, Content.Load, displayorientation, draw, drawstring, elapsed, elapsedgametime, FromMilliseconds, gameloop, GameTime, getstate, intersects, isfullscreen, landscapeleft, landscaperight, loadcontent, nextdouble, prefferedbackbufferheight, prefferedbackbufferwidth, pressed, private, public, random, readonly, rectangle, sprite, spritebatch, spriteeffects, spritefont, state, static, supportedorientations, switch, texture2d, TimeSpan, TimeSpan.Zero, totalgametime, touchcollection, touchlocation, touchlocationstate, touchpanel, unloadcontent, update, vector2, xml, XNA, xna game studio]
 ---
 Bu yazımı okumadan önce <a href="http://www.enginpolat.com/kategori/windows-phone" title="enginpolat.com : Windows Phone" target="_blank">Windows Phone</a> ve <a href="http://www.enginpolat.com/kategori/xna/" title="enginpolat.com : XNA" target="_blank">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.

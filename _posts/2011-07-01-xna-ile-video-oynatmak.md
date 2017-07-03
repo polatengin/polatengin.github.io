@@ -4,7 +4,7 @@ title: "XNA ile Video Oynatmak"
 date: 2011-07-01 08:30
 author: engin.polat
 comments: true
-category: [C#]
+category: [XNA]
 tags: [Content.Load, contentpipeline, draw, GetTexture, instance, loadcontent, media, method, play, spritebatch, texture2d, vector2, video, video format, videoplayer, XNA]
 ---
 Bu yazıyı okumadan önce <a href="http://www.enginpolat.com/kategori/xna" target="_blank">XNA ile Oyun Programlama</a> kategorisindeki diğer yazılarımı okumanızı *tavsiye ederim*.

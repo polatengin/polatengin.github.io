@@ -4,7 +4,7 @@ title: "XNA oyunlarında saniyedeki kare sayısını (FPS) hesaplamak"
 date: 2011-07-15 20:32
 author: engin.polat
 comments: true
-category: [C#]
+category: [XNA]
 tags: [bool, Color, content, Content.Load, double, draw, drawstring, fps, frame per second, GameTime, int, iskeydown, iskeyup, Keyboard.GetState, keyboardstate, loadcontent, milliseconds, spritebatch, spritefont, totalgametime, update, vector2, XNA, xna game studio]
 ---
 Hemen her oyun’da, *saniyede çizilen ekran sayısı* (**FPS** - **Frame Per Second**) bilgisi *oyun penceresinde* gösterilir.

@@ -4,7 +4,7 @@ title: "XNA Oyunu / Çanakkale Geçilmez – 2"
 date: 2011-06-27 08:45
 author: engin.polat
 comments: true
-category: [Programlama]
+category: [XNA]
 tags: [const, contains, content, Content.Load, cos, CreateInstance, draw, graphicsdevice, iskeydown, iskeyup, Keyboard.GetState, keyboardstate, lerp, loadcontent, math, mathhelper, nextdouble, position, random, rectangle, Rotation, sin, SoundEffect, spritebatch, spriteblendmode, spriteeffects, texture2d, unloadcontent, vector2, velocity, XNA, xna game studio]
 ---
 <a href="http://www.enginpolat.com/kategori/xna/" target="_blank">XNA ile Oyun Programlama</a> serimize, daha önce başlayıp tamamlamadığımız <a href="http://www.enginpolat.com/xna-oyunu-canakkale-gecilmez-1" target="_blank">Çanakkale Geçilmez</a> oyununu tamamlayarak devam ediyoruz.

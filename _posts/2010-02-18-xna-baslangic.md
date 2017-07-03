@@ -4,7 +4,7 @@ title: "XNA - Başlangıç"
 date: 2010-02-18 17:46
 author: engin.polat
 comments: true
-category: [Programlama]
+category: [XNA]
 tags: [class, draw, gameloop, loadcontent, main method, solution explorer, unloadcontent, update, visual studio 2008, windows game, XNA]
 ---
 **XNA** serimizin ikinci yazısında, **Visual Studio 2008**'lerimizi açıyoruz ve yeni bir **Windows Game** projesi oluşturuyoruz.
