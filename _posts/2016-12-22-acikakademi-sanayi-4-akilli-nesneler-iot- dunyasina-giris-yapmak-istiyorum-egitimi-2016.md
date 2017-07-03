@@ -4,7 +4,7 @@ title: "AçıkAkademi Sanayi 4.0 İleri Seviye Eğitimleriyle Akıllı Nesneler 
 date: 2016-12-22 11:20
 author: engin.polat
 comments: true
-category: [Genel]
+category: [Etkinlik]
 tags: [acikakademi, uwp, iot, etkinliklerim]
 ---
 <a href="http://www.acikakademi.com/" target="_blank">AçıkAkademi</a> üzerinde yayınlanan 33 video'luk **Sanayi 4.0 İleri Seviye Eğitimleriyle Akıllı Nesneler (IoT) Dünyası** eğitim seti yayına alındı.
