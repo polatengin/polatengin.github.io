@@ -4,7 +4,7 @@ title: "ASP.NET Core projelerinde Kestrel adresini belirleme"
 date: 2016-06-12 12:45
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [ASP.NET, aspnet, aspnetcore, build, code, command prompt, dotnet, iis, kestrel, localhost, main method, run, static, terminal, usestartup, useurls, visual studio code, webhostbuilder, yo]
 ---
 *Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/kategori/asp-net/" target="_blank">Asp.Net Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*

@@ -4,7 +4,7 @@ title: "ASP.NET 4.0 SEO Geliştirmeleri"
 date: 2010-01-12 11:37
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [aspnet, crawler, description, http, keywords, redirect, response, seo, url routing]
 ---
 **Search Engine Optimization (Arama Motoru Optimizasyonu)**, internette yayınlanan her site için çok önemlidir. Günümüzde sitelerin trafiklerinin büyük oranı arama motorlarından gelmektedir. Web sitelerinin arama sonuçlarında daha iyi yer edinmeleri alacakları trafik açısından gittikçe daha önemli hale gelmektedir.

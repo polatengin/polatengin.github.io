@@ -4,7 +4,7 @@ title: "WebCamp Etkinliği, Şubat 2016"
 date: 2016-02-18 16:00
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [angularjs, aspnet, aspnetcore, etkinliklerim, ionicframework, seminer, typescript]
 ---
 **Microsoft Türkiye Ofisi** ile birlikte *17 Şubat 2016* tarihinde **Wyndham Hotel** içerisinde **Web Camp** etkinliği organize ettik.

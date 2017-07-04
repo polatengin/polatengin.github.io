@@ -4,7 +4,7 @@ title: "Asp.Net MVC 2 Beta yayınlandı!"
 date: 2009-11-18 16:59
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [ASP.NET, aspnet, beta, mvc]
 ---
 17 Kasım 2009 tarihinde, Microsoft PDC'09 (<a title="Microsoft PDC'09" href="http://microsoftpdc.com/" target="_blank">Microsoft Proffessional Developers Conference 2009</a>) konferansında konuşmacı Bob Muglia, ASP.NET MVC 2 Beta'nın yayınlandığını duyurdu.

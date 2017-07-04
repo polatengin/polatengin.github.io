@@ -4,7 +4,7 @@ title: "ASP.NET MVC web uygulamasını Azure üzerinde nasıl yayına alırız"
 date: 2016-09-27 11:35
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [ASP.NET, aspnet, azure, microsoft, mvc, publish, publishprofile, publishsettings, visual studio, youtube]
 ---
 Geliştirdiğimiz **ASP.NET MVC** projesini **Microsoft Azure** platformu üzerinde nasıl yayına alabileceğimizi inceleyeceğiz.

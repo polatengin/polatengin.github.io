@@ -4,7 +4,7 @@ title: "HTML5 lang ve charset attributes"
 date: 2016-03-05 15:10
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [attribute, body, charset, Color, css, css3, font-family, head, html, html5, lang, meta, seo, style, text to speech]
 ---
 **HTML** ve **HTML5** sayfalarında aşağıdaki sebeplerden ötürü <a href="http://www.w3schools.com/tags/att_global_lang.asp" target="_blank">lang</a> ve <a href="http://www.w3schools.com/tags/att_meta_charset.asp" target="_blank">charset</a> **attribute**'lerini kullanmak faydalıdır;

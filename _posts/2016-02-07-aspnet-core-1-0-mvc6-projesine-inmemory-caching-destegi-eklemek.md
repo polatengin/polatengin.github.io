@@ -4,7 +4,7 @@ title: "AspNet Core 1.0 MVC6 projesine InMemory Caching desteği eklemek"
 date: 2016-02-07 14:30
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [action, addcaching, addmvc, aspnet, aspnetcore, cache, code, command, command prompt, configure, configureservices, console, constructor, controller, datetime, dependencies, dnu, dnx, fromminutes, IEnumerable, imemorycache, iservicecollection, linux, localhost, maproute, memorycacheentryoptions, mvc, namespace, out, project.json, restore, return, set, setabsoluteexpiration, startup.cs, template, terminal, TimeSpan, trygetvalue, usemvc, using, visual studio code, web, windows, yo]
 ---
 *Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/kategori/asp-net/" target="_blank">Asp.Net Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*

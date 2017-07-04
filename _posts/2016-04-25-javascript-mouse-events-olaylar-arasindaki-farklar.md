@@ -4,7 +4,7 @@ title: "Javascript Mouse Events (Olaylar) arasındaki farklar"
 date: 2016-04-25 18:50
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [button, event, html, javascript, mouse, mouseclick, mousedown, mouseenter, mouseleave, mousemove, mouseout, mouseover, mouseup, olay, parameter]
 ---
 **HTML** sayfalarında **mouse** ile ilgili çeşitli *events* (*olaylar*) yakalayabilir ve **Mouse**'un durumuna göre çalışacak kodlar yazabiliriz.

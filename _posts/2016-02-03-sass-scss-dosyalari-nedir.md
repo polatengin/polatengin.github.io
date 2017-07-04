@@ -4,7 +4,7 @@ title: "SASS (scss dosyaları) nedir?"
 date: 2016-02-03 11:55
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [article, backgroundcolor, body, button, Color, command, compile, css, darken, font, h1, head, header, html, http-server, include, index, install, json, less, lighten, localhost, mixin, node-sass, nodejs, npm, package, padding, sass, scss, style, stylesheet, terminal, visual studio code, web, web app]
 ---
 **Web tabanlı** uygulamalarda **html** sayfalarını göze daha hoş gözükür hale getirmek ve kullanılabilirliği artırmak için **css stillerini** kullanırız.

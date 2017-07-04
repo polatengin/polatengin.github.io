@@ -4,7 +4,7 @@ title: "SASS (scss dosyaları) ile !default anahtar kelimesi kullanımı"
 date: 2016-02-16 12:35
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [background, backgroundcolor, content, default, documentation, sass, scss, variable]
 ---
 <a href="http://sass-lang.com" target="_blank">SASS</a> Dokümantasyonunda <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variable_defaults_" target="_blank">Variable Defaults: !default</a> alanında yazana göre;

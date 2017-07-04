@@ -4,7 +4,7 @@ title: "Asp.Net Core uygulamalarında Google reCaptcha kullanımı"
 date: 2016-09-17 08:50
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [action, addmodelerror, addmvc, aspnet, aspnetcore, async, await, captcha, command prompt, connection, controller, data, dependencies, deserializeobject, dotnet, Form, formurlencodedcontent, google, html, html5, httpclient, httpcontext, httppost, iactionresult, iapplicationbuilder, iservicecollection, isvalid, json, jsonconvert, keyvaluepair, linux, macos, maproute, method, modelstate, mvc, post, postasync, project.json, readasstringasync, recaptcha, remoteipaddress, request, template, terminal, usemvc, view, web, windows, yeoman, yo]
 ---
 Bu makalede <a href="http://www.google.com/recaptcha" target="_blank">Google reCaptcha</a> servisini **Asp.Net Core** uygulamasında nasıl kullanacağımızı adım adım inceleyeceğiz.

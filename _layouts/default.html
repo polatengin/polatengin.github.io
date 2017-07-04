@@ -35,7 +35,7 @@
         <ul class="nav navbar-nav">
           <li {% if page.url == "/kategoriler/windows" %}class="active"{% endif %}><a {% if page.url == "/kategoriler/windows" %}class="active"{% endif %} href="/kategoriler/windows" title="Windows kategorisindeki makaleler">Windows</a></li>
           <li {% if page.url == "/kategoriler/unity3d" %}class="active"{% endif %}><a {% if page.url == "/kategoriler/unity3d" %}class="active"{% endif %} href="/kategoriler/unity3d" title="Unity3D kategorisindeki makaleler">Unity3D</a></li>
-          <li {% if page.url == "/kategoriler/asp-net" %}class="active"{% endif %}><a {% if page.url == "/kategoriler/asp-net" %}class="active"{% endif %} href="/kategoriler/asp-net" title="AspNet kategorisindeki makaleler">AspNet</a></li>
+          <li {% if page.url == "/kategoriler/web" %}class="active"{% endif %}><a {% if page.url == "/kategoriler/web" %}class="active"{% endif %} href="/kategoriler/web" title="Web kategorisindeki makaleler">Web</a></li>
         {% assign sorted_pages = site.pages | sort:"order" %}
         {% for node in sorted_pages %} {% if node.title != null and node.group == 'navigation' %}
           {% if page.url == node.url %}

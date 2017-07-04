@@ -4,7 +4,7 @@ title: "ASP.NET MVC ile resim içerisine metin gömme (Steganography)"
 date: 2016-10-01 12:20
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [ASP.NET, aspnet, file, html, html5, input, mvc, steganography, type, visual studio, youtube]
 ---
 Aldığım ilginç bir maili cevaplarken internette **Steganography** diye birşeye denk geldim. Bir resmin **pixel**lerinin renk değerlerini bir metni veya dosyayı içerecek şekilde değiştirmeye ve böylece resim ile birlikte gizlice metin veya dosya transfer etme anlamına geliyor.

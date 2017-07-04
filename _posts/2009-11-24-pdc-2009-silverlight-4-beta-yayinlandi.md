@@ -4,7 +4,7 @@ title: "PDC 2009'da Silverlight 4 Beta yayınlandı"
 date: 2009-11-24 10:05
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [.net, ASP.NET, expression blend, İnternet, pdc, silverlight, web, web2]
 ---
 18 Kasım 2009 tarihinde, Microsoft PDC’09 (<a title="Microsoft PDC'09" href="http://microsoftpdc.com/" target="_blank">Microsoft Proffessional Developers Conference 2009</a>) konferansında konuşmacı <a title="Scott Gutherie" href="http://weblogs.asp.net/scottgu/" target="_blank">Scott Gutherie</a>, Silverlight 4 Beta’nın yayınlandığını duyurdu.

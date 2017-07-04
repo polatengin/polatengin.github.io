@@ -4,7 +4,7 @@ title: "HTML5 video element CSS3 ile efekt uygulamak"
 date: 2016-04-15 14:25
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [blur, body, brightness, class, contrast, controls, css, css3, filter, grayscale, head, html, html5, hue-rotate, invert, saturate, sepia, style, video]
 ---
 **HTML5** ile gelen *&lt;video&gt;&lt;/video&gt;* elementine **CSS3** ile stil uygulayarak *efekt* uygulayabiliyoruz. Örneğin, **video** element içerisinde oynayan videoyu siyah-beyaz yapmak, renk doygunluğu ile oynamak, flu hale getirmek, renkleri ters çevirmek, vs gibi efektler rahatlıkla programlanabiliyor.

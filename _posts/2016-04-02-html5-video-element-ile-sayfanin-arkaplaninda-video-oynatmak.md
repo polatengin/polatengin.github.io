@@ -4,7 +4,7 @@ title: "HTML5 video element ile sayfanın arkaplanında video oynatmak"
 date: 2016-04-02 13:20
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [body, charset, controls, doctype, document, function, head, height, html, html5, javascript, lang, loop, margin, meta, muted, OnLoad, onresize, overflow, padding, querySelector, script, source, style, video, width, window]
 ---
 Son zamanlarda internette çeşitli sitelerin sayfalarının arkaplanlarını video haline getirdiklerini görüyoruz, örneğin;

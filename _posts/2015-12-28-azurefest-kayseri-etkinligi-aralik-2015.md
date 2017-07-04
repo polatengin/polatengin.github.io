@@ -4,7 +4,7 @@ title: "AzureFest Kayseri Etkinliği Aralık 2015"
 date: 2015-12-28 16:50
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [aspnet, etkinliklerim, mvc, seminer, uwp, windows10]
 ---
 *26 Aralık 2015* ve *27 Aralık 2015* tarihlerinde **Kayseri Teknopark** içerisinde, **AzureFest** etkinliği gerçekleştirildi.

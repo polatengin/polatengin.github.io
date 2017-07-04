@@ -4,7 +4,7 @@ title: "ASP.NET MVC Nedir, Ne İşe Yarar?"
 date: 2013-09-17 08:30
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [aspnet, controller, css3, design pattern, framework, html5, microsoft, model, mvc, pattern, request, response, routing, seo, test, test driven development, view, viewmodel]
 ---
 *ASP.NET MVC*, **MVC pattern**'ini *ASP.NET*'e eklemek için *Microsoft*'un geliştirdiği framework'tür. *ASP.NET MVC*'nin ne olduğunu anlamak için öncelikle *MVC*'nin ne olduğunu incelemekte fayda var.

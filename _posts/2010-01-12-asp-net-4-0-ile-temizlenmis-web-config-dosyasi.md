@@ -4,7 +4,7 @@ title: "ASP.NET 4.0 ile Temizlenmiş web.config Dosyası"
 date: 2010-01-12 14:36
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [appsettings, aspnet, authentication, configuration, connectionstrings, debug, framework, visual studio 2010, web.config]
 ---
 ***ASP.NET 3.0 ve ASP.NET 3.5 ile web.config Dosyası***

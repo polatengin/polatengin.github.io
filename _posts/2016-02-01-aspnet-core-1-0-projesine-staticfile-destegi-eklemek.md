@@ -4,7 +4,7 @@ title: "AspNet Core 1.0 projesine StaticFile desteği eklemek"
 date: 2016-02-01 09:30
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [aspnet, aspnetcore, command prompt, configure, css, dnu, dnx, html, iapplicationbuilder, javascript, jpg, linux, localhost, macos, png, project.json, restore, startup.cs, staticfiles, terminal, usestaticfiles, visual studio code, web, windows]
 ---
 *Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/kategori/asp-net/" target="_blank">Asp.Net Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*

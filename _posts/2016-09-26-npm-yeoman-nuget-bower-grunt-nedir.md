@@ -4,7 +4,7 @@ title: "npm, yeoman, nuget, bower, grunt Nedir?"
 date: 2016-09-26 19:45
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [bower, grunt, npm, nuget, powerpoint, pptx, yeoman, youtube]
 ---
 Uzun süredir sıklıkla duyduğum, **npm nedir?** **grunt nedir?** **nuget ile bower arasında ne fark var?** **yeoman'a neden ihtiyaç duyarız?** sorularını aşağıdaki video ile cevaplamaya çalıştım.

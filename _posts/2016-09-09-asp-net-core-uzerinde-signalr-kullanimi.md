@@ -4,7 +4,7 @@ title: "Asp.Net Core üzerinde SignalR kullanımı"
 date: 2016-09-09 14:20
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [aspnetcore, browser, clients, command prompt, config, contentroot, coreclr, dependencies, dotnet, edge, html, hub, iapplicationbuilder, iis, iservicecollection, javascript, jquery, kestrel, nuget, packageSources, project.json, restore, signalr, usestaticfiles, webhostbuilder, websocket, wwwroot]
 ---
 Sevgili arkadaşım <a href="http://www.borakasmer.com" target="_blank">Bora Kaşmer</a> yeni yapacağı bir proje ile ilgili konuşurken **Asp.Net Core** üzerinde **SignalR** çalıştırmak istediğini söyledi, ben de bu makaleyi yazdım :)

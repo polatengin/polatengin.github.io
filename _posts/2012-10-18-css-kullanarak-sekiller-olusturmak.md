@@ -4,7 +4,7 @@ title: "CSS kullanarak şekiller oluşturmak"
 date: 2012-10-18 09:30
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [background, border, border-radius, css, css3, height, width]
 ---
 *Güncelleme: CSS3 ile birlikte aşağıdaki liste ve stiller güncellendi*

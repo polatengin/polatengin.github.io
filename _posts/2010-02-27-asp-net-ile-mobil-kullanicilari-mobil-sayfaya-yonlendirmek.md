@@ -4,7 +4,7 @@ title: "ASP.NET ile Mobil Kullanıcıları Mobil Sayfaya Yönlendirmek"
 date: 2010-02-27 10:00
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [ASP.NET, aspnet, browser, httpcontext, ismatch, ismobile, ismobiledevice, mobile, readonly, redirectpermanent, regez, request, response, static]
 ---
 **ASP.NET 4.0** ile aşağıdaki kod yardımıyla mobil kullanıcıları algılayabilir ve uygulamanın mobil sayfasına yönlendirebilirsiniz;

@@ -4,7 +4,7 @@ title: "HTML5 sayfasında canvas ve javascript kullanarak çizim alanı oluştur
 date: 2016-05-08 22:50
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [addeventlistener, beginpath, canvas, clientx, clienty, doctype, document, event, getboundingclientrect, getcontext, getelementbyid, html, html5, javascript, lineto, mouse, mousedown, mousemove, mouseup, moveto, stroke]
 ---
 Bir **html** sayfasında <a href="http://www.w3schools.com/HTML/html5_canvas.asp" target="_blank">canvas</a> elementi ve **javascript** kullanarak, *mouse* ile çizim yapabileceğimiz bir alan oluşturabiliriz. Örneğin, web sayfası üzerinde kullanıcının imzasını atabileceği bir alan oluşturabilmek mümkün.

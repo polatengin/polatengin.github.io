@@ -4,7 +4,7 @@ title: "Asp.Net Core 1.0 ile web uygulama geliştirmeye başlamak"
 date: 2016-01-28 11:40
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [aspnet, aspnetcore, command prompt, cross-platform, dnu, dnx, linux, localhost, macos, nodejs, npm, project.json, request, response, restore, startup.cs, terminal, visual studio code, windows, yeoman, yo]
 ---
 Yeni adı ile **Asp.Net Core 1.0** (eski adı *Asp.Net 5*) üzerinde geliştirdiğimiz web uygulamaları hem **Windows** hem **MacOS** işletim sisteminde hem de **Linux** işletim sisteminde çalıştırılabiliyor. **Cross-Platform** denilen bu tarz uygulamaları genelde **cross-platform** araçlar ile geliştiririz.

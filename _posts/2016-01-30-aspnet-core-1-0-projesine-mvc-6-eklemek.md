@@ -4,7 +4,7 @@ title: "AspNet Core 1.0 projesine MVC 6 eklemek"
 date: 2016-01-30 14:50
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [action, addmvc, aspnet, aspnetcore, code, command prompt, configure, configureservices, controller, dependencies, dnu, dnx, html, iactionresult, linux, macos, maproute, mvc, restore, startup.cs, terminal, usemvc, view, visual studio code, web, windows, yeoman]
 ---
 *Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/asp-net-core-1-0-ile-web-uygulama-gelistirmeye-baslamak/" target="_blank">Asp.Net Core 1.0 ile web uygulama geliştirmeye başlamak</a> makalesini okumanızı tavsiye ederim.*

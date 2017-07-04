@@ -4,7 +4,7 @@ title: "HTML5 video element özellikleri"
 date: 2016-03-25 10:40
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [autoplay, charset, controls, doctype, height, html, html5, loop, meta, metadata, muted, poster, preload, source, src, type, video, width]
 ---
 Web sayfalarında *multimedia* oynatmak için **HTML5** ile yeni birkaç element ve *Javascript API* hayatımıza girdi.

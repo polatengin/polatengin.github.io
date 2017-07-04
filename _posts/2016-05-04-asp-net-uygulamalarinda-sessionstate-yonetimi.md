@@ -4,7 +4,7 @@ title: "Asp.Net uygulamalarında SessionState yönetimi"
 date: 2016-05-04 19:30
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [aspnet, configuration, database, httpcontext, httpsessionstate, inproc, mode, property, session, sessionstate, sqlconnectionstring, sqlserver, stateconnectionstring, stateserver, system.web, timeout, veritabanı]
 ---
 **Asp.Net** uygulamalarında kullanıcı ile ilgili sürekli erişilmesi gereken bilgileri her seferinde veritabanından sorgulamak yerine daha hızlı erişebilmek amacıyla <a href="http://msdn.microsoft.com/library/system.web.httpcontext" target="_blank">HttpContext Class</a> sınıfının içinde yeralan ve <a href="http://msdn.microsoft.com/library/system.web.sessionstate.httpsessionstate" target="_blank">HttpSessionState Class</a> tipinde olan <a href="http://msdn.microsoft.com/library/system.web.httpcontext.session" target="_blank">Session</a> property'si içerisinde tutabiliriz.

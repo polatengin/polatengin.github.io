@@ -4,7 +4,7 @@ title: "HTML5 video element ile cihazın Camera görüntüsünü göstermek"
 date: 2016-04-20 13:35
 author: engin.polat
 comments: true
-category: [AspNet]
+category: [Web]
 tags: [api, autoplay, body, camera, createobjecturl, css, css3, document, getelementbyid, getusermedia, head, html, html5, javascript, mandatory, minheight, minwidth, navigator, stop, stream, video]
 ---
 **HTML5** ile birlikte gelen **video** element içerisinde <a href="http://www.w3.org/TR/mediacapture-streams/" target="_blank">navigator.getUserMedia</a> *API* method'u sayesinde **Javascript** aracılığı ile cihazın **Camera** görüntüsünü gösterebiliyoruz.
