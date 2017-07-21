@@ -25,6 +25,10 @@ Böylece <a href="https://github.com/polatengin/polatengin.github.io/issues/1" t
 
 <script src="https://gist.github.com/polatengin/d197a257501e1d59085b2bdb25d255ba.js?file=for-loop-2.cs"></script>
 
+Hatta, istersek <code>for</code> döngüsünün tersten çalışmasını bile sağlayabiliriz;
+
+<script src="https://gist.github.com/polatengin/d197a257501e1d59085b2bdb25d255ba.js?file=for-loop-3.cs"></script>
+
 <mark><strong>foreach</strong> döngüsünün özelliği, bir listenin üzerinde adım adım ilerleyerek tüm öğelerini bize <em>sadece-okunur</em> olarak sağlamasıdır.</mark>
 
 <script src="https://gist.github.com/polatengin/d197a257501e1d59085b2bdb25d255ba.js?file=foreach-loop.cs"></script>
