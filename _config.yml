@@ -1,6 +1,6 @@
 paginate: 5
 paginate_path: "/page/:num/"
-permalink: /:title 
+permalink: /:title/
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "changelog.md", "Gemfile", "Gemfile.lock", "LICENSE", "assets/images.psd", "run.ps1", "git-clone.ps1", "wordpress.xml"]
 
