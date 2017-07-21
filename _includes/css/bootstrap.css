@@ -73,10 +73,6 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-mark {
-  background: #ff0;
-  color: #000;
-}
 small {
   font-size: 80%;
 }
@@ -505,8 +501,10 @@ small,
 }
 mark,
 .mark {
-  background-color: #fcf8e3;
+  background-color: #e5ead1;
+  border-radius: 4px;
   padding: .2em;
+  color: #000;
 }
 .text-left {
   text-align: left;
