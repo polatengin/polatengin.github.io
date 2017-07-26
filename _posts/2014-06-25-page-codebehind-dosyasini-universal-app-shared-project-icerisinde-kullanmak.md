@@ -4,7 +4,7 @@ title: "Page CodeBehind dosyasını Universal App Shared Project içerisinde kul
 date: 2014-06-25 09:00
 author: engin.polat
 comments: true
-category: [Universal App]
+category: [Windows]
 tags: [app.xaml, codebehind, shared project, universal app, windows store, windowsphone, xaml, xaml.cs]
 ---
 **Universal App** projesi oluşturduktan sonra *Solution Explorer* içerisine bakacak olursanız *[ProjectName].Shared* isimli bir projenin daha yer aldığını görürsünüz.

@@ -5,7 +5,7 @@ date: 2017-03-04 15:00
 author: engin.polat
 comments: true
 category: [Web]
-tags: []
+tags: [aspnet, aspnetcore, microsoft, web, webforms, wcf, webapi, framework, iis, cross-platform, ajax, spa, javascript, mvc, html, owin, katana]
 ---
 **Asp.Net Core**, *Microsoft*'un önceki web frameworklerinden çok farklı. Neden **.Net Core**'a ihtiyaç duyulduğunu ve geliştirildiğini anlamak için, daha önce nelere sahip olduğumuzu ve son **15** yılda *web geliştirme dünyası*nın nasıl değiştiğini görmemiz gerekiyor.
 

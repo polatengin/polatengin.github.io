@@ -4,7 +4,7 @@ title: "Universal App ekran çözünürlüğünü bulmak"
 date: 2014-07-05 11:55
 author: engin.polat
 comments: true
-category: [Universal App]
+category: [Windows]
 tags: [bounds, displayinformation, getforcurrentview, height, messagedialog, rawpixelsperviewpixel, showasync, string.format, universal app, width, windows phone, windows store, windows.graphics.display, windows8, wp8]
 ---
 **Windows Store** ve **Windows Phone** için tek bir uygulama geliştiriyorsunuz (*Universal App*) ve uygulamanın çalıştığı cihazın ekran çözünürlüğünü bulmanız gerekiyor.

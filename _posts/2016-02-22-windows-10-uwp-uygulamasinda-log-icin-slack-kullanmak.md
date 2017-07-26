@@ -4,7 +4,7 @@ title: "Windows 10 UWP uygulamasında Log için Slack kullanmak"
 date: 2016-02-22 20:45
 author: engin.polat
 comments: true
-category: [Universal App]
+category: [Windows]
 tags: [async, await, binding, borderbrush, button, channel, click, databinding, entegrasyon, event, header, horizontalalignment, httpclient, httpstringcontent, mainpage, margin, mode, postasync, property, public, slack, stackpanel, text, textbox, twoway, universal app, uwp, visual studio, webhook, windows10, xbind, xaml, xaml.cs]
 ---
 *Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/windows-10-uwp-uygulamasinda-xbind-kullanarak-basit-databinding/" target="_blank">Windows 10 UWP uygulamasında {x:Bind} kullanarak basit DataBinding</a> makalesini okumanızı tavsiye ederim.*

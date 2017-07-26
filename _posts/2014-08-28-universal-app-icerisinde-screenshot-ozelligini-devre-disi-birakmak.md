@@ -4,8 +4,8 @@ title: "Universal App içerisinde ScreenShot özelliğini devre dışı bırakma
 date: 2014-08-28 13:00
 author: engin.polat
 comments: true
-category: [Universal App]
-tags: [applicationview, camera, getforcurrentview, isscreencaptureenabled, power, screenshot, search, start, universal app, volume, windows phone emulator]
+category: [Windows]
+tags: [applicationview, camera, getforcurrentview, isscreencaptureenabled, power, screenshot, search, start, universal app, volume, windows phone emulator, uwp]
 ---
 **Windows Phone 8.1** kullanıcıları *[POWER]* ve *[VOLUME UP]* tuşlarına aynı anda basarak o anda kullanmakta oldukları uygulamanın ekran görüntüsünü çekebilirler.
 

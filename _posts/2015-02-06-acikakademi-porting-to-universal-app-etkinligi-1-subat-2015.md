@@ -5,7 +5,7 @@ date: 2015-02-06 09:15
 author: engin.polat
 comments: true
 category: [Etkinlik]
-tags: [etkinliklerim, seminer, universal app]
+tags: [etkinliklerim, seminer, universal app, uwp]
 ---
 *05 Şubat 2015* tarihinde, **AçıkAkademi Sanal Sınıf** üzerinden canlı yayınlanan **Porting to Universal App (1)** etkinliği gerçekleştirdim.
 

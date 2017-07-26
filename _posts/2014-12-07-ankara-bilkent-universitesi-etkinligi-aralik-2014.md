@@ -5,7 +5,7 @@ date: 2014-12-07 20:55
 author: engin.polat
 comments: true
 category: [Etkinlik]
-tags: [bilkent, etkinliklerim, msp, seminer, universal app]
+tags: [bilkent, etkinliklerim, msp, seminer, universal app, uwp]
 ---
 *06 Aralık 2014* tarihinde *Ankara Bilkent Üniversitesi*'nde gerçekleştirilen etkinliğe ben de **Universal App Uygulama Geliştirme Yenilikleri** başlıklı oturumum ile konuşmacı olarak katıldım.
 

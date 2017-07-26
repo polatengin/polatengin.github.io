@@ -4,7 +4,7 @@ title: "Windows 10 UWP uygulamasının Phone, Tablet veya Desktop cihazda çalı
 date: 2015-12-04 14:00
 author: engin.polat
 comments: true
-category: [Universal App]
+category: [Windows]
 tags: [analyticsinfo, apiinformation, class, devicefamily, enum, isapicontractpresent, keyboardcapabilities, keyboardpresent, namespace, property, static, universal app, uwp, versioninfo, windows, windows10]
 ---
 Eğer yazdığınız **Windows 10 UWP** uygulamasının hangi tip cihazda çalıştığını bulmanız gerekiyorsa, aşağıdaki fonksiyondan faydalanabilirsiniz;

@@ -4,7 +4,7 @@ title: "Windows 8 uygulamasında Toast Notification göstermek"
 date: 2014-11-19 09:00
 author: engin.polat
 comments: true
-category: [Programlama]
+category: [Windows]
 tags: [appendchild, binding, createtextnode, createtoastnotifier, getelementsbytagname, gettemplatecontent, notification, show, static, template, toast, toastnotification, toastnotificationmanager, toasttemplatetype, xmldocument]
 ---
 *Windows 8* için geliştirdiğiniz uygulamada kolayca **toast notification** gösterebilmek için yapmanız gerekenler aslında çok basit.

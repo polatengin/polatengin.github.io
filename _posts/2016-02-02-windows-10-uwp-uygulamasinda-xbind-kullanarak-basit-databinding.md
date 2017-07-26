@@ -4,7 +4,7 @@ title: "Windows 10 UWP uygulamasında {x&#58;Bind} kullanarak basit DataBinding"
 date: 2016-02-02 10:15
 author: engin.polat
 comments: true
-category: [Universal App]
+category: [Windows]
 tags: [binding, databinding, grid, mainpage, onnavigatedto, override, page, private, property, protected, public, text, textblock, universal app, uwp, windows, windows10, xbind, xaml, xaml.cs]
 ---
 *Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/windows-10-uwp-uygulamasinda-page-resources-icinde-style-kullanmak/" target="_blank">Windows 10 UWP uygulamasında Page.Resources içinde Style kullanmak</a> makalesini okumanızı tavsiye ederim.*

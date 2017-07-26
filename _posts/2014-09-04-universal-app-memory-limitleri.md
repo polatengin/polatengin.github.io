@@ -4,8 +4,8 @@ title: "Universal App Memory Limitleri"
 date: 2014-09-04 23:00
 author: engin.polat
 comments: true
-category: [Universal App]
-tags: [limit, memory, universal app]
+category: [Windows]
+tags: [limit, memory, universal app, uwp]
 ---
 **Universal App** projesi kullanarak geliştirdiğimiz uygulamaların cihaz üzerinde çalışırken kullanabileceği **maksimum hafıza alanı** bellidir.
 

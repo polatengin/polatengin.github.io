@@ -4,7 +4,7 @@ title: "Windows 10 UWP uygulamalarında TTS için Speech Synthesis kullanımı"
 date: 2016-03-10 12:30
 author: engin.polat
 comments: true
-category: [Universal App]
+category: [Windows]
 tags: [button, click, mainpage, mediaelement, setsource, speechsynthesisstream, speechsynthesizer, synthesizetexttostreamasync, text to speech, textbox, tts, universal app, uwp, windows10, xaml, xaml.cs]
 ---
 Uygulamalarımıza **TTS** (*text-to-speech*, yani *yazıdan-sese*) özelliği ekleyerek belirlediğimiz metinlerin sese dönüştürülmesini sağlayabiliriz.

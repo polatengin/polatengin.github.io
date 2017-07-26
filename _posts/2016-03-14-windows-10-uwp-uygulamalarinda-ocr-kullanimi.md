@@ -4,7 +4,7 @@ title: "Windows 10 UWP uygulamalarında OCR kullanımı"
 date: 2016-03-14 17:30
 author: engin.polat
 comments: true
-category: [Universal App]
+category: [Windows]
 tags: [async, await, bitmapdecoder, button, cameracaptureui, cameracaptureuimode.photo, capturefileasync, createasync, enum, fileaccessmode, getsoftwarebitmapasync, method, ocr, ocrengine, ocrresult, openasync, optical character recognition, recognizeasync, softwarebitmap, string, text, trycreatefromuserprofilelanguages, universal app, uwp, windows10]
 ---
 *Microsoft*, **Windows 10** uygulamaları içerisinden kullanabilmemiz için **Optical Character Recognition** (*OCR*) kütüphanelerini **Universal Windows Platform** (*UWP*) içerisine ekledi.

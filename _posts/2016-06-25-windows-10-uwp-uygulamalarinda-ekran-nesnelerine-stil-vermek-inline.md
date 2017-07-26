@@ -4,7 +4,7 @@ title: "Windows 10 UWP uygulamalarında ekran nesnelerine stil vermek - Inline"
 date: 2016-06-25 17:00
 author: engin.polat
 comments: true
-category: [Universal App]
+category: [Windows]
 tags: [background, border, borderbrush, button, controls, foreground, mainpage, margin, padding, project, style, uwp, windows10, xaml]
 ---
 **Windows 10 UWP** uygulaması geliştirirken ekranda göstereceğimiz nesnelerin varsayılandan **farklı** gözükmesini isteriz.

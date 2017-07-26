@@ -4,7 +4,7 @@ title: "Windows 10 UWP uygulamasında resimleri yuvarlak göstermek"
 date: 2016-03-02 11:30
 author: engin.polat
 comments: true
-category: [Universal App]
+category: [Windows]
 tags: [asset, background, ellipse, fill, grid, image, imagebrush, mainpage, page, source, themeresource, universal app, uwp, windows, windows10]
 ---
 Son yıllarda özellikle mobil uygulamalarda **avatar** dediğimiz stilde resimleri **yuvarlak** göstermek sıklıkla kullanılır oldu.

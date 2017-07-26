@@ -5,7 +5,7 @@ date: 2016-12-06 16:30
 author: engin.polat
 comments: true
 category: [Etkinlik]
-tags: [etkinliklerim, seminer, gdg, xamarin]
+tags: [etkinliklerim, seminer, web]
 ---
 *05 Aralık 2016* tarihinde *Karabük Üniversitesi Bilişim Teknolojileri Kulübü* tarafından organize edilen **Bilişim Günleri 2016** etkinliği gerçekleştirildi.
 

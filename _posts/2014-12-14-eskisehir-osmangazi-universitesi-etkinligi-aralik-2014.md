@@ -5,7 +5,7 @@ date: 2014-12-14 21:00
 author: engin.polat
 comments: true
 category: [Etkinlik]
-tags: [etkinliklerim, msp, seminer, universal app]
+tags: [etkinliklerim, msp, seminer, universal app, uwp]
 ---
 *13 Aralık 2014* tarihinde, *Bilgisayar Topluluğunun* düzenlediği **MSTech** etkinliği için *Daron Yöndem*, *Yavuz Gedik* ve *Ozan Topal* ile birlikte **Eskişehir Osmangazi Üniversitesindeydik**.
 

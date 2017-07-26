@@ -4,16 +4,14 @@ title: "Universal App Ekran Nesneleri - Combobox"
 date: 2015-01-09 18:00
 author: engin.polat
 comments: true
-category: [Universal App]
-tags: [combobox, comboboxitem, event, isselected, method, selectedindex, selecteditem, selectionchanged, universal app, wp8, xaml]
+category: [Windows]
+tags: [combobox, comboboxitem, event, isselected, method, selectedindex, selecteditem, selectionchanged, universal app, wp8, xaml, uwp]
 ---
 Geliştirdiğiniz uygulamada sınırlı bir alanda çok seçenekten bir tanesini seçtirmek istiyorsanız <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.combobox" target="_blank">Combobox</a> ekran nesnelerini kullanmalısınız.
 
 ![](/assets/uploads/2015/01/Combobox1.png)
 
 **Universal App** projenizde **combobox** kullanmak için istediğiniz **xaml** dosyasına aşağıdaki kod parçasını eklemeniz yeterlidir;
-
-
 
 &lt;ComboBox x:Name="cmbMenu"&gt;
     &lt;ComboBoxItem Content="Birinci Eleman" /&gt;

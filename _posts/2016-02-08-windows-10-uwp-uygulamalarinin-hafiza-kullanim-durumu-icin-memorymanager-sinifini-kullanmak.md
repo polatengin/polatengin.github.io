@@ -4,7 +4,7 @@ title: "Windows 10 UWP Uygulamalarının Hafıza Kullanım Durumu için MemoryMa
 date: 2016-02-08 08:45
 author: engin.polat
 comments: true
-category: [Universal App]
+category: [Windows]
 tags: [appmemoryusage, appmemoryusagelimit, class, constructor, dispatchertimer, event, mainpage, memory, memorymanager, namespace, page, stackpanel, textblock, tick, TimeSpan, uwp, visual studio, windows10, xaml, xaml.cs, xmlns]
 ---
 **Windows 10 UWP** uygulaması geliştirirken *hafıza*'nın ne kadarını kullandığınızı ve kullanabileceğiniz ne kadar hafıza alanı kaldığını bulmanız gerekebilir.

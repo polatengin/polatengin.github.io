@@ -4,7 +4,7 @@ title: "Uygulamanın başlık rengini değiştirmek - Windows 10 UWP"
 date: 2015-07-20 13:10
 author: engin.polat
 comments: true
-category: [Universal App]
+category: [Windows]
 tags: [applicationview, backgroundcolor, buttonbackgroundcolor, buttonforegroundcolor, constructor, foregroundcolor, getforcurrentview, titlebar, uwp, viewmanagement, windows10]
 ---
 ![](/assets/uploads/2015/07/CustomizeTitleBarUWP.png)

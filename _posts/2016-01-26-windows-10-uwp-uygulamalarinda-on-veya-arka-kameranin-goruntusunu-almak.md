@@ -4,7 +4,7 @@ title: "Windows 10 UWP uygulamalarında ön veya arka kamera'nın görüntüsün
 date: 2016-01-26 18:22
 author: engin.polat
 comments: true
-category: [Universal App]
+category: [Windows]
 tags: [appxmanifest, async, await, back, camera, capabilities, captureelement, deviceclass, deviceinformation, enclosurelocation, front, grid, mainpage, mediacapture, mediacaptureinitializationsettings, method, microphone, onnavigatedto, override, package, panel, solution explorer, template, uwp, visual studio, webcam, windows10, xaml]
 ---
 **Windows 10 UWP** uygulamalarında cihazda bulunan ön veya arka kamera'dan birinin görüntüsünü alarak ekranda göstermek isteyebiliriz.
@@ -46,5 +46,6 @@ Hemen **Visual Studio**'yu açarak yeni bir proje oluşturalım ve nasıl yapabi
 
 Eğer *ön kamera*'nın değilde, *arka kamera*'nın görüntüsünü göstermek isteseydik *camera* değişkenine aşağıdaki şekilde değer ataması yapmamız gerekecekti;
 
-<script src="https://gist.github.com/polatengin/647b7a895e8b0f06daa4a37935d45c78.js?file=MainPage-CameraVariable-xaml.cs"></script>
+<script src="https://gist.github.com/polatengin/647b7a895e8b0f06daa4a37935d45c78.js?file=MainPage-CameraVariable-xaml.cs
+"></script>
 

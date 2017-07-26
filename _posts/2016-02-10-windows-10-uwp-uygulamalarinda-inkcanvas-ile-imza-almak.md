@@ -4,8 +4,8 @@ title: "Windows 10 UWP Uygulamalarında InkCanvas ile imza almak"
 date: 2016-02-10 19:45
 author: engin.polat
 comments: true
-category: [Universal App]
-tags: [background, Color, constructor, coreinputdevicetypes, emulator, grid, inkcanvas, inkdrawingattributes, inkpresenter, inputdevicetypes, mainpage, method, mouse, page, pentip, property, rowdefinition, size, textblock, textbox, touch, universal app, updatedefaultdrawingattributes, uwp, visual studio, windows10, xaml, xaml.cs]
+category: [Windows]
+tags: [background, Color, constructor, coreinputdevicetypes, emulator, grid, inkcanvas, inkdrawingattributes, inkpresenter, inputdevicetypes, mainpage, method, mouse, page, pentip, property, rowdefinition, size, textblock, textbox, touch, universal app, updatedefaultdrawingattributes, uwp, visual studio, windows10, xaml, xaml.cs, uwp]
 ---
 Geçen hafta **email** ile aldığım bir soruyu cevaplamak üzere bu **makaleyi** yazıyorum.
 

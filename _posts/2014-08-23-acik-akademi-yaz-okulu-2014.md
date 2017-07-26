@@ -5,7 +5,7 @@ date: 2014-08-23 22:30
 author: engin.polat
 comments: true
 category: [Etkinlik]
-tags: [etkinliklerim, microsoft yaz okulu, universal app, windows phone, windows8, windowsphone, wp8]
+tags: [etkinliklerim, microsoft yaz okulu, universal app, windows phone, windows8, windowsphone, wp8, uwp]
 ---
 ![Açık Akademi 2014 Yaz Okulu, Windows Phone 8.1 ve Universal App etkinliklerim](/assets/uploads/2014/08/AAYazOkulu2014.jpg)
 

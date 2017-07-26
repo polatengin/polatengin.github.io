@@ -4,8 +4,8 @@ title: "Universal App içerisinden WiFi bağlantısını açıp/kapatmak"
 date: 2015-02-16 21:30
 author: engin.polat
 comments: true
-category: [Universal App]
-tags: [class, connectionsettingstask, connectionsettingstype, enum, instance, method, msdn, show, wifi, windows phone, wp8]
+category: [Windows]
+tags: [class, connectionsettingstask, connectionsettingstype, enum, instance, method, msdn, show, wifi, windows phone, wp8, uwp]
 ---
 Aslında uygulama içerisinde **WiFi** bağlantısını *açıp/kapatamayız*. Fakat **WiFi** bağlantısını açıp/kapatabilecek *sistem ayarları* ekranını açabiliriz.
 

@@ -4,7 +4,7 @@ title: "Windows 8 Metro Style Uygulamalarda Package Manifest Dosyası"
 date: 2011-11-18 13:19
 author: engin.polat
 comments: true
-category: [C#]
+category: [Windows]
 tags: [application ui, appxmanifest, badge, capabilities, declarations, entry point, lock screen notification, logo, manifest, MetroUI, notification, package, packaging, start screen, tiles, toast, visual studio 2011, windows8]
 ---
 **Visual Studio 2011** kullanarak yeni bir **Windows Metro Style** projesi başlattığımızda bizim için projeye otomatik olarak bir **manifest dosyası** eklenir.

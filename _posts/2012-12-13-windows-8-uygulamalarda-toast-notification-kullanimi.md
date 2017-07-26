@@ -4,7 +4,7 @@ title: "Windows 8 Uygulamalarda Toast Notification Kullanımı"
 date: 2012-12-13 17:08
 author: engin.polat
 comments: true
-category: [C#]
+category: [Windows]
 tags: [appendchild, appxmanifest, audio, capable, createtextnode, createtoastnotifier, enum, getelementbytagname, messagedialog, notification, package, public, static, string, toast, toastnotificationmanager, toasttemplatetype, windows8, winsoundevent]
 ---
 **Windows 8** uygulaması geliştirirken kullanıcıyı bilgilendirmek isteyebiliriz. Kullanıcıya sadece bilgi vermek için <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.popups.messagedialog" title="MessageDialog Class" target="_blank">MessageDialog</a> kullanmak doğru olmayacaktır, kullanıcı bir süre sonra rahatsızlık duymaya başlayacak ve belkide uygulamayı kullanmaktan *vazgeçecektir*.

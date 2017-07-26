@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "UWP Tam Ekran Video Player"
+title: "Windows 10 UWP Tam Ekran Video Player"
 date: 2016-12-10 15:00
 author: engin.polat
 comments: true

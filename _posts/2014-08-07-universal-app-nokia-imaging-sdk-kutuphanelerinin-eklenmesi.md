@@ -4,7 +4,7 @@ title: "Universal App Nokia Imaging SDK kütüphanelerinin eklenmesi"
 date: 2014-08-07 09:30
 author: engin.polat
 comments: true
-category: [Universal App]
+category: [Windows]
 tags: [active solution platform, any cpu, configuration manager, nokia, nokia imaging sdk, nuget, reference, solution explorer, universal app, x64]
 ---
 <a href="http://developer.nokia.com/" title="Nokia Developer" target="_blank">Nokia Developer</a> sitesinde yeralan <a href="http://developer.nokia.com/resources/library/Lumia/nokia-imaging-sdk/adding-libraries-to-the-project.html" title="Nokia Imaging SDK : Adding libraries to the project" target="_blank">Adding libraries to the project</a> makalesinde **Universal App** projesine **Nokia Imaging SDK** kütüphanelerinin nasıl ekleneceği anlatılmış. Yönergeleri adım adım izleyelim.
