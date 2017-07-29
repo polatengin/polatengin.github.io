@@ -20,12 +20,12 @@ Eminim benim gibi sizler de zaman zaman <code>if-else</code> blocklarını veya 
 Sonunda aklıma şöyle bir fikir geldi;
 
 <ul>
-<li><a href="https://msdn.microsoft.com/library/xfhwa508" target="_blank">Dictionary&lt;TKey, TValue&gt;</a> sınıfından bir değişken tanımlasam ve <code>Key</code> için <strong>SearchType</strong>, <code>Value</code> için <a href="https://msdn.microsoft.com/library/system.action" target="_blank">Action</a> tiplerini belirlesem</li>
-<li>Bu değişkene istediğim <strong>SearchType</strong> için istediğim <code>Action</code>'ları eklesem</li>
-<li>Bir arama yapılacağı zaman <strong>SearchType</strong>'a uygun <code>Action</code>'ları getirsem ve sırasıyla onları çağırsam?</li>
+<li><a href="https://msdn.microsoft.com/library/xfhwa508" target="_blank">Dictionary&lt;TKey, TValue&gt;</a> sınıfından bir değişken tanımlasam ve <code>Key</code> için <strong>SearchArea</strong>, <code>Value</code> için <a href="https://msdn.microsoft.com/library/system.action" target="_blank">Action</a> tiplerini belirlesem</li>
+<li>Bu değişkene istediğim <strong>SearchArea</strong> için istediğim <code>Action</code>'ları eklesem</li>
+<li>Bir arama yapılacağı zaman <strong>SearchArea</strong>'a uygun <code>Action</code>'ları getirsem ve sırasıyla onları çağırsam?</li>
 </ul>
 
-Böylece istediğim **SearchType** için bir veya daha fazla <code>Action</code> tanımlayabilir, onları çağırabilirim.
+Böylece istediğim **SearchArea** için bir veya daha fazla <code>Action</code> tanımlayabilir, onları çağırabilirim.
 
 Nasıl fikir ama? :) <em>(O zaman farkına varmasam da <mark>Delegate Dictionary</mark> isminde bir pattern zaten varmış)</em>
 
