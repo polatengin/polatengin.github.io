@@ -19,7 +19,7 @@ Bu yazıda elimizdeki listenin her x'inci *elemanını* çeken **extension metho
 
 <a href="http://msdn.microsoft.com/en-us/library/9eekhta0.aspx" title="IEnumerable&lt;T&gt; Interface" target="_blank">IEnumerable&lt;T&gt;</a> sınıfına *TakeEvery()* method'unu eklemek için projemize *ExtensionMethods* isimli sınıfı ekleyelim;
 
-<script src="https://gist.github.com/polatengin/615467d1a36fae0d77d18f32b71c1db6?file=ExtensionMethods.cs"></script>
+<script src="https://gist.github.com/polatengin/615467d1a36fae0d77d18f32b71c1db6.js?file=ExtensionMethods.cs"></script>
 
 İlk olarak method'a geçilen parametrelerin değerlerini kontrol ediyoruz, eğer uygun olmayan bir değer verilmişse ilgili mesaj ile bir **hata** fırlatıyoruz.
 
@@ -29,4 +29,4 @@ Bu yazıda elimizdeki listenin her x'inci *elemanını* çeken **extension metho
 
 *Örnek kullanım;*
 
-<script src="https://gist.github.com/polatengin/615467d1a36fae0d77d18f32b71c1db6?file=Program.cs"></script>
+<script src="https://gist.github.com/polatengin/615467d1a36fae0d77d18f32b71c1db6.js?file=Program.cs"></script>
