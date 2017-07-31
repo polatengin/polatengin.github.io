@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=c1efae29f019e51734129a01716ca224)
- * Config saved to config.json and https://gist.github.com/c1efae29f019e51734129a01716ca224
+ * Generated using the Bootstrap Customizer (https://getbootstrap.com/customize/?id=a6a572a9f30e92777d971f76ea150528)
+ * Config saved to config.json and https://gist.github.com/a6a572a9f30e92777d971f76ea150528
  */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -72,6 +72,10 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
 }
 small {
   font-size: 80%;
@@ -501,10 +505,8 @@ small,
 }
 mark,
 .mark {
-  background-color: #e5ead1;
-  border-radius: 4px;
+  background-color: #fcf8e3;
   padding: .2em;
-  color: #000;
 }
 .text-left {
   text-align: left;
@@ -3428,6 +3430,81 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #95a0ac;
   background-color: #ffffff;
   cursor: not-allowed;
+}
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.alert .alert-link {
+  font-weight: bold;
+}
+.alert > p,
+.alert > ul {
+  margin-bottom: 0;
+}
+.alert > p + p {
+  margin-top: 5px;
+}
+.alert-dismissable,
+.alert-dismissible {
+  padding-right: 35px;
+}
+.alert-dismissable .close,
+.alert-dismissible .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+.alert-success hr {
+  border-top-color: #c9e2b3;
+}
+.alert-success .alert-link {
+  color: #2b542c;
+}
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #31708f;
+}
+.alert-info hr {
+  border-top-color: #a6e1ec;
+}
+.alert-info .alert-link {
+  color: #245269;
+}
+.alert-warning {
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  color: #8a6d3b;
+}
+.alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+.alert-warning .alert-link {
+  color: #66512c;
+}
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+.alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+.alert-danger .alert-link {
+  color: #843534;
 }
 .media {
   margin-top: 15px;

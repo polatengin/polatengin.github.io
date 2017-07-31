@@ -394,10 +394,11 @@
     "navbar.less",
     "pagination.less",
     "pager.less",
+    "alerts.less",
     "media.less",
     "responsive-embed.less",
     "wells.less"
   ],
   "js": [],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=c1efae29f019e51734129a01716ca224"
+  "customizerUrl": "https://getbootstrap.com/customize/?id=a6a572a9f30e92777d971f76ea150528"
 }
