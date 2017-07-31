@@ -19,35 +19,7 @@ Bu yazıda elimizdeki listenin her x'inci *elemanını* çeken **extension metho
 
 <a href="http://msdn.microsoft.com/en-us/library/9eekhta0.aspx" title="IEnumerable&lt;T&gt; Interface" target="_blank">IEnumerable&lt;T&gt;</a> sınıfına *TakeEvery()* method'unu eklemek için projemize *ExtensionMethods* isimli sınıfı ekleyelim;
 
-
-
-public static class ExtensionMethods
-{
-    public static IEnumerable&lt;T&gt; TakeEvery&lt;T&gt;(this IEnumerable&lt;T&gt; list, int every)
-    {
-        if (list == null)
-        {
-            throw new ArgumentException("list parametresi boş geçilemez");
-        }
-        if (every < 1)
-        {
-            throw new ArgumentException("'every' parametresi en az 1 olabilir");
-        }
-
-        var step = 0;
-
-        var enumerator = list.GetEnumerator();
-        while (enumerator.MoveNext())
-        {
-            step++;
-            if (step == every)
-            {
-                yield return enumerator.Current;
-                step = 0;
-            }
-        }
-    }
-}</pre>
+<script src="https://gist.github.com/polatengin/615467d1a36fae0d77d18f32b71c1db6?file=ExtensionMethods.cs"></script>
 
 İlk olarak method'a geçilen parametrelerin değerlerini kontrol ediyoruz, eğer uygun olmayan bir değer verilmişse ilgili mesaj ile bir **hata** fırlatıyoruz.
 
@@ -55,13 +27,6 @@ public static class ExtensionMethods
 
 *step* değişkeni *every* değişkeninin değerine eşit olduğunda aradığımız kaydı bulmuşuzdur, ilgili kaydı geri döndürüyoruz.
 
-*Örnek kullanım;
-*
-</pre><pre class="brush:csharp">var rakamlar = Enumerable.Range(1, 1000000);
+*Örnek kullanım;*
 
-var her50000 = rakamlar.TakeEvery(50000);
-
-// her50000 = { 50000, 100000, 150000, 200000, 250000, 300000, ... }
-
-
-
+<script src="https://gist.github.com/polatengin/615467d1a36fae0d77d18f32b71c1db6?file=Program.cs"></script>
