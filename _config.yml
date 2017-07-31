@@ -15,4 +15,11 @@ author :
 
 production_url : http://polatengin.github.io
 
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  blanklines: false
+  profile: false
+
 gems: ["jekyll-sitemap", "jekyll-paginate"]

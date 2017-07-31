@@ -13,7 +13,10 @@ layout: default
   </div>
   <div style="clear:both;"></div>
 </div>
-<div style="margin-top:7px;">{{ content }}</div>
+<div id="freshness" class="alert alert-warning" role="alert" style="margin:10px 0;display:none;">
+  <strong>Uyarı!</strong> Bu makale <span>0</span> gün önce yazıldı. Bazı parçaları zamana yenilmiş olabilir :) Eğer problem görürseniz lütfen <a href="https://github.com/polatengin/polatengin.github.io/issues/new" target="_blank" class="alert-link">Issues</a> altına yorum bırakın..
+</div>
+<div>{{ content }}</div>
 {% unless page.categories == empty %}
   <ul class="tag_box list-inline">
     <li>Kategori:</li>
@@ -67,11 +70,18 @@ layout: default
 </nav>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://polatengin.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+  (function() {
+    var postDate = new Date(document.head.querySelector("meta[name=post-date]").content);
+    var daysDiff = Math.ceil(Math.abs(new Date() - postDate) / (1000 * 3600 * 24));
+    var freshness = document.getElementById("freshness");
+    var span = freshness.getElementsByTagName("span")[0];
+    span.innerText = daysDiff;
+    freshness.style.display = daysDiff>90 ? "block" : "none";
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://polatengin.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
