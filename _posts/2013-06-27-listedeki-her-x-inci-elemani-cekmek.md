@@ -5,7 +5,7 @@ date: 2013-06-27 10:00
 author: engin.polat
 comments: true
 category: [C#]
-tags: [argumentexception, current, Enumerable, extension method, extensionmethod, getenumerator, IEnumerable, ienumerator, interface, linq, method, MoveNext, range, return, skip, take, throw, while, yield]
+tags: [argumentexception, current, Enumerable, extensionmethod, getenumerator, IEnumerable, ienumerator, interface, linq, method, MoveNext, range, return, skip, take, throw, while, yield]
 ---
 Bu yazıda elimizdeki listenin her x'inci *elemanını* çeken **extension method** yazacağız.
 

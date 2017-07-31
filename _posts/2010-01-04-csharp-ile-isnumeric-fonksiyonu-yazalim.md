@@ -5,7 +5,7 @@ date: 2010-01-04 12:33
 author: engin.polat
 comments: true
 category: [C#]
-tags: [code, csharp, extension method, function, isnumeric, source, static, vbnet]
+tags: [code, csharp, extensionmethod, function, isnumeric, source, static, vbnet]
 ---
 **VB.NET** programcılarının kullanabildiği, ama **C#**'ta bulunmayan *isNumeric()* fonksiyonunu kendimiz yazacağız;
 

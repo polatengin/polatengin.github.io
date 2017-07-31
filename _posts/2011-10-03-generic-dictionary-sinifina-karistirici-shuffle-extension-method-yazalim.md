@@ -5,7 +5,7 @@ date: 2011-10-03 15:02
 author: engin.polat
 comments: true
 category: [C#]
-tags: [add, class, dictionary, extension, for, generic, int, karıştır, karıştırma, list, next, orderby, random, shuffle, static, string, todictionary]
+tags: [add, class, dictionary, extension, extensionmethod, for, generic, int, karıştır, karıştırma, list, next, orderby, random, shuffle, static, string, todictionary]
 ---
 Winamp MP3 oynatıcısında çalma listesini (playlist) rastgele sıra ile karıştırabiliyorsunuz. Benzer özelliği kendi projelerimizde uygulamak isteyebiliriz.
 

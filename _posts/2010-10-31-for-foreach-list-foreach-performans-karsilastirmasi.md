@@ -5,7 +5,7 @@ date: 2010-10-31 14:32
 author: engin.polat
 comments: true
 category: [C#]
-tags: [action, add, array, average, benchmark, console, dizi, Enumerable, for, foreach, generic, karşılaştırma, lambda, list, loop, performance, performans, range, restart, start, static, stop, stopwatch, test]
+tags: [action, add, array, average, benchmark, console, dizi, extensionmethod, Enumerable, for, foreach, generic, karşılaştırma, lambda, list, loop, performance, performans, range, restart, start, static, stop, stopwatch, test]
 ---
 Bir **dizinin tüm elemanları** üzerinde bir **aksiyon** gerçekleştirmemiz gerektiğinde, sıklıkla şu *üç* yoldan *birini* kullanırız;
 

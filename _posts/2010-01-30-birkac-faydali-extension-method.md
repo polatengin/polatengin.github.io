@@ -5,7 +5,7 @@ date: 2010-01-30 14:17
 author: engin.polat
 comments: true
 category: [C#]
-tags: [action, csharp, datetime, decrypt, directoryinfo, encrypt, extension method, foreach, generics, isweekend, json, md5]
+tags: [action, csharp, datetime, decrypt, directoryinfo, encrypt, extensionmethod, foreach, generics, isweekend, json, md5]
 ---
 **C# 3.0** ile gelen **Extension Method** desteğini çok kullanışlı bulduğum için, kendi uygulamalarımda kullanmaya çalışıyorum. Bu yazımda faydalı bulduğum birkaç **Extension Method**'u toplamaya çalıştım.
 

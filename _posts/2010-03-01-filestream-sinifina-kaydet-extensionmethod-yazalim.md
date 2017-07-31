@@ -5,7 +5,7 @@ date: 2010-03-01 10:00
 author: engin.polat
 comments: true
 category: [C#]
-tags: [convert, exists, extension method, extensionmethod, file, filestream, getdirectory, getfilename, override, path, writeallbytes]
+tags: [convert, exists, extensionmethod, file, filestream, getdirectory, getfilename, override, path, writeallbytes]
 ---
 **FileStream** sınıfına yazacağımız *Save()* method'u sayesinde, aşağıdaki kodu kolaylıkla yazabilir olacağız. Üstelik bir tane de overload yazarak, varolan dosyanın üstüne yazmasını engelleyip, yeni bir dosya adı oluşturup yazma işlemine devam ettirebileceğiz.
 

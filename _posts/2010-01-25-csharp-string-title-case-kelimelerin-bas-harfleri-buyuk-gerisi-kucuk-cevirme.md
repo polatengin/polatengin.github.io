@@ -5,7 +5,7 @@ date: 2010-01-25 12:47
 author: engin.polat
 comments: true
 category: [C#]
-tags: [class, convert, csharp, cultureinfo, currentculture, extension method, extensionmethod, method, string, textinfo, title case, tolower, toupper]
+tags: [class, convert, csharp, cultureinfo, currentculture, extensionmethod, method, string, textinfo, title case, tolower, toupper]
 ---
 **.Net Framework** içerisinde *string.ToUpper()* ve *string.ToLower()* fonksiyonlarını kullanarak **string** değişkenin içeriğini BÜYÜK ve küçük harfe çevirebiliyoruz.
 

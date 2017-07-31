@@ -5,7 +5,7 @@ date: 2013-03-04 10:00
 author: engin.polat
 comments: true
 category: [C#]
-tags: [byte, cryptography, currentuser, dataprotectionscope, decrypt, dpapi, encoding, encrypt, encryption, extension method, extensionmethod, intptr, localmachine, makereadonly, Marshal, protect, protecteddata, securestring, securestringtocotaskmemunicode, string, unprotect, zerofreecotaskmemunicode]
+tags: [byte, cryptography, currentuser, dataprotectionscope, decrypt, dpapi, encoding, encrypt, encryption, extensionmethod, intptr, localmachine, makereadonly, Marshal, protect, protecteddata, securestring, securestringtocotaskmemunicode, string, unprotect, zerofreecotaskmemunicode]
 ---
 <a href="http://msdn.microsoft.com/library/system.security.cryptography.protecteddata" title="ProtectedData Class" target="_blank">Windows Data Protection API</a> (**DPAPI**) encryption key'e ihtiyaç duymadan, kullanıcının oturumuna özel şifreleme yapabilen bir yapıdır.
 

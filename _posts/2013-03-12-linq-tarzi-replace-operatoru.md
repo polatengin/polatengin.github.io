@@ -5,7 +5,7 @@ date: 2013-03-12 21:00
 author: engin.polat
 comments: true
 category: [C#]
-tags: [class, equals, exception, extension method, extensionmethod, foreach, IEnumerable, int, linq, linq query, list, replace, return, string, this, throw, yield]
+tags: [class, equals, exception, extensionmethod, foreach, IEnumerable, int, linq, linq query, list, replace, return, string, this, throw, yield]
 ---
 Bir **dizi**deki elemanlardan, *belli bir değere* sahip olanları *başka bir değerle* değiştirecek bir methoda sahip olmak çok faydalıdır.
 

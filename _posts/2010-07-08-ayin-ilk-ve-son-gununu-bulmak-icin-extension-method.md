@@ -5,13 +5,11 @@ date: 2010-07-08 10:34
 author: engin.polat
 comments: true
 category: [C#]
-tags: [adddays, addmonths, csharp, datetime, extension method, method, static]
+tags: [adddays, addmonths, csharp, datetime, extensionmethod, method, static]
 ---
 Özellikle raporlama uygulamalarında, aylık dönemlere ait sorgulama yapılırken ilgili ayın **ilk** ve **son** günlerinin bilinmesi gerekir.
 
 **C#** uygulamamızda, yazacağımız basit iki tane **extension method** ile ayın ilk ve son günlerini bulan kodu basitleştirebiliriz.
-
-
 
 public static class ExtensionMethods
 {

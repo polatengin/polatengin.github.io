@@ -5,7 +5,7 @@ date: 2010-11-30 22:56
 author: engin.polat
 comments: true
 category: [C#]
-tags: [any, bool, collection, count, Enumerable, extension method, generic, ICollection, IEnumerable, interface, IQueryable, isnullorempty, linq, method, MoveNext, namespace, null, optimize, parameter, static, system.linq]
+tags: [any, bool, collection, count, Enumerable, extensionmethod, generic, ICollection, IEnumerable, interface, IQueryable, isnullorempty, linq, method, MoveNext, namespace, null, optimize, parameter, static, system.linq]
 ---
 Aşağıdaki kod parçasına, **programlama** üzerine yazılmış bir makaleyi okurken rastladım;
 

@@ -5,7 +5,7 @@ date: 2010-07-20 16:48
 author: engin.polat
 comments: true
 category: [C#]
-tags: [count, csharp, extension method, extensionmethod, generic, int, linq, linq query, list, string]
+tags: [count, csharp, extensionmethod, generic, int, linq, linq query, list, string]
 ---
 Elimizdeki bir dizide, belli bir elemandan **kaç adet** olduğunu bulmamız gerekebilir.
 

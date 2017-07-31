@@ -5,7 +5,7 @@ date: 2011-08-19 15:30
 author: engin.polat
 comments: true
 category: [C#]
-tags: [array, collections, comparison, delegate, delegate method, extension method, extensionmethod, foreach, IEnumerable, public, sort, static, string, this, toarray]
+tags: [array, collections, comparison, delegate, delegate method, extensionmethod, foreach, IEnumerable, public, sort, static, string, this, toarray]
 ---
 Geliştirdiğimiz projelerde ekrana listeleyeceğimiz dizileri *harf uzunluklarına göre* **sıralamak** isteyebiliriz.
 

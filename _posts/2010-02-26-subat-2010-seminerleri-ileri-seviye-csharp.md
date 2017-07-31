@@ -5,7 +5,7 @@ date: 2010-02-26 13:00
 author: engin.polat
 comments: true
 category: [Etkinlik]
-tags: [access modifiers, anonymous methods, anonymous types, auto implemented properties, etkinliklerim, extension method, null coalescing operatörü, object initializers, obsolete attribute, partial class, partial methods, rezerve methodlar, seminer]
+tags: [access modifiers, anonymous methods, anonymous types, auto implemented properties, etkinliklerim, extensionmethod, null coalescing operatörü, object initializers, obsolete attribute, partial class, partial methods, rezerve methodlar, seminer]
 ---
 **BilgeAdam Kadıköy Şubesinde** gerçekleştirdiğim **Şubat Seminerlerinin** İleri Seviye C# prezentasyonuna buradan erişebilirsiniz.
 
