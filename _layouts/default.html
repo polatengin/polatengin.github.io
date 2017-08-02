@@ -37,9 +37,9 @@ layout: compress
       </div>
       <div class="site-menu navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li {% if page.url == "/kategoriler/windows" %}class="active"{% endif %}><a {% if page.url == "/kategoriler/windows" %}class="active"{% endif %} href="/kategoriler/windows" title="Windows kategorisindeki makaleler">Windows</a></li>
-          <li {% if page.url == "/kategoriler/unity3d" %}class="active"{% endif %}><a {% if page.url == "/kategoriler/unity3d" %}class="active"{% endif %} href="/kategoriler/unity3d" title="Unity3D kategorisindeki makaleler">Unity3D</a></li>
-          <li {% if page.url == "/kategoriler/web" %}class="active"{% endif %}><a {% if page.url == "/kategoriler/web" %}class="active"{% endif %} href="/kategoriler/web" title="Web kategorisindeki makaleler">Web</a></li>
+          <li {% if page.url == "/kategori/windows" %}class="active"{% endif %}><a {% if page.url == "/kategori/windows" %}class="active"{% endif %} href="/kategori/windows" title="Windows kategorisindeki makaleler">Windows</a></li>
+          <li {% if page.url == "/kategori/unity3d" %}class="active"{% endif %}><a {% if page.url == "/kategori/unity3d" %}class="active"{% endif %} href="/kategori/unity3d" title="Unity3D kategorisindeki makaleler">Unity3D</a></li>
+          <li {% if page.url == "/kategori/web" %}class="active"{% endif %}><a {% if page.url == "/kategori/web" %}class="active"{% endif %} href="/kategori/web" title="Web kategorisindeki makaleler">Web</a></li>
         {% assign sorted_pages = site.pages | sort:"order" %}
         {% for node in sorted_pages %} {% if node.title != null and node.group == 'navigation' %}
           {% if page.url == node.url %}
@@ -94,7 +94,7 @@ layout: compress
           <li><a href="/etiketler#bknyv-ref">Bu Kodda Ne Yanlış Var?</a></li>
           <li><a href="/etiketler#quiz-ref">Kısa Sınavlar</a></li>
           <li><a href="/etiketler#euler-ref">Euler</a></li>
-          <li><a href="/kategoriler">Kategoriler</a></li>
+          <li><a href="/kategori">Kategoriler</a></li>
           <li><a href="/etiketler">Etiketler</a></li>
         </ul>
       </div>
@@ -102,7 +102,7 @@ layout: compress
         <h4>Kategoriler</h4>
         <ul class="list-unstyled">
           {% for category in site.categories %}
-            <li><a href="/kategoriler#{{ category[0] }}-ref">{{ category[0] }}</a> <span>({{ category[1].size }})</span></li>
+            <li><a href="/kategori/#{{ category[0] }}-ref">{{ category[0] }}</a> <span>({{ category[1].size }})</span></li>
           {% endfor %}
         </ul>
       </div>
