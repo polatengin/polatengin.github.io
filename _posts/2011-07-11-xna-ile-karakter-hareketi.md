@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [Color, content, Content.Load, draw, getstate, graphics, graphicsdevice, GraphicsDeviceManager, iskeydown, Keyboard.GetState, keyboardstate, loadcontent, PreferredBackBufferHeight, PreferredBackBufferWidth, rectangle, sprite, spritebatch, texture2d, unloadcontent, update, vector2, XNA, xna game studio]
 ---
-Bu yazımı okumadan önce <a href="http://www.enginpolat.com/kategori/xna/" target="_blank">XNA ile Oyun Programlama</a> konulu diğer yazılarımı okumanızı tavsiye ederim.
+Bu yazımı okumadan önce <a href="/kategori/xna/" target="_blank">XNA ile Oyun Programlama</a> konulu diğer yazılarımı okumanızı tavsiye ederim.
 
 Her oyunda bir **ana karakter** vardır ve biz oyuncular olarak, bu ana karakteri *mouse*/*klavye*/*joystik* aracılığıyla **oyun evreninde** kontrol ederiz.
 

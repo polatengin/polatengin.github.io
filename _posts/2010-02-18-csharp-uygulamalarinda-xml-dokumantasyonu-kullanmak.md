@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [comment, compiler, derleyici, documentation, field, member, type, xml]
 ---
-<a title="enginpolat.com: C# ile Uygulama Geliştirirken Yorum Satırlarını Kullanmak" href="http://www.enginpolat.com/csharp-ile-uygulama-gelistirirken-yorum-satirlarini-kullanmak/" target="_self">C# ile Uygulama Geliştirirken Yorum Satırlarını Kullanmak</a> yazımda başladığım konuya **XML Dokümantasyonunu** eklemem gerekir.
+<a title="enginpolat.com: C# ile Uygulama Geliştirirken Yorum Satırlarını Kullanmak" href="/csharp-ile-uygulama-gelistirirken-yorum-satirlarini-kullanmak/" target="_self">C# ile Uygulama Geliştirirken Yorum Satırlarını Kullanmak</a> yazımda başladığım konuya **XML Dokümantasyonunu** eklemem gerekir.
 
 **Geleneksel C-tarzı** yorum satırlarına ilave olarak **C#** geliştirilen kodların **Xml Dokümantasyonunu** otomatik olarak çıkartabilmek için, güçlü yorum operatörlerine sahiptir.
 

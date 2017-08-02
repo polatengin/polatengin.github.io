@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [bool, class, const, constructor, content, Content.Load, draw, elapsed, elapsedgametime, FromMilliseconds, gameloop, GameTime, getstate, intersects, isfullscreen, keyboardstate, loadcontent, prefferedbackbufferheight, prefferedbackbufferwidth, private, public, random, readonly, rectangle, SoundEffect, SoundEffectInstance, sprite, spritebatch, spritefont, state, static, texture2d, TimeSpan, TimeSpan.Zero, totalgametime, unloadcontent, update, vector2, XNA, xna game studio]
 ---
-Bu yazımı okumadan önce <a title="enginpolat.com : Windows Phone" href="http://www.enginpolat.com/kategori/windows-phone" target="_blank">Windows Phone</a> ve <a title="enginpolat.com : XNA" href="http://www.enginpolat.com/kategori/xna/" target="_blank">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
+Bu yazımı okumadan önce <a title="enginpolat.com : Windows Phone" href="/kategori/windows-phone" target="_blank">Windows Phone</a> ve <a title="enginpolat.com : XNA" href="/kategori/xna/" target="_blank">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
 
 Önce görseller ve oyunun <a href="/assets/uploads/2015/01/BackgroundLoop.wav" target="_blank">arkaplan ses dosyası</a>;
 

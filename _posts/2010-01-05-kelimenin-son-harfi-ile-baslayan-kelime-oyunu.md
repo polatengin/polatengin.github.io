@@ -15,7 +15,7 @@ Gelin bu basit oyunu **C#** ile yazalım. Hemen ekran görüntüsü vererek baş
 
 <a href="/assets/uploads/2010/01/KSHBKO_1.png">![](/assets/uploads/2010/01/KSHBKO_1.png "KSHBKO_1")</a>
 
-Oyunu, bir Oyuncu, bir Bilgisayar Oyuncusuna karşı oynayacak. İhtiyacımız olan ilk şey, Bilgisayar Oyuncusu'nun içinden kelime seçeceği **sözlük**. Sözlük oluşturmak için daha önce yazdığım <a title="enginpolat.com: Web Sayfasından Sözlük Oluşturma" href="http://www.enginpolat.com/csharp-ile-web-sayfasindan-sozluk-olusturma/" target="_self">Web Sayfasından Sözlük Oluşturma</a> ve <a title="enginpolat.com: Shuffle List" href="http://www.enginpolat.com/csharp-ile-dizi-karistirma/" target="_self">Dizi Karıştırma </a>makalelerini birleştirip kullanacağız.
+Oyunu, bir Oyuncu, bir Bilgisayar Oyuncusuna karşı oynayacak. İhtiyacımız olan ilk şey, Bilgisayar Oyuncusu'nun içinden kelime seçeceği **sözlük**. Sözlük oluşturmak için daha önce yazdığım <a title="enginpolat.com: Web Sayfasından Sözlük Oluşturma" href="/csharp-ile-web-sayfasindan-sozluk-olusturma/" target="_self">Web Sayfasından Sözlük Oluşturma</a> ve <a title="enginpolat.com: Shuffle List" href="/csharp-ile-dizi-karistirma/" target="_self">Dizi Karıştırma </a>makalelerini birleştirip kullanacağız.
 
 *btnYeniOyun* butonunun *Click* olayında, *txtAdres* kontrolüne yazılmış olan web sayfasındaki kelimeler bir listeye dolduruluyor, ayıklanıyor, karıştırılıyor ve *lbKullanilabilecekKelimeler* **ListBox** kontrolünde gösteriliyor.
 

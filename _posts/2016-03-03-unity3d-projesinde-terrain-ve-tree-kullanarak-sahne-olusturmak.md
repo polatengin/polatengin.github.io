@@ -7,7 +7,7 @@ comments: true
 category: [Unity3D]
 tags: [3d, asset, environment, gameobject, height, import, inspector, object, package, random, settings, terrain, unity3d, unityengine]
 ---
-*Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/kategori/unity3d/" target="_blank">Unity3D Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*
+*Bu makaleyi okumadan önce <a href="/kategori/unity3d/" target="_blank">Unity3D Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*
 
 Bu makale sonunda oyun sahnenizde istediğiniz *yeryüzü şekilleri* ve *ağaçlar* oluşacak.
 

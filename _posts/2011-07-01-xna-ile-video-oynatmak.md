@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [Content.Load, contentpipeline, draw, GetTexture, instance, loadcontent, media, method, play, spritebatch, texture2d, vector2, video, video format, videoplayer, XNA]
 ---
-Bu yazıyı okumadan önce <a href="http://www.enginpolat.com/kategori/xna" target="_blank">XNA ile Oyun Programlama</a> kategorisindeki diğer yazılarımı okumanızı *tavsiye ederim*.
+Bu yazıyı okumadan önce <a href="/kategori/xna" target="_blank">XNA ile Oyun Programlama</a> kategorisindeki diğer yazılarımı okumanızı *tavsiye ederim*.
 
 Belli bir seviyenin üstündeki her oyunda, *oyunu tanıtan*, *oyuna alışmanızı sağlayan*, *oyunun hikayesini anlatan* veya *bölümler arasında bilgi veren* **videolar** vardır.
 

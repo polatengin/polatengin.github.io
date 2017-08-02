@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [.net, applicationdeployment, clickonce, code, csharp, singleton, source, static]
 ---
-<a title="enginpolat.com : Kısa Sınav - 3" href="http://www.enginpolat.com/kisa-sinav-3/" target="_blank">Kısa Sınav - 3</a> yazımda belirttiğim gibi, <a title="MSDN: ClickOnce" href="http://msdn.microsoft.com/en-us/library/t71a733d.aspx" target="_blank">ClickOnce</a> ile deploy ettiğiniz uygulamalarda, güncellemeleri programatik olarak kontrol etmek için ApplicationDeployment class'ını kullanırız.
+<a title="enginpolat.com : Kısa Sınav - 3" href="/kisa-sinav-3" target="_blank">Kısa Sınav - 3</a> yazımda belirttiğim gibi, <a title="MSDN: ClickOnce" href="http://msdn.microsoft.com/en-us/library/t71a733d.aspx" target="_blank">ClickOnce</a> ile deploy ettiğiniz uygulamalarda, güncellemeleri programatik olarak kontrol etmek için ApplicationDeployment class'ını kullanırız.
 
 Bu yazımda, <a title="MSDN: ApplicationDeployment" href="http://msdn.microsoft.com/en-us/library/system.deployment.application.applicationdeployment.aspx" target="_blank">ApplicationDeployment</a> class'ının kullanımını anlatmaya çalışacağım.
 
@@ -64,4 +64,3 @@ Kullanıcıda çalışan uygulamadan daha güncel bir versiyonun bulunup bulunma
 **UpdateSizeBytes**
 
 Güncellenecek dosyaların toplam boyutu bilgisi. (long tipinde değer döner)
-

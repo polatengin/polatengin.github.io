@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [.net, cells, chart, com, console, csharp, excel, interop, interoperability, office, range, sheet, word, workbooks]
 ---
-.Net 4.0 **COM İyileştirmeleri** başlığı altında birçok yeni yeteneğe sahiptir. **Şubat** ayında verdiğim seminerlerden <a title="enginpolat.com : Şubat Seminerleri / C# 4.0 Yenilikleri - 2" href="http://www.enginpolat.com/subat-2010-seminerleri-csharp-4-yenilikleri-2/" target="_self">C# 4.0 Yenilikleri - 2</a> seminerinde COM İyileştirmeleri başlığında özellikle bu yeniliklerden bahsettim.
+.Net 4.0 **COM İyileştirmeleri** başlığı altında birçok yeni yeteneğe sahiptir. **Şubat** ayında verdiğim seminerlerden <a title="enginpolat.com : Şubat Seminerleri / C# 4.0 Yenilikleri - 2" href="/subat-2010-seminerleri-csharp-4-yenilikleri-2/" target="_self">C# 4.0 Yenilikleri - 2</a> seminerinde COM İyileştirmeleri başlığında özellikle bu yeniliklerden bahsettim.
 
 **BilgeAdam**'daki bir öğrencimin sorusu üzerine bu yazımda **Excel** ve **Word** kullanımına ilişkin bir örnek yapacağım.
 

@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [begin, class, Color, const, constructor, draw, end, graphicsdevice, instance, iskeydown, LeftShift, position, PreferredBackBufferHeight, PreferredBackBufferWidth, public, readonly, RightShift, size, spritebatch, texture2d, update, vector2, XNA, xna game studio]
 ---
-Bu yazımı okumadan önce <a href="http://www.enginpolat.com/kategori/xna/" target="_blank">XNA ile Oyun Programlama</a> kategorisindeki diğer makalelerimi okumanızı tavsiye ederim.
+Bu yazımı okumadan önce <a href="/kategori/xna/" target="_blank">XNA ile Oyun Programlama</a> kategorisindeki diğer makalelerimi okumanızı tavsiye ederim.
 
 Birçok oyunda *arkaplan görselinin* yavaşça **kaydığını** görmüşüzdür. Bu tarz bir etkiyi kendi oyunlarımızda nasıl sağlayacağımızı bu yazımda inceliyor olacağım.
 

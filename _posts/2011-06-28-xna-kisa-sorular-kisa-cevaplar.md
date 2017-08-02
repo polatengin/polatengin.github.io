@@ -34,7 +34,7 @@ kodunu eklemeniz gerekir.
     this.graphics.PreferredBackBufferHeight = 1080;
 }</pre>
 
-*Not : Bu konu ile ilgili <a href="http://www.enginpolat.com/xna-oyun-ekraninin-boyutlarini-belirlemek/" target="_blank">XNA - Oyun ekranının boyutlarını belirlemek</a> yazımı okumanızı tavsiye ederim.*
+*Not : Bu konu ile ilgili <a href="/xna-oyun-ekraninin-boyutlarini-belirlemek/" target="_blank">XNA - Oyun ekranının boyutlarını belirlemek</a> yazımı okumanızı tavsiye ederim.*
 
 ***Oyunumu tam ekran oynatmak istiyorum***
 
@@ -51,7 +51,7 @@ kodunu eklemeniz gerekir.
     base.Initialize();
 }</pre>
 
-*Not : Bu konu ile ilgili <a href="http://www.enginpolat.com/xna-oyun-ekraninin-boyutlarini-belirlemek/" target="_blank">XNA - Oyun ekranının boyutlarını belirlemek</a> yazımı okumanızı tavsiye ederim.*
+*Not : Bu konu ile ilgili <a href="/xna-oyun-ekraninin-boyutlarini-belirlemek/" target="_blank">XNA - Oyun ekranının boyutlarını belirlemek</a> yazımı okumanızı tavsiye ederim.*
 
 ***Oyun penceremin aktif olup/olmadığını nasıl anlarım?***
 
@@ -61,7 +61,7 @@ Oyun penceresinden başka bir uygulamaya geçtiklerinde (yani oyun penceresi **f
 
 Oyun penceresinin **Active** veya **InActive** olduğunu kontrol etmemiz, **Active** değilse, **Pause** moduna geçmemiz gerekmektedir;
 
-*Not : Bu konu ile ilgili <a href="http://www.enginpolat.com/xna-oyunu-canakkale-gecilmez-1/" target="_blank">XNA Oyunu / Çanakkale Geçilmez - 1</a> yazımı okumanızı tavsiye ederim.*
+*Not : Bu konu ile ilgili <a href="/xna-oyunu-canakkale-gecilmez-1/" target="_blank">XNA Oyunu / Çanakkale Geçilmez - 1</a> yazımı okumanızı tavsiye ederim.*
 
 <pre class="”brush:csharp”">protected override void Update(GameTime gameTime)
 {

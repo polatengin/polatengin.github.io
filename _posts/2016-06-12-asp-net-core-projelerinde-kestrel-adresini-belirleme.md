@@ -7,7 +7,7 @@ comments: true
 category: [Web]
 tags: [ASP.NET, aspnet, aspnetcore, build, code, command prompt, dotnet, iis, kestrel, localhost, main method, run, static, terminal, usestartup, useurls, visual studio code, webhostbuilder, yo]
 ---
-*Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/kategori/asp-net/" target="_blank">Asp.Net Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*
+*Bu makaleyi okumadan önce <a href="/kategori/asp-net/" target="_blank">Asp.Net Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*
 
 **AspNet Core 1.0** projelerinde Kestrel Application Server'ın çalışacağı adresi değiştirmek isteyebilirsiniz.
 

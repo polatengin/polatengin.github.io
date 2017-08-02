@@ -17,7 +17,7 @@ graphics.PreferredBackBufferWidth = 1024; /// Oyun penceresinin genişliği
 graphics.PreferredBackBufferHeight = 768; /// Oyun penceresinin yüksekliği
 graphics.IsFullScreen = true; /// Oyun pencerede mi oynatılacak, yoksa tam ekran mı olacak</pre>
 
-Bu kodları <a title="enginpolat.com : XNA - Oyun Temelleri" href="http://www.enginpolat.com/xna-oyun-temelleri/" target="_blank">XNA - Oyun Temelleri</a> yazımda yaptığımız oyuna uygularsak;
+Bu kodları <a title="enginpolat.com : XNA - Oyun Temelleri" href="/xna-oyun-temelleri/" target="_blank">XNA - Oyun Temelleri</a> yazımda yaptığımız oyuna uygularsak;
 
 <pre class="brush:csharp">public GameLoop()
 {

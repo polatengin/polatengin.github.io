@@ -7,7 +7,7 @@ comments: true
 category: [Web]
 tags: [action, addcaching, addmvc, aspnet, aspnetcore, cache, code, command, command prompt, configure, configureservices, console, constructor, controller, datetime, dependencies, dnu, dnx, fromminutes, IEnumerable, imemorycache, iservicecollection, linux, localhost, maproute, memorycacheentryoptions, mvc, namespace, out, project.json, restore, return, set, setabsoluteexpiration, startup.cs, template, terminal, TimeSpan, trygetvalue, usemvc, using, visual studio code, web, windows, yo]
 ---
-*Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/kategori/asp-net/" target="_blank">Asp.Net Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*
+*Bu makaleyi okumadan önce <a href="/kategori/asp-net/" target="_blank">Asp.Net Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*
 
 **Caching** (*önbellekleme*) sayesinde elde etmesi uzun sürecek verilere çok daha **hızlı** bir şekilde ulaşabiliriz.
 

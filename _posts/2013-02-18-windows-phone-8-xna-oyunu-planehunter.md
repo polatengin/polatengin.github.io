@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [bool, class, const, constructor, content, Content.Load, displayorientation, draw, drawstring, elapsed, elapsedgametime, FromMilliseconds, gameloop, GameTime, getstate, intersects, isfullscreen, landscapeleft, landscaperight, loadcontent, nextdouble, prefferedbackbufferheight, prefferedbackbufferwidth, pressed, private, public, random, readonly, rectangle, sprite, spritebatch, spriteeffects, spritefont, state, static, supportedorientations, switch, texture2d, TimeSpan, TimeSpan.Zero, totalgametime, touchcollection, touchlocation, touchlocationstate, touchpanel, unloadcontent, update, vector2, xml, XNA, xna game studio]
 ---
-Bu yazımı okumadan önce <a href="http://www.enginpolat.com/kategori/windows-phone" title="enginpolat.com : Windows Phone" target="_blank">Windows Phone</a> ve <a href="http://www.enginpolat.com/kategori/xna/" title="enginpolat.com : XNA" target="_blank">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
+Bu yazımı okumadan önce <a href="/kategori/windows-phone" title="enginpolat.com : Windows Phone" target="_blank">Windows Phone</a> ve <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
 
 Her zamanki gibi önce *görseller*;
 
@@ -90,7 +90,7 @@ private readonly Rectangle screenArea = new Rectangle(0, 0, PENCERE_GENISLIK, PE
 
 private readonly Random r = new Random();</target></pre>
 
-Yukarıdaki kodlar için daha önce yazmış olduğum <a href="http://www.enginpolat.com/kategori/windows-phone" title="enginpolat.com : Windows Phone" target="_blank">Windows Phone</a> ve <a href="http://www.enginpolat.com/kategori/xna/" title="enginpolat.com : XNA" target="_blank">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
+Yukarıdaki kodlar için daha önce yazmış olduğum <a href="/kategori/windows-phone" title="enginpolat.com : Windows Phone" target="_blank">Windows Phone</a> ve <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
 
 *GameLoop* sınıfının **constructor**'ında aşağıdaki atama işlerini yapalım;
 

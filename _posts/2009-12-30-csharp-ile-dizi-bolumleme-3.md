@@ -31,7 +31,7 @@ public string RastgeleKelimeUret(int HarfAdet)
     return new string(arrReturn);
 }</pre>
 
-Bu fonksiyonu <a title="enginpolat.com: Shuffle List" href="http://www.enginpolat.com/csharp-ile-dizi-karistirma/" target="_self">C# ile Dizi Karıştırma</a> yazımdan hatırlayacaksınız. Şimdi bu fonksiyonu kullanarak *List&lt;string&gt;* tipinde bir diziye 25 eleman dolduran kodumuzu yazalım;
+Bu fonksiyonu <a title="enginpolat.com: Shuffle List" href="/csharp-ile-dizi-karistirma/" target="_self">C# ile Dizi Karıştırma</a> yazımdan hatırlayacaksınız. Şimdi bu fonksiyonu kullanarak *List&lt;string&gt;* tipinde bir diziye 25 eleman dolduran kodumuzu yazalım;
 
 <pre class="brush:csharp">List&lt;string&gt; BolunecekDizi = new List&lt;string&gt;();
 Parallel.For(5, 25, iLoop =&gt; {

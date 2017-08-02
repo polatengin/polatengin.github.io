@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [code, csharp, identifier, keyword, msdn, source, vbnet, verbatim]
 ---
-Daha önce yazdığım <a title="enginpolat.com: C#’ta anahtar kelimeyi değişken ismi olarak kullanma" href="http://www.enginpolat.com/c-sharp-anahtar-kelimeyi-degisken-ismi-olarak-kullanma/" target="_self">C#'ta anahtar kelimeyi değişken ismi olarak kullanma</a> yazımda, aynı işin VB.NET'te nasıl yapılacağını yazmamıştım.
+Daha önce yazdığım <a title="enginpolat.com: C#’ta anahtar kelimeyi değişken ismi olarak kullanma" href="/c-sharp-anahtar-kelimeyi-degisken-ismi-olarak-kullanma/" target="_self">C#'ta anahtar kelimeyi değişken ismi olarak kullanma</a> yazımda, aynı işin VB.NET'te nasıl yapılacağını yazmamıştım.
 
 Değişken isminin, dilin anahtar kelimelerinden biri olmasına **verbatim identifier** deniyor.
 

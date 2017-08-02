@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [bool, class, const, constructor, CreateInstance, game, getstate, isfullscreen, iskeydown, keyboard, loadcontent, mathhelper, object orriented, OnActivated, OnDeactivated, oop, override, PreferredBackBufferHeight, PreferredBackBufferWidth, rectangle, Rotation, SoundEffect, SoundEffectInstance, texture2d, toradians, vector2, XNA]
 ---
-Bu yazımı okumadan önce **XNA** konusundaki <a title="enginpolat.com : XNA" href="http://www.enginpolat.com/kategori/xna/" target="_self">diğer   makalelerimi</a> okumanızı öneririm.
+Bu yazımı okumadan önce **XNA** konusundaki <a title="enginpolat.com : XNA" href="/kategori/xna/" target="_self">diğer   makalelerimi</a> okumanızı öneririm.
 
 Bu sefer yapacağımız oyun, **30 Ağustos**'un ruhuna uygun olacak - **Çanakkale Geçilmez**.
 

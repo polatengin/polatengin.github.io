@@ -7,7 +7,7 @@ comments: true
 category: [Web]
 tags: [array, ASP.NET, aspnet, background, css, darken, dictionary, for, foreach, from, length, loop, sass, scss, style, stylesheet]
 ---
-*Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/kategori/asp-net/" target="_blank">Asp.Net Kategorisi</a>ndeki diğer makalelerimi ve <a href="http://www.enginpolat.com/sass-scss-dosyalari-nedir/" target="_blank">SASS (scss dosyaları) nedir?</a> makalesini okumanızı tavsiye ederim.*
+*Bu makaleyi okumadan önce <a href="/kategori/asp-net/" target="_blank">Asp.Net Kategorisi</a>ndeki diğer makalelerimi ve <a href="http://www.enginpolat.com/sass-scss-dosyalari-nedir/" target="_blank">SASS (scss dosyaları) nedir?</a> makalesini okumanızı tavsiye ederim.*
 
 **SASS** dosyalarında birden fazla değişkenin bir **dizi** olarak ele alınmasını ve bu dizideki her eleman için bir **css** stili oluşmasını isteyebiliriz.
 

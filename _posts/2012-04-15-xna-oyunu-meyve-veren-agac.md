@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [begin, const, CreateInstance, draw, drawablegamecomponent, drawstring, end, enum, FromMilliseconds, game, gameloop, GameTime, getstate, graphics, graphicsdevice, GraphicsDeviceManager, loadcontent, mouse, mousestate, prefferedbackbufferheight, prefferedbackbufferwidth, public, random, rectangle, SoundEffect, SoundEffectInstance, spritebatch, spritefont, texture2d, TimeSpan, totalgametime, unloadcontent, vector2, XNA, xna game studio]
 ---
-Bu yazımı okumadan önce XNA konusundaki <a href="http://www.enginpolat.com/kategori/xna/" title="enginpolat.com : XNA" target="_blank">diğer makalelerimi</a> okumanızı öneririm.
+Bu yazımı okumadan önce XNA konusundaki <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank">diğer makalelerimi</a> okumanızı öneririm.
 
 Önce görseller;
 

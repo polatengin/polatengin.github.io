@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [const, draw, isfullscreen, loadcontent, PreferredBackBufferHeight, PreferredBackBufferWidth, readonly, rectangle, texture2d, update, Window.Title, XNA]
 ---
-Bu yazımı okumadan önce **XNA** konusundaki <a title="enginpolat.com : XNA" href="http://www.enginpolat.com/kategori/xna/" target="_self">diğer makalelerimi</a> okumanızı öneririm.
+Bu yazımı okumadan önce **XNA** konusundaki <a title="enginpolat.com : XNA" href="/kategori/xna/" target="_self">diğer makalelerimi</a> okumanızı öneririm.
 
 Öncelikle ihtiyacınız olacak iki görseli buradan indirebilirsiniz;
 

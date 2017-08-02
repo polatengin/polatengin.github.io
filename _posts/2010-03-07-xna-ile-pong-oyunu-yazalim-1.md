@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [Content.Load, draw, graphics, intersects, isfullscreen, iskeydown, keybo, Keyboard.GetState, keyboardstate, loadcontent, PreferredBackBufferHeight, PreferredBackBufferWidth, rectangle, texture2d, update, vector2, XNA]
 ---
-Bu yazımı okumadan önce **XNA** konusundaki <a title="enginpolat.com : XNA" href="http://www.enginpolat.com/kategori/xna/" target="_self">diğer  makalelerimi</a> okumanızı öneririm.
+Bu yazımı okumadan önce **XNA** konusundaki <a title="enginpolat.com : XNA" href="/kategori/xna/" target="_self">diğer  makalelerimi</a> okumanızı öneririm.
 
 Her zamanki gibi, öncelikle ihtiyacımız olacak **görselleri** vereyim;
 

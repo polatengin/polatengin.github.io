@@ -9,7 +9,7 @@ tags: [constructor, content, draw, getstate, iskeydown, keyboard, keyboardstate,
 ---
 **XNA** ile oyun geliştirmeye başlamadan önce, ekrana nasıl çizim yapabileceğimizi öğrenmemiz gerekiyor.
 
-***Not :** Buradan ileriye devam etmeden önce <a title="enginpolat.com : XNA - Başlangıç" href="http://www.enginpolat.com/xna-baslangic/" target="_blank">XNA - Başlangıç</a> yazımı okumanızı tavsiye ederim.*
+***Not :** Buradan ileriye devam etmeden önce <a title="enginpolat.com : XNA - Başlangıç" href="/xna-baslangic/" target="_blank">XNA - Başlangıç</a> yazımı okumanızı tavsiye ederim.*
 
 Öncelikle, ihtiyacımız olacak iki görseli bilgisayarınıza kopyalamanız gerekiyor;
 

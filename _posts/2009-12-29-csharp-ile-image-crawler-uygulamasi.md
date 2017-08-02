@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [code, crawler, csharp, image, source, web]
 ---
-Daha önce yazdığımız <a title="enginpolat.com: WebCrawler" href="http://www.enginpolat.com/csharp-ile-webcrawler-uygulamasi/" target="_self">C# ile WebCrawler Uygulaması</a>na ek olarak, bu sefer, sayfadaki resimleri bulup, ekranda gösteren bir uygulama yazacağız.
+Daha önce yazdığımız <a title="enginpolat.com: WebCrawler" href="/csharp-ile-webcrawler-uygulamasi/" target="_self">C# ile WebCrawler Uygulaması</a>na ek olarak, bu sefer, sayfadaki resimleri bulup, ekranda gösteren bir uygulama yazacağız.
 
 Uygulamamız, bir web sayfasına bağlacak, sayfadaki **img** taglarının **src** değerlerini bir diziye dolduracak ve bu diziyi ekranda gösterecek. Dizi'den bir satır seçildiğinde, ilgili resmi ekrana getirecek.
 

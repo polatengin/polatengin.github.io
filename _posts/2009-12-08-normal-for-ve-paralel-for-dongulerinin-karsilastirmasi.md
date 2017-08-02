@@ -11,7 +11,7 @@ Yazdığımız uygulamaların olmazsa-olmaz'larından birisi de, for döngüleri
 
 Ne kadar basit'te olsa, ne kadar karmaşık'ta olsa, mutlaka uygulamalarımızda for döngülerine ihtiyaç duyarız ve sıklıkla kullanırız.
 
-Bu makaleyi okumaya devam etmeden önce, .Net Framework 4.0 ile birlikte gelecek olan Task Parallel Library hakkında yazdığım şu yazıyı (<a title="enginpolat.com: TPL (Task Parallel Library) – Task Class" href="http://www.enginpolat.com/tpl-task-parallel-library-task-class/" target="_self">TPL (Task Parallel Library) – Task Class</a>) okumanızı tavsiye ederim.
+Bu makaleyi okumaya devam etmeden önce, .Net Framework 4.0 ile birlikte gelecek olan Task Parallel Library hakkında yazdığım şu yazıyı (<a title="enginpolat.com: TPL (Task Parallel Library) – Task Class" href="/tpl-task-parallel-library-task-class/" target="_self">TPL (Task Parallel Library) – Task Class</a>) okumanızı tavsiye ederim.
 
 Task Parallel Library ile gelen <a title="MSDN: Parallel Class Members" href="http://msdn.microsoft.com/en-us/library/system.threading.tasks.parallel_members(VS.100).aspx" target="_blank">Parallel</a> sınıfının <a title="MSDN: Parallel.For Method" href="http://msdn.microsoft.com/en-us/library/system.threading.tasks.parallel.for(VS.100).aspx" target="_blank">For</a> methodunu kullanarak, Multi-Core destekli for döngüleri oluşturabiliriz.
 

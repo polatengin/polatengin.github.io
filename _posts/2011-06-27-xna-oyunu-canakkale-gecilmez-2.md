@@ -7,16 +7,14 @@ comments: true
 category: [XNA]
 tags: [const, contains, content, Content.Load, cos, CreateInstance, draw, graphicsdevice, iskeydown, iskeyup, Keyboard.GetState, keyboardstate, lerp, loadcontent, math, mathhelper, nextdouble, position, random, rectangle, Rotation, sin, SoundEffect, spritebatch, spriteblendmode, spriteeffects, texture2d, unloadcontent, vector2, velocity, XNA, xna game studio]
 ---
-<a href="http://www.enginpolat.com/kategori/xna/" target="_blank">XNA ile Oyun Programlama</a> serimize, daha önce başlayıp tamamlamadığımız <a href="http://www.enginpolat.com/xna-oyunu-canakkale-gecilmez-1" target="_blank">Çanakkale Geçilmez</a> oyununu tamamlayarak devam ediyoruz.
+<a href="/kategori/xna/" target="_blank">XNA ile Oyun Programlama</a> serimize, daha önce başlayıp tamamlamadığımız <a href="/xna-oyunu-canakkale-gecilmez-1" target="_blank">Çanakkale Geçilmez</a> oyununu tamamlayarak devam ediyoruz.
 
-Bu yazıyı okumadan önce **XNA** konusunda diğer makaleler için <a href="http://www.enginpolat.com/kategori/xna/" target="_blank">XNA kategorisine</a> bir göz atmanızı tavsiye ederim.
+Bu yazıyı okumadan önce **XNA** konusunda diğer makaleler için <a href="/kategori/xna/" target="_blank">XNA kategorisine</a> bir göz atmanızı tavsiye ederim.
 
 Düşman gemilerine yaptığımız atış miktarını ve isabet adedini tutacağımız iki değişkeni sınıf seviyesinde tanımlayalım;
 
-
-
 int SKOR_ATIS = 0;
-int SKOR_PUAN = 0;</pre>
+int SKOR_PUAN = 0;
 
 Oyuna, *düşman gemileri* ve düşman gemilerine atacağımız *gülleler* eklemek için, sınıf seviyesinde *GameObject* sınıfında diziler oluşturacağız;
 

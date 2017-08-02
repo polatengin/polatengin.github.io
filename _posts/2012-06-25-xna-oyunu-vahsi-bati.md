@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [begin, class, Color, const, content, Content.Load, draw, drawstring, end, float, GameTime, getstate, graphics, graphicsdevice, GraphicsDeviceManager, int, intersect, intersects, loadcontent, mouse, mousestate, play, prefferedbackbufferheight, prefferedbackbufferwidth, random, rectangle, sound, SoundEffect, SoundEffectInstance, sprite, spritebatch, spriteeffects, spritefont, texture2d, TimeSpan, TimeSpan.Zero, totalgametime, unloadcontent, update, vector2, XNA, xna game studio]
 ---
-Bu yazımı okumadan önce <a href="http://www.enginpolat.com/kategori/xna/" title="enginpolat.com : XNA" target="_blank">XNA konusundaki diğer makalelerimi</a> okumanızı öneririm.
+Bu yazımı okumadan önce <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank">XNA konusundaki diğer makalelerimi</a> okumanızı öneririm.
 
 Her zamanki gibi önce görseller;
 
