@@ -37,9 +37,9 @@ layout: compress
       </div>
       <div class="site-menu navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li {% if page.url == "/kategori/windows" %}class="active"{% endif %}><a {% if page.url == "/kategori/windows" %}class="active"{% endif %} href="/kategori/windows" title="Windows kategorisindeki makaleler">Windows</a></li>
-          <li {% if page.url == "/kategori/unity3d" %}class="active"{% endif %}><a {% if page.url == "/kategori/unity3d" %}class="active"{% endif %} href="/kategori/unity3d" title="Unity3D kategorisindeki makaleler">Unity3D</a></li>
-          <li {% if page.url == "/kategori/web" %}class="active"{% endif %}><a {% if page.url == "/kategori/web" %}class="active"{% endif %} href="/kategori/web" title="Web kategorisindeki makaleler">Web</a></li>
+          <li {% if page.url == "/kategori/windows/" %}class="active"{% endif %}><a {% if page.url == "/kategori/windows/" %}class="active"{% endif %} href="/kategori/windows/" title="Windows kategorisindeki makaleler">Windows</a></li>
+          <li {% if page.url == "/kategori/unity3d/" %}class="active"{% endif %}><a {% if page.url == "/kategori/unity3d/" %}class="active"{% endif %} href="/kategori/unity3d/" title="Unity3D kategorisindeki makaleler">Unity3D</a></li>
+          <li {% if page.url == "/kategori/web/" %}class="active"{% endif %}><a {% if page.url == "/kategori/web/" %}class="active"{% endif %} href="/kategori/web/" title="Web kategorisindeki makaleler">Web</a></li>
         {% assign sorted_pages = site.pages | sort:"order" %}
         {% for node in sorted_pages %} {% if node.title != null and node.group == 'navigation' %}
           {% if page.url == node.url %}
