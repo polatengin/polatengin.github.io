@@ -5,7 +5,7 @@ date: 2017-07-21 22:30
 author: engin.polat
 comments: true
 category: [C#]
-tags: [for, foreach, performance, loop, variable, iteration, perfomans]
+tags: [csharp, for, foreach, performance, loop, variable, iteration, perfomans]
 ---
 Bu makalede <strong>C#</strong> ile <code>for</code> ve <code>foreach</code> döngüleri arasındaki farkları inceleyeceğiz.
 
