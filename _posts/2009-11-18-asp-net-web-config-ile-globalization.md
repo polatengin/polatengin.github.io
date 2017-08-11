@@ -7,16 +7,12 @@ comments: true
 category: [Web]
 tags: [.net, ASP.NET, aspnet, globalization, web.config]
 ---
-Web uygulamalarında, geliştirme yaptığınız bilgisayarınızda türkçe karakterleri düzgün görüyorsanız, fakat uygulamayı sunucuya publish ettiğinizde türkçe karakterlerde bozulma oluşuyorsa (özellikle ğ,ü,ö,ı,ş karakterlerinde); sorun büyük ihtimalle sunucunun dil ayarlarından kaynaklanıyordur.
+**Web uygulamalarında**, geliştirme yaptığınız bilgisayarınızda **türkçe** karakterleri düzgün görüyorsanız, fakat uygulamayı sunucuya **publish** ettiğinizde **türkçe** karakterlerde bozulma oluşuyorsa (özellikle *ğ*, *ü*, *ö*, *ı*, *ş* karakterlerinde); sorun büyük ihtimalle sunucunun dil ayarlarından kaynaklanıyordur.
 
-Sunucunun dil ayarları ile uğraşmak yerine, web.config dosyasında yapacağınız küçük bir değişiklik ile, bu sorunun üstesinden gelebilirsiniz.
+Sunucunun dil ayarları ile uğraşmak yerine, <code>web.config</code> dosyasında yapacağınız küçük bir değişiklik ile, bu sorunun üstesinden gelebilirsiniz.
 
-Yapılması gereken, System.Web node' u içerisine;
+Yapılması gereken, <code>System.Web</code> **node**' u içerisine;
 
-
-
-&lt;globalization fileEncoding="iso-8859-9" responseEncoding="iso-8859-9" /&gt;
-
+<script src="https://gist.github.com/polatengin/3dc25b342e741fb833680eecbecb7014.js?file=web.config"></script>
 
 tagını eklemek.
-
