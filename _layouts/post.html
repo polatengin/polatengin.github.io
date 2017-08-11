@@ -58,13 +58,13 @@ layout: default
   {% if page.previous %}
     <li class="previous"><a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; {{ page.previous.title }}</a></li>
   {% else %}
-    <li class="previous disabled"><a>&larr; Önceki</a></li>
+    <li class="previous disabled"><a>&laquo; Önceki</a></li>
   {% endif %}
     <li><a href="/arsiv">Arşiv</a></li>
   {% if page.next %}
     <li class="next"><a href="{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }} &raquo;</a></li>
   {% else %}
-    <li class="next disabled"><a>Sonraki &rarr;</a>
+    <li class="next disabled"><a>Sonraki &raquo;</a>
   {% endif %}
   </ul>
 </nav>
