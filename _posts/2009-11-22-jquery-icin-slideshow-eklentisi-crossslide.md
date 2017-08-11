@@ -5,7 +5,7 @@ date: 2009-11-22 10:54
 author: engin.polat
 comments: true
 category: [Programlama]
-tags: [javascript, jquery, minify, packed, plugin, slideshow, web, web2]
+tags: [javascript, jquery, minify, packed, plugin, slideshow, web]
 ---
 <a title="jQuery" href="http://jquery.com/" target="_blank">jQuery</a> ile uygulama geliştirirken en büyük avantajımız, web'de çok fazla <a title="jQuery: Plugins" href="http://plugins.jquery.com/" target="_blank">plugin</a> bulabilmemizdir.
 

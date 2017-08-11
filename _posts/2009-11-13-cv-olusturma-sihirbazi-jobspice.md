@@ -5,7 +5,7 @@ date: 2009-11-13 15:17
 author: engin.polat
 comments: true
 category: [Genel]
-tags: [cv, online, web2]
+tags: [cv, online]
 ---
 Çalışan sirkülasyonunun çok olduğu ülkemizde, yeni iş arayanların olmazsa olmaz ihtiyacı güncel, formal bir cv'dir.
 

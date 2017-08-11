@@ -5,7 +5,7 @@ date: 2009-11-20 10:30
 author: engin.polat
 comments: true
 category: [Programlama]
-tags: [css, image, önyükleme, preload, resim, web, web2]
+tags: [css, image, önyükleme, preload, resim, web]
 ---
 İstediğiniz resimleri, aşağıdaki css tekniği ile önyükleyebilirsiniz.
 

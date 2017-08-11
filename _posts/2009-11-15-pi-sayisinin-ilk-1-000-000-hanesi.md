@@ -5,7 +5,7 @@ date: 2009-11-15 10:20
 author: engin.polat
 comments: true
 category: [Genel]
-tags: [eğlence, matematik, pi, web2]
+tags: [eğlence, matematik, pi, web]
 ---
 Gene internette geziyorum ve gene ilginç bir siteye rastlıyorum,
 
