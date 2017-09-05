@@ -7,11 +7,9 @@ comments: true
 category: [C#]
 tags: [all, anonymous method, any, average, concat, count, distinct, elementat, Enumerable, equalall, except, first, firstordefault, foreach, groupby, IEnumerable, interface, intersect, lambda, lambda expression, linq, list, max, min, oftype, operatör, orderby, orderbydescending, predicate, query, range, repeat, select, single, singleordefault, skip, skipwhile, sum, take, takewhile, thenby, thenbydescending, toarray, todictionary, tolist, union, where]
 ---
-**Listeler** (<a href="http://msdn.microsoft.com/library/system.collections.ienumerable" target="_blank">IEnumerable&lt;T&gt;</a> interface’ini implemente eden) üzerinde filtreleme yapmak için .Net 3.0’dan beri <a href="http://msdn.microsoft.com/netframework/aa904594" target="_blank">LINQ</a> sorgularını kullanabiliyoruz.
+**Listeler** (<a href="http://msdn.microsoft.com/library/system.collections.ienumerable" target="_blank">IEnumerable&lt;T&gt;</a> **interface**'ini *implemente* eden) üzerinde filtreleme yapmak için **.Net 3.0**'dan beri <a href="http://msdn.microsoft.com/netframework/aa904594" target="_blank">LINQ</a> sorgularını kullanabiliyoruz.
 
 LINQ ile gelen farklı **operatör grupları** sayesinde, listeler üzerinde sadece **filtreleme** yapmanın ötesinde bir kontrolümüz oluyor (daha detaylı bilgi için MSDN’de yeralan <a href="http://msdn.microsoft.com/library/bb394939.aspx" target="_blank">The .Net Standard Query Operators</a> makalesini okuyabilirsiniz);
-
-
 
 *   *Filtreleme Operatörleri :* <a href="http://msdn.microsoft.com/vcsharp/aa336760#WhereSimple1" target="_blank">Where</a>
 *   *Gruplama Operatörleri :* <a href="http://msdn.microsoft.com/vcsharp/aa336754.aspx#simple1" target="_blank">GroupBy</a>
@@ -28,38 +26,17 @@ LINQ ile gelen farklı **operatör grupları** sayesinde, listeler üzerinde sad
 
 Bu yazımda, bir liste uzerinde **LINQ** sorgusu gerçekleştirmenin 3 farklı yolunu inceleyeceğiz;
 
-
-
 *   Predicate
 *   Anonymous Method
 *   Lambda Sorgusu
 
 Öncelikle üzerinde çalışacağımız bir listeye ihtiyacımız olacak, <a href="http://msdn.microsoft.com/library/system.linq.enumerable" target="_blank">Enumerable</a> sınıfının **static** <a href="http://msdn.microsoft.com/library/system.linq.enumerable.range" target="_blank">Range</a> method’u ile iki değer aralığındaki tam sayılardan oluşan listeyi kullanabiliriz;
 
-
-
-Enumerable.Range(50, 100);</pre>
+<script src="https://gist.github.com/polatengin/f5091be50e6be22c8118019875054a28.js?file=MockData.cs"></script>
 
 ***Predicate***
 
-<pre class="brush:csharp">private static bool CiftSayiKontrol(int Rakam)
-{
-    if (Rakam % 2 == 0)
-        return true;
-    else
-        return false;
-}
-
-public static void Main(string[] args)
-{
-    var SonucListe = Enumerable.Range(1, 20).Where(CiftSayiKontrol);
-    foreach (var Rakam in SonucListe)
-    {
-        Console.WriteLine(Rakam);
-    }
-
-    Console.ReadLine();
-}</pre>
+<script src="https://gist.github.com/polatengin/f5091be50e6be22c8118019875054a28.js?file=PredicateMethod.cs"></script>
 
 Sonuç;
 
@@ -67,39 +44,12 @@ Sonuç;
 
 ***Anonymous Method***
 
-<pre class="brush:csharp">public static void Main(string[] args)
-{
-    var SonucListe = Enumerable.Range(1, 20).Where(delegate(int number) {
-        if (number % 2 == 0)
-            return true;
-        else
-            return false;
-    });
-
-    foreach (var Rakam in SonucListe)
-    {
-        Console.WriteLine(Rakam);
-    }
-
-    Console.ReadLine();
-}</pre>
+<script src="https://gist.github.com/polatengin/f5091be50e6be22c8118019875054a28.js?file=AnonymousMethod.cs"></script>
 
 ![LINQ Sorgusu - Anonymous Method](/assets/uploads/2011/05/LINQSorgular.png "LINQ Sorgusu - Anonymous Method")
 
 ***Lambda Sorgusu***
 
-<pre class="brush:csharp">public static void Main(string[] args)
-{
-    var SonucListe = Enumerable.Range(1, 20).Where(Rakam =&gt; Rakam % 2 == 0);
-    foreach (var Rakam in SonucListe)
-    {
-        Console.WriteLine(Rakam);
-    }
-
-    Console.ReadLine();
-}
-
-
+<script src="https://gist.github.com/polatengin/f5091be50e6be22c8118019875054a28.js?file=LambdaExpression.cs"></script>
 
 ![LINQ Sorgusu - Lambda Expression](/assets/uploads/2011/05/LINQSorgular.png "LINQ Sorgusu - Lambda Expression")
-
