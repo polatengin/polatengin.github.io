@@ -1,4 +1,6 @@
-_site/*
+_site
+
+_drafts
 
 Thumbs.db
 .DS_Store
