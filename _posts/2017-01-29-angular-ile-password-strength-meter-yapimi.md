@@ -7,6 +7,10 @@ comments: true
 category: [Web]
 tags: [angular, attribute, bootstrap, button, cli, command prompt, css, dependencies, framework, head, html, keyup, ngmodel, npm, terminal, typescript]
 ---
+<div class="alert alert-success" role="alert" style="margin: 10px 0px; display: block;">
+Bu makalenin kodlarına <strong>Github</strong> üzerinde <a href="https://github.com/polatengin" class="alert-link" target="_blank">polatengin</a> hesabımda yer alan <a href="https://github.com/polatengin/blog-codes/tree/master/password-strength-meter" class="alert-link" target="_blank">Password Strength Meter</a> aracılığıyla erişebilirsiniz.
+</div>
+
 Bu makalede '<em>Bir Angular projesinin üyelik formunda şifrenin yeteri kadar güçlü girildiğinden nasıl emin olabilirim?</em>' sorusunu cevaplayacağız.
 
 Önce bir <strong>Angular</strong> projesi oluşturacağız, <strong>Bootstrap 4</strong> ile stillendireceğimiz üyelik formu yapacağız ve şifre giriş alanının altına, girilen şifrenin <em>güçlülük</em> derecesine göre kırmızıdan-yeşile doğru hareket eden bir bar ekleyeceğiz.
