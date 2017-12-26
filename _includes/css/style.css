@@ -68,17 +68,17 @@ body { letter-spacing: 0.01rem; }
 }
 .creative-commons {
   float:right;
-  display:inline-block;
+  display:block;
   width:80px;
   height:40px;
   background:url(/assets/images.png) -137px -168px;
   text-indent:-9999px
 }
 .entry-title {
-  padding:5px;
+  padding:5px 5px 8px 8px;
   background-color:#222;
   background-image:linear-gradient(to bottom, #3c3c3c 0, #222 100%);
-  border-radius:2px;
+  border-radius:4px;
   color: #bfc6cd;
 }
 .entry-title a {

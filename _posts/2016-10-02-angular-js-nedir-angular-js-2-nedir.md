@@ -5,7 +5,7 @@ date: 2016-10-02 11:30
 author: engin.polat
 comments: true
 category: [Web]
-tags: [angularjs, angularjs2, application, aspnet, class, cli, component, html, html5, javascript, metadata, npm, template, youtube]
+tags: [angular, application, aspnet, class, cli, component, html, html5, javascript, metadata, npm, template, youtube]
 ---
 **Angular js** ve yeni versiyonu olan **Angular js 2** arasındaki farklara hızlıca bakacak, yeni bir **Angular js 2** projesi oluşturacak, **browser** içerisinde görüntüleyeceğiz.
 
