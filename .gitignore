@@ -3,6 +3,7 @@ _site
 _drafts
 
 Thumbs.db
+Gemfile.lock
 .DS_Store
 
 !.gitkeep
