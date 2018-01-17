@@ -15,4 +15,4 @@ author :
 
 production_url : http://polatengin.github.io
 
-gems: ["jekyll-sitemap", "jekyll-paginate"]
+plugins: ["jekyll-sitemap", "jekyll-paginate"]

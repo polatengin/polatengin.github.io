@@ -22,4 +22,4 @@ compress_html:
   blanklines: false
   profile: false
 
-gems: ["jekyll-sitemap", "jekyll-paginate"]
+plugins: ["jekyll-sitemap", "jekyll-paginate"]
