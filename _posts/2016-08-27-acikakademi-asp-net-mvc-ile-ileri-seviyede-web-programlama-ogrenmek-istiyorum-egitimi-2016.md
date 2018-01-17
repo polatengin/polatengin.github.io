@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AçıkAkademi ASP.NET MVC ile ileri seviyede web programlama öğrenmek istiyorum Eğitimi 2016"
+title: "AçıkAkademi ASP.NET MVC ile ileri seviyede web programlama öğrenmek istiyorum eğitimi 2016"
 date: 2016-08-27 11:20
 author: engin.polat
 comments: true
