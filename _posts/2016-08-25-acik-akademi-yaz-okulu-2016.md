@@ -4,7 +4,7 @@ title: "Açık Akademi Yaz Okulu 2016"
 date: 2016-08-25 10:25
 author: engin.polat
 comments: true
-category: [Web]
+category: [Etkinlik]
 tags: [azure, css, css3, etkinliklerim, html, html5, javascript, microsoft yaz okulu, mvc]
 ---
 ![](/assets/uploads/2016/08/YazOkulu2016.jpg)
