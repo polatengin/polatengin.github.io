@@ -9,7 +9,7 @@ tags: [etkinliklerim, seminer, web, azure, angular, aspnetcore]
 ---
 _04 Ekim 2017_ tarihinde _Kocaeli Üniversitesi Bilişim Teknolojileri Kulübü_ tarafından organize edilen **IT Fest 2017** etkinliği gerçekleştirildi.
 
-Ben ve sevgili arkadaşım _Bora Kaşmer_ de **.Net Core ve Angular ile oluşturulan projenin Azure'da yayınlanması** konulu oturumda _canlı kodlama* (**live-coding**) yaptık.
+Ben ve sevgili arkadaşım _Bora Kaşmer_ de **.Net Core ve Angular ile oluşturulan projenin Azure'da yayınlanması** konulu oturumda _canlı kodlama_ (**live-coding**) yaptık.
 
 <img class="lazy img-responsive" data-src="/assets/uploads/2017/10/itfest2017.png" width="600" height="840" />
 
