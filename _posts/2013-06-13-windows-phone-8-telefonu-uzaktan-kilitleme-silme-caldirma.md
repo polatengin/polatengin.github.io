@@ -4,7 +4,7 @@ title: "Windows Phone 8 telefonu uzaktan kilitleme-silme-çaldırma"
 date: 2013-06-13 11:00
 author: engin.polat
 comments: true
-category: [Windows Phone]
+category: [Windows]
 tags: [delete, lock, ring, windows phone, windowsphone, wp8]
 ---
 **Windows Phone 8** kullanıyorsunuz ve önemli bir toplantıya girdiniz, telefonunuzu masanızda *unuttuğunuzu* farkettiniz. Çalışma arkadaşlarınızın telefonunuzu kullanarak adınıza *email* veya *tweet* atmasınından endişeleniyorsunuz. *(Başıma geldiği için, ne kadar sıkıntı verici olduğunu biliyorum)*

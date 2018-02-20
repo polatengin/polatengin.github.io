@@ -4,7 +4,7 @@ title: "Windows Phone 8 uygulamasında çekilen resmi crop ettirmek"
 date: 2014-12-05 21:20
 author: engin.polat
 comments: true
-category: [Windows Phone]
+category: [Windows]
 tags: [completed, photochoosertask, pixelheight, pixelwidth, show, windows phone, wp8]
 ---
 Geçtiğimiz aylarda bir etkinlikle göstermek için geliştirdiğim *demo uygulamasında* kamera aracılığıyla resim çekmem gerekti. Fakat geliştirdiğim uygulama, çekilen resmin belli bir *en x boy* oranında olmasını gerektiriyordu.

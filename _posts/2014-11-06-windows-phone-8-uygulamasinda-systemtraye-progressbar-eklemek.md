@@ -4,7 +4,7 @@ title: "Windows Phone 8 uygulamasında SystemTray'e Progressbar eklemek"
 date: 2014-11-06 19:20
 author: engin.polat
 comments: true
-category: [Windows Phone]
+category: [Windows]
 tags: [isindeterminate, isvisible, phoneapplicationpage, progressindicator, shell, systemtray, text, windows phone, wp8]
 ---
 **Windows Phone 8** için geliştirdiğimiz uygulamada *uzun süren bir işlem* esnasında kullanıcıya *işlemin hala devam ettiğini* göstermek isteriz.

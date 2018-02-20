@@ -4,7 +4,7 @@ title: "Windows Phone uygulaması ile ekran görüntüsü almak"
 date: 2014-05-25 00:10
 author: engin.polat
 comments: true
-category: [Windows Phone]
+category: [Windows]
 tags: [createdirectory, createfile, directoryexists, getuserstoreforapplication, isolatedstoragefile, memorystream, render, rootvisual, savejpeg, screenshot, translatetransform, windows phone, wp8, writeablebitmap]
 ---
 Bazı durumlarda **Windows Phone** için geliştirdiğimiz uygulamanın o andaki *ekran görüntüsünü* almamız gerekebilir, örneğin bir hata oluştuğu andaki ekran görüntüsü ilgili alanlara girilmiş verileri görebilmeyi sağlayacağı için çok kullanışlı olacaktır.
