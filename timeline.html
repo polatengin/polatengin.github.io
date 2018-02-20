@@ -8,6 +8,7 @@ order: 4
 ---
 <style>
 .timeline ul {
+  margin-top:10px;
   padding: 0;
 }
 .timeline ul li {
@@ -50,16 +51,16 @@ order: 4
   left: 30px;
 }
 .timeline ul li:nth-child(odd) a::before {
-  left: -15px;
-  border-width: 8px 16px 8px 0;
+  left: -10px;
+  border-width: 8px 10px 8px 0;
   border-color: transparent #86ab08 transparent transparent;
 }
 .timeline ul li:nth-child(even) a {
   left: -325px;
 }
 .timeline ul li:nth-child(even) a::before {
-  right: -15px;
-  border-width: 8px 0 8px 16px;
+  right: -10px;
+  border-width: 8px 0 8px 10px;
   border-color: transparent transparent transparent #86ab08;
 }
 .timeline ul li a time {
@@ -94,23 +95,42 @@ order: 4
   .timeline ul li:nth-child(even) a {
     left: 45px;
   }
-   
-  .timeline ul li:nth-child(even) a::before {
-    left: -15px;
-    border-width: 8px 16px 8px 0;
-    border-color: transparent #F45B69 transparent transparent;
-  }
 }
 </style>
+Filtreler :
+{% for category in site.categories %}
+  <label class="btn btn-default active" data-category="{{ category[0] | replace: '#', 'Sharp' }}">{{ category[0] }}</label>
+{% endfor %}
 <section class="timeline">
   <ul>
     {% for post in site.posts %}
-    <li>
+    <li class="show {% for c in post.category %}{{ c | replace: '#', 'Sharp' }} {% endfor %}">
       <a href="{{ post.url }}">
         <time>{{ post.date | date: "%Y-%m-%d" }}</time>
-        <span>{{ post.title }}</span>
+        <span>{{ post.title }} ({% for c in post.category %}{{ c }}{% endfor %})</span>
       </a>
     </li>
     {% endfor %}
   </ul>
 </section>
+<script>
+  document.querySelectorAll('label.btn').forEach(function(button) {
+    button.addEventListener('click', function(e) {
+      var categoryName = e.target.dataset.category;
+
+      if(e.target.classList.contains('active')) {
+        e.target.classList.remove('active');
+        document.querySelectorAll('li.show.' + categoryName).forEach(function(li) {
+          li.classList.remove('show');
+          li.classList.add('hidden');
+        });
+      } else {
+        e.target.classList.add('active');
+        document.querySelectorAll('li.hidden.' + categoryName).forEach(function(li) {
+          li.classList.remove('hidden');
+          li.classList.add('show');
+        });
+      }
+    });
+  })
+</script>
