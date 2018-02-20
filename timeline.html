@@ -7,6 +7,9 @@ group: navigation
 order: 4
 ---
 <style>
+.filters {
+  display: block;
+}
 .timeline ul {
   margin-top:10px;
   padding: 0;
@@ -87,17 +90,20 @@ order: 4
   .timeline ul li {
     margin-left: 20px;
   }
-   
   .timeline ul li a {
-    width: calc(100vw - 91px);
+    width: calc(100vw - 130px);
   }
-   
   .timeline ul li:nth-child(even) a {
-    left: 45px;
+    left: 30px;
+  }
+  .timeline ul li:nth-child(even) a::before {
+    left: -10px;
+    border-width: 8px 10px 8px 0;
+    border-color: transparent #86ab08 transparent transparent;
   }
 }
 </style>
-Filtreler :
+<span id="filters">Filtreler :</span>
 {% for category in site.categories %}
   <label class="btn btn-default active" data-category="{{ category[0] | replace: '#', 'Sharp' }}">{{ category[0] }}</label>
 {% endfor %}
