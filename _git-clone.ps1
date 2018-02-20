@@ -1,1 +1,0 @@
-git clone https://github.com/polatengin/polatengin.github.io.git enginpolatcom

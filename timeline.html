@@ -1,0 +1,116 @@
+---
+layout: page
+title: "Timeline"
+date: 2018-02-01 10:00
+author: engin.polat
+group: navigation
+order: 4
+---
+<style>
+.timeline ul {
+  padding: 0;
+}
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 40px;
+  background: #282828;
+} 
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+.timeline ul li a::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.timeline ul li a {
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+  width: 300px;
+  padding: 0;
+  background: #86ab08;
+}
+.timeline ul li:nth-child(odd) a {
+  left: 45px;
+}
+.timeline ul li:nth-child(odd) a::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #86ab08 transparent transparent;
+}
+.timeline ul li:nth-child(even) a {
+  left: -345px;
+}
+.timeline ul li:nth-child(even) a::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #86ab08;
+}
+.timeline ul li a time {
+  display: block;
+  background-color: #4f6605;
+  padding: 5px;
+}
+.timeline ul li a span {
+  display: block;
+  padding: 5px;
+}
+.timeline ul li::after {
+  background: #86ab08;
+}
+@media screen and (max-width: 900px) {
+  .timeline ul li a {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) a {
+    left: -289px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+   
+  .timeline ul li a {
+    width: calc(100vw - 91px);
+  }
+   
+  .timeline ul li:nth-child(even) a {
+    left: 45px;
+  }
+   
+  .timeline ul li:nth-child(even) a::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+  }
+}
+</style>
+<section class="timeline">
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">
+        <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+        <span>{{ post.title }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
