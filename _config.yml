@@ -2,7 +2,7 @@ paginate: 5
 paginate_path: "/page/:num/"
 permalink: /:title/
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "changelog.md", "Gemfile", "Gemfile.lock", "LICENSE", "assets/images.psd", "run.ps1", "git-clone.ps1", "wordpress.xml"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "changelog.md", "Gemfile", "Gemfile.lock", "LICENSE", "assets/images.psd", "run.ps1", "git-clone.ps1", "wordpress.xml", "CNAME", "CODE_OF_CONDUCT.md", "CONTRIBUTING.md"]
 
 title : Programcıdan Programcıya
 tagline: Bir programcının dünyası...
