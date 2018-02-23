@@ -5,7 +5,7 @@ date: 2017-09-21 16:15
 author: engin.polat
 comments: true
 category: [Windows]
-tags: [uwp]
+tags: [uwp, windows, sdk, applicationmodel, resources, core, namespace, resourcecontext, userprofile, globalizationpreferences, getforcurrentview, languages, bcp47, globalization, cultureinfo, currentculture]
 ---
 Bir **UWP** projesinde, bilgisayarın hangi dil ile kullanıldığını bulmak ve bu dile göre bir takım değişiklikler yapmak gerekebilir.
 
