@@ -5,7 +5,7 @@ date: 2017-06-27 12:15
 author: engin.polat
 comments: true
 category: [C#]
-tags: [csharp, array, jagged, multidimensional]
+tags: [csharp, array, jagged, multidimensional, new, int, getlength, method, class, index, rank, length, static, il, clr]
 ---
 Birkaç hafta önce *email* üzerinden aldığım bir soruyu cevaplamaya çalışacağım.
 
@@ -52,8 +52,8 @@ Doğal olarak, *multi* değişkeninin herhangi bir öğesine erişmek, { *1.raka
 Bir değere erişmek için **Jagged Array** değişkenler, şu şekilde davranır;
 
 <ul>
-<li>Önce, *10* öğeli dizinin *3* indexli elemanını bul</li>
-<li>Sonra, *30* öğeli bir dizi olan bu elemanın *6* indexli elemanını bul</li>
+<li>Önce, <em>10</em> öğeli dizinin <em>3</em> indexli elemanını bul</li>
+<li>Sonra, <em>30</em> öğeli bir dizi olan bu elemanın <em>6</em> indexli elemanını bul</li>
 </ul>
 
 Yani, bir elemana ulaşabilmek için, her zaman *2* adımlı yol izlemek gerekiyor.
