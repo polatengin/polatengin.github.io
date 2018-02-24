@@ -9,8 +9,6 @@ tags: [action, add, bknyv, class, console, delegate, foreach, generic, list, msd
 ---
 Aşağıdaki kod sayesinde ekrana, *listedeki isimleri* **küçük harflerle** yazdırmak istiyorsunuz.
 
-
-
 using System;
 using System.Collections.Generic;
 
@@ -43,22 +41,12 @@ public class EkranaYazdir
     }
 }
 
-
 **MSDN**'de [List&lt;T&gt;.ForEach()](http://msdn.microsoft.com/library/bwabdf9z.aspx) sayfasında;
 
+*Orjinali;* Performs the specified *action* on each element of the List.
 
-
->*Orjinali;* Performs the specified *action* on each element of the List.
-
-
-
-
-
->*Türkçesi;* Listedeki her eleman için belirlenmiş *action* çalıştırır.
-
-
+*Türkçesi;* Listedeki her eleman için belirlenmiş *action* çalıştırır.
 
 yazısını okudunuz, ve kodun doğru çalışmasını bekliyorsunuz.
 
 Fakat istediğiniz gibi çalışmıyor, sizce **problem nedir** ve **nasıl düzeltilebilir**?
-

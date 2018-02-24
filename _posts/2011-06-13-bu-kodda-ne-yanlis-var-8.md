@@ -9,17 +9,15 @@ tags: [array, bknyv, function, int, performance, performans, public, struct]
 ---
 Çalıştığımız proje’de, aşağıda tanımı verilmiş **struct**'tan *1000* tane üretip geri döndüren bir **fonksiyon** yazmamız gerekiyor;
 
-
-
 struct Boyut
 {
     public int Genislik;
     public int Yukseklik;
-}</pre>
+}
 
 **Proje Liderine** yazdığımız kodu gösteriyoruz. Kod çalışırken hiçbir **hata üretmemesine** rağmen, kodu *değiştirmemizi* istiyor.
 
-<pre class="brush:csharp">private Boyut[] BoyutlarListesi()
+private Boyut[] BoyutlarListesi()
 {
     Boyut[] boyutlar = new Boyut[1000];
 
@@ -29,10 +27,8 @@ struct Boyut
     }
 
     return boyutlar;
-}</pre>
+}
 
 Sizce neden böyle bir istekte bulunmuş olabilir?
 
 *İpucu : Proje Lideri performans takıntısı olan eski bir programcı*
-
-

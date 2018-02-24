@@ -7,13 +7,11 @@ comments: true
 category: [C#]
 tags: [bknyv, buffer, byte, close, compress, compression, compressionmode, create, decompress, file, file.open, filemode, filestream, finally, gzipstream, method, open, public, static, stream, stringt, void, while]
 ---
-Geliştirmekte olduğumuz bir projede *C:\* sürücüsünde bulunan *OnemliDosya.xls* dosyasını **sıkışırmamız** ve *OnemliDosya.zip* dosyasını **oluşturmamız** istendi.
+Geliştirmekte olduğumuz bir projede *C:\\* sürücüsünde bulunan *OnemliDosya.xls* dosyasını **sıkışırmamız** ve *OnemliDosya.zip* dosyasını **oluşturmamız** istendi.
 
 Hemen arkasından sıkıştırdığımız dosyayı **açmamız** ve *OnemliDosya.Yeni.xls* dosyasını **oluşturmamız** bekleniyor.
 
 Aşağıdaki method'ları bu görev için yazdık;
-
-
 
 public static void Compress(string ZiplenecekDosyaAdi, string ZipDosyaAdi)
 {
@@ -54,15 +52,13 @@ public static void Decompress(string ZiplenecekDosyaAdi, string ZipDosyaAdi)
         Output.Close();
         Input.Close();
     }
-}</pre>
+}
 
 Yazdığımız method'ları aşağıdaki gibi kullanıyoruz;
 
-<pre class="brush:csharp">Compress("C:\\OnemliDosya.xls", "C:\\OnemliDosya.zip");
+Compress("C:\\OnemliDosya.xls", "C:\\OnemliDosya.zip");
 Decompress("C:\\OnemliDosya.zip", "C:\\OnemliDosya.Yeni.xls");
-
 
 Kodumuzdan emin olmamıza rağmen, çalışmadığını farkediyoruz.
 
 Sizce **problem nedir** ve **nasıl düzeltilebilir**?
-
