@@ -3,10 +3,10 @@ layout: default
 ---
 <h2>{{ page.title }}</h2>
 <div class="info">
-  <a class="btnz share facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}">Facebook Paylaş</a>
-  <a class="btnz share twitter" target="_blank" href="https://twitter.com/home?status={{ site.url }}{{ page.url }}">Twitter Paylaş</a>
-  <a class="btnz share linkedin" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}">LinkedIn Paylaş</a>
-  <a class="btnz share github" target="_blank" href="https://github.com/{{ site.author.github }}/polatengin.github.io/blob/master/_posts/{{ page.date | date: "%Y-%m-%d" }}-{{ page.url | replace: '/', '' }}.md">Github Üzerinden Katkıda Bulun</a>
+  <a rel="noopener" class="btnz share facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}">Facebook Paylaş</a>
+  <a rel="noopener" class="btnz share twitter" target="_blank" href="https://twitter.com/home?status={{ site.url }}{{ page.url }}">Twitter Paylaş</a>
+  <a rel="noopener" class="btnz share linkedin" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}">LinkedIn Paylaş</a>
+  <a rel="noopener" class="btnz share github" target="_blank" href="https://github.com/{{ site.author.github }}/polatengin.github.io/blob/master/_posts/{{ page.date | date: "%Y-%m-%d" }}-{{ page.url | replace: '/', '' }}.md">Github Üzerinden Katkıda Bulun</a>
   <div class="btnz calendar">
     <span class="calendar-icon"></span>
     <span>{{ page.date | date: "%d" }} {% assign m = page.date | date: "%-m" %}{% case m %}{% when '1' %}Ocak {% when '2' %}Şubat {% when '3' %}Mart {% when '4' %}Nisan {% when '5' %}Mayıs {% when '6' %}Haziran {% when '7' %}Temmuz {% when '8' %}Ağustos {% when '9' %}Eylül {% when '10' %}Ekim {% when '11' %}Kasım {% when '12' %}Aralık {% endcase %}{{ page.date | date: "%Y" }}</span>
