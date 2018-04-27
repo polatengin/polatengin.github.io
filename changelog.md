@@ -5,3 +5,6 @@
   * Blog teması `Bootstrap` ile güncellendi
   * Yayınlanmayı bekleyen `makaleler` yayına alındı
   * Gerçekleştirilen etkinliklerin `makaleleri` yayına alındı
+
+### v0.0.6 (2018-04-25)
+  * Web sitesi PWA uygulaması haline getirildi
