@@ -13,7 +13,7 @@ layout: compress
   <meta name="msapplication-TileColor" content="#86ab08" />
   <meta name="theme-color" content="#86ab08" />
   <title>{{ page.title }}</title>
-  <link rel="canonical" href="/" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
   <link rel="search" type="application/opensearchdescription+xml" title="{{ site.author.name }} Blog Arama" href="/searchdefinition.xml" />
   <meta name="description" content="{{ page.description }}" />
   <meta name="author" content="{{ site.author.name }}" />
