@@ -7,9 +7,9 @@ comments: true
 category: [Programlama]
 tags: [api, applicationbar, applicationbariconbutton, azure, binding, bing, bingsearchcontainer, dataservicequery, datatemplate, dispatcher, image, inputscope, itemtemplate, longlistselector, margin, marketplace, nuget, orientation, phoneapplicationpage, progressindicator, sdk, search, selectionchanged, setprogressindicator, stackpanel, staticresource, systemtray, textblock, textbox, uri, urikind, webbrowsertask, webresult, windows phone, windowsphone, wp8]
 ---
-**Windows Phone** uygulamamıza internetten *arama* özelliği eklememiz gerektiği durumda, <a href="http://www.bing.com/" title="Bing" target="_blank">Bing</a> arama motorunun **API** desteği olduğu için bunu yapabilmemiz çok zor olmayacaktır.
+**Windows Phone** uygulamamıza internetten *arama* özelliği eklememiz gerektiği durumda, <a href="http://www.bing.com/" title="Bing" target="_blank" rel="noopener">Bing</a> arama motorunun **API** desteği olduğu için bunu yapabilmemiz çok zor olmayacaktır.
 
-<a href="https://datamarket.azure.com/" title="Windows Azure Marketplace" target="_blank">Windows Azure Markeplace</a> üzerinden erişebileceğiniz <a href="https://datamarket.azure.com/dataset/bing/searchweb" title="Bing Search API - Web Results Only" target="_blank">Bing Search API - Web Results Only</a> *API* sayfasından **Bing Web Search API** kullanım bilgilerine erişebiliriz, gerekli yetkiyi alabiliriz.
+<a href="https://datamarket.azure.com/" title="Windows Azure Marketplace" target="_blank" rel="noopener">Windows Azure Markeplace</a> üzerinden erişebileceğiniz <a href="https://datamarket.azure.com/dataset/bing/searchweb" title="Bing Search API - Web Results Only" target="_blank" rel="noopener">Bing Search API - Web Results Only</a> *API* sayfasından **Bing Web Search API** kullanım bilgilerine erişebiliriz, gerekli yetkiyi alabiliriz.
 
 İlk olarak *Sign In* linkine tıklayarak oturum açalım ve aylık *5000* aramayı ücretsiz yapabilmemize olanak sağlayacak *Sign Up* butonuna tıklayarak gerekli yetkiyi alalım.
 
@@ -67,24 +67,24 @@ Gelelim **Windows Phone 8** projemize;
 
 &lt;/phone:PhoneApplicationPage&gt;</pre>
 
-Bir <a href="http://msdn.microsoft.com/library/system.windows.controls.stackpanel" title="StackPanel Class" target="_blank">StackPanel</a> içerisine *Bing* logosu ve arama kelimesinin girileceği <a href="http://msdn.microsoft.com/library/system.windows.controls.textbox" title="TextBox Class" target="_blank">TextBox</a> nesnesini ekliyoruz;
+Bir <a href="http://msdn.microsoft.com/library/system.windows.controls.stackpanel" title="StackPanel Class" target="_blank" rel="noopener">StackPanel</a> içerisine *Bing* logosu ve arama kelimesinin girileceği <a href="http://msdn.microsoft.com/library/system.windows.controls.textbox" title="TextBox Class" target="_blank" rel="noopener">TextBox</a> nesnesini ekliyoruz;
 
 <pre class="brush:csharp">&lt;StackPanel Orientation="Horizontal" Margin="10,0,0,0"&gt;
     &lt;Image Source="/Assets/bing-logo.png" Width="120" Height="45" /&gt;
     &lt;TextBox Name="SearchKey" Width="350" InputScope="Search" KeyUp="SearchKey_OnKeyUp" /&gt;
 &lt;/StackPanel&gt;</pre>
 
-*SearchKey* isimli **TextBox** nesnesinin <a href="http://msdn.microsoft.com/library/system.windows.controls.textbox.inputscope" title="TextBox.InputScope Property" target="_blank">InputScope</a> özelliğine <a href="http://msdn.microsoft.com/library/system.windows.input.inputscopenamevalue" title="InputScopeNameValue Enumeration" target="_blank">Search</a> değerini veriyoruz, böylece *TextBox*'a giriş yaparken klavye'de arama butonu gözüküyor olacak;
+*SearchKey* isimli **TextBox** nesnesinin <a href="http://msdn.microsoft.com/library/system.windows.controls.textbox.inputscope" title="TextBox.InputScope Property" target="_blank" rel="noopener">InputScope</a> özelliğine <a href="http://msdn.microsoft.com/library/system.windows.input.inputscopenamevalue" title="InputScopeNameValue Enumeration" target="_blank" rel="noopener">Search</a> değerini veriyoruz, böylece *TextBox*'a giriş yaparken klavye'de arama butonu gözüküyor olacak;
 
 ![](/assets/uploads/2013/08/BingSearchSample-3.png)
 
-Sayfaya <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.shell.applicationbar" title="ApplicationBar Class" target="_blank">ApplicationBar</a>, içerisine de <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.shell.applicationbariconbutton" title="ApplicationBarIconButton Class" target="_blank">ApplicationBarIconButton</a> ekliyoruz, icon olarak *feature.search.png* dosyasını kullanacağız.
+Sayfaya <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.shell.applicationbar" title="ApplicationBar Class" target="_blank" rel="noopener">ApplicationBar</a>, içerisine de <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.shell.applicationbariconbutton" title="ApplicationBarIconButton Class" target="_blank" rel="noopener">ApplicationBarIconButton</a> ekliyoruz, icon olarak *feature.search.png* dosyasını kullanacağız.
 
 **SDK** ile birlikte bilgisayarınıza yüklenen örnek *icon*'lara aşağıdaki yol ile ulaşabilirsiniz;
 
 <pre>C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Icons</pre>
 
-*Arama kutusuna* kelime girerken arama butonuna basıldığında veya **ApplicationBar**'daki arama butonuna basınca *Bing* üzerinde arama yapacağız, **TextBox**'ın <a href="http://msdn.microsoft.com/library/system.windows.uielement.keyup" title="UIElement.KeyUp Event" target="_blank">KeyUp</a> event'ini ve **ApplicationBarIconButton**'ın <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.shell.applicationbariconbutton.click" title="ApplicationBarIconButton.Click Event" target="_blank">Click</a> event'ini yakalıyoruz;
+*Arama kutusuna* kelime girerken arama butonuna basıldığında veya **ApplicationBar**'daki arama butonuna basınca *Bing* üzerinde arama yapacağız, **TextBox**'ın <a href="http://msdn.microsoft.com/library/system.windows.uielement.keyup" title="UIElement.KeyUp Event" target="_blank" rel="noopener">KeyUp</a> event'ini ve **ApplicationBarIconButton**'ın <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.shell.applicationbariconbutton.click" title="ApplicationBarIconButton.Click Event" target="_blank" rel="noopener">Click</a> event'ini yakalıyoruz;
 
 <pre class="brush:csharp">private void SearchKey_OnKeyUp(object sender, KeyEventArgs e)
 {
@@ -101,11 +101,11 @@ private void SearchButton_OnClick(object sender, EventArgs e)
 
 Asıl arama olayının döneceği *SearchBing()* method'unu yazmadan önce projemizde yapmamız gereken düzenlemeler var.
 
-Projenin **References**'ına sağ tuşla tıklayıp **Nuget Package Manager** penceresini açalım ve *Microsoft.Data.Services.Client* paketini aratalım, <a href="https://www.nuget.org/packages/Microsoft.Data.Services.Client.WindowsPhone" title="OData Client for Windows Phone Apps" target="_blank">OData Client for Windows Phone Apps</a> paketini projeye ekleyelim;
+Projenin **References**'ına sağ tuşla tıklayıp **Nuget Package Manager** penceresini açalım ve *Microsoft.Data.Services.Client* paketini aratalım, <a href="https://www.nuget.org/packages/Microsoft.Data.Services.Client.WindowsPhone" title="OData Client for Windows Phone Apps" target="_blank" rel="noopener">OData Client for Windows Phone Apps</a> paketini projeye ekleyelim;
 
 ![](/assets/uploads/2013/08/BingSearchSample-4.png)
 
-<a href="https://datamarket.azure.com/dataset/bing/searchweb" title="Bing Search API - Web Results Only" target="_blank">Bing Search API - Web Results Only</a> sayfasından bulabileceğiniz <a href="https://datamarket.azure.com/dataset/explore/getproxy/8818f55e-2fe5-4ce3-a617-0b8ba8419f65" title=".NET C# Class Library" target="_blank">.NET C# Class Library</a> class dosyasını indirip projeye ekliyoruz.
+<a href="https://datamarket.azure.com/dataset/bing/searchweb" title="Bing Search API - Web Results Only" target="_blank" rel="noopener">Bing Search API - Web Results Only</a> sayfasından bulabileceğiniz <a href="https://datamarket.azure.com/dataset/explore/getproxy/8818f55e-2fe5-4ce3-a617-0b8ba8419f65" title=".NET C# Class Library" target="_blank" rel="noopener">.NET C# Class Library</a> class dosyasını indirip projeye ekliyoruz.
 
 Gelelim *SearchBing()* method'una;
 
@@ -144,17 +144,17 @@ Gelelim *SearchBing()* method'una;
     }, query);
 }</pre>
 
-İlk olarak <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.shell.systemtray" title="SystemTray Class" target="_blank">SystemTray</a> sınıfının *static* <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.shell.systemtray.setprogressindicator" title="SystemTray.SetProgressIndicator Method" target="_blank">SetProgressIndicator</a> method'unu çağırıyoruz, böylece arama başladığında ekranın üstünde ilerleme çubuğu belirecek;
+İlk olarak <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.shell.systemtray" title="SystemTray Class" target="_blank" rel="noopener">SystemTray</a> sınıfının *static* <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.shell.systemtray.setprogressindicator" title="SystemTray.SetProgressIndicator Method" target="_blank" rel="noopener">SetProgressIndicator</a> method'unu çağırıyoruz, böylece arama başladığında ekranın üstünde ilerleme çubuğu belirecek;
 
 ![](/assets/uploads/2013/08/BingSearchSample-5.png)
 
-<a href="https://datamarket.azure.com/dataset/bing/searchweb" title="Bing Search API - Web Results Only" target="_blank">Bing Search API - Web Results Only</a> sayfasından elde edeceğiniz *AccountKey* ile **Bing Search Uri** oluşturuyoruz.
+<a href="https://datamarket.azure.com/dataset/bing/searchweb" title="Bing Search API - Web Results Only" target="_blank" rel="noopener">Bing Search API - Web Results Only</a> sayfasından elde edeceğiniz *AccountKey* ile **Bing Search Uri** oluşturuyoruz.
 
 **BingSearchContainer** sınıfından yeni bir *instance* oluşturup, *Web()* method'unu çağırıyoruz, parametre olarak arama kelimemizi veriyoruz.
 
-*BeginExecute()* method'u ile aramayı başlatıyoruz, gerekli kontrolleri yaptıktan sonra arama sonuç listesini **Dispatcher.BeginInvoke** içerisinde ekrandaki <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.controls.longlistselector" title="LongListSelector Class" target="_blank">LongListSelector</a> nesnesine bağlıyoruz.
+*BeginExecute()* method'u ile aramayı başlatıyoruz, gerekli kontrolleri yaptıktan sonra arama sonuç listesini **Dispatcher.BeginInvoke** içerisinde ekrandaki <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.controls.longlistselector" title="LongListSelector Class" target="_blank" rel="noopener">LongListSelector</a> nesnesine bağlıyoruz.
 
-Son olarak, **LongListSelector** içerisinde listelenen öğelerden birine tıklandığında ilgili adrese gitmesi için <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.controls.longlistselector.selectionchanged" title="LongListSelector.SelectionChanged Event" target="_blank">SelectionChanged</a> event'ini yakalıyoruz;
+Son olarak, **LongListSelector** içerisinde listelenen öğelerden birine tıklandığında ilgili adrese gitmesi için <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.controls.longlistselector.selectionchanged" title="LongListSelector.SelectionChanged Event" target="_blank" rel="noopener">SelectionChanged</a> event'ini yakalıyoruz;
 
 <pre class="brush:csharp">var item = SearchResultList.SelectedItem as WebResult;
 

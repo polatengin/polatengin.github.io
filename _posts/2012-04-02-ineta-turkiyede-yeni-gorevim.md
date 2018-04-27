@@ -7,9 +7,9 @@ comments: true
 category: [Etkinlik]
 tags: [etkinliklerim, ineta, seminer]
 ---
-Zaten konuşmacısı olduğum <a href="http://inetatr.org/" title="INETA Türkiye" target="_blank">INETA Türkiye</a> ekibinde, *01 Nisan 2012* tarihinden itibaren, **Teknik Topluluklar Yöneticisi** olarak yer almaya devam edeceğim.
+Zaten konuşmacısı olduğum <a href="http://inetatr.org/" title="INETA Türkiye" target="_blank" rel="noopener">INETA Türkiye</a> ekibinde, *01 Nisan 2012* tarihinden itibaren, **Teknik Topluluklar Yöneticisi** olarak yer almaya devam edeceğim.
 
-**INETA Türkiye** ekibinde yer alan diğer arkadaşlar için, <a href="http://inetatr.org/yonetim-kurulu" title="INETA Türkiye - Yönetim Kurulu" target="_blank">Yönetim Kurulu</a> sayfasına bakabilirsiniz.
+**INETA Türkiye** ekibinde yer alan diğer arkadaşlar için, <a href="http://inetatr.org/yonetim-kurulu" title="INETA Türkiye - Yönetim Kurulu" target="_blank" rel="noopener">Yönetim Kurulu</a> sayfasına bakabilirsiniz.
 
-Özellikle **INETA Türkiye Başkanı** <a href="http://www.muammerbenzes.com/" title="Muammer Benzeş" target="_blank">Muammer Benzeş</a>'e beni bu göreve uygun gördüğü için çok teşekkür ederim.
+Özellikle **INETA Türkiye Başkanı** <a href="http://www.muammerbenzes.com/" title="Muammer Benzeş" target="_blank" rel="noopener">Muammer Benzeş</a>'e beni bu göreve uygun gördüğü için çok teşekkür ederim.
 

@@ -7,7 +7,7 @@ comments: true
 category: [Windows]
 tags: [beta, in-app purchase, marketplace, tester, windows phone, windowsphone, wp8]
 ---
-Katıldığım <a href="http://www.enginpolat.com/etkinliklerim" title="Etkinliklerim" target="_blank">etkinliklerde</a>, <a href="http://twitter.com/polatengin" title="Twitter : Engin Polat" target="_blank">twitter</a> üzerinden ve mail adresime gönderilen sorulardan, *Windows Phone 8* için geliştirilen uygulamanın **beta test**'e açılmasına ilişkin olanları ve cevaplarını aşağıda toparlamaya çalıştım;
+Katıldığım <a href="http://www.enginpolat.com/etkinliklerim" title="Etkinliklerim" target="_blank" rel="noopener">etkinliklerde</a>, <a href="http://twitter.com/polatengin" title="Twitter : Engin Polat" target="_blank" rel="noopener">twitter</a> üzerinden ve mail adresime gönderilen sorulardan, *Windows Phone 8* için geliştirilen uygulamanın **beta test**'e açılmasına ilişkin olanları ve cevaplarını aşağıda toparlamaya çalıştım;
 
 **Beta olarak Windows Phone Marketplace'e gönderdiğim uygulama ne zamana kadar marketplace'de yer alır?**
 Gönderdiğiniz uygulama başarılı bir şekilde yayına girdikten sonra 90 gün boyunca marketplace'de yer alacaktır. Eğer hangi uygulamalarınızın beta test sürecinde olduğunu unutursanız her zaman developer hesabınızla giriş yapıp, uygulamalarım listesinden beta uygulamalarım seçeneğini işaretleyebilirsiniz

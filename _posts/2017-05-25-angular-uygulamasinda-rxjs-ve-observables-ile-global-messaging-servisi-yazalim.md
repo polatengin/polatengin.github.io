@@ -7,9 +7,9 @@ comments: true
 category: [Web]
 tags: [angular, typescript, rxjs, observable, class, injectable, global, event, service, instance, constructor, static, component, implements, pipe, pipetransform, json, subscribe]
 ---
-<div class="alert alert-success" role="alert" style="margin: 10px 0px; display: block;"> Bu makalenin kodlarına <strong>Github</strong> üzerinde <a href="https://github.com/polatengin" class="alert-link" target="_blank">polatengin</a> hesabımda yer alan <a href="https://github.com/polatengin/blog-codes/tree/master/angular-global-messaging-sample" class="alert-link" target="_blank">Global Messaging Sample</a> aracılığıyla erişebilirsiniz.</div>
+<div class="alert alert-success" role="alert" style="margin: 10px 0px; display: block;"> Bu makalenin kodlarına <strong>Github</strong> üzerinde <a href="https://github.com/polatengin" class="alert-link" target="_blank" rel="noopener">polatengin</a> hesabımda yer alan <a href="https://github.com/polatengin/blog-codes/tree/master/angular-global-messaging-sample" class="alert-link" target="_blank" rel="noopener">Global Messaging Sample</a> aracılığıyla erişebilirsiniz.</div>
 
-<mark><em>Bu makaleyi okumadan önce <a href="/etiketler/#angular-ref" target="_blank">Angular</a> etiketindeki diğer makalelerimi okumanızı tavsiye ederim.</em></mark>
+<mark><em>Bu makaleyi okumadan önce <a href="/etiketler/#angular-ref" target="_blank" rel="noopener">Angular</a> etiketindeki diğer makalelerimi okumanızı tavsiye ederim.</em></mark>
 
 Geçtiğimiz hafta *Yazılım Mimarı* olarak, çeşitli projelerine yardımcı olduğum bir müşteride yeni başladığımız **Angular** projesinde *global* bir *event* mekanizması kurgulamamız gerekti.
 
@@ -43,13 +43,13 @@ Bu servisin <code>Injectable()</code> olmasını sağladık, fakat hala <code>in
 
 <script src="https://gist.github.com/polatengin/b9d1a51a15989359e2db0297424fffaa.js?file=app.component.html"></script>
 
-Özellikle ikinci satırdaki kullanıma dikkat edelim. <code>message</code> değişkeni olduğu hali ile değil, <code>json</code> karşılığı ile ekrana gelecek. Bir değişkeni olduğu hali ile değil, bir takım değişikliklerin uygulandığı hali ile kullanmak için <a href="https://angular.io/api/core/PipeTransform" target="_blank">Angular PipeTransform</a> sınıfını kullanıyoruz.
+Özellikle ikinci satırdaki kullanıma dikkat edelim. <code>message</code> değişkeni olduğu hali ile değil, <code>json</code> karşılığı ile ekrana gelecek. Bir değişkeni olduğu hali ile değil, bir takım değişikliklerin uygulandığı hali ile kullanmak için <a href="https://angular.io/api/core/PipeTransform" target="_blank" rel="noopener">Angular PipeTransform</a> sınıfını kullanıyoruz.
 
 Son olarak, *app.component.ts* dosyasını açalım ve aşağıdaki şekilde güncelleyelim;
 
 <script src="https://gist.github.com/polatengin/b9d1a51a15989359e2db0297424fffaa.js?file=app.component.ts"></script>
 
-<code>AppComponent</code> *class*'ı <a href="https://angular.io/api/core/OnInit" target="_blank">OnInit</a> *interface*'ini *implemente* ediyor ve <code>ngOnInit()</code> methodu içerisinde <code>GlobalMessagingService</code> *class*'ının <code>GetInstance()</code> methodu aracılığı ile *instance*'ına ulaşıyor ve <code>messaging$</code> değişkeni aracılığı ile *global event*'e **subscribe** oluyor. Tek yaptığımız ise, *event* aracılığı ile gelen değeri <code>message</code> değişkenine atamak.
+<code>AppComponent</code> *class*'ı <a href="https://angular.io/api/core/OnInit" target="_blank" rel="noopener">OnInit</a> *interface*'ini *implemente* ediyor ve <code>ngOnInit()</code> methodu içerisinde <code>GlobalMessagingService</code> *class*'ının <code>GetInstance()</code> methodu aracılığı ile *instance*'ına ulaşıyor ve <code>messaging$</code> değişkeni aracılığı ile *global event*'e **subscribe** oluyor. Tek yaptığımız ise, *event* aracılığı ile gelen değeri <code>message</code> değişkenine atamak.
 
 <code>sendMessage()</code> methodunda ise <code>GlobalMessagingService</code> *class*'ının <code>GetInstance()</code> methodu aracılığı ile *instance*'ına ulaşıyor ve <code>broadcast()</code> methodunu istediğimiz bir parametre ile çağırıyoruz.
 

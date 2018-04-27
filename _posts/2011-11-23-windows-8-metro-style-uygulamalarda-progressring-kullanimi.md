@@ -9,7 +9,7 @@ tags: [center, collapsed, constructor, dispatchertimer, event, fontsize, fromsec
 ---
 Uygulamalarımızda *uzun süren işlemler* sırasında, kullanıcıya işlemin sürdüğünü göstermek için genellikle **yükleniyor** (*loading*) göstergeleri kullanırız.
 
-**Windows 8** için geliştirdiğimiz **Metro Style** uygulamalarda bu yeteneği uygulamamıza katmak için <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.progressring" title="ProgressRing Class" target="_blank">ProgressRing</a> sınıfından faydalanabiliriz.
+**Windows 8** için geliştirdiğimiz **Metro Style** uygulamalarda bu yeteneği uygulamamıza katmak için <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.progressring" title="ProgressRing Class" target="_blank" rel="noopener">ProgressRing</a> sınıfından faydalanabiliriz.
 
 Bu makalede uygulamanın açılışı esnasında bir *yükleniyor* (*loading*) göstergesi ekrana getireceğiz, *5 saniye* bekledikten sonra (*uygulamanın ihtiyaç duyacağı tüm modüllerin yüklenmesi 5 saniye sürecek diye varsayıyoruz*) **yükleniyor göstergesini** ekrandan kaldıracak ve *Gerekli Modüller Yüklendi* metnini ekranda göstereceğiz.
 
@@ -38,7 +38,7 @@ Proje oluşturulduğunda *MainPage.xaml* dosyasının içeriği;
 
 &lt;/UserControl&gt;</pre>
 
-Öncelikle <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.grid" title="Grid Control" target="_blank">Grid</a> elementi içerisine bir tane <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.progressring" title="ProgressRing Control" target="_blank">ProgressRing</a>, bir tane de <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock" title="TextBlock Control" target="_blank">TextBlock</a> nesnesi ekliyoruz;
+Öncelikle <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.grid" title="Grid Control" target="_blank" rel="noopener">Grid</a> elementi içerisine bir tane <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.progressring" title="ProgressRing Control" target="_blank" rel="noopener">ProgressRing</a>, bir tane de <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock" title="TextBlock Control" target="_blank" rel="noopener">TextBlock</a> nesnesi ekliyoruz;
 
 <pre class="brush:xml">&lt;ProgressRing x:Name="ProgressItem" HorizontalAlignment="Center" VerticalAlignment="Center" Width="240" Height="240" /&gt;
 
@@ -46,7 +46,7 @@ Proje oluşturulduğunda *MainPage.xaml* dosyasının içeriği;
 
 **ProgressRing** elementini ekranda yatay eksende (*HorizontalAlignment*) ve dikey eksende (*VerticalAlignment*) ortalıyoruz (*Center*), ayrıca genişlik (*Width*) ve yükseklik (*Height*) değerlerini de belirliyoruz (*240 px*).
 
-**TextBlock** elementini de ekranda yatay eksende (*HorizontalAlignment*) ve dikey eksende (*VerticalAlignment*) ortalıyoruz (*Center*), font boyutunu (*FontSize*) ayarlıyoruz (*22 px*), ekranda gözükmemesi için <a href="http://msdn.microsoft.com/library/system.windows.uielement.visibility" title="Visibility Property" target="_blank">Visibility</a> özelliğine <a href="http://msdn.microsoft.com/library/system.windows.visibility" title="Visibility Enumeration" target="_blank">Collapsed</a> değerini veriyoruz.
+**TextBlock** elementini de ekranda yatay eksende (*HorizontalAlignment*) ve dikey eksende (*VerticalAlignment*) ortalıyoruz (*Center*), font boyutunu (*FontSize*) ayarlıyoruz (*22 px*), ekranda gözükmemesi için <a href="http://msdn.microsoft.com/library/system.windows.uielement.visibility" title="Visibility Property" target="_blank" rel="noopener">Visibility</a> özelliğine <a href="http://msdn.microsoft.com/library/system.windows.visibility" title="Visibility Enumeration" target="_blank" rel="noopener">Collapsed</a> değerini veriyoruz.
 
 **HorizontalAlignment** özelliğine verilebilecek değerler;
 
@@ -79,13 +79,13 @@ Proje oluşturulduğunda *MainPage.xaml* dosyasının içeriği;
 
 ![](/assets/uploads/2011/11/ProgressRing-1.png "Metro Style Application - ProgressRing Form")
 
-*5 saniye* gecikme sağlayıp, istediğimiz işi yapacak kodu yazmaya başlayalım. Bu iş için <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.dispatchertimer" title="DispatcherTimer Class" target="_blank">DispatcherTimer</a> sınıfını kullanacağız.
+*5 saniye* gecikme sağlayıp, istediğimiz işi yapacak kodu yazmaya başlayalım. Bu iş için <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.dispatchertimer" title="DispatcherTimer Class" target="_blank" rel="noopener">DispatcherTimer</a> sınıfını kullanacağız.
 
-<a href="http://msdn.microsoft.com/library/system.timespan" title="TimeSpan Class" target="_blank">TimeSpan</a> tipinde <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.dispatchertimer.interval" title="DispatcherTimer Interval Property" target="_blank">Interval</a> özelliğine *5 saniye* gecikme sağlayacak *TimeSpan.FromSeconds(5)* değerini veriyoruz;
+<a href="http://msdn.microsoft.com/library/system.timespan" title="TimeSpan Class" target="_blank" rel="noopener">TimeSpan</a> tipinde <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.dispatchertimer.interval" title="DispatcherTimer Interval Property" target="_blank" rel="noopener">Interval</a> özelliğine *5 saniye* gecikme sağlayacak *TimeSpan.FromSeconds(5)* değerini veriyoruz;
 
 <pre class="brush:csharp">timer.Interval = TimeSpan.FromSeconds(5);</pre>
 
-**DispatcherTimer** nesnesinin <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.dispatchertimer.tick" title="DispatcherTimer Tick Event" target="_blank">Tick</a> olayını yakalayıp, **ProgressRing** nesnesini ekrandan gizlemeli, **TextBlock** nesnesini ekranda göstermeliyiz;
+**DispatcherTimer** nesnesinin <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.dispatchertimer.tick" title="DispatcherTimer Tick Event" target="_blank" rel="noopener">Tick</a> olayını yakalayıp, **ProgressRing** nesnesini ekrandan gizlemeli, **TextBlock** nesnesini ekranda göstermeliyiz;
 
 <pre class="brush:csharp">timer.Tick += delegate(object sender, object e)
 {
@@ -96,7 +96,7 @@ Proje oluşturulduğunda *MainPage.xaml* dosyasının içeriği;
 };
 
 
-Son olarak, **DispatcherTimer** nesnesinin <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.dispatchertimer.start" title="DispatcherTimer Start Method" target="_blank">Start()</a> method'unu kullanarak, *5 saniyelik* süreci başlatıyoruz.
+Son olarak, **DispatcherTimer** nesnesinin <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.dispatchertimer.start" title="DispatcherTimer Start Method" target="_blank" rel="noopener">Start()</a> method'unu kullanarak, *5 saniyelik* süreci başlatıyoruz.
 
 **DispatcherTimer** nesnesinin **Interval** özelliğinde belirlediğimiz süre dolduğunda *Gerekli Modüller Yüklendi* mesajı ekranda belirecek;
 

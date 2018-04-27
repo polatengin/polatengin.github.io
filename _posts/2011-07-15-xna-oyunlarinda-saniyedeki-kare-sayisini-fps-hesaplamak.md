@@ -21,11 +21,11 @@ Hemen her oyun’da, *saniyede çizilen ekran sayısı* (**FPS** - **Frame Per S
 
 ***Oyunlarımızda FPS nasıl hesaplarız?***
 
-Formül aslında basit, <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.game.draw" target="_blank">Draw()</a> method’unda bir değişkenin değerini *1 arttıracağız*. <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.game.update" target="_blank">Update()</a> method’unda her saniye geçişinde değişkeni *sıfırlayacağız*.
+Formül aslında basit, <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.game.draw" target="_blank" rel="noopener">Draw()</a> method’unda bir değişkenin değerini *1 arttıracağız*. <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.game.update" target="_blank" rel="noopener">Update()</a> method’unda her saniye geçişinde değişkeni *sıfırlayacağız*.
 
 ***FPS bilgisini ekranda nasıl gösteririz?***
 
-<a href="http://msdn.microsoft.com/library/microsoft.xna.framework.game.draw" target="_blank">Draw()</a> method’unda değişkenin değerini ekranda gösterirsek, bir saniye içerisinde kaç defa <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.game.update" target="_blank">Update()</a> method’unun çalıştırıldığını, yani *saniyedeki ekran sayısını* (**FPS**) göstermiş oluruz.
+<a href="http://msdn.microsoft.com/library/microsoft.xna.framework.game.draw" target="_blank" rel="noopener">Draw()</a> method’unda değişkenin değerini ekranda gösterirsek, bir saniye içerisinde kaç defa <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.game.update" target="_blank" rel="noopener">Update()</a> method’unun çalıştırıldığını, yani *saniyedeki ekran sayısını* (**FPS**) göstermiş oluruz.
 
 Şimdi yazacağımız örnek projede, klavyeden *boşluk* (*space*) tuşuna basıldığında **FPS** bilgisini ekranda göstereceğiz, tekrar basıldığında gizleyeceğiz.
 
@@ -57,7 +57,7 @@ if (DetayGoster &amp;&amp; gameTime.TotalGameTime.Milliseconds == 0)
 
 pks = ks;</pre>
 
-Oyun penceresinde yazı gösterebilmek için, <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.graphics.spritefont" target="_blank">SpriteFont</a> sınıfından bir değişkene ihtiyacımız olacak.
+Oyun penceresinde yazı gösterebilmek için, <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.graphics.spritefont" target="_blank" rel="noopener">SpriteFont</a> sınıfından bir değişkene ihtiyacımız olacak.
 
 <pre class="brush:csharp">SpriteFont Arial;</pre>
 
@@ -82,7 +82,7 @@ Oyun penceresinde yazı gösterebilmek için, <a href="http://msdn.microsoft.com
   &lt;/Asset&gt;
 &lt;/XnaContent&gt;</pre>
 
-<a href="http://msdn.microsoft.com/library/microsoft.xna.framework.game.loadcontent" target="_blank">LoadContent()</a> method’unda Arial değişkenimize değer atayalım;
+<a href="http://msdn.microsoft.com/library/microsoft.xna.framework.game.loadcontent" target="_blank" rel="noopener">LoadContent()</a> method’unda Arial değişkenimize değer atayalım;
 
 <pre class="brush:csharp">Arial = Content.Load("Arial");</pre>
 
@@ -104,5 +104,5 @@ Artık oyun penceremizde *saniyedeki ekran sayısını* (**FPS**) gösterebiliri
 
 ![XNA Oyun Programlama - FPS Hesaplama Sonucu](/assets/uploads/2011/07/FPSGameScreen.png "XNA Oyun Programlama - FPS Hesaplama Sonucu")
 
-<a href="/assets/uploads/2011/07/FPSOrnek.rar" target="_blank">Oyunun kodlarını</a> indirmek için tıklayınız.
+<a href="/assets/uploads/2011/07/FPSOrnek.rar" target="_blank" rel="noopener">Oyunun kodlarını</a> indirmek için tıklayınız.
 

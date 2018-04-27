@@ -13,7 +13,7 @@ Bilgisayara kurduğumuz her program bilgisayarın **Registry**'sine kurulum ile 
 
 ***Bilmeyenler için not:** Registry'yi açmak için komut satırına **regedit** yazmanız yeterli.*
 
-**Registry** ile ilgili daha detaylı bilgi için <a title="MSDN: Registry" href="http://msdn.microsoft.com/en-us/library/ms724871(VS.85).aspx" target="_blank">MSDN: Registry</a> sayfasına bakmanızı tavsiye ederim.
+**Registry** ile ilgili daha detaylı bilgi için <a title="MSDN: Registry" href="http://msdn.microsoft.com/en-us/library/ms724871(VS.85).aspx" target="_blank" rel="noopener">MSDN: Registry</a> sayfasına bakmanızı tavsiye ederim.
 
 **Registry**'nin *LocalMachine\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall* dalında, bilgisayara kurulu olan uygulamalara ve bu uygulamalar ile ilgili bilgilere ulaşılabilir.
 

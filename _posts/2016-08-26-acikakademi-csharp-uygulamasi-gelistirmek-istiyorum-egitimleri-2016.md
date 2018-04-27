@@ -7,9 +7,9 @@ comments: true
 category: [C#]
 tags: [acikakademi, class, csharp, datetime, değişken, enum, for, foreach, if, int, list, method, project, property, string, switch, variable, video, visual studio]
 ---
-<a href="http://www.acikakademi.com/" target="_blank">AçıkAkademi</a> üzerinde yayınlanan 16 video'luk **C# uygulama geliştirme** eğitim seti yayına alındı.
+<a href="http://www.acikakademi.com/" target="_blank" rel="noopener">AçıkAkademi</a> üzerinde yayınlanan 16 video'luk **C# uygulama geliştirme** eğitim seti yayına alındı.
 
-Sevgili arkadaşım *Bora Kaşmer* ile hazırladığımız eğitim setini sizler de <a href="https://www.acikakademi.com/portal/egitimler/csharp-uygulama-gelistirme.aspx" target="_blank">C# uygulaması geliştirmek istiyorum</a> başlıklı **AçıkAkademi** sayfasından izleyebilirsiniz. Eğitim konu listesi;
+Sevgili arkadaşım *Bora Kaşmer* ile hazırladığımız eğitim setini sizler de <a href="https://www.acikakademi.com/portal/egitimler/csharp-uygulama-gelistirme.aspx" target="_blank" rel="noopener">C# uygulaması geliştirmek istiyorum</a> başlıklı **AçıkAkademi** sayfasından izleyebilirsiniz. Eğitim konu listesi;
 
 *   Açılış
 *   C# Hakkında

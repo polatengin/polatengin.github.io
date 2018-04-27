@@ -44,11 +44,11 @@ Proje oluşturduktan sonra gelen **Windows Phone Platform** versiyon seçim penc
 &lt;/Grid&gt;
 
 
-<a href="http://msdn.microsoft.com/library/ms750950" title="StaticResource Markup Extension" target="_blank">StaticResource</a> olarak kullanabileceğimiz **ThemeStyle**'ların ve **TextStyle**'ların listesine *MSDN*'de yer alan <a href="http://msdn.microsoft.com/library/ff769552" title="Theme Resources for Windows Phone" target="_blank">Theme Resources for Windows Phone</a> sayfasından erişebiliriz.
+<a href="http://msdn.microsoft.com/library/ms750950" title="StaticResource Markup Extension" target="_blank" rel="noopener">StaticResource</a> olarak kullanabileceğimiz **ThemeStyle**'ların ve **TextStyle**'ların listesine *MSDN*'de yer alan <a href="http://msdn.microsoft.com/library/ff769552" title="Theme Resources for Windows Phone" target="_blank" rel="noopener">Theme Resources for Windows Phone</a> sayfasından erişebiliriz.
 
 Uygulamayı çalıştırdığımızda aşağıdaki ekran görüntüsünü görüyor olmamız lazım;
 
 ![Text Styles Windows Phone 8 Application](/assets/uploads/2012/12/TextStyles3.png)
 
-Projenin kodlarını <a href="/assets/uploads/2012/12/TextStyles.rar" title="Text Styles Windows Phone 8 Application Kaynak Kodlar" target="_blank">buradan</a> indirebilirsiniz.
+Projenin kodlarını <a href="/assets/uploads/2012/12/TextStyles.rar" title="Text Styles Windows Phone 8 Application Kaynak Kodlar" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 

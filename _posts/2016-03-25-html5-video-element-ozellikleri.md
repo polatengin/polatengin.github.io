@@ -9,7 +9,7 @@ tags: [autoplay, charset, controls, doctype, height, html, html5, loop, meta, me
 ---
 Web sayfalarında *multimedia* oynatmak için **HTML5** ile yeni birkaç element ve *Javascript API* hayatımıza girdi.
 
-Bu makalede **HTML5** ile yeni gelen *&lt;video&gt;* element'ini inceleyeceğiz. Hemen yeni bir **html** sayfası oluşturalım ve <a href="http://www.w3schools.com/tags/tag_video.asp" target="_blank">video</a> elementini incelemeye başlayalım.
+Bu makalede **HTML5** ile yeni gelen *&lt;video&gt;* element'ini inceleyeceğiz. Hemen yeni bir **html** sayfası oluşturalım ve <a href="http://www.w3schools.com/tags/tag_video.asp" target="_blank" rel="noopener">video</a> elementini incelemeye başlayalım.
 
 **Visual Studio Code** editörünü açalım ve istediğimiz dizinde *video.html* dosyasını oluşturalım, içerisine en temel **HTML5** kodlarını aşağıdaki gibi ekleyelim;
 

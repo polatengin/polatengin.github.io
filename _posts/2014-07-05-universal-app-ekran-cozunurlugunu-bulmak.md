@@ -9,7 +9,7 @@ tags: [bounds, displayinformation, getforcurrentview, height, messagedialog, raw
 ---
 **Windows Store** ve **Windows Phone** için tek bir uygulama geliştiriyorsunuz (*Universal App*) ve uygulamanın çalıştığı cihazın ekran çözünürlüğünü bulmanız gerekiyor.
 
-Öncelikle <a href="http://msdn.microsoft.com/library/windows.graphics.display" title="Windows.Graphics.Display namespace" target="_blank">Windows.Graphics.Display</a> *namespace*'inde yeralan <a href="http://msdn.microsoft.com/library/windows.graphics.display.displayinformation" title="DisplayInformation class" target="_blank">DisplayInformation</a> sınıfının <a href="http://msdn.microsoft.com/library/windows.graphics.display.displayinformation.rawpixelsperviewpixel" title="DisplayInformation.RawPixelsPerViewPixel property" target="_blank">RawPixelsPerViewPixel</a> *property*'sinin değerini okuyalım;
+Öncelikle <a href="http://msdn.microsoft.com/library/windows.graphics.display" title="Windows.Graphics.Display namespace" target="_blank" rel="noopener">Windows.Graphics.Display</a> *namespace*'inde yeralan <a href="http://msdn.microsoft.com/library/windows.graphics.display.displayinformation" title="DisplayInformation class" target="_blank" rel="noopener">DisplayInformation</a> sınıfının <a href="http://msdn.microsoft.com/library/windows.graphics.display.displayinformation.rawpixelsperviewpixel" title="DisplayInformation.RawPixelsPerViewPixel property" target="_blank" rel="noopener">RawPixelsPerViewPixel</a> *property*'sinin değerini okuyalım;
 
 
 
@@ -20,7 +20,7 @@ var rawPixelPerView = DisplayInformation.GetForCurrentView().RawPixelsPerViewPix
 <pre class="brush:csharp">var width = Window.Current.Bounds.Width * rawPixelPerView;
 var height = Window.Current.Bounds.Height * rawPixelPerView;</pre>
 
-Hesapladığımız ekran çözünürlüğünü bir <a href="http://msdn.microsoft.com/library/Windows/apps/windows.ui.popups.messagedialog" title="MessageDialog class" target="_blank">MessageDialog</a> aracılığı ile kullanıcıya göstermek için <a href="http://msdn.microsoft.com/library/Windows/apps/windows.ui.popups.messagedialog.showasync" title="MessageDialog.ShowAsync method" target="_blank">ShowAsync()</a> methodunu kullanıyoruz;
+Hesapladığımız ekran çözünürlüğünü bir <a href="http://msdn.microsoft.com/library/Windows/apps/windows.ui.popups.messagedialog" title="MessageDialog class" target="_blank" rel="noopener">MessageDialog</a> aracılığı ile kullanıcıya göstermek için <a href="http://msdn.microsoft.com/library/Windows/apps/windows.ui.popups.messagedialog.showasync" title="MessageDialog.ShowAsync method" target="_blank" rel="noopener">ShowAsync()</a> methodunu kullanıyoruz;
 
 <pre class="brush:csharp">var dialog = new MessageDialog(string.Format("Çözünürlük: {0} * {1}", width, height);
 dialog.ShowAsync();

@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [api, arama, arraylist, code, csharp, hashtable, json, search, source, twitter]
 ---
-Bu yazımda, <a title="Twitter" href="http://www.twitter.com" target="_blank">Twitter</a>'da arama yapan bir uygulama yazacağım. Siz de yazıyı baştan sona takip ederek, kendi twitter arama uygulamanızı yazabilirsiniz.
+Bu yazımda, <a title="Twitter" href="http://www.twitter.com" target="_blank" rel="noopener">Twitter</a>'da arama yapan bir uygulama yazacağım. Siz de yazıyı baştan sona takip ederek, kendi twitter arama uygulamanızı yazabilirsiniz.
 
 Hemen ekran tasarımımızı yapmakla işe başlayalım;
 
@@ -23,9 +23,9 @@ Sayfadaki elemanlar;
 *   txtArama
 *   btnArama
 *   flowLayoutPanel1
-Öncelikle <a title="Twitter: Search API" href="http://apiwiki.twitter.com/Twitter-API-Documentation" target="_blank">Twitter Search API</a>'sini inceleyelim;
+Öncelikle <a title="Twitter: Search API" href="http://apiwiki.twitter.com/Twitter-API-Documentation" target="_blank" rel="noopener">Twitter Search API</a>'sini inceleyelim;
 
-<a title="Twitter: Search API Search Method" href="http://apiwiki.twitter.com/Twitter-Search-API-Method%3A-search" target="_blank">Search fonksiyonu</a> geriye <a title="JSON" href="http://www.json.org/" target="_blank">JSON</a> formatında bilgi döndürüyor. Uygulamalarınızda JSON verilerini kullanabilmek için, <a title="JSON Class" href="http://techblog.procurios.nl/k/618/news/view/14605/14863/How-do-I-write-my-own-parser-for-JSON.html" target="_blank">şu sayfadan</a> bulabileceğiniz JSON parser class'ını kullanabilirsiniz.
+<a title="Twitter: Search API Search Method" href="http://apiwiki.twitter.com/Twitter-Search-API-Method%3A-search" target="_blank" rel="noopener">Search fonksiyonu</a> geriye <a title="JSON" href="http://www.json.org/" target="_blank" rel="noopener">JSON</a> formatında bilgi döndürüyor. Uygulamalarınızda JSON verilerini kullanabilmek için, <a title="JSON Class" href="http://techblog.procurios.nl/k/618/news/view/14605/14863/How-do-I-write-my-own-parser-for-JSON.html" target="_blank" rel="noopener">şu sayfadan</a> bulabileceğiniz JSON parser class'ını kullanabilirsiniz.
 
 Şimdi, butonların (btnArama, btnGeri, btnIleri) Click olayını yazalım;
 
@@ -65,9 +65,9 @@ Butonların **Click** olaylarının kalbinde *AramaYap()* methodu yatıyor. Heme
 
 Daha sonra, **Twitter Search API**'den öğrendiğimiz gibi, http://search.twitter.com/search.json adresine uygun parametreler ile sorgu atıyoruz.
 
-Gelen bilgi **JSON** formatında olduğu için, JSON parser class'ımızı kullanıyoruz (**JSON.JsonDecode**) ve sonuç bilgisini <a title="MSDN: Hashtable" href="http://msdn.microsoft.com/en-us/library/system.collections.hashtable.aspx" target="_blank">Hashtable</a> formatına çeviriyoruz.
+Gelen bilgi **JSON** formatında olduğu için, JSON parser class'ımızı kullanıyoruz (**JSON.JsonDecode**) ve sonuç bilgisini <a title="MSDN: Hashtable" href="http://msdn.microsoft.com/en-us/library/system.collections.hashtable.aspx" target="_blank" rel="noopener">Hashtable</a> formatına çeviriyoruz.
 
-**Hashtable**'ın *results* öğesi <a title="MSDN: ArrayList" href="http://msdn.microsoft.com/en-us/library/system.collections.arraylist.aspx" target="_blank">ArrayList</a> formatındadır ve arama sonucunun herbir satırını ifade etmektedir. Bu yüzden basit bir <a title="MSDN: foreach" href="http://msdn.microsoft.com/en-us/library/ttw7t8t6.aspx" target="_blank">foreach</a> döngüsü ile flowLayoutPanel'e ekleme yapıyoruz.
+**Hashtable**'ın *results* öğesi <a title="MSDN: ArrayList" href="http://msdn.microsoft.com/en-us/library/system.collections.arraylist.aspx" target="_blank" rel="noopener">ArrayList</a> formatındadır ve arama sonucunun herbir satırını ifade etmektedir. Bu yüzden basit bir <a title="MSDN: foreach" href="http://msdn.microsoft.com/en-us/library/ttw7t8t6.aspx" target="_blank" rel="noopener">foreach</a> döngüsü ile flowLayoutPanel'e ekleme yapıyoruz.
 
 flowLayoutPanel'e ekleyeceğimiz her nesne *CreateTwitItem* fonksiyonunda oluşturuluyor;
 <pre class="brush:csharp">private Panel CreateTwitItem(Hashtable TwitItem)
@@ -129,5 +129,5 @@ Uygulamamızı çalıştırıyoruz ve işte örnek ekran görüntüsü;
 
 ![TwitterSearch_2](/assets/uploads/2009/12/TwitterSearch_2.png "TwitterSearch_2")
 
-İsterseniz uygulamanın kodlarını <a title="enginpolat.com: TwitterSearch.rar" href="/assets/uploads/2009/12/TwitterSearch.rar" target="_blank">buradan</a> indirebilirsiniz.
+İsterseniz uygulamanın kodlarını <a title="enginpolat.com: TwitterSearch.rar" href="/assets/uploads/2009/12/TwitterSearch.rar" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 

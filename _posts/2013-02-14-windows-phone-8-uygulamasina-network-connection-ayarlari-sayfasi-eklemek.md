@@ -11,7 +11,7 @@ tags: [class, click, connectionsettingstask, connectionsettingstype, constructor
 
 Bu yazıda ilgili ayarlar ekranlarını nasıl açacağımıza bakacağız.
 
-Kullanmaya başlamadan önce *Microsoft.Phone.Tasks* **namespace**'inde yeralan <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.connectionsettingstask" title="ConnectionSettingsTask Class" target="_blank">ConnectionSettingsTask</a> sınıfını inceleyelim;
+Kullanmaya başlamadan önce *Microsoft.Phone.Tasks* **namespace**'inde yeralan <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.connectionsettingstask" title="ConnectionSettingsTask Class" target="_blank" rel="noopener">ConnectionSettingsTask</a> sınıfını inceleyelim;
 
 
 
@@ -33,9 +33,9 @@ namespace Microsoft.Phone.Tasks
     }
 }</pre>
 
-Gördüğünüz gibi *sealed* anahtar kelimesi ile *kalıtıma kapatılmış sınıf*'ın **constructor** haricinde *ConnectionSettingsType* tipinde **ConnectionSettingsType** isminde bir property'si, <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.connectionsettingstask.show" title="ConnectionSettingsTask.Show Method" target="_blank">Show</a> isminde bir *method*'u bulunmakta.
+Gördüğünüz gibi *sealed* anahtar kelimesi ile *kalıtıma kapatılmış sınıf*'ın **constructor** haricinde *ConnectionSettingsType* tipinde **ConnectionSettingsType** isminde bir property'si, <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.connectionsettingstask.show" title="ConnectionSettingsTask.Show Method" target="_blank" rel="noopener">Show</a> isminde bir *method*'u bulunmakta.
 
-<a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.connectionsettingstask.connectionsettingstype" title="ConnectionSettingsTask.ConnectionSettingsType Property" target="_blank">ConnectionSettingsType</a> enum'ı 4 adet değer içermektedir; *WiFi*, *Bluetooth*, *Cellular* ve *AirplaneMode*
+<a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.connectionsettingstask.connectionsettingstype" title="ConnectionSettingsTask.ConnectionSettingsType Property" target="_blank" rel="noopener">ConnectionSettingsType</a> enum'ı 4 adet değer içermektedir; *WiFi*, *Bluetooth*, *Cellular* ve *AirplaneMode*
 
 Uygulama içerisinden ilgili ayarlar ekranını açmak için, örneğin bir *buton*'un veya bir *hyperlink*'in **Click** *event*'ine aşağıdaki kodları yazmak lazım;
 

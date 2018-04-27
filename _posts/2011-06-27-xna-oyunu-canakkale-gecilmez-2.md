@@ -7,9 +7,9 @@ comments: true
 category: [XNA]
 tags: [const, contains, content, Content.Load, cos, CreateInstance, draw, graphicsdevice, iskeydown, iskeyup, Keyboard.GetState, keyboardstate, lerp, loadcontent, math, mathhelper, nextdouble, position, random, rectangle, Rotation, sin, SoundEffect, spritebatch, spriteblendmode, spriteeffects, texture2d, unloadcontent, vector2, velocity, XNA, xna game studio]
 ---
-<a href="/kategori/xna/" target="_blank">XNA ile Oyun Programlama</a> serimize, daha önce başlayıp tamamlamadığımız <a href="/xna-oyunu-canakkale-gecilmez-1" target="_blank">Çanakkale Geçilmez</a> oyununu tamamlayarak devam ediyoruz.
+<a href="/kategori/xna/" target="_blank" rel="noopener">XNA ile Oyun Programlama</a> serimize, daha önce başlayıp tamamlamadığımız <a href="/xna-oyunu-canakkale-gecilmez-1" target="_blank" rel="noopener">Çanakkale Geçilmez</a> oyununu tamamlayarak devam ediyoruz.
 
-Bu yazıyı okumadan önce **XNA** konusunda diğer makaleler için <a href="/kategori/xna/" target="_blank">XNA kategorisine</a> bir göz atmanızı tavsiye ederim.
+Bu yazıyı okumadan önce **XNA** konusunda diğer makaleler için <a href="/kategori/xna/" target="_blank" rel="noopener">XNA kategorisine</a> bir göz atmanızı tavsiye ederim.
 
 Düşman gemilerine yaptığımız atış miktarını ve isabet adedini tutacağımız iki değişkeni sınıf seviyesinde tanımlayalım;
 
@@ -107,7 +107,7 @@ Eğer hayatta değilse; Gemi'yi ekrana çıkartabilmek için hayatta durumuna ge
 
 Rastgele yer belirlerken, pencerenin en üstünden itibaren %60'lık kısmını kullanıyoruz.
 
-Rastgele hız belirlerken, <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.mathhelper" target="_blank">MathHelper</a> sınıfının <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.mathhelper.lerp" target="_blank">Lerp()</a> methodundan faydalanıyoruz.
+Rastgele hız belirlerken, <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.mathhelper" target="_blank" rel="noopener">MathHelper</a> sınıfının <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.mathhelper.lerp" target="_blank" rel="noopener">Lerp()</a> methodundan faydalanıyoruz.
 
 **Lerp()** method'u, 3 parametre alır;
 
@@ -221,6 +221,6 @@ Böylece, oyunumuzun kodlamasını bitirmiş olduk.
 
 ![XNA ile Oyun Programlama - Çanakkale Geçilmez Oyunu](/assets/uploads/2011/06/CanakkaleGecilmez.jpg "XNA ile Oyun Programlama - Çanakkale Geçilmez Oyunu")
 
-Oyunu tüm kodlarını <a href="/assets/uploads/2011/06/CanakkaleGecilmez.rar" target="_blank">buradan</a> indirebilirsiniz.
+Oyunu tüm kodlarını <a href="/assets/uploads/2011/06/CanakkaleGecilmez.rar" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 
 

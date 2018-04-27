@@ -27,11 +27,11 @@ Hemen **Visual Studio**'yu açarak yeni bir proje oluşturalım ve nasıl yapabi
 
 ![2-02](/assets/uploads/2016/01/2-02.png)
 
-*MainPage.xaml* dosyasını açıyor ve sayfaya bir <a href="https://msdn.microsoft.com/library/windows.ui.xaml.controls.captureelement" target="_blank">CaptureElement</a> nesnesi ekliyoruz;
+*MainPage.xaml* dosyasını açıyor ve sayfaya bir <a href="https://msdn.microsoft.com/library/windows.ui.xaml.controls.captureelement" target="_blank" rel="noopener">CaptureElement</a> nesnesi ekliyoruz;
 
 <script src="https://gist.github.com/polatengin/647b7a895e8b0f06daa4a37935d45c78.js?file=MainPage.xaml"></script>
 
-*MainPage.xaml.cs* dosyasını açıyor ve <a href="https://msdn.microsoft.com/library/windows.ui.xaml.controls.page.onnavigatedto" target="_blank">OnNavigatedTo</a> methodunu **override** ediyoruz. Böylece *MainPage* sayfasına gelindiğinde yapılacak işleri yazabileceğimiz bir *method*'umuz oluyor;
+*MainPage.xaml.cs* dosyasını açıyor ve <a href="https://msdn.microsoft.com/library/windows.ui.xaml.controls.page.onnavigatedto" target="_blank" rel="noopener">OnNavigatedTo</a> methodunu **override** ediyoruz. Böylece *MainPage* sayfasına gelindiğinde yapılacak işleri yazabileceğimiz bir *method*'umuz oluyor;
 
 <script src="https://gist.github.com/polatengin/647b7a895e8b0f06daa4a37935d45c78.js?file=MainPage-xaml.cs"></script>
 

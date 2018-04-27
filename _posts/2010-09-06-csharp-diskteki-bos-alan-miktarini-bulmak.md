@@ -11,7 +11,7 @@ Yazdığımız uygulamalar veya windows service'lerde, bilgisayarın disklerinde
 
 Yapmamız gereken ilk iş, *bilgisayara bağlı* bulunan **disklerin listesine** erişmek.
 
-<a href="http://msdn.microsoft.com/library/system.io.driveinfo" target="_blank">DriveInfo</a> sınıfının <a href="http://msdn.microsoft.com/library/system.io.driveinfo.getdrives" target="_blank">GetDrives()</a> methodundan geriye, detaylı bilgilerine erişebileceğimiz **disklerin listesi** döner.
+<a href="http://msdn.microsoft.com/library/system.io.driveinfo" target="_blank" rel="noopener">DriveInfo</a> sınıfının <a href="http://msdn.microsoft.com/library/system.io.driveinfo.getdrives" target="_blank" rel="noopener">GetDrives()</a> methodundan geriye, detaylı bilgilerine erişebileceğimiz **disklerin listesi** döner.
 
 Basit bir foreach döngüsü ile bu liste üzerinden tüm disklere erişebiliriz;
 
@@ -21,16 +21,16 @@ foreach (DriveInfo disk in DriveInfo.GetDrives())
 {
 }</pre>
 
-Döngü içerisinde, **disk'in adına** ulaşmak için <a href="http://msdn.microsoft.com/library/system.io.driveinfo" target="_blank">DriveInfo</a> sınıfının <a href="http://msdn.microsoft.com/library/system.io.driveinfo.name" target="_blank">Name</a> özelliğini kullanırız.
+Döngü içerisinde, **disk'in adına** ulaşmak için <a href="http://msdn.microsoft.com/library/system.io.driveinfo" target="_blank" rel="noopener">DriveInfo</a> sınıfının <a href="http://msdn.microsoft.com/library/system.io.driveinfo.name" target="_blank" rel="noopener">Name</a> özelliğini kullanırız.
 
-[C# ile bilgisayarınızdaki diskleri listelemek](http://www.enginpolat.com/csharp-ile-bilgisayarinizdaki-diskleri-listelemek/) yazımda yazdığım şekilde, <a href="http://msdn.microsoft.com/library/system.io.driveinfo" target="_blank">DriveInfo</a> sınıfının <a href="http://msdn.microsoft.com/library/system.io.driveinfo.isready" target="_blank">IsReady</a> özelliği ile diskin kullanılabilir olduğunu kontrol ederiz.
+[C# ile bilgisayarınızdaki diskleri listelemek](http://www.enginpolat.com/csharp-ile-bilgisayarinizdaki-diskleri-listelemek/) yazımda yazdığım şekilde, <a href="http://msdn.microsoft.com/library/system.io.driveinfo" target="_blank" rel="noopener">DriveInfo</a> sınıfının <a href="http://msdn.microsoft.com/library/system.io.driveinfo.isready" target="_blank" rel="noopener">IsReady</a> özelliği ile diskin kullanılabilir olduğunu kontrol ederiz.
 
 Son olarak;
 
-<a href="http://msdn.microsoft.com/library/system.io.driveinfo.driveformat" target="_blank">DriveFormat</a> özelliği ile diskin **Dosya Sistemi Formatını** *(File System Format)*
-<a href="http://msdn.microsoft.com/library/system.io.driveinfo.availablefreespace" target="_blank">AvailableFreeSpace</a> özelliği ile **diskin boş alan miktarını** *(byte cinsinden)*
-<a href="http://msdn.microsoft.com/library/system.io.driveinfo.totalfreespace" target="_blank">TotalFreeSpace</a> özelliği ile diskin **toplam boş alan miktarını** *(byte cinsinden)*
-<a href="http://msdn.microsoft.com/library/system.io.driveinfo.totalsize" target="_blank">TotalSize</a> özelliği ile diskin **toplam kapasitesini** *(byte cinsinden)*
+<a href="http://msdn.microsoft.com/library/system.io.driveinfo.driveformat" target="_blank" rel="noopener">DriveFormat</a> özelliği ile diskin **Dosya Sistemi Formatını** *(File System Format)*
+<a href="http://msdn.microsoft.com/library/system.io.driveinfo.availablefreespace" target="_blank" rel="noopener">AvailableFreeSpace</a> özelliği ile **diskin boş alan miktarını** *(byte cinsinden)*
+<a href="http://msdn.microsoft.com/library/system.io.driveinfo.totalfreespace" target="_blank" rel="noopener">TotalFreeSpace</a> özelliği ile diskin **toplam boş alan miktarını** *(byte cinsinden)*
+<a href="http://msdn.microsoft.com/library/system.io.driveinfo.totalsize" target="_blank" rel="noopener">TotalSize</a> özelliği ile diskin **toplam kapasitesini** *(byte cinsinden)*
 
 öğrenebiliriz.
 

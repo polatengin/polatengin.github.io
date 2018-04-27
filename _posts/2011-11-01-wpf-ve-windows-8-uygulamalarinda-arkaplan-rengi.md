@@ -9,7 +9,7 @@ tags: [Color, endpoint, gradient, gradientstop, lineargradientbrush, MetroUI, of
 ---
 **Windows 8** uygulamaları **WPF** ile geliştirildikleri için, **WPF** uygulamalarında arkaplan'a verebildiğimiz *geçiş renkleri* (*gradient*) **Windows 8** uygulamalarında da kullanılabiliyor.
 
-<a href="http://msdn.microsoft.com/library/system.windows.media.lineargradientbrush" target="_blank">LinearGradientBrush</a> sınıfını kullanarak uygulamamızın arkaplan renginin birden fazla renk arasında geçişli (*gradient*) olmasını sağlayabiliriz.
+<a href="http://msdn.microsoft.com/library/system.windows.media.lineargradientbrush" target="_blank" rel="noopener">LinearGradientBrush</a> sınıfını kullanarak uygulamamızın arkaplan renginin birden fazla renk arasında geçişli (*gradient*) olmasını sağlayabiliriz.
 
 İlk olarak *Visual Studio 2011*'imizi açarak *New Project* dialog penceresinde **Windows Metro Style** grubundan **Application** şablonunu seçelim ve yeni oluşturacağımız projeye bir isim verelim;
 
@@ -42,7 +42,7 @@ tags: [Color, endpoint, gradient, gradientstop, lineargradientbrush, MetroUI, of
 
 ![](/assets/uploads/2011/11/LinearGradientBrush-3.png "Windows 8 WPF LinearGradientBrush")
 
-**LinearGradientBrush** element'inin <a href="http://msdn.microsoft.com/library/system.windows.media.lineargradientbrush.startpoint" target="_blank">StartPoint</a> özelliğine *0,0* değerini, <a href="http://msdn.microsoft.com/library/system.windows.media.lineargradientbrush.endpoint" target="_blank">EndPoint</a> özelliğine *1,1* değerini verdik.
+**LinearGradientBrush** element'inin <a href="http://msdn.microsoft.com/library/system.windows.media.lineargradientbrush.startpoint" target="_blank" rel="noopener">StartPoint</a> özelliğine *0,0* değerini, <a href="http://msdn.microsoft.com/library/system.windows.media.lineargradientbrush.endpoint" target="_blank" rel="noopener">EndPoint</a> özelliğine *1,1* değerini verdik.
 
 **StartPoint** ve **EndPoint** alanlarına vereceğimiz değerler için, aşağıdaki şablona bakabilirsiniz;
 
@@ -52,7 +52,7 @@ Yukarıdaki **Xaml** koduna sahip formu çalıştırdığımızda aşağıdaki e
 
 ![](/assets/uploads/2011/11/LinearGradientBrush-5.png "Windows 8 WPF LinearGradientBrush")
 
-Eğer iki renk değil, beş renk geçişli bir arkaplan oluşturmak istiyorsak, <a href="http://msdn.microsoft.com/library/system.windows.media.gradientstop" target="_blank">GradientStop</a> elemanlarını artırmamız lazım;
+Eğer iki renk değil, beş renk geçişli bir arkaplan oluşturmak istiyorsak, <a href="http://msdn.microsoft.com/library/system.windows.media.gradientstop" target="_blank" rel="noopener">GradientStop</a> elemanlarını artırmamız lazım;
 
 ![](/assets/uploads/2011/11/LinearGradientBrush-6.png "Windows 8 WPF LinearGradientBrush")
 
@@ -85,7 +85,7 @@ Yukarıdaki **Xaml** koduna sahip formu çalıştırdığımızda aşağıdaki e
 
 ![](/assets/uploads/2011/11/LinearGradientBrush-8.png "Windows 8 WPF LinearGradientBrush")
 
-**LinearGradientBrush** sınıfı yerine <a href="http://msdn.microsoft.com/library/system.windows.media.radialgradientbrush" target="_blank">RadialGradientBrush</a> sınıfını da kullanabiliriz.
+**LinearGradientBrush** sınıfı yerine <a href="http://msdn.microsoft.com/library/system.windows.media.radialgradientbrush" target="_blank" rel="noopener">RadialGradientBrush</a> sınıfını da kullanabiliriz.
 
 **RadialGradientBrush** kullanarak yaptığınız form arkaplan görüntülerini yorum alanında paylaşın.
 

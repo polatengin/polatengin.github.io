@@ -11,13 +11,13 @@ tags: [background, button, cellularmobileoperator, content, contentcontrol, devi
 
 Özellikle *operatör*'e özel seçenekler çıkartmak veya kısıtlamalar getirmek için bunu yapmaya ihtiyacınız olabilir.
 
-*Windows Phone 8 SDK* içerisinde yer alan <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.net.networkinformation.devicenetworkinformation" title="DeviceNetworkInformation Class" target="_blank">DeviceNetworkInformation</a> sınıfında *Mobil Operator* bilgisini kolaylıkla almanızı sağlayan **static** tanımlı <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.net.networkinformation.devicenetworkinformation.cellularmobileoperator" title="DeviceNetworkInformation.CellularMobileOperator Property " target="_blank">CellularMobileOperator</a> özelliği mevcuttur.
+*Windows Phone 8 SDK* içerisinde yer alan <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.net.networkinformation.devicenetworkinformation" title="DeviceNetworkInformation Class" target="_blank" rel="noopener">DeviceNetworkInformation</a> sınıfında *Mobil Operator* bilgisini kolaylıkla almanızı sağlayan **static** tanımlı <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.net.networkinformation.devicenetworkinformation.cellularmobileoperator" title="DeviceNetworkInformation.CellularMobileOperator Property " target="_blank" rel="noopener">CellularMobileOperator</a> özelliği mevcuttur.
 
 Hemen yeni bir proje oluşturarak kullanımını inceleyelim;
 
 ![](/assets/uploads/2013/07/OperatorSample-1.png)
 
-*MainPage.xaml* dosyasını açarak sayfanın tasarımını değiştirelim. <a href="http://msdn.microsoft.com/library/system.windows.controls.stackpanel" title="StackPanel Class" target="_blank">StackPanel</a> içerisine bir <a href="http://msdn.microsoft.com/library/system.windows.controls.button" title="Button Class" target="_blank">Button</a> nesnesi ekleyelim, <a href="http://msdn.microsoft.com/library/system.windows.controls.contentcontrol.content" title="ContentControl.Content Property" target="_blank">Content</a> özelliğine *Tıkla*, <a href="http://msdn.microsoft.com/library/system.windows.controls.control.background" title="Control.Background Property" target="_blank">Background</a> özelliğine *StaticResource PhoneAccentBrush*, <a href="http://msdn.microsoft.com/library/system.windows.frameworkelement.height" title="FrameworkElement.Height Property" target="_blank">Height</a> özelliğine *120* değerlerini verelim;
+*MainPage.xaml* dosyasını açarak sayfanın tasarımını değiştirelim. <a href="http://msdn.microsoft.com/library/system.windows.controls.stackpanel" title="StackPanel Class" target="_blank" rel="noopener">StackPanel</a> içerisine bir <a href="http://msdn.microsoft.com/library/system.windows.controls.button" title="Button Class" target="_blank" rel="noopener">Button</a> nesnesi ekleyelim, <a href="http://msdn.microsoft.com/library/system.windows.controls.contentcontrol.content" title="ContentControl.Content Property" target="_blank" rel="noopener">Content</a> özelliğine *Tıkla*, <a href="http://msdn.microsoft.com/library/system.windows.controls.control.background" title="Control.Background Property" target="_blank" rel="noopener">Background</a> özelliğine *StaticResource PhoneAccentBrush*, <a href="http://msdn.microsoft.com/library/system.windows.frameworkelement.height" title="FrameworkElement.Height Property" target="_blank" rel="noopener">Height</a> özelliğine *120* değerlerini verelim;
 
 
 
@@ -49,7 +49,7 @@ Hemen yeni bir proje oluşturarak kullanımını inceleyelim;
 
 &lt;/phone:PhoneApplicationPage&gt;</pre>
 
-**Background** özelliğine <a href="http://msdn.microsoft.com/library/ms750950.aspx" title="StaticResource Markup Extension" target="_blank">StaticResource</a> listesinden <a href="http://msdn.microsoft.com/library/windowsphone/develop/ff769552.aspx" title="Theme resources for Windows Phone" target="_blank">PhoneAccentBrush</a> değerini vererek, buton'un arkarengini kullanıcının tercih ettiği *tema rengine* ayarlamış olduk;
+**Background** özelliğine <a href="http://msdn.microsoft.com/library/ms750950.aspx" title="StaticResource Markup Extension" target="_blank" rel="noopener">StaticResource</a> listesinden <a href="http://msdn.microsoft.com/library/windowsphone/develop/ff769552.aspx" title="Theme resources for Windows Phone" target="_blank" rel="noopener">PhoneAccentBrush</a> değerini vererek, buton'un arkarengini kullanıcının tercih ettiği *tema rengine* ayarlamış olduk;
 
 ![](/assets/uploads/2013/07/OperatorSample-2.png)
 

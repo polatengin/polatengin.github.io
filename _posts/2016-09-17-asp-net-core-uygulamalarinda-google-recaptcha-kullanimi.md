@@ -7,11 +7,11 @@ comments: true
 category: [Web]
 tags: [action, addmodelerror, addmvc, aspnet, aspnetcore, async, await, captcha, command prompt, connection, controller, data, dependencies, deserializeobject, dotnet, Form, formurlencodedcontent, google, html, html5, httpclient, httpcontext, httppost, iactionresult, iapplicationbuilder, iservicecollection, isvalid, json, jsonconvert, keyvaluepair, linux, macos, maproute, method, modelstate, mvc, post, postasync, project.json, readasstringasync, recaptcha, remoteipaddress, request, template, terminal, usemvc, view, web, windows, yeoman, yo]
 ---
-Bu makalede <a href="http://www.google.com/recaptcha" target="_blank">Google reCaptcha</a> servisini **Asp.Net Core** uygulamasında nasıl kullanacağımızı adım adım inceleyeceğiz.
+Bu makalede <a href="http://www.google.com/recaptcha" target="_blank" rel="noopener">Google reCaptcha</a> servisini **Asp.Net Core** uygulamasında nasıl kullanacağımızı adım adım inceleyeceğiz.
 
 <img class="lazy img-responsive" data-src="/assets/uploads/2016/09/recaptcha-0.gif" />
 
-Öncelikle <a href="http://www.google.com/recaptcha/admin" target="_blank">Google reCaptcha Admin</a> sayfasında *site ismi*, *adresi* gibi bilgileri girerek yeni bir kayıt oluşturmamız ve eğer bilgisayarınızda <a href="https://www.microsoft.com/net" target="_blank">.Net Core</a> yüklü değilse yüklememiz gerekiyor.
+Öncelikle <a href="http://www.google.com/recaptcha/admin" target="_blank" rel="noopener">Google reCaptcha Admin</a> sayfasında *site ismi*, *adresi* gibi bilgileri girerek yeni bir kayıt oluşturmamız ve eğer bilgisayarınızda <a href="https://www.microsoft.com/net" target="_blank" rel="noopener">.Net Core</a> yüklü değilse yüklememiz gerekiyor.
 
 Örnek projeyi oluşturmak istediğimiz dizine **Command Prompt** (*Windows*) veya **Terminal** (*MacOS*, *Linux*) içerisinden gidiyoruz ve aşağıdaki kodları çalıştırıyoruz;
 

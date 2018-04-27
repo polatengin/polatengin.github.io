@@ -19,7 +19,7 @@ Oyunu başlattığımızda genellikle ilk önce bilgisayarımızda bulunan *ses 
 
 Bu kütüphane sayesinde oyunlar direk donanıma erişmek yerine, ara bir katmana erişecekler, böylece donanım'a özel komut setlerini bilmelerine gerek kalmayacaktı.
 
-*Windows Game SDK*, tanıtılmasından kısa bir süre sonra <a href="http://en.wikipedia.org/wiki/DirectX" title="Wikipedia : DirectX" target="_blank">DirectX 1.0</a> adı ile yayınlandı.
+*Windows Game SDK*, tanıtılmasından kısa bir süre sonra <a href="http://en.wikipedia.org/wiki/DirectX" title="Wikipedia : DirectX" target="_blank" rel="noopener">DirectX 1.0</a> adı ile yayınlandı.
 
 **DirectDraw**, **DirectInput** ve **DirectSound** katmanlarını içeriyordu. *X* karakteri, *Direct* öneki ile başlayan tüm isimleri kısaltmak için seçilmişti.
 

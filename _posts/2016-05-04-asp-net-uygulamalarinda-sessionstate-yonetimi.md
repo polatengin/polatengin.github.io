@@ -7,7 +7,7 @@ comments: true
 category: [Web]
 tags: [aspnet, configuration, database, httpcontext, httpsessionstate, inproc, mode, property, session, sessionstate, sqlconnectionstring, sqlserver, stateconnectionstring, stateserver, system.web, timeout, veritabanı]
 ---
-**Asp.Net** uygulamalarında kullanıcı ile ilgili sürekli erişilmesi gereken bilgileri her seferinde veritabanından sorgulamak yerine daha hızlı erişebilmek amacıyla <a href="http://msdn.microsoft.com/library/system.web.httpcontext" target="_blank">HttpContext Class</a> sınıfının içinde yeralan ve <a href="http://msdn.microsoft.com/library/system.web.sessionstate.httpsessionstate" target="_blank">HttpSessionState Class</a> tipinde olan <a href="http://msdn.microsoft.com/library/system.web.httpcontext.session" target="_blank">Session</a> property'si içerisinde tutabiliriz.
+**Asp.Net** uygulamalarında kullanıcı ile ilgili sürekli erişilmesi gereken bilgileri her seferinde veritabanından sorgulamak yerine daha hızlı erişebilmek amacıyla <a href="http://msdn.microsoft.com/library/system.web.httpcontext" target="_blank" rel="noopener">HttpContext Class</a> sınıfının içinde yeralan ve <a href="http://msdn.microsoft.com/library/system.web.sessionstate.httpsessionstate" target="_blank" rel="noopener">HttpSessionState Class</a> tipinde olan <a href="http://msdn.microsoft.com/library/system.web.httpcontext.session" target="_blank" rel="noopener">Session</a> property'si içerisinde tutabiliriz.
 
 Uygulamada **Session** yapılandırmak için basitçe *web.config* dosyasına aşağıdaki elementi eklememiz yeterlidir;
 

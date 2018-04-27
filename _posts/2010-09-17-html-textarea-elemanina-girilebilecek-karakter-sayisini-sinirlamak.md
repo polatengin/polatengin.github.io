@@ -7,7 +7,7 @@ comments: true
 category: [Programlama]
 tags: [attribute, browser, document, function, getelementbyid, html, innerhtml, input, javascript, maxlength, onkeyup, span, text, textarea, type, var]
 ---
-**HTML**'de **metin kutularına** (*&lt;input type="text" /&gt;*) girilebilecek *karakter sayısını* <a href="http://www.w3schools.com/tags/att_input_maxlength.asp" target="_blank">maxlength</a> özelliği ile **kısıtlayabiliyoruz**;
+**HTML**'de **metin kutularına** (*&lt;input type="text" /&gt;*) girilebilecek *karakter sayısını* <a href="http://www.w3schools.com/tags/att_input_maxlength.asp" target="_blank" rel="noopener">maxlength</a> özelliği ile **kısıtlayabiliyoruz**;
 
 
 

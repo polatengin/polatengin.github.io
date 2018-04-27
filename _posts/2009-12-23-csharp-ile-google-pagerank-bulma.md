@@ -7,17 +7,17 @@ comments: true
 category: [C#]
 tags: [class, code, csharp, google, method, pagerank, source, static]
 ---
-<a title="Google" href="http://www.google.com" target="_blank">Google</a>'ın **PageRank** uygulaması, web sitelerinin Google tarafından önemini bulmakta kullanılan bir algoritmadır.
+<a title="Google" href="http://www.google.com" target="_blank" rel="noopener">Google</a>'ın **PageRank** uygulaması, web sitelerinin Google tarafından önemini bulmakta kullanılan bir algoritmadır.
 
-Wikipedia'daki <a title="Wikipedia: PageRank" href="http://en.wikipedia.org/wiki/PageRank" target="_blank">şu adres</a>ten, PageRank algoritması ile ilgili ayrıntılı bilgiye erişebilirsiniz.
+Wikipedia'daki <a title="Wikipedia: PageRank" href="http://en.wikipedia.org/wiki/PageRank" target="_blank" rel="noopener">şu adres</a>ten, PageRank algoritması ile ilgili ayrıntılı bilgiye erişebilirsiniz.
 
-Siz de sitenizin PageRank değerini <a title="Google PageRank" href="http://www.prchecker.info" target="_blank">http://www.prchecker.info</a> adresinden bulabilirsiniz.
+Siz de sitenizin PageRank değerini <a title="Google PageRank" href="http://www.prchecker.info" target="_blank" rel="noopener">http://www.prchecker.info</a> adresinden bulabilirsiniz.
 
 Yazacağımız uygulama ile, sitenizin **Google PageRank** değerini programatik olarak buldurabileceğiz.
 
 <a href="/assets/uploads/2009/12/GooglePageRank_1.png"><img class="lazy img-responsive" data-src="/assets/uploads/2009/12/GooglePageRank_1.png" title="GooglePageRank_1" /></a>
 
-Google sitelerin PageRank değerlerini, <a title="Google PageRank" href="http://toolbarqueries.google.com/search" target="_blank">http://toolbarqueries.google.com/search</a> adresine gönderilen sorgulara cevap olarak verebiliyor. Fakat sonuç alabilmemiz için bu adrese doğru parametreleri vermemiz gerekiyor, aksi halde *HTTP403 : Forbidden* hatası alıyoruz.
+Google sitelerin PageRank değerlerini, <a title="Google PageRank" href="http://toolbarqueries.google.com/search" target="_blank" rel="noopener">http://toolbarqueries.google.com/search</a> adresine gönderilen sorgulara cevap olarak verebiliyor. Fakat sonuç alabilmemiz için bu adrese doğru parametreleri vermemiz gerekiyor, aksi halde *HTTP403 : Forbidden* hatası alıyoruz.
 
 Parametreler:
 
@@ -165,5 +165,5 @@ private static void Mix(ref uint a, ref uint b, ref uint c)
 
 Şimdi yapmamız gereken, Butonun *Click* olayında, *GooglePageRank* static class'ının *PageRankHesapla* method'unu çağırmak ve dönen değeri Label'da göstermek.
 
-Uygulamanın çalışır halini <a title="enginpolat.com: PageRank" href="/assets/uploads/2009/12/GooglePageRank.rar" target="_blank">bu adres</a>ten indirebilirsiniz.
+Uygulamanın çalışır halini <a title="enginpolat.com: PageRank" href="/assets/uploads/2009/12/GooglePageRank.rar" target="_blank" rel="noopener">bu adres</a>ten indirebilirsiniz.
 

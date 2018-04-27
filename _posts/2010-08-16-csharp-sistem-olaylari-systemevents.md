@@ -15,13 +15,13 @@ Veya, **kullanıcı Windows oturumunu kapattığında** hala çalışmakta olan 
 
 Kullanıcının, kendi ayarlarını değiştirmesinden, ekran çözünürlüğünü değiştirmesine kadar, çeşitli işletim sistemi olaylarını C# ile yakalayabilir ve ilgili olaylara kod yazabiliriz.
 
-Öncelikle <a href="http://msdn.microsoft.com/library/microsoft.win32" target="_blank">Microsoft.Win32</a> **namespace**'ini kodumuzun **using** kısmına ekleyelim;
+Öncelikle <a href="http://msdn.microsoft.com/library/microsoft.win32" target="_blank" rel="noopener">Microsoft.Win32</a> **namespace**'ini kodumuzun **using** kısmına ekleyelim;
 
 
 
 using Microsoft.Win32;</pre>
 
-Daha sonra yapmamız gereken, <a href="http://msdn.microsoft.com/library/microsoft.win32.systemevents_events" target="_blank">SystemEvents</a> sınıfının **statik** *olaylarını* **delegate methodlar** sayesinde yakalamak.
+Daha sonra yapmamız gereken, <a href="http://msdn.microsoft.com/library/microsoft.win32.systemevents_events" target="_blank" rel="noopener">SystemEvents</a> sınıfının **statik** *olaylarını* **delegate methodlar** sayesinde yakalamak.
 
 Örneğin, **ekran ayarlarının değiştirilmesi** anında uygulamamızın belirli bir işi gerçekleştirmesini istiyorsak;
 

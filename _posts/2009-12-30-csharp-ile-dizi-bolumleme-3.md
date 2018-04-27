@@ -74,5 +74,5 @@ Artık tek yapmamız gereken *List&lt;T&gt;* generic tipinde nesnelerde *Bolumle
 <pre class="brush:csharp">List&lt;string&gt;[] Bolumler = BolunecekDizi.Bolumle(3);
 
 
-Uygulamanın kaynak kodlarını <a title="enginpolat.com: Dizi Bölümleme" href="/assets/uploads/2009/12/DiziBolumleme.rar" target="_blank">buradan</a> indirebilirsiniz.
+Uygulamanın kaynak kodlarını <a title="enginpolat.com: Dizi Bölümleme" href="/assets/uploads/2009/12/DiziBolumleme.rar" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 

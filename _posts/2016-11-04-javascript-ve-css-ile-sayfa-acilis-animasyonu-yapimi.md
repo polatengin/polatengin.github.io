@@ -13,11 +13,11 @@ tags: [css, javascript, animasyon, html, html5]
 
 Bu makalede önce bir **html** sayfası oluşturacağız, **javascript** ve **css** kullanarak bu sayfanın açılışına yaklaşık *750ms*'lik **fade** (*yavaşça belirme*) animasyonu ekleyeceğiz.
 
-Benim de yaptığım gibi <a href="http://code.visualstudio.com/" target="_blank">Visual Studio Code</a> editorünü veya başka favori editorünüzü açarak *index.html* isimli bir dosya oluşturalım ve aşağıdaki **html** şablonunu yazalım.
+Benim de yaptığım gibi <a href="http://code.visualstudio.com/" target="_blank" rel="noopener">Visual Studio Code</a> editorünü veya başka favori editorünüzü açarak *index.html* isimli bir dosya oluşturalım ve aşağıdaki **html** şablonunu yazalım.
 
 <script src="https://gist.github.com/polatengin/fcdff64c8edf66f3648c32a3e24a3fae.js?file=index-sablon.html"></script>
 
-Sayfaya ekleyeceğimiz **fade** animasyonunu görebilmek için sayfada *yazılar*-*resimler*-vs olması gerekiyor. <a href="http://www.lipsum.com" target="_blank">Lorem Ipsum</a> sitesinde istediğimiz kadar rastgele yazı oluşturabilmeye yarayan bir sayfa var.
+Sayfaya ekleyeceğimiz **fade** animasyonunu görebilmek için sayfada *yazılar*-*resimler*-vs olması gerekiyor. <a href="http://www.lipsum.com" target="_blank" rel="noopener">Lorem Ipsum</a> sitesinde istediğimiz kadar rastgele yazı oluşturabilmeye yarayan bir sayfa var.
 
 <img class="lazy img-responsive" data-src="http://www.enginpolat.com/wp-content/uploads/2017/01/lipsum.png" />
 

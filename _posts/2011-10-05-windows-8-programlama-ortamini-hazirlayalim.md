@@ -9,7 +9,7 @@ tags: [MetroUI, msdn, visual studio 2011, windows8]
 ---
 **Windows 8** üzerinde geliştirme yapabilmemiz için öncelikle bilgisayarımıza **Windows 8** ve **Visual Studio 2011** kurmuş olmamız lazım.
 
-<a href="http://www.enginpolat.com/windows-8-programlama/" title="Windows 8 Programlama" target="_blank">Windows 8 Programlama</a> makalemde kurulumlar ile ilgili bilgi vermiştim.
+<a href="http://www.enginpolat.com/windows-8-programlama/" title="Windows 8 Programlama" target="_blank" rel="noopener">Windows 8 Programlama</a> makalemde kurulumlar ile ilgili bilgi vermiştim.
 
 Eğer **MSDN** üyeliğiniz varsa, **Visual Studio 2011 Ultimate Edition** kurmanızı tavsiye ederim.
 
@@ -49,5 +49,5 @@ Ofisten küçük bir görüntü; yeni proje şablonunu açtıktan sonra ilk daki
 
 ![](/assets/uploads/2011/10/9.jpg "Windows 8 Programlama")
 
-<a href="http://www.enginpolat.com/etiket/windows8/" title="Windows 8 Programlama" target="_blank">Windows 8 Programlama</a> başlığını takip ederek özellikle **Metro Style** uygulama geliştirme konusunda daha ayrıntılı bilgiye sahip olabilirsiniz.
+<a href="http://www.enginpolat.com/etiket/windows8/" title="Windows 8 Programlama" target="_blank" rel="noopener">Windows 8 Programlama</a> başlığını takip ederek özellikle **Metro Style** uygulama geliştirme konusunda daha ayrıntılı bilgiye sahip olabilirsiniz.
 

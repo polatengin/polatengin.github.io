@@ -7,9 +7,9 @@ comments: true
 category: [C#]
 tags: [add, class, containskey, dequeue, enqueue, invalidoperationexception, keyvaluepair, method, priority, private, property, public, queue, remove, sorteddictionary, sum, throw]
 ---
-**Queue** yapıları, *ilk gelen ilk çıkar* (*first in-first out*, *FIFO*) mantığı ile çalışan listelerdir. **C#** dilinde yeralan <a href="http://msdn.microsoft.com/en-us/library/7977ey2c.aspx" title="MSDN : Queue&lt;T&gt; Class" target="_blank">Queue&lt;T&gt;</a> sınıfı bu mantık ile çalışan bir yapıdadır.
+**Queue** yapıları, *ilk gelen ilk çıkar* (*first in-first out*, *FIFO*) mantığı ile çalışan listelerdir. **C#** dilinde yeralan <a href="http://msdn.microsoft.com/en-us/library/7977ey2c.aspx" title="MSDN : Queue&lt;T&gt; Class" target="_blank" rel="noopener">Queue&lt;T&gt;</a> sınıfı bu mantık ile çalışan bir yapıdadır.
 
-**Queue** sınıfına <a href="http://msdn.microsoft.com/en-us/library/t249c2y7.aspx" title="MSDN : Queue<T>.Enqueue Method" target="_blank">Enqueue</a> methodu ile yeni eleman *ekleyebilir*, <a href="http://msdn.microsoft.com/en-us/library/1c8bzx97.aspx" title="MSDN : Queue&lt;T&gt;.Dequeue Method" target="_blank">Dequeue</a> methodu ile de eklenmiş elemanları sırası ile *okuyabiliriz*.
+**Queue** sınıfına <a href="http://msdn.microsoft.com/en-us/library/t249c2y7.aspx" title="MSDN : Queue<T>.Enqueue Method" target="_blank" rel="noopener">Enqueue</a> methodu ile yeni eleman *ekleyebilir*, <a href="http://msdn.microsoft.com/en-us/library/1c8bzx97.aspx" title="MSDN : Queue&lt;T&gt;.Dequeue Method" target="_blank" rel="noopener">Dequeue</a> methodu ile de eklenmiş elemanları sırası ile *okuyabiliriz*.
 
 Projelerimizde sıklıkla **Queue** sınıfına ihtiyaç duyarız. Örneğin, üye kaydı oluşturan kullanıcılara mail ile erişim bilgileri iletileceği durumda, her yeni oluşturulan üye kaydını bir *queue*'ya ekleriz, arka planda çalışan bir servis, *queue*'da eleman oldukça alır, veritabanında gerekli kayıtları oluşturduktan, yetkileri tanımladıktan, vs. sonra email gönderme işlemini yapar.
 

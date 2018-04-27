@@ -9,9 +9,9 @@ tags: [add, class, dictionary, extension, extensionmethod, for, generic, int, ka
 ---
 Winamp MP3 oynatıcısında çalma listesini (playlist) rastgele sıra ile karıştırabiliyorsunuz. Benzer özelliği kendi projelerimizde uygulamak isteyebiliriz.
 
-Daha önce, <a href="http://www.enginpolat.com/csharp-ile-dizi-karistirma/" title="C# ile Dizi Karıştırma" target="_blank">C# ile Dizi Karıştırma</a> yazısında bir dizi'yi (<a href="http://msdn.microsoft.com/en-us/library/6sh2ey19.aspx" title="Listt&lt;T&gt; Generic Class" target="_blank">List&lt;T&gt;</a>) nasıl karıştıracağımızı incelemiştik.
+Daha önce, <a href="http://www.enginpolat.com/csharp-ile-dizi-karistirma/" title="C# ile Dizi Karıştırma" target="_blank" rel="noopener">C# ile Dizi Karıştırma</a> yazısında bir dizi'yi (<a href="http://msdn.microsoft.com/en-us/library/6sh2ey19.aspx" title="Listt&lt;T&gt; Generic Class" target="_blank" rel="noopener">List&lt;T&gt;</a>) nasıl karıştıracağımızı incelemiştik.
 
-Bu yazı ile **Karıştırma** (**Shuffle**) yeteneğini **Generic Dictionary** (<a href="http://msdn.microsoft.com/en-us/library/xfhwa508.aspx" title="Dictionary&lt;TKey, TValue&gt; Generic Dictionary" target="_blank">Dictionary&lt;TKey, TValue&gt;</a>) ekleyeceğimizi inceleyeceğiz.
+Bu yazı ile **Karıştırma** (**Shuffle**) yeteneğini **Generic Dictionary** (<a href="http://msdn.microsoft.com/en-us/library/xfhwa508.aspx" title="Dictionary&lt;TKey, TValue&gt; Generic Dictionary" target="_blank" rel="noopener">Dictionary&lt;TKey, TValue&gt;</a>) ekleyeceğimizi inceleyeceğiz.
 
 İlk olarak, *ExtensionManager* isminde **static** bir **sınıf** oluşturalım;
 
@@ -28,7 +28,7 @@ public static class ExtensionManager
 
 *ExtensionManager* sınıfının **Shuffle()** isminde bir method'u var.
 
-Bu method, <a href="http://msdn.microsoft.com/library/system.random" title="Random Sınıfı" target="_blank">Random</a> sınıfından yeni bir **instance**'ın <a href="http://msdn.microsoft.com/library/system.random.next" title="Random Sınıfının Next Methodu" target="_blank">Next()</a> method'unu kullanarak, liste değişkeninin her bir elemanını **rastgele** bir değerle sıralıyor.
+Bu method, <a href="http://msdn.microsoft.com/library/system.random" title="Random Sınıfı" target="_blank" rel="noopener">Random</a> sınıfından yeni bir **instance**'ın <a href="http://msdn.microsoft.com/library/system.random.next" title="Random Sınıfının Next Methodu" target="_blank" rel="noopener">Next()</a> method'unu kullanarak, liste değişkeninin her bir elemanını **rastgele** bir değerle sıralıyor.
 
 Böylece, **Shuffle()** method'u her çağırıldığında liste değişkeninin elemanlarının **rastgele** sıralandığını görüyoruz.
 

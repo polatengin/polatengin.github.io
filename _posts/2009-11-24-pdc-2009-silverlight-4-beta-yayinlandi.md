@@ -7,11 +7,11 @@ comments: true
 category: [Web]
 tags: [.net, ASP.NET, expression blend, İnternet, pdc, silverlight, web]
 ---
-18 Kasım 2009 tarihinde, Microsoft PDC’09 (<a title="Microsoft PDC'09" href="http://microsoftpdc.com/" target="_blank">Microsoft Proffessional Developers Conference 2009</a>) konferansında konuşmacı <a title="Scott Gutherie" href="http://weblogs.asp.net/scottgu/" target="_blank">Scott Gutherie</a>, Silverlight 4 Beta’nın yayınlandığını duyurdu.
+18 Kasım 2009 tarihinde, Microsoft PDC’09 (<a title="Microsoft PDC'09" href="http://microsoftpdc.com/" target="_blank" rel="noopener">Microsoft Proffessional Developers Conference 2009</a>) konferansında konuşmacı <a title="Scott Gutherie" href="http://weblogs.asp.net/scottgu/" target="_blank" rel="noopener">Scott Gutherie</a>, Silverlight 4 Beta’nın yayınlandığını duyurdu.
 
-Resmi sitesi <a title="Silverlight" href="http://www.silverlight.net" target="_blank">silverlight.net</a>'te yer alan <a title="Silverlight 4 Beta" href="http://silverlight.net/getstarted/silverlight-4-beta/" target="_blank">şu sayfadan</a> ayrıntılı bilgiye ulaşabilirsiniz.
+Resmi sitesi <a title="Silverlight" href="http://www.silverlight.net" target="_blank" rel="noopener">silverlight.net</a>'te yer alan <a title="Silverlight 4 Beta" href="http://silverlight.net/getstarted/silverlight-4-beta/" target="_blank" rel="noopener">şu sayfadan</a> ayrıntılı bilgiye ulaşabilirsiniz.
 
-Channel9'da yeralan <a title="Silverlight 4 Beta: Whats New" href="http://channel9.msdn.com/learn/courses/Silverlight4/Overview/WhatsNew/" target="_blank">video</a>'dan yenilik olarak nelerin geleceğini izleyebilirsiniz.
+Channel9'da yeralan <a title="Silverlight 4 Beta: Whats New" href="http://channel9.msdn.com/learn/courses/Silverlight4/Overview/WhatsNew/" target="_blank" rel="noopener">video</a>'dan yenilik olarak nelerin geleceğini izleyebilirsiniz.
 
 Yeniliklerden kısaca bahsetmek gerekirse;
 
@@ -30,9 +30,9 @@ Yeniliklerden kısaca bahsetmek gerekirse;
 *   İstemci bilgisayarın dosya sistemine erişim yeteneği
 *   Google Chrome desteği
 *   Multi-touch desteği
-Listenin tamamına ve açıklamalarına <a title="Silverlight 4 Beta" href="http://silverlight.net/getstarted/silverlight-4-beta/" target="_blank">buradan</a> ulaşabilirsiniz.
+Listenin tamamına ve açıklamalarına <a title="Silverlight 4 Beta" href="http://silverlight.net/getstarted/silverlight-4-beta/" target="_blank" rel="noopener">buradan</a> ulaşabilirsiniz.
 
 Silverlight ekibi 4. versiyonun betasını yayınlarken, Expression Blend ekibi de boş durmamış ve Silverlight 4 çıktı üretebilen Expression Blend versiyonunun beta'sını yayınlamış.
 
-Microsoft Download'da yer alan <a title="Expression Blend 4" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=6806e466-dd25-482b-a9b3-3f93d2599699&amp;displaylang=en" target="_blank">şu sayfadan</a> **Expression Blend Preview for .Net 4** versiyonunu indirebilirsiniz.
+Microsoft Download'da yer alan <a title="Expression Blend 4" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=6806e466-dd25-482b-a9b3-3f93d2599699&amp;displaylang=en" target="_blank" rel="noopener">şu sayfadan</a> **Expression Blend Preview for .Net 4** versiyonunu indirebilirsiniz.
 

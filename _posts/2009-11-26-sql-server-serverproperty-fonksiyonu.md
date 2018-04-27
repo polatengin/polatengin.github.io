@@ -20,5 +20,5 @@ SELECT
     SERVERPROPERTY('productversion') AS VERSIYON,
     SERVERPROPERTY('servername') AS SUNUCU_ADI
 
-**SERVERPROPERTY** fonksiyonunun alabileceği tüm *propertyname* parametreleri ve açıklamaları için <a title="MSDN: Sql ServerProperty" href="http://msdn.microsoft.com/en-us/library/ms174396.aspx" target="_blank">şuradaki</a> MSDN sayfasına bakınız.
+**SERVERPROPERTY** fonksiyonunun alabileceği tüm *propertyname* parametreleri ve açıklamaları için <a title="MSDN: Sql ServerProperty" href="http://msdn.microsoft.com/en-us/library/ms174396.aspx" target="_blank" rel="noopener">şuradaki</a> MSDN sayfasına bakınız.
 

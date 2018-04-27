@@ -9,5 +9,5 @@ tags: [bilgeadam, etkinliklerim, seminer]
 ---
 Panel ile ilgili görsele ulaşmak için, aşağıdaki resme tıklayınız.
 
-<a href="/assets/uploads/2010/03/Mart2010_Panel_2.png" target="_blank">![13 Mart 2010 - BilgeAdam Yazılım](/assets/uploads/2010/03/Mart2010_Panel_1.png "Mart2010_Panel_1")</a>
+<a href="/assets/uploads/2010/03/Mart2010_Panel_2.png" target="_blank" rel="noopener">![13 Mart 2010 - BilgeAdam Yazılım](/assets/uploads/2010/03/Mart2010_Panel_1.png "Mart2010_Panel_1")</a>
 

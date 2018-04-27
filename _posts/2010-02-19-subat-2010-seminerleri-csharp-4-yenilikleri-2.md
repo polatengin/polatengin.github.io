@@ -20,7 +20,7 @@ Bu seminerde değindiğim konular;
 *   SEO İyileştirmeleri
 *   Dynamic Data Web Site
 
-<a title="enginpolat.com: Şubat 2010 Seminerleri / C# 4.0 Yenilikleri - 2" href="/assets/uploads/2010/02/CSharp4Yenilikler2_Prezentasyon.rar" target="_blank">Powerpoint Prezentasyonu</a>
+<a title="enginpolat.com: Şubat 2010 Seminerleri / C# 4.0 Yenilikleri - 2" href="/assets/uploads/2010/02/CSharp4Yenilikler2_Prezentasyon.rar" target="_blank" rel="noopener">Powerpoint Prezentasyonu</a>
 
-<a title="enginpolat.com: Şubat 2010 Seminerleri / C# 4.0 Yenilikleri - 2" href="/assets/uploads/2010/02/CSharp4Yenilikler2_OrnekKodlar.rar" target="_blank">Visual Studio 2010 Kodları</a>
+<a title="enginpolat.com: Şubat 2010 Seminerleri / C# 4.0 Yenilikleri - 2" href="/assets/uploads/2010/02/CSharp4Yenilikler2_OrnekKodlar.rar" target="_blank" rel="noopener">Visual Studio 2010 Kodları</a>
 

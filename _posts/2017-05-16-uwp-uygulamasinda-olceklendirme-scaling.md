@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [uwp, scaling]
 ---
-<div class="alert alert-success" role="alert" style="margin: 10px 0px; display: block;"> Bu makalenin kodlarına <strong>Github</strong> üzerinde <a href="https://github.com/polatengin" class="alert-link" target="_blank">polatengin</a> hesabımda yer alan <a href="https://github.com/polatengin/blog-codes/tree/master/windows-10-uwp-scaling-project" class="alert-link" target="_blank">Windows 10 UWP Scaling Project</a> aracılığıyla erişebilirsiniz.</div>
+<div class="alert alert-success" role="alert" style="margin: 10px 0px; display: block;"> Bu makalenin kodlarına <strong>Github</strong> üzerinde <a href="https://github.com/polatengin" class="alert-link" target="_blank" rel="noopener">polatengin</a> hesabımda yer alan <a href="https://github.com/polatengin/blog-codes/tree/master/windows-10-uwp-scaling-project" class="alert-link" target="_blank" rel="noopener">Windows 10 UWP Scaling Project</a> aracılığıyla erişebilirsiniz.</div>
 
 *Yazılım Mimarı* olarak, çeşitli projelerine yardımcı olduğum bir müşteride **UWP** uygulamalarının birinde nesneleri çeşitli sebeplerden dolayı ölçeklendirmemiz gerekti.
 
@@ -29,19 +29,19 @@ Bu ekranda dikkat etmemiz gereken birkaç nokta var,
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.slider" target="_blank">Slider</a> nesnesi ile, ekrandaki <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.grid" target="_blank">Grid</a> nesnesini hangi oranda ölçeklendireceğimizi belirliyoruz
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.slider" target="_blank" rel="noopener">Slider</a> nesnesi ile, ekrandaki <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.grid" target="_blank" rel="noopener">Grid</a> nesnesini hangi oranda ölçeklendireceğimizi belirliyoruz
 </li>
 
 <li>
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.grid" target="_blank">Grid</a> nesnesinin <code>RenderTransform</code> özelliği ve <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.scaletransform" target="_blank">ScaleTransform</a> sınıflarını kullanıyoruz
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.grid" target="_blank" rel="noopener">Grid</a> nesnesinin <code>RenderTransform</code> özelliği ve <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.scaletransform" target="_blank" rel="noopener">ScaleTransform</a> sınıflarını kullanıyoruz
 </li>
 
 <li>
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.grid" target="_blank">Grid</a> nesnesinin <code>ScaleX</code> ve <code>ScaleY</code> özelliklerini <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.slider" target="_blank">Slider</a> nesnesinin <code>Value</code> özelliğine bağlıyoruz
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.grid" target="_blank" rel="noopener">Grid</a> nesnesinin <code>ScaleX</code> ve <code>ScaleY</code> özelliklerini <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.slider" target="_blank" rel="noopener">Slider</a> nesnesinin <code>Value</code> özelliğine bağlıyoruz
 </li>
 
 <li>
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.grid" target="_blank">Grid</a> içerisine koyduğumuz tüm nesneler, <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.grid" target="_blank">Grid</a> ile birlikte otomatik olarak ölçeklendirilecekler
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.grid" target="_blank" rel="noopener">Grid</a> içerisine koyduğumuz tüm nesneler, <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.grid" target="_blank" rel="noopener">Grid</a> ile birlikte otomatik olarak ölçeklendirilecekler
 </li>
 </ul>
 

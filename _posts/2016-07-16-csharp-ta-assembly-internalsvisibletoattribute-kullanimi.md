@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [access modifiers, application, assembly, attribute, class, compilerservices, console, csharp, erişim belirleyiciler, internal, internalsvisibleto, internalsvisibletoattribute, library, namespace, project, protection level, public, reference, runtime, solution, solution explorer, system, var, visual studio]
 ---
-**C#**'ta kullanabildiğimiz *erişim belirleyicileri* (**Access Modifiers**) daha önce <a href="http://www.enginpolat.com/csharp-erisim-belirleyiciler-access-modifiers/" target="_blank">C# Erişim Belirleyiciler - Access Modifiers</a> isimli makalede ele almıştım.
+**C#**'ta kullanabildiğimiz *erişim belirleyicileri* (**Access Modifiers**) daha önce <a href="http://www.enginpolat.com/csharp-erisim-belirleyiciler-access-modifiers/" target="_blank" rel="noopener">C# Erişim Belirleyiciler - Access Modifiers</a> isimli makalede ele almıştım.
 
 **C#** kurallarına göre, bir proje diğer projeyi **referans** olarak görüyorsa **public** erişim belirleyicili (*access modifier*) olan *class*'lara erişebilir. **internal** access modifier olan **class**'lara ise referans olarak gören projeden erişilemez, sadece tanımlandığı projeden erişilebilir.
 
@@ -41,7 +41,7 @@ Bu noktada proje derlenemez ve *'VeritabaniErisimi' is inaccessible due to its p
 
 Eğer istersek, *Kutuphane* isimli **Class Library**'deki **internal** *access modifier*'ına sahip sınıfların başka projelerden de erişilebilir olmasını sağlayabiliriz.
 
-Bunun için **namespace** üstünde <a href="https://msdn.microsoft.com/library/system.runtime.compilerservices.internalsvisibletoattribute" target="_blank">InternalsVisibleTo</a> **Attribute**'ünü kullanmamız lazım.
+Bunun için **namespace** üstünde <a href="https://msdn.microsoft.com/library/system.runtime.compilerservices.internalsvisibletoattribute" target="_blank" rel="noopener">InternalsVisibleTo</a> **Attribute**'ünü kullanmamız lazım.
 
 Öncelikle *VeritabaniErisimi.cs* dosyasını açalım (*aslında Kutuphane projesindeki herhangi bir csharp dosyasını açsak olur*) ve **using** kısmına *System.Runtime.CompilerServices* ekleyelim, **namespace** üzerine de *[assembly: InternalsVisibleTo("PROJEADI")]* yazalım.
 

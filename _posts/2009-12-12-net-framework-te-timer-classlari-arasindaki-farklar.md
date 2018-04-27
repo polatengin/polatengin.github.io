@@ -15,7 +15,7 @@ Daha doğrusu Timer nesneleridir demeliyim. Çünkü .Net Framework'te Timer ism
 *   System.Timers.Timer
 *   System.Threading.Timer
 *   System.Windows.Forms.Timer
-<a title="MSDN: System.Timers.Timer" href="http://msdn.microsoft.com/en-us/library/system.timers.timer.aspx" target="_blank">***System.Timers.Timer***</a>
+<a title="MSDN: System.Timers.Timer" href="http://msdn.microsoft.com/en-us/library/system.timers.timer.aspx" target="_blank" rel="noopener">***System.Timers.Timer***</a>
 
 Özellikle Multi-Threaded uygulamalarda tercih edilir. Thread-safe olduğu için, birden çok thread'den erişilebilir.
 
@@ -27,7 +27,7 @@ t.Elapsed += delegate(object _s, System.Timers.ElapsedEventArgs _e)
     t.Stop();
 };
 t.Start();</pre>
-<a title="MSDN: System.Threading.Timer" href="http://msdn.microsoft.com/en-us/library/system.threading.timer.aspx" target="_blank">***System.Threading.Timer***</a>
+<a title="MSDN: System.Threading.Timer" href="http://msdn.microsoft.com/en-us/library/system.threading.timer.aspx" target="_blank" rel="noopener">***System.Threading.Timer***</a>
 
 TimerCallBack delegate kullanarak, atanmış metodu çalıştırabilir. Metod, framework tarafından oluşturulan başka bir thread'de çalışır.
 
@@ -41,7 +41,7 @@ Aşağıdaki örnekte 2.parametre (null), Callback method'a aktarılacak paramet
 {
     MessageBox.Show("5 saniye geçti!..");
 }</pre>
-<a title="MSDN: System.Windows.Forms.Timer" href="http://msdn.microsoft.com/en-us/library/system.windows.forms.timer.aspx" target="_blank">***System.Windows.Forms.Timer***</a>
+<a title="MSDN: System.Windows.Forms.Timer" href="http://msdn.microsoft.com/en-us/library/system.windows.forms.timer.aspx" target="_blank" rel="noopener">***System.Windows.Forms.Timer***</a>
 
 Toolbox'ta gördüğümüz nesnedir. Windows Form ile aynı thread'de ve senkron olarak çalışır, böylece hiçbir UI operasyonunu bölmez.
 <pre class="brush:csharp">System.Windows.Forms.Timer t = new System.Windows.Forms.Timer();
@@ -53,5 +53,5 @@ t.Tick += delegate(object _s, EventArgs _e)
     t.Stop();
 };
 
-Daha ayrıntılı bilgi için MSDN'deki <a title="MSDN: Comparing the Timer Classes" href="http://msdn.microsoft.com/en-us/magazine/cc164015.aspx" target="_blank">şu makale</a>yi okuyabilirsiniz.
+Daha ayrıntılı bilgi için MSDN'deki <a title="MSDN: Comparing the Timer Classes" href="http://msdn.microsoft.com/en-us/magazine/cc164015.aspx" target="_blank" rel="noopener">şu makale</a>yi okuyabilirsiniz.
 

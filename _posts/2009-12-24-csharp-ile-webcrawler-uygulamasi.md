@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [.net, code, crawler, csharp, regex, source, web]
 ---
-<a title="Google" href="http://www.google.com" target="_blank">Google</a>, <a title="Bing" href="http://www.bing.com" target="_blank">Bing</a>, <a title="Yahoo" href="http://www.yahoo.com" target="_blank">Yahoo</a> gibi arama motorları, internetteki sayfaları indexlemek için <a title="Wikipedia: Web Crawler" href="http://en.wikipedia.org/wiki/Web_crawler" target="_blank">web crawler</a> denilen programcıklar kullanırlar.
+<a title="Google" href="http://www.google.com" target="_blank" rel="noopener">Google</a>, <a title="Bing" href="http://www.bing.com" target="_blank" rel="noopener">Bing</a>, <a title="Yahoo" href="http://www.yahoo.com" target="_blank" rel="noopener">Yahoo</a> gibi arama motorları, internetteki sayfaları indexlemek için <a title="Wikipedia: Web Crawler" href="http://en.wikipedia.org/wiki/Web_crawler" target="_blank" rel="noopener">web crawler</a> denilen programcıklar kullanırlar.
 
 Crawler'ların çalışma mantığı basittir;
 
@@ -59,5 +59,5 @@ Eğer sayfanın içeriğini tuttuğumuz değişkeni veritabanına yazsak, ve say
 
 Ama bu noktadan itibaren uygulamayı geliştirmeyi size bırakıyorum (BilgeAdam'daki öğrencilerime hep dediğim gibi, "Bundan sonrası size ödev!")
 
-Projenin bu halini <a title="enginpolat.com: WebCrawler" href="/assets/uploads/2009/12/WebCrawler.rar" target="_blank">şuradan</a> indirebilirsiniz.
+Projenin bu halini <a title="enginpolat.com: WebCrawler" href="/assets/uploads/2009/12/WebCrawler.rar" target="_blank" rel="noopener">şuradan</a> indirebilirsiniz.
 

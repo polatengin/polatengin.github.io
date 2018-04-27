@@ -7,7 +7,7 @@ comments: true
 category: [Etkinlik]
 tags: [access, db2, etkinliklerim, ibm, microsoft, mysql, oracle, röportaj, seminer, SQL, sql express, sql server, uzmantv]
 ---
-<a href="http://www.uzmantv.com" target="_blank" rel="nofollow">Uzman TV</a> ile yaptığımız Sql röportajlarında bana sordukları sorular ve cevaplarım;
+<a href="http://www.uzmantv.com" target="_blank" rel="noopener" rel="nofollow">Uzman TV</a> ile yaptığımız Sql röportajlarında bana sordukları sorular ve cevaplarım;
 
 **SQL nasıl bir veritabanı dilidir? (SQL nasıl ortaya çıktı? Kim tarafında bulundu? Veritabanı nedir?)**
 

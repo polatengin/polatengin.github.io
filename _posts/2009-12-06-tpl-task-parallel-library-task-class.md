@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [.net, code, csharp, plinq, source, task, thread, tpl]
 ---
-.Net 4.0 ile birlikte gelecek güzel class'lardan bir tanesi de <a title="MSDN: Task" href="http://msdn.microsoft.com/en-us/library/system.threading.tasks.task%28VS.100%29.aspx" target="_blank">Task</a> class'ı.
+.Net 4.0 ile birlikte gelecek güzel class'lardan bir tanesi de <a title="MSDN: Task" href="http://msdn.microsoft.com/en-us/library/system.threading.tasks.task%28VS.100%29.aspx" target="_blank" rel="noopener">Task</a> class'ı.
 
 Task class'ı ve TPL (Task Parallel Library) ile birlikte gelen diğer class'lar sayesinde paralel programlama .net framework ile desteklenir hale geliyor.
 
@@ -17,17 +17,17 @@ Yandaki görselde görebileceğiniz gibi, TPL (Task Parallel Library) ve PLINQ (
 
 Paralel programlamanın performans'a katkısını MSDN'de yer alan şu iki makale'de okuyabilirsiniz;
 
-<a title="MSDN: Parallel Programming in the .Net Framework" href="http://msdn.microsoft.com/en-us/library/dd460693%28VS.100%29.aspx" target="_blank">Parallel Programming in .Net Framework</a>
+<a title="MSDN: Parallel Programming in the .Net Framework" href="http://msdn.microsoft.com/en-us/library/dd460693%28VS.100%29.aspx" target="_blank" rel="noopener">Parallel Programming in .Net Framework</a>
 
-<a title="MSDN: Parallel Performance" href="http://msdn.microsoft.com/en-us/magazine/cc163340.aspx" target="_blank">Parallel Performance</a>
+<a title="MSDN: Parallel Performance" href="http://msdn.microsoft.com/en-us/magazine/cc163340.aspx" target="_blank" rel="noopener">Parallel Performance</a>
 
 Gene MSDN'de yer alan şu sayfalardan da .net 4 ile gelecek yeni yapıları öğrenebilirsiniz;
 
-<a title="MSDN: Data Structures for Parallel Programming" href="http://msdn.microsoft.com/en-us/library/dd460718%28VS.100%29.aspx" target="_blank">Data Structures for Parallel Programming</a>
+<a title="MSDN: Data Structures for Parallel Programming" href="http://msdn.microsoft.com/en-us/library/dd460718%28VS.100%29.aspx" target="_blank" rel="noopener">Data Structures for Parallel Programming</a>
 
-<a title="MSDN: Task Parallelism (Task Parallel Library)" href="http://msdn.microsoft.com/en-us/library/dd537609%28VS.100%29.aspx" target="_blank">Task Parallelism (Task Parallel Library)</a>
+<a title="MSDN: Task Parallelism (Task Parallel Library)" href="http://msdn.microsoft.com/en-us/library/dd537609%28VS.100%29.aspx" target="_blank" rel="noopener">Task Parallelism (Task Parallel Library)</a>
 
-<a title="MSDN: Introduction to Tasks" href="http://msdn.microsoft.com/en-us/library/dd997419%28VS.100%29.aspx" target="_blank">Introduction to Tasks</a>
+<a title="MSDN: Introduction to Tasks" href="http://msdn.microsoft.com/en-us/library/dd997419%28VS.100%29.aspx" target="_blank" rel="noopener">Introduction to Tasks</a>
 
 Task class'ını kullanarak, Thread yönetme maliyetlerinden kurtularak kolaylıkla Multi-Core uyumlu, Asenkron çalışabilen kodlar yazabiliriz.
 

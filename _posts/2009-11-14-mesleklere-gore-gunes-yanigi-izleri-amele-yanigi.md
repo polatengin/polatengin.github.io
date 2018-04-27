@@ -7,7 +7,7 @@ comments: true
 category: [Genel]
 tags: [eğlence, güneş yanığı, resim]
 ---
-<a title="Codinghorror" href="http://www.codinghorror.com/" target="_blank">Codinghorror</a> sitesinde rastgeldiğim güzel bir resim...
+<a title="Codinghorror" href="http://www.codinghorror.com/" target="_blank" rel="noopener">Codinghorror</a> sitesinde rastgeldiğim güzel bir resim...
 
 ![Mesleklere göre yaz tatilinden güneş yanığı izleri](/assets/uploads/2009/11/MesleklereGoreGunesYanigiIzleri.jpg "Mesleklere göre yaz tatilinden güneş yanığı izleri")
 

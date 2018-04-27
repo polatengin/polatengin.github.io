@@ -60,9 +60,9 @@ Blog'ların **RSS** adreslerine bağlanacak, makalelerin listesini getirecek ve 
     &lt;/Page.TopAppBar&gt;
 &lt;/Page&gt;</pre>
 
-Böylece iki sütunlu bir <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid" title="Grid class" target="_blank">Grid</a> içerisinde soldaki sütunda Blog'un *RSS* adresinden çekeceğimiz makalelerin listesini göstereceğiz, sağdaki sütunda ise makale listesinden seçilen makalenin **başlığını** ve **içeriğini** göstereceğiz.
+Böylece iki sütunlu bir <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid" title="Grid class" target="_blank" rel="noopener">Grid</a> içerisinde soldaki sütunda Blog'un *RSS* adresinden çekeceğimiz makalelerin listesini göstereceğiz, sağdaki sütunda ise makale listesinden seçilen makalenin **başlığını** ve **içeriğini** göstereceğiz.
 
-Ekranın <a href="http://msdn.microsoft.com/library/windows/Apps/windows.ui.xaml.controls.appbar" title="AppBar class" target="_blank">TopAppBar</a>'ında verileri tekrar çekecek olan **Refresh** (*Tazele*) <a href="http://msdn.microsoft.com/library/system.windows.controls.button" title="Button Class" target="_blank">Button</a> nesnesi yer alacak.
+Ekranın <a href="http://msdn.microsoft.com/library/windows/Apps/windows.ui.xaml.controls.appbar" title="AppBar class" target="_blank" rel="noopener">TopAppBar</a>'ında verileri tekrar çekecek olan **Refresh** (*Tazele*) <a href="http://msdn.microsoft.com/library/system.windows.controls.button" title="Button Class" target="_blank" rel="noopener">Button</a> nesnesi yer alacak.
 
 ![](/assets/uploads/2014/05/BlogRSSReader-0.png)
 
@@ -76,19 +76,19 @@ Projemize *BlogPost* isminde bir sınıf ekleyelim ve rss adresindeki bilgiyi pa
     public DateTime PubDate { get; set; }
 }</pre>
 
-Artık *MainPage.xaml.cs* dosyasına gidebilir ve sayfa ekrana ilk geldiğinde yapılacak işleri <a href="http://msdn.microsoft.com/library/system.windows.controls.page.onnavigatedto" title="Page.OnNavigatedTo Method" target="_blank">OnNavigatedTo()</a> methodunun içerisine yazabiliriz.
+Artık *MainPage.xaml.cs* dosyasına gidebilir ve sayfa ekrana ilk geldiğinde yapılacak işleri <a href="http://msdn.microsoft.com/library/system.windows.controls.page.onnavigatedto" title="Page.OnNavigatedTo Method" target="_blank" rel="noopener">OnNavigatedTo()</a> methodunun içerisine yazabiliriz.
 
 Öncelikle rss adresindeki veriyi **parse** ettiğimizde elde edeceğimiz *BlogPost*'ların listesi için bir değişken tanımlaması yapıyoruz;
 
 <pre class="brush:csharp">var postList = new List&lt;BlogPost&gt;();</pre>
 
-Şimdi *Windows.Web.Syndication* namespace'inde tanımlı <a href="http://msdn.microsoft.com/library/windows/apps/windows.web.syndication.syndicationclient" title="SyndicationClient class" target="_blank">SyndicationClient</a> tipinde bir değişken tanımlayabilir ve <a href="http://msdn.microsoft.com/library/windows/apps/windows.web.syndication.syndicationclient.retrievefeedasync" title="SyndicationClient.RetrieveFeedAsync Method" target="_blank">RetreiveFeedAsync()</a> methodunu kullanarak belli bir adresteki rss verisini **parse** edebiliriz.
+Şimdi *Windows.Web.Syndication* namespace'inde tanımlı <a href="http://msdn.microsoft.com/library/windows/apps/windows.web.syndication.syndicationclient" title="SyndicationClient class" target="_blank" rel="noopener">SyndicationClient</a> tipinde bir değişken tanımlayabilir ve <a href="http://msdn.microsoft.com/library/windows/apps/windows.web.syndication.syndicationclient.retrievefeedasync" title="SyndicationClient.RetrieveFeedAsync Method" target="_blank" rel="noopener">RetreiveFeedAsync()</a> methodunu kullanarak belli bir adresteki rss verisini **parse** edebiliriz.
 
 <pre class="brush:csharp">var client = new SyndicationClient();
 
 var feed = await client.RetrieveFeedAsync(new Uri("http://feeds.feedburner.com/muammerbenzes"));</pre>
 
-*Not : Bu örnekte sevgili <a href="http://www.muammerbenzes.com/" title="Muammer Benzeş" target="_blank">Muammer Benzeş</a>'in blogunun rss adresini kullandık, başka blogların rss adresleri için özel bir kod yazmaya gerek yok.*
+*Not : Bu örnekte sevgili <a href="http://www.muammerbenzes.com/" title="Muammer Benzeş" target="_blank" rel="noopener">Muammer Benzeş</a>'in blogunun rss adresini kullandık, başka blogların rss adresleri için özel bir kod yazmaya gerek yok.*
 
 **Parse** ettiğimiz rss verisinin içerisinde dönerek *BlogPost* listesine teker teker ekliyoruz;
 

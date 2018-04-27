@@ -15,7 +15,7 @@ Fakat Windows işletim sisteminde dosya veya dizinlerin boyutları **en yakın b
 
 Küçük dosyalar **byte**, **kilobyte** veya **megabyte** cinsinden gösterilirken, daha büyük dosyalar **gigabyte** hatta **terabyte** cinsinden gösterilebiliyor.
 
-Eğer biz de uygulamamızda dosya boyutlarını **Windows tarzında** göstermek istiyorsak, öncelikle birimleri elde etmemize yarayacak bir <a href="http://msdn.microsoft.com/en-us/library/sbbt4032.aspx" target="_blank">enum</a> tanımlamalıyız;
+Eğer biz de uygulamamızda dosya boyutlarını **Windows tarzında** göstermek istiyorsak, öncelikle birimleri elde etmemize yarayacak bir <a href="http://msdn.microsoft.com/en-us/library/sbbt4032.aspx" target="_blank" rel="noopener">enum</a> tanımlamalıyız;
 
 
 

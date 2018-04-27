@@ -9,7 +9,7 @@ tags: [enableframeratecounter, frame per second, list, longlistselector, marketp
 ---
 **Windows Phone** uygulamaları geliştirirken elimizin altında basit ama önemli *performans ipuçlarının* olması işimize yarar.
 
-<a href="http://msdn.microsoft.com/en-us/library/windowsphone/develop/gg588380.aspx" title="MSDN : Frame rate counters in Windows Phone Emulator" target="_blank">EnableFrameRateCounter</a> özelliğini açmak
+<a href="http://msdn.microsoft.com/en-us/library/windowsphone/develop/gg588380.aspx" title="MSDN : Frame rate counters in Windows Phone Emulator" target="_blank" rel="noopener">EnableFrameRateCounter</a> özelliğini açmak
 
 
 

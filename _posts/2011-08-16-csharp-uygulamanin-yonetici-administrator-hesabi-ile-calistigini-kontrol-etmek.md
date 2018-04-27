@@ -11,7 +11,7 @@ Eğer uygulama içerisinde **Yönetici** (**Administrator**) hesabının yetkisi
 
 Günümüzde birçok uygulama **Yönetici** (**Administrator**) haklarına ihtiyaç duyar. Bu makalede bu haklara sahip olduğumuzu nasıl kontrol edeceğimizi işleyeceğiz.
 
-Öncelikle kodumuzun **using** kısmına <a href="http://msdn.microsoft.com/library/system.security.principal" target="_blank">System.Security.Principal</a> **namespace**'ini eklememiz gerekiyor;
+Öncelikle kodumuzun **using** kısmına <a href="http://msdn.microsoft.com/library/system.security.principal" target="_blank" rel="noopener">System.Security.Principal</a> **namespace**'ini eklememiz gerekiyor;
 
 <pre>using System.Security.Principal;</pre>
 
@@ -28,11 +28,11 @@ Daha sonra *IsAdministrator()* isminde bir fonksiyon yazıyoruz;
 
 Bu fonksiyon sayesinde **Yönetici** (**Administrator**) haklarına sahip olup/olmadığımızı anlayabiliyoruz.
 
-Fonksiyon içerisinde öncelikle <a href="http://msdn.microsoft.com/library/system.security.principal.windowsidentity" target="_blank">WindowsIdentity</a> sınıfından bir değişkene <a href="http://msdn.microsoft.com/library/system.security.principal.windowsidentity" target="_blank">WindowsIdentity</a> sınıfının static <a href="http://msdn.microsoft.com/library/system.security.principal.windowsidentity.getcurrent" target="_blank">GetCurrent()</a> methodundan dönen değeri atıyoruz.
+Fonksiyon içerisinde öncelikle <a href="http://msdn.microsoft.com/library/system.security.principal.windowsidentity" target="_blank" rel="noopener">WindowsIdentity</a> sınıfından bir değişkene <a href="http://msdn.microsoft.com/library/system.security.principal.windowsidentity" target="_blank" rel="noopener">WindowsIdentity</a> sınıfının static <a href="http://msdn.microsoft.com/library/system.security.principal.windowsidentity.getcurrent" target="_blank" rel="noopener">GetCurrent()</a> methodundan dönen değeri atıyoruz.
 
-İkinci adımda ise, bu değişkeni kullanarak <a href="http://msdn.microsoft.com/library/system.security.principal.windowsprincipal" target="_blank">WindowsPrincipal</a> sınıfından yeni bir değişken oluşturuyoruz.
+İkinci adımda ise, bu değişkeni kullanarak <a href="http://msdn.microsoft.com/library/system.security.principal.windowsprincipal" target="_blank" rel="noopener">WindowsPrincipal</a> sınıfından yeni bir değişken oluşturuyoruz.
 
-Son adımda, bu değişkenin <a href="http://msdn.microsoft.com/library/system.security.principal.windowsprincipal.isinrole" target="_blank">IsInRole</a> fonksiyonuna <a href="http://msdn.microsoft.com/library/system.security.principal.windowsbuiltinrole" target="_blank">WindowsBuiltInRole</a> enum'ından *Administrator* değerini parametre olarak geçiyoruz ve sonucu fonksiyondan geriye <a href="http://msdn.microsoft.com/en-us/library/c8f5xwh7.aspx" target="_blank">boolean</a> değer olarak döndürüyoruz.
+Son adımda, bu değişkenin <a href="http://msdn.microsoft.com/library/system.security.principal.windowsprincipal.isinrole" target="_blank" rel="noopener">IsInRole</a> fonksiyonuna <a href="http://msdn.microsoft.com/library/system.security.principal.windowsbuiltinrole" target="_blank" rel="noopener">WindowsBuiltInRole</a> enum'ından *Administrator* değerini parametre olarak geçiyoruz ve sonucu fonksiyondan geriye <a href="http://msdn.microsoft.com/en-us/library/c8f5xwh7.aspx" target="_blank" rel="noopener">boolean</a> değer olarak döndürüyoruz.
 
 Uygulama içerisinde her ihtiyacımız olduğunda yukarıdaki fonksiyonu çağırarak Yönetici (Administrator) haklarına sahip olduğumuzu kontrol edebiliriz;
 

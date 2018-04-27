@@ -11,7 +11,7 @@ tags: [azure, etkinliklerim, microsoft, seminer, signalr, unity3d, universal app
 
 ![](/assets/uploads/2015/04/ODTUDevToWinEtkinlik.png)
 
-Bu etkinlik kapsamında 3 gün boyunca <a href="http://unity3d.com/" target="_blank">Unity3D</a> ile oyun geliştiren şirketlerin oyunlarını *Windows* platformuna uyarlayabilmeleri ve **Microsoft Azure**'un servislerinden faydalanabilmelerini sağlamaya çalıştım.
+Bu etkinlik kapsamında 3 gün boyunca <a href="http://unity3d.com/" target="_blank" rel="noopener">Unity3D</a> ile oyun geliştiren şirketlerin oyunlarını *Windows* platformuna uyarlayabilmeleri ve **Microsoft Azure**'un servislerinden faydalanabilmelerini sağlamaya çalıştım.
 
 Özellikle **Unity3D ile oyun geliştirme inceliklerini**, **Windows 10 ile birlikte gelecek Universal App yeniliklerini**, oyun geliştiriciler için önemli olan **Microsoft Azure** hizmetlerini ve real-time servis geliştirmek için tercih edilebilecek **SignalR** framework'unu uygulamalı olarak anlattım.
 

@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [challenge, code, csharp, hosts, parallel, parse, regex, source, youtube]
 ---
-Dün <a title="Karalamalar" href="http://www.karalamalar.net" target="_blank">Emre</a> (nam-ı diğer <a title="Karalamalar" href="http://www.karalamalar.net" target="_blank">kara</a>) arkadaşımla internette gezerken, bir youtube video'suna denk geldik. Emre'nin bilgisayarındaki hosts dosyasında güncel **youtube** ip adresleri olmadığı için videoyu izleyemedik.
+Dün <a title="Karalamalar" href="http://www.karalamalar.net" target="_blank" rel="noopener">Emre</a> (nam-ı diğer <a title="Karalamalar" href="http://www.karalamalar.net" target="_blank" rel="noopener">kara</a>) arkadaşımla internette gezerken, bir youtube video'suna denk geldik. Emre'nin bilgisayarındaki hosts dosyasında güncel **youtube** ip adresleri olmadığı için videoyu izleyemedik.
 
 Aklımıza, youtube domainine ait ip adreslerini otomatik olarak bulacak ve hosts dosyasını güncelleyecek bir uygulama yazmak geldi. Öğle yemeğine çıkmamıza 15 dakika olduğu için, bunu bir yarışa dönüştürmeye karar verdik.
 
@@ -28,13 +28,13 @@ Ben öncelikle *http://www.hcidata.info/host2ip.cgi* adresindeki formu inceleyer
 
 ![YoutubeHostDuzenleyici_1](/assets/uploads/2009/12/YoutubeHostDuzenleyici_1.png "YoutubeHostDuzenleyici_1")
 
-<a title="MSDN: WebRequest Class" href="http://msdn.microsoft.com/en-us/library/system.net.webrequest.aspx" target="_blank">WebRequest</a> sınıfından bir örnek oluşturdum, sayfanın çıktısını *<a title="MSDN: WebRequest.GetResponse() Method" href="http://msdn.microsoft.com/en-us/library/system.net.webrequest.getresponse.aspx" target="_blank">GetResponse()</a>* methodu ile alarak <a title="MSDN: WebResponse Class" href="http://msdn.microsoft.com/en-us/library/system.net.webresponse.aspx" target="_blank">WebResponse</a> sınıfında bir nesnede sakladım. <a title="MSDN: StreamReader Class" href="http://msdn.microsoft.com/en-us/library/system.net.webresponse.aspx" target="_blank">StreamReader</a> nesnesini kullarak, sayfanın HTML çıktısını string tipinde bir değişkene atadım.
+<a title="MSDN: WebRequest Class" href="http://msdn.microsoft.com/en-us/library/system.net.webrequest.aspx" target="_blank" rel="noopener">WebRequest</a> sınıfından bir örnek oluşturdum, sayfanın çıktısını *<a title="MSDN: WebRequest.GetResponse() Method" href="http://msdn.microsoft.com/en-us/library/system.net.webrequest.getresponse.aspx" target="_blank" rel="noopener">GetResponse()</a>* methodu ile alarak <a title="MSDN: WebResponse Class" href="http://msdn.microsoft.com/en-us/library/system.net.webresponse.aspx" target="_blank" rel="noopener">WebResponse</a> sınıfında bir nesnede sakladım. <a title="MSDN: StreamReader Class" href="http://msdn.microsoft.com/en-us/library/system.net.webresponse.aspx" target="_blank" rel="noopener">StreamReader</a> nesnesini kullarak, sayfanın HTML çıktısını string tipinde bir değişkene atadım.
 
 *v{1-24}.lscache{1-8}.c.youtube.com* adreslerinin ip adreslerini bulmak için içiçe iki paralel for döngüsü kurdum.
 
 *response* değişkeninde oluşan HTML'i parse ederek, ip adresine ulaştım.
 
-hosts dosyasında **youtube.com** adresli satırları bulmak ve güncellemek için **.Net Regular Expression** (<a title="MSDN: Regex Class" href="http://msdn.microsoft.com/en-us/library/system.text.regularexpressions.regex.aspx" target="_blank">Regex</a>) classını kullandım.
+hosts dosyasında **youtube.com** adresli satırları bulmak ve güncellemek için **.Net Regular Expression** (<a title="MSDN: Regex Class" href="http://msdn.microsoft.com/en-us/library/system.text.regularexpressions.regex.aspx" target="_blank" rel="noopener">Regex</a>) classını kullandım.
 
 Son olarak, bu kodları fonksiyon haline getirdim;
 

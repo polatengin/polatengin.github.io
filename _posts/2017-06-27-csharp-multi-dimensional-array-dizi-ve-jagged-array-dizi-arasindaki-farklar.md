@@ -98,4 +98,4 @@ Bu methodlardan üretilen **IL** koduna bakacak olursak;
 
 Gördüğünüz gibi, **Multi-Dimensional Array** için üretilen **IL** kodu, **Jagged Array** için üretilen **IL** kodundan daha karmaşık ve doğal olarak çalıştırılması da daha uzun sürüyor.
 
-<small>*Not : Bu makaleyi geliştirirken <a href="https://stackoverflow.com/questions/597720/what-are-the-differences-between-a-multidimensional-array-and-an-array-of-arrays" target="_blank">Stackoverflow</a>'dan çok faydalandım*</small>
+<small>*Not : Bu makaleyi geliştirirken <a href="https://stackoverflow.com/questions/597720/what-are-the-differences-between-a-multidimensional-array-and-an-array-of-arrays" target="_blank" rel="noopener">Stackoverflow</a>'dan çok faydalandım*</small>

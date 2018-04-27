@@ -9,7 +9,7 @@ tags: [ASP.NET, aspnet, file, html, html5, input, mvc, steganography, type, visu
 ---
 Aldığım ilginç bir maili cevaplarken internette **Steganography** diye birşeye denk geldim. Bir resmin **pixel**lerinin renk değerlerini bir metni veya dosyayı içerecek şekilde değiştirmeye ve böylece resim ile birlikte gizlice metin veya dosya transfer etme anlamına geliyor.
 
-Aşağıdaki <a href="https://www.youtube.com/watch?v=bTZZsgtJhSE" target="_blank">youtube video</a>'sunda **Visual Studio** içerisinde bir **ASP.NET MVC** projesi oluşturacak, dosya *upload* edecek bir **html** sayfası oluşturacak, *upload* edilen resmin içerisine istediğimiz metni gizleyeceğiz.
+Aşağıdaki <a href="https://www.youtube.com/watch?v=bTZZsgtJhSE" target="_blank" rel="noopener">youtube video</a>'sunda **Visual Studio** içerisinde bir **ASP.NET MVC** projesi oluşturacak, dosya *upload* edecek bir **html** sayfası oluşturacak, *upload* edilen resmin içerisine istediğimiz metni gizleyeceğiz.
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bTZZsgtJhSE" frameborder="0" allowfullscreen></iframe></div>
 

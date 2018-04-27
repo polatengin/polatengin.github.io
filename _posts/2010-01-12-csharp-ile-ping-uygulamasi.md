@@ -15,7 +15,7 @@ Hemen ekran görüntüsü ile başlayalım;
 
 <a href="/assets/uploads/2010/01/Ping_1.png">![](/assets/uploads/2010/01/Ping_1.png "Ping_1")</a>
 
-İlk başlangıç noktamız, MSDN'de şu sayfadan bilgilerine erişebileceğiniz <a title="MSDN: Ping" href="http://msdn.microsoft.com/en-us/library/system.net.networkinformation.ping.aspx" target="_blank">Ping</a> class'ı olacak. *Ping* class'ı, framework içerisinde *System.Net.NetworkInformation* namespace'i içerisinde yeralır.
+İlk başlangıç noktamız, MSDN'de şu sayfadan bilgilerine erişebileceğiniz <a title="MSDN: Ping" href="http://msdn.microsoft.com/en-us/library/system.net.networkinformation.ping.aspx" target="_blank" rel="noopener">Ping</a> class'ı olacak. *Ping* class'ı, framework içerisinde *System.Net.NetworkInformation* namespace'i içerisinde yeralır.
 
 
 
@@ -33,5 +33,5 @@ private void btnPing_Click(object sender, EventArgs e)
 
 *Ping* butonunun *Click* olayında, *Ping* ve *Timer* class'larından birer örnek oluşturuyoruz. *Timer* nesnesinin *Tick* olayında, *Ping* nesnesinin *Send()* method'unu çağırıyoruz, dönen sonucu *PingReply* sınıfında bir değişkene atıyoruz ve *txtSonuc* **Textbox**'ında gösteriyoruz.
 
-Uygulamanın kaynak kodlarını <a title="enginpolat.com: Ping Uygulaması" href="/assets/uploads/2010/01/PingUygulamasi.rar" target="_blank">buradan</a> indirebilirsiniz.
+Uygulamanın kaynak kodlarını <a title="enginpolat.com: Ping Uygulaması" href="/assets/uploads/2010/01/PingUygulamasi.rar" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 

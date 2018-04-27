@@ -11,4 +11,4 @@ tags: [azure, etkinliklerim, msp, seminer, uwp, windows10]
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/https://www.youtube.com/watch?v=wl_XuKZnZ0w" frameborder="0" allowfullscreen></iframe></div>
 
-Bu etkinliğin videosunu **Youtube** (<a href="https://www.youtube.com/watch?v=wl_XuKZnZ0w" target="_blank">UWP Azure Backend Webinar</a>) üzerinden veya **Channel 9** (<a href="https://channel9.msdn.com/Blogs/MVP-Windows-Dev/MSP-Webinar-2016-UWP-Azure-Backend" target="_blank">MSP Webinar 2016 UWP Azure Backend</a>) üzerinden izleyebilirsiniz.
+Bu etkinliğin videosunu **Youtube** (<a href="https://www.youtube.com/watch?v=wl_XuKZnZ0w" target="_blank" rel="noopener">UWP Azure Backend Webinar</a>) üzerinden veya **Channel 9** (<a href="https://channel9.msdn.com/Blogs/MVP-Windows-Dev/MSP-Webinar-2016-UWP-Azure-Backend" target="_blank" rel="noopener">MSP Webinar 2016 UWP Azure Backend</a>) üzerinden izleyebilirsiniz.

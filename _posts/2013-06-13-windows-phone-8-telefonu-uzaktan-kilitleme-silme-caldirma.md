@@ -19,7 +19,7 @@ Uygulamayı başlatıp ekranın *sağına* doğru kaydığınızda, **Kayıp tel
 
 ![](/assets/uploads/2013/06/WP8-Lock-2.png)
 
-Alternatif olarak *internet tarayıcınızın* ile <a href="https://www.windowsphone.com/en-us/my/find" title="Find My Phone" target="_blank">Find My Phone</a> adresini ziyaret edebilirsiniz.
+Alternatif olarak *internet tarayıcınızın* ile <a href="https://www.windowsphone.com/en-us/my/find" title="Find My Phone" target="_blank" rel="noopener">Find My Phone</a> adresini ziyaret edebilirsiniz.
 
 İlk ziyaretinizde ekrana telefonunuzun *markası*, *modeli* ve verdiğiniz *isim* gelecek, yanında da **Çaldır**, **Kilitle** ve **Sil** linkleri yer alacak.
 

@@ -15,7 +15,7 @@ Böylece Windows belirli bir süre boyunca kullanılmadığında, uygulamamızı
 
 Windows'un **kullanılmadığı süreyi** ölçmek için, öncelikle **son kullanıldığı zamanı** bulmamız gerekmektedir.
 
-İlk olarak, kodumuzun *using* kısmına <a href="http://msdn.microsoft.com/library/system" target="_blank">System</a> , <a href="http://msdn.microsoft.com/library/system.runtime.interopservices" target="_blank">System.Runtime.InteropServices</a> ve <a href="http://msdn.microsoft.com/library/system.timers" target="_blank">System.Timers</a> *namespace*'lerini ekleyelim.
+İlk olarak, kodumuzun *using* kısmına <a href="http://msdn.microsoft.com/library/system" target="_blank" rel="noopener">System</a> , <a href="http://msdn.microsoft.com/library/system.runtime.interopservices" target="_blank" rel="noopener">System.Runtime.InteropServices</a> ve <a href="http://msdn.microsoft.com/library/system.timers" target="_blank" rel="noopener">System.Timers</a> *namespace*'lerini ekleyelim.
 
 **System.Runtime.InteropServices** namespace'i [Windows API](http://en.wikipedia.org/wiki/Windows_API)'lerini uygulamamıza eklememize yarayan sınıfları barındırmaktadır.
 
@@ -32,7 +32,7 @@ static extern bool GetLastInputInfo(ref LastInputInfo plii);</pre>
 
 <pre class="brush:csharp">TimeSpan.FromMilliseconds(Environment.TickCount - info.dwTime)</pre>
 
-**GetLastInputInfo** method'u parametre olarak <a href="http://msdn.microsoft.com/library/ms646272.aspx" target="_blank">LastInputInfo</a> tipinde bir **struct** istemektedir.
+**GetLastInputInfo** method'u parametre olarak <a href="http://msdn.microsoft.com/library/ms646272.aspx" target="_blank" rel="noopener">LastInputInfo</a> tipinde bir **struct** istemektedir.
 
 <pre class="brush:csharp">public struct LastInputInfo
 {
@@ -40,7 +40,7 @@ static extern bool GetLastInputInfo(ref LastInputInfo plii);</pre>
     public uint dwTime;
 }</pre>
 
-Uygulamamızın başlangıcında bir <a href="http://msdn.microsoft.com/library/system.timers.timer" target="_blank">Timer</a> oluşturuyoruz ve <a href="http://msdn.microsoft.com/library/system.timers.timer.elapsed" target="_blank">Elapsed</a> olayında, Windows'un kullanılmadığı süreyi ekrana yazdırıyoruz.
+Uygulamamızın başlangıcında bir <a href="http://msdn.microsoft.com/library/system.timers.timer" target="_blank" rel="noopener">Timer</a> oluşturuyoruz ve <a href="http://msdn.microsoft.com/library/system.timers.timer.elapsed" target="_blank" rel="noopener">Elapsed</a> olayında, Windows'un kullanılmadığı süreyi ekrana yazdırıyoruz.
 
 Örnek uygulamanın tüm kodu;
 

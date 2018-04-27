@@ -42,9 +42,9 @@ Birden fazla satır olabilir.&lt;/p&gt;
 
 ![CSS_Mesaj_Kutulari](/assets/uploads/2009/11/CSS_Mesaj_Kutulari.png "CSS_Mesaj_Kutulari")
 
-Demo sayfasını görmek ve kodları indirmek için <a title="http://www.enginpolat.com" href="/assets/uploads/2009/11/MesajKutulari.html" target="_blank">tıklayın</a>.
+Demo sayfasını görmek ve kodları indirmek için <a title="http://www.enginpolat.com" href="/assets/uploads/2009/11/MesajKutulari.html" target="_blank" rel="noopener">tıklayın</a>.
 
-<a title="eBurhan" href="http://www.eburhan.com/css-ile-hazirladigim-mesaj-kutulari/" target="_blank">Şu adreste</a>, bu tekniğin uygulandığı, download edilebilir kodları bulabilirsiniz.
+<a title="eBurhan" href="http://www.eburhan.com/css-ile-hazirladigim-mesaj-kutulari/" target="_blank" rel="noopener">Şu adreste</a>, bu tekniğin uygulandığı, download edilebilir kodları bulabilirsiniz.
 
-Yazının orjinaline ise <a title="Bioneural" href="http://www.bioneural.net/2006/04/01/create-a-valid-css-alert-message/" target="_blank">şu kaynaktan</a> ulaşabilirsiniz.
+Yazının orjinaline ise <a title="Bioneural" href="http://www.bioneural.net/2006/04/01/create-a-valid-css-alert-message/" target="_blank" rel="noopener">şu kaynaktan</a> ulaşabilirsiniz.
 

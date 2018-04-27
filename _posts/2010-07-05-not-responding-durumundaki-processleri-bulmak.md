@@ -9,11 +9,11 @@ tags: [csharp, foreach, getprocesses, process, System.Diagnostics]
 ---
 O anda çalışmakta olan uygulamaların durumlarını gözleyen bir **service** yazmamız gerektiğinde, gözlediğimiz uygulamanın kullanıcıya yanıt verip-vermediğini bulabilmemiz gerekir.
 
-Bunu **.Net Framework**'teki <a title="MSDN: Process" href="http://msdn.microsoft.com/en-us/library/system.diagnostics.process.aspx" target="_blank">Process</a> sınıfının üyeleri ile kolaylıkla yapabiliriz.
+Bunu **.Net Framework**'teki <a title="MSDN: Process" href="http://msdn.microsoft.com/en-us/library/system.diagnostics.process.aspx" target="_blank" rel="noopener">Process</a> sınıfının üyeleri ile kolaylıkla yapabiliriz.
 
 ***Process Sınıfı***
 
-*Process* sınıfı <a title="MSDN: System.Diagnostics" href="http://msdn.microsoft.com/en-us/library/system.diagnostics.aspx" target="_blank">System.Diagnostics</a> *namespace*'i içerisinde yeralır. *Process* sınıfı birçok *static* ve *instance* üyeye sahiptir. Bu üyeler sayesinde, lokal bilgisayardaki veya uzak bilgisayardaki herhangi bir uygulamaya müdahele edebilirsiniz. Ayrıca *Process* sınıfı ilgili uygulamanın "çalıştığını" veya "yanıt vermiyor" durumuna düştüğünü de belirleyebilir.
+*Process* sınıfı <a title="MSDN: System.Diagnostics" href="http://msdn.microsoft.com/en-us/library/system.diagnostics.aspx" target="_blank" rel="noopener">System.Diagnostics</a> *namespace*'i içerisinde yeralır. *Process* sınıfı birçok *static* ve *instance* üyeye sahiptir. Bu üyeler sayesinde, lokal bilgisayardaki veya uzak bilgisayardaki herhangi bir uygulamaya müdahele edebilirsiniz. Ayrıca *Process* sınıfı ilgili uygulamanın "çalıştığını" veya "yanıt vermiyor" durumuna düştüğünü de belirleyebilir.
 
 Bu özellik, uygulamaları monitör eden bir service geliştirecekseniz çok kullanışlıdır.
 

@@ -11,13 +11,13 @@ Veritabanında gerçekleşecek **sorguları** yazdığımız *Veritabanı Erişi
 
 Projenin geliştirilme süresince *gelişen* ihtiyaçlara göre bu methodlara çeşitli kriterlere göre **filtreleme** yapan yeni methodlar eklenir ve bir süre sonra işin içinden çıkılmaz bir hale gelebilir.
 
-<a href="http://msdn.microsoft.com/library/system.linq.expressions.expression" target="_blank">Expression</a>'ları kullanarak bu methodları azaltabiliriz.
+<a href="http://msdn.microsoft.com/library/system.linq.expressions.expression" target="_blank" rel="noopener">Expression</a>'ları kullanarak bu methodları azaltabiliriz.
 
 Hemen **Visual Studio**'yu açalım ve yeni bir **Console Application** projesi oluşturalım;
 
 ![](/assets/uploads/2016/02/expression-1.png)
 
-Projeye **Nuget Package Manager**'ı kullanarak <a href="http://www.asp.net/entity-framework" target="_blank">EntityFramework</a> paketini ekleyelim;
+Projeye **Nuget Package Manager**'ı kullanarak <a href="http://www.asp.net/entity-framework" target="_blank" rel="noopener">EntityFramework</a> paketini ekleyelim;
 
 ![](/assets/uploads/2016/02/expression-2.png)
 

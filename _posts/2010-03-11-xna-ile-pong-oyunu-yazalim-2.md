@@ -89,7 +89,7 @@ ArkaplanSes.Play();</pre>
 
 Böylece oyuncular skor yaptıkça, SkorSes değişkeninde yüklü olan ses dosyası çalınacak.
 
-İşte Pong oyunundan ekran görüntüsü. Oyunun kaynak kodlarını <a title="enginpolat.com : XNA ile Pong oyunu yazalım - 2 / Kodlar" href="/assets/uploads/2010/03/XNA_Pong.rar" target="_blank">buradan</a> indirebilirsiniz.
+İşte Pong oyunundan ekran görüntüsü. Oyunun kaynak kodlarını <a title="enginpolat.com : XNA ile Pong oyunu yazalım - 2 / Kodlar" href="/assets/uploads/2010/03/XNA_Pong.rar" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 
 <a href="/assets/uploads/2010/03/XNA_Pong.png">![XNA Pong oyunun bitmiş hali](/assets/uploads/2010/03/XNA_Pong.png "XNA_Pong")</a>
 

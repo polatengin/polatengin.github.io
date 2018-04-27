@@ -7,9 +7,9 @@ comments: true
 category: [Genel]
 tags: [google, http, İnternet, spdy, web]
 ---
-Google, "<a title="Google: Let's make the web faster" href="http://code.google.com/speed/" target="_blank">Let's make the web faster</a>" vizyonu çerçevesinde pazara sürekli yeni ürünler/teknolojiler çıkartmaya devam ediyor.
+Google, "<a title="Google: Let's make the web faster" href="http://code.google.com/speed/" target="_blank" rel="noopener">Let's make the web faster</a>" vizyonu çerçevesinde pazara sürekli yeni ürünler/teknolojiler çıkartmaya devam ediyor.
 
-<a title="Google: SPDY Whitepaper" href="http://dev.chromium.org/spdy/spdy-whitepaper" target="_blank">Şuradan</a> tamamını okuyabileceğiniz döküman ile HTTP protokolüne alternatif geliştirdiğini de öğrenmiş olduk.
+<a title="Google: SPDY Whitepaper" href="http://dev.chromium.org/spdy/spdy-whitepaper" target="_blank" rel="noopener">Şuradan</a> tamamını okuyabileceğiniz döküman ile HTTP protokolüne alternatif geliştirdiğini de öğrenmiş olduk.
 
 Yeni protokole SPDY (SPeeDY şeklinde telaffuz ediliyor) ismini vermişler ve SSL üstünde çalışmasını sağlamışlar.
 
@@ -42,7 +42,7 @@ HTTP GET ve HTTP POST komutlarının değişmeden kalması öngörülüyor, faka
 
 Şu ana kadar Google, hafızada çalışan bir web sunucusu hazırlamış durumda, üstelik yakında açık kaynak olarak halka açmayı da planlıyor.
 
-Chrome browser'ının da hem HTTP, hem de SPDY protokollerini destekleyen bir sürümünü (kod adı "flip") çıkartmışlar, <a title="Google Chrome: Flip Kaynak kodu" href="http://src.chromium.org/viewvc/chrome/trunk/src/net/flip/" target="_blank">şuradan</a> kaynak kodlarını indirebilirsiniz.
+Chrome browser'ının da hem HTTP, hem de SPDY protokollerini destekleyen bir sürümünü (kod adı "flip") çıkartmışlar, <a title="Google Chrome: Flip Kaynak kodu" href="http://src.chromium.org/viewvc/chrome/trunk/src/net/flip/" target="_blank" rel="noopener">şuradan</a> kaynak kodlarını indirebilirsiniz.
 
 Bu prototipleri kullanarak yapılan testlerde ortaya çıkan sonuç;
 

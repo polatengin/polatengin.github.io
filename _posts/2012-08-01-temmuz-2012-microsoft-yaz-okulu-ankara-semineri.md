@@ -11,7 +11,7 @@ Her sene üniversitelerin yaz tatiline girmesiyle *Microsoft* tarafından bir *Y
 
 Bu yıl ben de **Microsoft Yaz Okuluna** *eğitmen* olarak katıldım.
 
-İkinci seminerimi **Ankara Microsoft Ofisinde** <a href="/kategori/xna/" title="XNA ile Oyun Programlama" target="_blank">XNA Oyun Programlama</a> konusunda verdim.
+İkinci seminerimi **Ankara Microsoft Ofisinde** <a href="/kategori/xna/" title="XNA ile Oyun Programlama" target="_blank" rel="noopener">XNA Oyun Programlama</a> konusunda verdim.
 
 *Ankara Yaz Okulu* öğrencilerine, beni sabırla dinledikleri için **teşekkür ediyor**, özverili katılımlarından dolayı da tebrik ediyorum.
 

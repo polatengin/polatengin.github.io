@@ -7,7 +7,7 @@ comments: true
 category: [Genel]
 tags: [azure, build konferans, css, Daron Yöndem, debug, html, javascript, microsoft, minify, performans, team foundation service, tfs, visual studio, websocket, windows8]
 ---
-Blog'umun **200. yazısını** beni kırmayarak sevgili **Daron Yöndem** yazdı. Aslında tek bir yazı yazacaktı, fakat **Microsoft**'un <a href="http://www.buildwindows.com/" target="_blank">Build Konferans</a>'ına katıldığı için bir yazı serisine dönüştü. Hergün izlenimlerini  sizlerle paylaşıyor olacağım. Yazıların orjinallerini <a href="http://daron.yondem.com" target="_blank">Daron Yöndem</a>'in kendi blog'undan da takip edebilirsiniz. Ayrıca **twitter**'dan da takip etmenizi öneririm; <a href="http://twitter.com/daronyondem" title="Twitter / Daron Yöndem" target="_blank">@daronyondem</a>
+Blog'umun **200. yazısını** beni kırmayarak sevgili **Daron Yöndem** yazdı. Aslında tek bir yazı yazacaktı, fakat **Microsoft**'un <a href="http://www.buildwindows.com/" target="_blank" rel="noopener">Build Konferans</a>'ına katıldığı için bir yazı serisine dönüştü. Hergün izlenimlerini  sizlerle paylaşıyor olacağım. Yazıların orjinallerini <a href="http://daron.yondem.com" target="_blank" rel="noopener">Daron Yöndem</a>'in kendi blog'undan da takip edebilirsiniz. Ayrıca **twitter**'dan da takip etmenizi öneririm; <a href="http://twitter.com/daronyondem" title="Twitter / Daron Yöndem" target="_blank" rel="noopener">@daronyondem</a>
 
 Söz Daron'da...<!--more-->
 
@@ -31,7 +31,7 @@ Bu gerçekten çok zekice ve güzel bir özellik! Artık projelerinizde CSS'leri
 
 **Team Foundation Service on Azure**
 
-**TFS Hosted** olarak da adlandırabileceğimiz TFS'in Microsoft tarafından bir servis olarak sunulması modeli **Azure** üzerinden gerçekleştiriliyor. Şu an için <a href="http://www.buildwindows.com/" target="_blank">Build Konferansına</a> katılan herkese birer hesap verildi. Yakın gelecekte genel bir betanın açılabileceğini tahmin ediyorum.
+**TFS Hosted** olarak da adlandırabileceğimiz TFS'in Microsoft tarafından bir servis olarak sunulması modeli **Azure** üzerinden gerçekleştiriliyor. Şu an için <a href="http://www.buildwindows.com/" target="_blank" rel="noopener">Build Konferansına</a> katılan herkese birer hesap verildi. Yakın gelecekte genel bir betanın açılabileceğini tahmin ediyorum.
 
 ![Microsoft Build Konferans](/assets/uploads/2011/09/build_2_03.jpg "Microsoft Build Konferans")
 
@@ -43,10 +43,10 @@ Gün boyunca duyurulan fakat çok detayına girilmeyen birkaç daha oldu. Onlar�
 
 
 
-*   <a href="http://www.asp.net/mvc/mvc4" target="_blank">ASP.NET MVC 4 Developer Preview</a>
-*   <a href="http://go.microsoft.com/fwlink/?LinkId=228707" target="_blank">ASP.NET 4.5 Developer Preview</a>
-*   <a href="http://go.microsoft.com/fwlink/?LinkId=225709" target="_blank">Visual Studio 2011 Developer Preview</a>
-*   <a href="http://go.microsoft.com/fwlink/?LinkId=225714" target="_blank">Team Foundation Server 2011</a>
+*   <a href="http://www.asp.net/mvc/mvc4" target="_blank" rel="noopener">ASP.NET MVC 4 Developer Preview</a>
+*   <a href="http://go.microsoft.com/fwlink/?LinkId=228707" target="_blank" rel="noopener">ASP.NET 4.5 Developer Preview</a>
+*   <a href="http://go.microsoft.com/fwlink/?LinkId=225709" target="_blank" rel="noopener">Visual Studio 2011 Developer Preview</a>
+*   <a href="http://go.microsoft.com/fwlink/?LinkId=225714" target="_blank" rel="noopener">Team Foundation Server 2011</a>
 
 İşte ikinci gün de böyle geçti. Konferansın üçüncü gününde herhangi bir Keynote vs yok. O nedenle herhangi bir ek duyuru da beklemiyorum. Özetle artık heyecanlı günleri geride bıraktık :) Bundan sonra eldekilere bakacağız. Yeterince malzeme var gibi inceleyecek.
 

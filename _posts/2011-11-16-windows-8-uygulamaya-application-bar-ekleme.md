@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [application, applicationbar, button, click, grid, image, MetroUI, orientation, stackpanel, textblock, textbox, usercontrol, verticalalignment, visual studio 2011, windows8, xaml]
 ---
-<a href="http://www.enginpolat.com/etiket/windows8/" target="_blank">Windows 8</a> uygulamalarında sık kullanılan özelliklerin <a href="http://msdn.microsoft.com/en-us/library/ff431801.aspx" target="_blank">Application Bar</a> sayesinde hızlı erişilmesini sağlayabilirsiniz.
+<a href="http://www.enginpolat.com/etiket/windows8/" target="_blank" rel="noopener">Windows 8</a> uygulamalarında sık kullanılan özelliklerin <a href="http://msdn.microsoft.com/en-us/library/ff431801.aspx" target="_blank" rel="noopener">Application Bar</a> sayesinde hızlı erişilmesini sağlayabilirsiniz.
 
 Hemen yeni bir **Visual Studio 2011** açarak geliştirmeye başlıyoruz;
 
@@ -34,15 +34,15 @@ Proje oluşturulduğunda *MainPage.xaml* dosyasının içeriği;
 
 &lt;/UserControl&gt;</pre>
 
-İlk önce uygulamamızın altına hizalanacak bir **Application Bar** oluşturalım. Bunun için <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.applicationbar" title="Grid Control" target="_blank">Grid</a>'in içerisine **ApplicationBar** elementinden bir tane ekliyoruz;
+İlk önce uygulamamızın altına hizalanacak bir **Application Bar** oluşturalım. Bunun için <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.applicationbar" title="Grid Control" target="_blank" rel="noopener">Grid</a>'in içerisine **ApplicationBar** elementinden bir tane ekliyoruz;
 
 <pre class="brush:xml">&lt;ApplicationBar VerticalAlignment="Bottom"&gt;
     &lt;Button Content="Çıkış" x:Name="btnCikis" /&gt;
 &lt;/ApplicationBar&gt;</pre>
 
-<a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.applicationbar" title="Application Bar Control" target="_blank">ApplicationBar</a> elementi içerisine eklediğimiz <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.button" title="Button Control" target="_blank">Button</a> elementi sayesinde uygulamamızın altına *Çıkış* butonu içeren bir **Application Bar** oluşturmuş olduk.
+<a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.applicationbar" title="Application Bar Control" target="_blank" rel="noopener">ApplicationBar</a> elementi içerisine eklediğimiz <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.button" title="Button Control" target="_blank" rel="noopener">Button</a> elementi sayesinde uygulamamızın altına *Çıkış* butonu içeren bir **Application Bar** oluşturmuş olduk.
 
-**ApplicationBar** elementinin <a href="http://msdn.microsoft.com/library/windows.ui.xaml.verticalalignment" title="ApplicationBar - VerticalAlignment" target="_blank">VerticalAlignment</a> özelliği, oluşturulacak *Application Bar*'ın ekranda nereye konumlandırılacağını belirliyor.
+**ApplicationBar** elementinin <a href="http://msdn.microsoft.com/library/windows.ui.xaml.verticalalignment" title="ApplicationBar - VerticalAlignment" target="_blank" rel="noopener">VerticalAlignment</a> özelliği, oluşturulacak *Application Bar*'ın ekranda nereye konumlandırılacağını belirliyor.
 
 **VerticalAlignment** özelliğine verebileceğiniz değerler;
 
@@ -82,14 +82,14 @@ Biz de uygulamamıza ikinci bir **Application Bar** ekleyebiliriz. İkinci ekley
 
 <pre class="brush:xml">&lt;ApplicationBar VerticalAlignment="Top"&gt;&lt;/ApplicationBar&gt;</pre>
 
-Yeni eklediğimiz **Application Bar**'ın birden fazla nesne içerebilmesi için, kapsayıcı olarak bir <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.applicationbar" title="StackPanel Control" target="_blank">StackPanel</a> ekliyoruz. **StackPanel** içerisine ekleyeceğimiz nesnelerin yan yana dizilmesi için, <a href="http://msdn.microsoft.com/en-gb/library/windows.ui.xaml.controls.orientation" title="StackPanel Orientation" target="_blank">Orientation</a> özelliğini **Horizontal** olarak belirlememiz gerekiyor. **Orientation** özelliğine verebileceğimiz değerler;
+Yeni eklediğimiz **Application Bar**'ın birden fazla nesne içerebilmesi için, kapsayıcı olarak bir <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.applicationbar" title="StackPanel Control" target="_blank" rel="noopener">StackPanel</a> ekliyoruz. **StackPanel** içerisine ekleyeceğimiz nesnelerin yan yana dizilmesi için, <a href="http://msdn.microsoft.com/en-gb/library/windows.ui.xaml.controls.orientation" title="StackPanel Orientation" target="_blank" rel="noopener">Orientation</a> özelliğini **Horizontal** olarak belirlememiz gerekiyor. **Orientation** özelliğine verebileceğimiz değerler;
 
 
 
 *   *Vertical :* Nesneler alt alta dizilir *(Varsayılan değer)*
 *   *Horizontal :* Nesneler yan yana dizilir
 
-**StackPanel**'in içerisine bir <a href="http://msdn.microsoft.com/en-gb/library/windows.ui.xaml.controls.button" title="Button Control" target="_blank">Button</a>, bir <a href="http://msdn.microsoft.com/en-gb/library/windows.ui.xaml.controls.textbox" title="TextBox Control" target="_blank">TextBox</a> ve bir <a href="http://msdn.microsoft.com/en-gb/library/windows.ui.xaml.controls.button" title="Button Control" target="_blank">Button</a> daha ekliyoruz;
+**StackPanel**'in içerisine bir <a href="http://msdn.microsoft.com/en-gb/library/windows.ui.xaml.controls.button" title="Button Control" target="_blank" rel="noopener">Button</a>, bir <a href="http://msdn.microsoft.com/en-gb/library/windows.ui.xaml.controls.textbox" title="TextBox Control" target="_blank" rel="noopener">TextBox</a> ve bir <a href="http://msdn.microsoft.com/en-gb/library/windows.ui.xaml.controls.button" title="Button Control" target="_blank" rel="noopener">Button</a> daha ekliyoruz;
 
 <pre class="brush:xml">&lt;Button x:Name="btnAyarlar"&gt;
     &lt;Button.Content&gt;
@@ -102,11 +102,11 @@ Yeni eklediğimiz **Application Bar**'ın birden fazla nesne içerebilmesi için
 &lt;TextBox Margin="15,0,0,0" Width="150" x:Name="txtAranan" /&gt;
 &lt;Button x:Name="btnAra" Content="Ara" /&gt;</pre>
 
-İlk eklediğimiz <a href="http://msdn.microsoft.com/en-gb/library/windows.ui.xaml.controls.button" title="Button Control" target="_blank">Button</a>'un bir görsele de sahip olabilmesi için, Content'ine bir <a href="http://msdn.microsoft.com/en-gb/library/windows.ui.xaml.controls.image" title="Image Control" target="_blank">Image</a>, bir de <a href="http://msdn.microsoft.com/en-gb/library/windows.ui.xaml.controls.textblock" title="Textblock Control" target="_blank">TextBlock</a> ekliyoruz.
+İlk eklediğimiz <a href="http://msdn.microsoft.com/en-gb/library/windows.ui.xaml.controls.button" title="Button Control" target="_blank" rel="noopener">Button</a>'un bir görsele de sahip olabilmesi için, Content'ine bir <a href="http://msdn.microsoft.com/en-gb/library/windows.ui.xaml.controls.image" title="Image Control" target="_blank" rel="noopener">Image</a>, bir de <a href="http://msdn.microsoft.com/en-gb/library/windows.ui.xaml.controls.textblock" title="Textblock Control" target="_blank" rel="noopener">TextBlock</a> ekliyoruz.
 
 ![](/assets/uploads/2011/11/Windows8-ApplicationBar-6.png "Windows 8 Application Bar")
 
-**Image**'ın <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.image.source" title="Image Source Property" target="_blank">Source</a> özelliğine, proje'nin *Images* dizininden bir görsel seçiyoruz; *(SmallLogo.png)*
+**Image**'ın <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.image.source" title="Image Source Property" target="_blank" rel="noopener">Source</a> özelliğine, proje'nin *Images* dizininden bir görsel seçiyoruz; *(SmallLogo.png)*
 
 ![](/assets/uploads/2011/11/Windows8-ApplicationBar-2.png "Visual Studio 2011 - Metro Style Project - Solution Explorer")
 

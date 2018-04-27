@@ -7,9 +7,9 @@ comments: true
 category: [C#]
 tags: [.net, applicationdeployment, clickonce, code, csharp, singleton, source, static]
 ---
-<a title="enginpolat.com : Kısa Sınav - 3" href="/kisa-sinav-3" target="_blank">Kısa Sınav - 3</a> yazımda belirttiğim gibi, <a title="MSDN: ClickOnce" href="http://msdn.microsoft.com/en-us/library/t71a733d.aspx" target="_blank">ClickOnce</a> ile deploy ettiğiniz uygulamalarda, güncellemeleri programatik olarak kontrol etmek için ApplicationDeployment class'ını kullanırız.
+<a title="enginpolat.com : Kısa Sınav - 3" href="/kisa-sinav-3" target="_blank" rel="noopener">Kısa Sınav - 3</a> yazımda belirttiğim gibi, <a title="MSDN: ClickOnce" href="http://msdn.microsoft.com/en-us/library/t71a733d.aspx" target="_blank" rel="noopener">ClickOnce</a> ile deploy ettiğiniz uygulamalarda, güncellemeleri programatik olarak kontrol etmek için ApplicationDeployment class'ını kullanırız.
 
-Bu yazımda, <a title="MSDN: ApplicationDeployment" href="http://msdn.microsoft.com/en-us/library/system.deployment.application.applicationdeployment.aspx" target="_blank">ApplicationDeployment</a> class'ının kullanımını anlatmaya çalışacağım.
+Bu yazımda, <a title="MSDN: ApplicationDeployment" href="http://msdn.microsoft.com/en-us/library/system.deployment.application.applicationdeployment.aspx" target="_blank" rel="noopener">ApplicationDeployment</a> class'ının kullanımını anlatmaya çalışacağım.
 
 Öncelikle bilinmesi gereken, ApplicationDeployment class'ından yeni bir instance oluşturamazsınız. Çünkü public bir constructor'ı yoktur.
 
@@ -43,7 +43,7 @@ Uygulamanın yeni versiyonu olup-olmadığını kontrol eder, geriye *UpdateChec
 
 Genelde *CheckForDetailedUpdate()* fonksiyonunu çağırmakta fayda vardır. Çünkü, daha güncel versiyonun çıktığını bulduğumuzda, kullanıcıya mesaj vermek isteyeceğiz. Mesaja yazacağımız detaylı bilgiye *UpdateCheckInfo* class'ı aracılığıyla ulaşabiliriz. Bu bilgiyi bize *CheckForDetailedUpdate()* fonksiyonu döndürüyor.
 
-<a title="MSDN: UpdateCheckInfo" href="http://msdn.microsoft.com/en-us/library/system.deployment.application.updatecheckinfo.aspx" target="_blank">UpdateCheckInfo</a> class'ının member'ları;
+<a title="MSDN: UpdateCheckInfo" href="http://msdn.microsoft.com/en-us/library/system.deployment.application.updatecheckinfo.aspx" target="_blank" rel="noopener">UpdateCheckInfo</a> class'ının member'ları;
 
 **AvailableVersion**
 

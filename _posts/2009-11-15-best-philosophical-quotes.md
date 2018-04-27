@@ -48,5 +48,5 @@ Web'de gezerken karşılaştığım ve çok hoşuma giden bir sayfada okuduklar�
 >Eğer gerçekler teori ile uyumsuzsa, teoriyi değiştir.
 
 
-Kaynak : <a title="Best Philosophical Quotes" href="http://www.citate-celebre.com/famous-quotes/best-philosophical-quotes/" target="_blank">Best Philosophical Quotes</a>
+Kaynak : <a title="Best Philosophical Quotes" href="http://www.citate-celebre.com/famous-quotes/best-philosophical-quotes/" target="_blank" rel="noopener">Best Philosophical Quotes</a>
 

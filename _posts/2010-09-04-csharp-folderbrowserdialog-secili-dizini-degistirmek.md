@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [.net, class, description, desktop, dialogresult, environment, folderbrowserdialog, initialdirectory, openfiledialog, rootfolder, selectedpath, showdialog, specialfolder]
 ---
-.Net ile <a href="http://msdn.microsoft.com/library/system.windows.forms.folderbrowserdialog" target="_blank">FolderBrowserDialog</a> sınıfı sayesinde, **Dizin Seçme Dialog Penceresi** oluşturabiliyoruz.
+.Net ile <a href="http://msdn.microsoft.com/library/system.windows.forms.folderbrowserdialog" target="_blank" rel="noopener">FolderBrowserDialog</a> sınıfı sayesinde, **Dizin Seçme Dialog Penceresi** oluşturabiliyoruz.
 
 [OpenFileDialog](http://msdn.microsoft.com/library/system.windows.forms.openfiledialog) sınıfını kullanırak **Dosya Seçme Dialog Kutusu** açtıracağımız zaman, varsayılan dizini [InitialDirectory](http://msdn.microsoft.com/library/system.windows.forms.filedialog.initialdirectory) özelliği ile belirleyebiliyoruz.
 

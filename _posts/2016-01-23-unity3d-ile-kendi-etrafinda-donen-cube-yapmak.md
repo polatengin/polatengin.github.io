@@ -7,7 +7,7 @@ comments: true
 category: [Unity3D]
 tags: [3d, asset, camera, cube, deltatime, directional light, editor, fps, gameobject, hierarchy, light, object, rotate, scene, script, start, time, transform, unity3d, unityengine, update, vector3]
 ---
-*Bu makaleyi okumadan önce <a href="/kategori/unity3d/" target="_blank">Unity3D Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*
+*Bu makaleyi okumadan önce <a href="/kategori/unity3d/" target="_blank" rel="noopener">Unity3D Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*
 
 Bu makale sonunda sahneye koyacağınız bir **Cube** nesnesini kendi ekseni etrafında istediğiniz hızda döndürebileceksiniz.
 

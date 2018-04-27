@@ -9,7 +9,7 @@ tags: [application, applicationbar, applicationbariconbutton, battery, batteryli
 ---
 **Windows Phone 8** için *güncel pil durumunu* görebileceğimiz bir uygulama geliştireceğiz.
 
-Bu uygulamanın geliştirilmesi sırasında <a href="http://msdn.microsoft.com/library/windowsphone/develop/jj207231" title="Battery Class" target="_blank">Battery</a>, <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.phoneapplicationpage" title="PhoneApplicationPage Class" target="_blank">PhoneApplicationPage</a>, <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.phoneapplicationpage.applicationbar" title="PhoneApplicationPage Class ApplicationBar Property" target="_blank">ApplicationBar</a>, <a href="http://msdn.microsoft.com/library/system.timespan" title="TimeSpan Structure" target="_blank">TimeSpan</a> gibi yapıları kullandığımız kodlar yazacağız.
+Bu uygulamanın geliştirilmesi sırasında <a href="http://msdn.microsoft.com/library/windowsphone/develop/jj207231" title="Battery Class" target="_blank" rel="noopener">Battery</a>, <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.phoneapplicationpage" title="PhoneApplicationPage Class" target="_blank" rel="noopener">PhoneApplicationPage</a>, <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.phoneapplicationpage.applicationbar" title="PhoneApplicationPage Class ApplicationBar Property" target="_blank" rel="noopener">ApplicationBar</a>, <a href="http://msdn.microsoft.com/library/system.timespan" title="TimeSpan Structure" target="_blank" rel="noopener">TimeSpan</a> gibi yapıları kullandığımız kodlar yazacağız.
 
 Öncelikle *BatteryLevel* isimli yeni bir **Windows Phone App** projesi oluşturalım;
 
@@ -43,7 +43,7 @@ Proje oluşturduktan sonra gelen **Windows Phone Platform** versiyon seçim penc
 
 İki **TextBlock** nesnesinde *güncel pil durumunu* göstereceğiz. Ayrıca eklediğimiz **ApplicationBar** sayesinde telefonun altında bir *güncelleme butonu* konumlandırmış olacağız.
 
-<a href="http://msdn.microsoft.com/library/microsoft.phone.controls.phoneapplicationpage.applicationbar" title="PhoneApplicationPage Class ApplicationBar Property" target="_blank">ApplicationBar</a>'a eklediğimiz <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.shell.applicationbariconbutton" title="ApplicationBarIconButton Class" target="_blank">ApplicationBarIconButton</a> nesnesine basıldığında *RefreshBatteryLabel()* method'unun tetiklenmesini sağlıyoruz.
+<a href="http://msdn.microsoft.com/library/microsoft.phone.controls.phoneapplicationpage.applicationbar" title="PhoneApplicationPage Class ApplicationBar Property" target="_blank" rel="noopener">ApplicationBar</a>'a eklediğimiz <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.shell.applicationbariconbutton" title="ApplicationBarIconButton Class" target="_blank" rel="noopener">ApplicationBarIconButton</a> nesnesine basıldığında *RefreshBatteryLabel()* method'unun tetiklenmesini sağlıyoruz.
 
 *MainPage.xaml.cs* dosyasına *RefreshBatteryLevel()* method'unu ekleyelim;
 
@@ -87,5 +87,5 @@ Uygulamayı çalıştırdığımızda aşağıdaki ekran görüntüsünü görü
 
 ![Battery Level Windows Phone 8 Application](/assets/uploads/2012/12/BatteryLevel3.png)
 
-Projenin kodlarını <a href="/assets/uploads/2012/12/BatteryLevel.rar" title="Battery Level Windows Phone 8 Application Kaynak Kodlar" target="_blank">buradan</a> indirebilirsiniz.
+Projenin kodlarını <a href="/assets/uploads/2012/12/BatteryLevel.rar" title="Battery Level Windows Phone 8 Application Kaynak Kodlar" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 

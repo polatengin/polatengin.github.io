@@ -66,7 +66,7 @@ Her iki sorgu da çalıştıktan sonra **1321** satır geri döndürdü. Perform
 *   **CPU** Kullanımı
 *   **Disk** Kullanımı
 *   **Hafıza** Kullanımı
-Bu üç performans kriteri için verileri  *SYS.SYSPROCESSES* **DMV**'sinden alabiliriz. *SYS.SYSPROCESSES* için detaylı bilgiye **MSDN**'deki şu <a title="MSDN: SYS.SYSPROCESSES" href="http://msdn.microsoft.com/en-us/library/ms179881.aspx" target="_blank">makaleden</a> ulaşabilirsiniz. Aşağıda ilgili üç performans kriteri için verileri elde edebileceğimiz sorgu var;
+Bu üç performans kriteri için verileri  *SYS.SYSPROCESSES* **DMV**'sinden alabiliriz. *SYS.SYSPROCESSES* için detaylı bilgiye **MSDN**'deki şu <a title="MSDN: SYS.SYSPROCESSES" href="http://msdn.microsoft.com/en-us/library/ms179881.aspx" target="_blank" rel="noopener">makaleden</a> ulaşabilirsiniz. Aşağıda ilgili üç performans kriteri için verileri elde edebileceğimiz sorgu var;
 <pre class="brush:sql">SELECT
     DB_NAME(SP.DBID) AS VERITABANI,
     EST.TEXT AS SORGU,

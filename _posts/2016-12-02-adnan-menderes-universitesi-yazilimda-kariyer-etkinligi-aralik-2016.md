@@ -19,4 +19,4 @@ Etkinlikte bahsettiğim konuların sunumuna aşağıdan erişebilirsiniz.
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.slideshare.net/slideshow/embed_code/69725621" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
 
-Bu etkinlik *Milliyet* gazetesinin internet sitesinde de haber olmuş, ilgili haberin linki; <a href="http://www.milliyet.com.tr/soke-isletme-fakultesi-nde-bilisim-gunleri-aydin-yerelhaber-1682085/" target="_blank">Söke İşletme Fakültesi'nde 'Bilişim' Günleri</a>
+Bu etkinlik *Milliyet* gazetesinin internet sitesinde de haber olmuş, ilgili haberin linki; <a href="http://www.milliyet.com.tr/soke-isletme-fakultesi-nde-bilisim-gunleri-aydin-yerelhaber-1682085/" target="_blank" rel="noopener">Söke İşletme Fakültesi'nde 'Bilişim' Günleri</a>

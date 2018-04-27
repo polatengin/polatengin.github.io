@@ -7,7 +7,7 @@ comments: true
 category: [Programlama]
 tags: [binding, class, constructor, datatemplate, itemsource, itemtemplate, layoutroot, list, longlistselector, phonetexttitle1style, property, stackpanel, textblock, windows phone, wp8]
 ---
-**Windows Phone 8** uygulamanıza <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.controls.longlistselector" title="LongListSelector Class" target="_blank">LongListSelector</a> kontrolü eklemeniz ve bir veri kaynağına bağlamanız gerekiyorsa aşağıdaki adımları izleyebilirsiniz.
+**Windows Phone 8** uygulamanıza <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.controls.longlistselector" title="LongListSelector Class" target="_blank" rel="noopener">LongListSelector</a> kontrolü eklemeniz ve bir veri kaynağına bağlamanız gerekiyorsa aşağıdaki adımları izleyebilirsiniz.
 
 Öncelikle *DataBindSample* isimli yeni bir **Windows Phone App** projesi oluşturalım;
 
@@ -54,7 +54,7 @@ public class Book
 
 *Not : Test süreci sonunda constructor'daki kodlar temizlenmeli ve verikaynağı olarak veritabanına veya bir web service'e bağlanmalıdır.*
 
-*MainPage.xaml* dosyasını aşağıdaki şekilde güncelleyerek ekrana *list* isminde bir **LongListSelector** ve <a href="http://msdn.microsoft.com/library/system.windows.datatemplate" title="DataTemplate Class" target="_blank">DataTemplate</a> özelliğine <a href="http://msdn.microsoft.com/library/system.windows.controls.stackpanel" title="StackPanel Class" target="_blank">StackPanel</a> içerisinde <a href="http://msdn.microsoft.com/library/system.windows.controls.textblock" title="TextBlock Class" target="_blank">TextBlock</a>'lar ekleyelim;
+*MainPage.xaml* dosyasını aşağıdaki şekilde güncelleyerek ekrana *list* isminde bir **LongListSelector** ve <a href="http://msdn.microsoft.com/library/system.windows.datatemplate" title="DataTemplate Class" target="_blank" rel="noopener">DataTemplate</a> özelliğine <a href="http://msdn.microsoft.com/library/system.windows.controls.stackpanel" title="StackPanel Class" target="_blank" rel="noopener">StackPanel</a> içerisinde <a href="http://msdn.microsoft.com/library/system.windows.controls.textblock" title="TextBlock Class" target="_blank" rel="noopener">TextBlock</a>'lar ekleyelim;
 
 <pre class="brush:xml">&lt;Grid x:Name="LayoutRoot" Background="Transparent"&gt;
     &lt;Grid.RowDefinitions&gt;
@@ -80,7 +80,7 @@ public class Book
     &lt;/Grid&gt;
 &lt;/Grid&gt;</pre>
 
-Son olarak *MainPage.xaml.cs* **constructor**'ında *LongListSelector*'un <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.controls.longlistselector.itemssource" title="LongListSelector.ItemsSource Property" target="_blank">ItemSource</a> özelliğine *BookList* sınıfından yeni bir instance atıyoruz;
+Son olarak *MainPage.xaml.cs* **constructor**'ında *LongListSelector*'un <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.controls.longlistselector.itemssource" title="LongListSelector.ItemsSource Property" target="_blank" rel="noopener">ItemSource</a> özelliğine *BookList* sınıfından yeni bir instance atıyoruz;
 
 <pre class="brush:csharp">list.ItemsSource = new BookList();
 

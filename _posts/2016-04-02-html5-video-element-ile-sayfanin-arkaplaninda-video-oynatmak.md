@@ -9,7 +9,7 @@ tags: [body, charset, controls, doctype, document, function, head, height, html,
 ---
 Son zamanlarda internette çeşitli sitelerin sayfalarının arkaplanlarını video haline getirdiklerini görüyoruz, örneğin;
 
-<a href="http://y.co" target="_blank">![](/assets/uploads/2016/04/html5-video-background-0.jpg)</a>
+<a href="http://y.co" target="_blank" rel="noopener">![](/assets/uploads/2016/04/html5-video-background-0.jpg)</a>
 
 Bu makalede bir web sayfasının arkaplanını **video** haline getireceğiz. Öncelikle yeni bir **html** sayfası oluşturalım;
 

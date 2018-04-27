@@ -7,9 +7,9 @@ comments: true
 category: [C#]
 tags: [class, dosya sistemi, driveinfo, drivetype, file system, fixed, getdrives, isready, method, name, removable, system.io, volumelabel]
 ---
-**.Net 2.0** ile birlikte <a href="http://msdn.microsoft.com/library/system.io" target="_blank">System.IO</a> namespace'inde bulunan birçok eksiklik giderilmiştir. Özellikle **Windows'un Dosya Sistemine** erişmek için yeni *sınıflar* ve *methodlar* eklenmiştir.
+**.Net 2.0** ile birlikte <a href="http://msdn.microsoft.com/library/system.io" target="_blank" rel="noopener">System.IO</a> namespace'inde bulunan birçok eksiklik giderilmiştir. Özellikle **Windows'un Dosya Sistemine** erişmek için yeni *sınıflar* ve *methodlar* eklenmiştir.
 
-<a href="http://msdn.microsoft.com/library/system.io.driveinfo" target="_blank">DriveInfo</a> sınıfında yapılan bir geliştirme sayesinde *sistemde kurulu disklere erişebilir*, *disklerin tiplerini sorgulayabilir*, *kapasitelerini* ve *boş alan miktarını* öğrenebiliriz.
+<a href="http://msdn.microsoft.com/library/system.io.driveinfo" target="_blank" rel="noopener">DriveInfo</a> sınıfında yapılan bir geliştirme sayesinde *sistemde kurulu disklere erişebilir*, *disklerin tiplerini sorgulayabilir*, *kapasitelerini* ve *boş alan miktarını* öğrenebiliriz.
 
 Örneğin, sistemdeki diskleri **listelemek** için;
 
@@ -36,7 +36,7 @@ Y:\ – Fixed – Yedekler
 
 
 
-<a href="http://msdn.microsoft.com/library/system.io.driveinfo.isready" target="_blank">IsReady</a> property'si sayesinde disk'in o anda sistemde **kullanılabilir** olup olmadığını kontrol ediyoruz. Örneğin, içinde CD **olmayan** CD okuyucu için, disk'in etiketini almaya **çalışmıyoruz**. Uygulamamızın **hata ile karşılaşmaması** için, bu dikkat etmemiz gereken bir nokta.
+<a href="http://msdn.microsoft.com/library/system.io.driveinfo.isready" target="_blank" rel="noopener">IsReady</a> property'si sayesinde disk'in o anda sistemde **kullanılabilir** olup olmadığını kontrol ediyoruz. Örneğin, içinde CD **olmayan** CD okuyucu için, disk'in etiketini almaya **çalışmıyoruz**. Uygulamamızın **hata ile karşılaşmaması** için, bu dikkat etmemiz gereken bir nokta.
 
-<a href="http://msdn.microsoft.com/library/system.io.driveinfo.name" target="_blank">Name</a> ve <a href="http://msdn.microsoft.com/library/system.io.driveinfo.drivetype" target="_blank">DriveType</a> özellikleri, diskin hazır olduğu durumlardan bağımsız olarak, her zaman kullanılabilir durumdadır.
+<a href="http://msdn.microsoft.com/library/system.io.driveinfo.name" target="_blank" rel="noopener">Name</a> ve <a href="http://msdn.microsoft.com/library/system.io.driveinfo.drivetype" target="_blank" rel="noopener">DriveType</a> özellikleri, diskin hazır olduğu durumlardan bağımsız olarak, her zaman kullanılabilir durumdadır.
 

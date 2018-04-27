@@ -15,7 +15,7 @@ tags: [application ui, appxmanifest, badge, capabilities, declarations, entry po
 
 Temelinde *XML formatında* olan bu dosyayı kolay güncellemek için **Visual Studio** ile birlikte gelen GUI aracını kullanabiliriz.
 
-*Project* -> *Store* -> *Edit App Manifest* menüsünden erişebilieceğimiz arayüz sayesinde **manifest dosyasını** çok kolay güncelleyebiliriz. <a href="http://www.enginpolat.com/windows-8-metro-style-uygulamalarda-async-destegi/" title="Windows 8 Metro Style Uygulamalarda Async Desteği" target="_blank">Windows 8 Metro Style Uygulamalarda Async Desteği</a> başlıklı makalemde oluşturduğumuz projenin **manifest dosyasına** biraz göz atalım.
+*Project* -> *Store* -> *Edit App Manifest* menüsünden erişebilieceğimiz arayüz sayesinde **manifest dosyasını** çok kolay güncelleyebiliriz. <a href="http://www.enginpolat.com/windows-8-metro-style-uygulamalarda-async-destegi/" title="Windows 8 Metro Style Uygulamalarda Async Desteği" target="_blank" rel="noopener">Windows 8 Metro Style Uygulamalarda Async Desteği</a> başlıklı makalemde oluşturduğumuz projenin **manifest dosyasına** biraz göz atalım.
 
 **Application UI**
 
@@ -25,7 +25,7 @@ Bu tab'daki seçenekler ile uygulamamız ile ilgili temel bilgileri güncelleyeb
 
 **Display Name : **Uygulamanın başlığı. *Start Screen* (*Başlangıç Ekranı*), *Arama Sonuçları Sayfası*, vs. kullanıcının uygulamayı göreceği her yerde bu başlık ile görüntülenecek
 
-**Entry Point : **Uygulamanın açılışında kullanılacak sınıf'ın adı. <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.application" title="Application Class" target="_blank">Windows.UI.Xaml.Application</a> sınıf'ından türetilmiş olması gerekiyor
+**Entry Point : **Uygulamanın açılışında kullanılacak sınıf'ın adı. <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.application" title="Application Class" target="_blank" rel="noopener">Windows.UI.Xaml.Application</a> sınıf'ından türetilmiş olması gerekiyor
 
 **Description : **Uygulama ile alakalı daha uzun ve detaylı bilginin bulunabildiği açıklama alanı. 2048 karakter limiti vardır
 
@@ -89,7 +89,7 @@ Uygulama *Manifest dosyasında* ilgili kaynaklara erişeceğini bildirmiş olsa 
 
 **Packaging** tab'ı uygulamanın paketlenmesi ve yayınlanması ile ilgili seçenekleri içerir
 
-**Package Name : **Paket'in ve dolayısıyla uygulamanın benzersiz adı, <a href="http://msdn.microsoft.com/library/system.guid" title="Guid Class" target="_blank">Guid</a> formatındadır.
+**Package Name : **Paket'in ve dolayısıyla uygulamanın benzersiz adı, <a href="http://msdn.microsoft.com/library/system.guid" title="Guid Class" target="_blank" rel="noopener">Guid</a> formatındadır.
 
 **Package Display Name : **Paket'in kullanıcılar tarafından görülebilen ismidir
 

@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [array, compare, compareoptions, constructor, culture, globalization, ignorecase, indexof, isnullorempty, method, property, reverse, string, string.empty]
 ---
-.Net <a href="http://msdn.microsoft.com/library/system.string" target="_blank">string</a> sınıfı uygulamalarımızda sıklıkla kullandığımız sınıflardan biridir.
+.Net <a href="http://msdn.microsoft.com/library/system.string" target="_blank" rel="noopener">string</a> sınıfı uygulamalarımızda sıklıkla kullandığımız sınıflardan biridir.
 
 **.Net 1.1** versiyonundan itibaren gelişme göstermesine rağmen, hala bazı fonksiyonlarının **eksik** olduğunu veya tam anlamıyla **kullanılmadığını** düşünüyoum.
 
@@ -60,9 +60,9 @@ Bir *string* değişkenin içeriğini **ters çevirmek** için çeşitli algorit
 
 **String karşılaştırma**
 
-*String* değişkenin değeri <a href="http://msdn.microsoft.com/en-us/library/edakx9da.aspx" target="_blank">null</a> olabileceği için, <a href="http://msdn.microsoft.com/library/53k8ybth.aspx" target="_blank">karşılaştırma operatörünü</a> (==) kullanmaktan kaçınmamız gerekir.
+*String* değişkenin değeri <a href="http://msdn.microsoft.com/en-us/library/edakx9da.aspx" target="_blank" rel="noopener">null</a> olabileceği için, <a href="http://msdn.microsoft.com/library/53k8ybth.aspx" target="_blank" rel="noopener">karşılaştırma operatörünü</a> (==) kullanmaktan kaçınmamız gerekir.
 
-Bunun yerine *String* sınıfının **static** <a href="http://msdn.microsoft.com/library/system.string.compare" target="_blank">Compare method'unu</a> kullanmamız daha doğrudur.
+Bunun yerine *String* sınıfının **static** <a href="http://msdn.microsoft.com/library/system.string.compare" target="_blank" rel="noopener">Compare method'unu</a> kullanmamız daha doğrudur.
 
 *Static* **Compare method'u** sayesinde *null referans'ları* doğru şekilde karşılaştırabilir, *büyük-küçük harf duyarlılığını* yoksayabilir, *farklı Culture'daki* değerleri karşılaştırabiliriz.
 
@@ -72,7 +72,7 @@ Bunun yerine *String* sınıfının **static** <a href="http://msdn.microsoft.co
 
 **Büyük-Küçük harf duyarlılığı olmayan IndexOf**
 
-*String sınıfının* <a href="http://msdn.microsoft.com/library/system.string.indexof" target="_blank">IndexOf method'u</a> büyük-küçük harf duyarlıdır. *Büyük-Küçük harf duyarlılığı* olmadan **IndexOf** method'unu kullanmak istiyorsak, <a href="http://msdn.microsoft.com/library/system.globalization" target="_blank">System.Globalization</a> namespace'inde yeralan <a href="http://msdn.microsoft.com/library/system.globalization.compareinfo" target="_blank">CompareInfo</a> sınıfı'nın <a href="http://msdn.microsoft.com/library/system.globalization.compareinfo.indexof" target="_blank">IndexOf</a> method'unu kullanabiliriz;
+*String sınıfının* <a href="http://msdn.microsoft.com/library/system.string.indexof" target="_blank" rel="noopener">IndexOf method'u</a> büyük-küçük harf duyarlıdır. *Büyük-Küçük harf duyarlılığı* olmadan **IndexOf** method'unu kullanmak istiyorsak, <a href="http://msdn.microsoft.com/library/system.globalization" target="_blank" rel="noopener">System.Globalization</a> namespace'inde yeralan <a href="http://msdn.microsoft.com/library/system.globalization.compareinfo" target="_blank" rel="noopener">CompareInfo</a> sınıfı'nın <a href="http://msdn.microsoft.com/library/system.globalization.compareinfo.indexof" target="_blank" rel="noopener">IndexOf</a> method'unu kullanabiliriz;
 
 <pre class="brush:csharp">using System.Globalization;
 
@@ -85,7 +85,7 @@ int i = karsilastirma.IndexOf(degisken1, degisken2, CompareOptions.IgnoreCase);
 
 **string ve String farkı**
 
-MSDN'deki <a href="http://msdn2.microsoft.com/En-US/library/aa691153.aspx" target="_blank">String sınıfı ile alakalı bir sayfadan</a> alıntı;
+MSDN'deki <a href="http://msdn2.microsoft.com/En-US/library/aa691153.aspx" target="_blank" rel="noopener">String sınıfı ile alakalı bir sayfadan</a> alıntı;
 
 *"The keyword string is simply an alias for the predefined class System.String." – C# Language Specification 4.2.3*
 

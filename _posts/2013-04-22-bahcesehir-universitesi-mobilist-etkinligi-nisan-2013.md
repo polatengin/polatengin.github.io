@@ -7,7 +7,7 @@ comments: true
 category: [Etkinlik]
 tags: [etkinliklerim, seminer, windows phone, windowsphone, wp8]
 ---
-*21 Nisan 2013* tarihinde *Bahçeşehir Üniversitesinde*, üniversitenin <a href="http://bubmk.org/" title="Bahçeşehir Üniversitesi Bilgisayar Mühendisleri Kulübü" target="_blank">Bilgisayar Mühendisleri Kulübü</a> tarafından düzenlenen **Mobilist** etkinliği gerçekleştirildi.
+*21 Nisan 2013* tarihinde *Bahçeşehir Üniversitesinde*, üniversitenin <a href="http://bubmk.org/" title="Bahçeşehir Üniversitesi Bilgisayar Mühendisleri Kulübü" target="_blank" rel="noopener">Bilgisayar Mühendisleri Kulübü</a> tarafından düzenlenen **Mobilist** etkinliği gerçekleştirildi.
 
 ![](/assets/uploads/2013/04/MobilistBahcesehirUniversitesi.jpg)
 

@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [begin, const, CreateInstance, draw, drawablegamecomponent, drawstring, end, enum, FromMilliseconds, game, gameloop, GameTime, getstate, graphics, graphicsdevice, GraphicsDeviceManager, loadcontent, mouse, mousestate, prefferedbackbufferheight, prefferedbackbufferwidth, public, random, rectangle, SoundEffect, SoundEffectInstance, spritebatch, spritefont, texture2d, TimeSpan, totalgametime, unloadcontent, vector2, XNA, xna game studio]
 ---
-Bu yazımı okumadan önce XNA konusundaki <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank">diğer makalelerimi</a> okumanızı öneririm.
+Bu yazımı okumadan önce XNA konusundaki <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank" rel="noopener">diğer makalelerimi</a> okumanızı öneririm.
 
 Önce görseller;
 
@@ -247,7 +247,7 @@ public class GameObject : DrawableGameComponent
 
 Yeni eklediğimiz *GameObjectList* **enum** sayesinde, *GameObject* sınıfından ürettiğimiz her değişken farklı bir görünüşe ve davranışa sahip olabiliyor. (Örneğin, puan alacağımız üzüm-çilek-kavun gibi meyveler veya puan kaybedeceğimiz taş-araba-insan gibi nesneler)
 
-*GameObject* sınıfını *Microsoft.Xna.Framework* **namespace**'inde yer alan <a href="http://msdn.microsoft.com/microsoft.xna.framework.drawablegamecomponent" title="MSDN : DrawableGameComponent Class" target="_blank">DrawableGameComponent</a> sınıfından türetiyoruz.
+*GameObject* sınıfını *Microsoft.Xna.Framework* **namespace**'inde yer alan <a href="http://msdn.microsoft.com/microsoft.xna.framework.drawablegamecomponent" title="MSDN : DrawableGameComponent Class" target="_blank" rel="noopener">DrawableGameComponent</a> sınıfından türetiyoruz.
 
 *DrawableGameComponent* sınıfından türettiğimiz için, *GameObject* sınıfının kendi **LoadContent**, **Update** ve **Draw** method'ları oluyor.
 
@@ -342,7 +342,7 @@ spriteBatch.End();
 
 Skor bilgisini, bir beyaz, bir siyah renkle, iki defa çizdiriyoruz. İkinci çizimi *1px* farklı konuma çizdirdiğimiz için, yazı ekranda sanki *gölgesi* varmış gibi gözüküyor.
 
-İşte *Meyve Veren Ağaç* oyunundan bir ekran görüntüsü. Oyunun kaynak kodlarını <a href="/assets/uploads/2012/06/MeyveVerenAgac.rar" title="XNA : Meyve Veren Ağaç oyunu tüm kodlar" target="_blank">buradan</a> indirebilirsiniz.
+İşte *Meyve Veren Ağaç* oyunundan bir ekran görüntüsü. Oyunun kaynak kodlarını <a href="/assets/uploads/2012/06/MeyveVerenAgac.rar" title="XNA : Meyve Veren Ağaç oyunu tüm kodlar" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 
 ![Meyve Veren Ağaç oyunun bitmiş hali](/assets/uploads/2012/06/MeyveVerenAgac.jpg "XNA : Meyve Veren Ağaç")
 

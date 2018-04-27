@@ -12,7 +12,7 @@ Günümüzde tüm yazılım sektörü gibi oyun dünyası'da çok hızlı *geli�
 Böyle zamanlarda yapılması gereken ürünü mümkün olan en hızlı yollardan tüketiciye ulaştırmaktır.
 Bu durumun farkına varan *oyun evleri* birkaç yıl öncesine göre çok daha kısa sürelerde yeni oyun üretmenin yollarını aramaya başladı.
 
-2004 yılında Microsoft, *Indie* olarak kısalttığımız *Independent Game Developer*'lar (yani *Bağımsız Oyun Geliştiriciler*) için hızlı oyun geliştirme platformunu duyurdu ve 2006 yılının ikinci yarısında da <a href="http://www.microsoft.com/en-us/download/details.aspx?id=23714" title="Download : XNA Game Studio" target="_blank">XNA Game Studio</a> ismi ile yayınladı.
+2004 yılında Microsoft, *Indie* olarak kısalttığımız *Independent Game Developer*'lar (yani *Bağımsız Oyun Geliştiriciler*) için hızlı oyun geliştirme platformunu duyurdu ve 2006 yılının ikinci yarısında da <a href="http://www.microsoft.com/en-us/download/details.aspx?id=23714" title="Download : XNA Game Studio" target="_blank" rel="noopener">XNA Game Studio</a> ismi ile yayınladı.
 2007 yılından beri oyun evleri ve bağımsız geliştiriciler *XNA Framework* ile hem 2 boyutlu hem de 3 boyutlu oyunlar geliştiriyorlar.
 
 **XNA**, mümkün olan en az kod değişikliği ile şu platformlar için oyunları geliştirmemize yardımcı olur;

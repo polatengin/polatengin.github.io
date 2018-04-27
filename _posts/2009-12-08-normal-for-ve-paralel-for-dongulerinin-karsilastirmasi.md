@@ -13,7 +13,7 @@ Ne kadar basit'te olsa, ne kadar karmaşık'ta olsa, mutlaka uygulamalarımızda
 
 Bu makaleyi okumaya devam etmeden önce, .Net Framework 4.0 ile birlikte gelecek olan Task Parallel Library hakkında yazdığım şu yazıyı (<a title="enginpolat.com: TPL (Task Parallel Library) – Task Class" href="/tpl-task-parallel-library-task-class/" target="_self">TPL (Task Parallel Library) – Task Class</a>) okumanızı tavsiye ederim.
 
-Task Parallel Library ile gelen <a title="MSDN: Parallel Class Members" href="http://msdn.microsoft.com/en-us/library/system.threading.tasks.parallel_members(VS.100).aspx" target="_blank">Parallel</a> sınıfının <a title="MSDN: Parallel.For Method" href="http://msdn.microsoft.com/en-us/library/system.threading.tasks.parallel.for(VS.100).aspx" target="_blank">For</a> methodunu kullanarak, Multi-Core destekli for döngüleri oluşturabiliriz.
+Task Parallel Library ile gelen <a title="MSDN: Parallel Class Members" href="http://msdn.microsoft.com/en-us/library/system.threading.tasks.parallel_members(VS.100).aspx" target="_blank" rel="noopener">Parallel</a> sınıfının <a title="MSDN: Parallel.For Method" href="http://msdn.microsoft.com/en-us/library/system.threading.tasks.parallel.for(VS.100).aspx" target="_blank" rel="noopener">For</a> methodunu kullanarak, Multi-Core destekli for döngüleri oluşturabiliriz.
 
 **Multi-Core** destekli olması, **Multi-CPU** (birden çok CPU içeren) bilgisayarlarda, döngünün CPU'lara dağıtılabilmesini sağlıyor.
 
@@ -30,7 +30,7 @@ for (int iLoop = 0; iLoop &lt; 100; iLoop++)
 Parallel.For(0, 10, iLoop =&gt; {
     // Yapılacak İş
 });</pre>
-Parallel.For metodunu kullarak örnek bir proje hazırladım, projenin kaynak kodlarına <a title="enginpolat.com: NormalFor_ParallelFor_Karsilastirma.rar" href="/assets/uploads/2009/12/NormalFor_ParallelFor_Karsilastirma.rar" target="_blank">buradan</a> ulaşabilirsiniz.
+Parallel.For metodunu kullarak örnek bir proje hazırladım, projenin kaynak kodlarına <a title="enginpolat.com: NormalFor_ParallelFor_Karsilastirma.rar" href="/assets/uploads/2009/12/NormalFor_ParallelFor_Karsilastirma.rar" target="_blank" rel="noopener">buradan</a> ulaşabilirsiniz.
 
 ![NormalFor_ParallelFor_1](/assets/uploads/2009/12/NormalFor_ParallelFor_1.png "NormalFor_ParallelFor_1")
 

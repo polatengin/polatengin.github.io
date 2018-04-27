@@ -9,19 +9,19 @@ tags: [allsystemsources, allurl, append, autocompletecustomsource, autocompletem
 ---
 Genellikle **web uygulamalarında** gördüğümüz metin kutularının **otomatik tamamlama** özelliğini *Windows Masaüstü* uygulamalarımıza da **ekleyebiliriz**.
 
-Yapmamız gereken, **otomatik tamamlama** özelliği vermek istediğimiz <a href="http://msdn.microsoft.com/library/system.windows.forms.textbox" target="_blank">Textbox</a>'ın birkaç özelliğini ayarlamak;
+Yapmamız gereken, **otomatik tamamlama** özelliği vermek istediğimiz <a href="http://msdn.microsoft.com/library/system.windows.forms.textbox" target="_blank" rel="noopener">Textbox</a>'ın birkaç özelliğini ayarlamak;
 
-<a href="http://msdn.microsoft.com/library/system.windows.forms.textbox.autocompletemode" target="_blank">AutoCompleteMode</a> :
+<a href="http://msdn.microsoft.com/library/system.windows.forms.textbox.autocompletemode" target="_blank" rel="noopener">AutoCompleteMode</a> :
 Varsayılan olarak *None* değerini içerir
 *Append*, yazılan harflere uyan ilk kelimenin kalanını textbox'a ekler ve seçili hale getirir
 *Suggest*, aşağı açılan listeyi gösterir
 *SuggestAppend*, hem aşağı açılan listeyi gösterir, hem de yazılan harflere uyan ilk kelimenin kalanını textbox'a ekler ve seçili hale getirir
 
-<a href="http://msdn.microsoft.com/library/system.windows.forms.textbox.autocompletesource" target="_blank">AutoCompleteSource</a> :
+<a href="http://msdn.microsoft.com/library/system.windows.forms.textbox.autocompletesource" target="_blank" rel="noopener">AutoCompleteSource</a> :
 Varsayılan olarak *None* değerini içerir
 *FileSystem*, *FileSystemDirectories*, *HistoryList*, *RecentlyUsedList*, *AllSystemSources*, *AllUrl*, *CustomSource* değerlerinden birini içerebilir
 
-<a href="http://msdn.microsoft.com/library/system.windows.forms.textbox.autocompletecustomsource" target="_blank">AutoCompleteCustomSource</a> :
+<a href="http://msdn.microsoft.com/library/system.windows.forms.textbox.autocompletecustomsource" target="_blank" rel="noopener">AutoCompleteCustomSource</a> :
 **AutoCompleteSource** özelliği *CustomSource* olarak atanmışsa **AutoCompleteCustomSource** özelliği *string dizisi* olarak listeyi tutar
 
 Önce aşağıdaki ekran görüntüsünde form oluşturalım;

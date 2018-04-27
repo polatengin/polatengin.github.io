@@ -11,7 +11,7 @@ tags: [2d, 3d, add component, android, asset, camera, cross-platform, cube, cyli
 
 ![logo](/assets/uploads/2016/01/logo.png)
 
-Öncelikle <a href="http://unity3d.com/get-unity" target="_blank">http://unity3d.com/get-unity</a> adresinden **Unity3D** kurulum dosyasını indiriyoruz ve bilgisayarımıza kurulumu gerçekleştiriyoruz.
+Öncelikle <a href="http://unity3d.com/get-unity" target="_blank" rel="noopener">http://unity3d.com/get-unity</a> adresinden **Unity3D** kurulum dosyasını indiriyoruz ve bilgisayarımıza kurulumu gerçekleştiriyoruz.
 
 İsmi **Unity3D** olmasına rağmen, *4.3* versiyondan itibaren *2D* oyunlar da yapabilmemize olanak tanıyan yeni yapılar içeriyor. Böylece *2D* oyunları da **Unity3D**'yi kullanarak yapabiliyoruz.
 

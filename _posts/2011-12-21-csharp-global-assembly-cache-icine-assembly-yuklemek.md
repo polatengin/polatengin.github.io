@@ -27,9 +27,9 @@ Birden fazla projede referans olarak göstereceksek, dll assembly'yi ortak bir a
 
 Böylece ilgili dll'de yapacağımız bir versiyon güncellemesi aynı anda birden fazla projede **etkin olacaktır**.
 
-.Net dll'lerini koyabildiğimiz ortak alana <a href="http://msdn.microsoft.com/library/yf1d93sz.aspx" target="_blank">Global Assembly Cache</a> (kısaca **GAC**) denmektedir.
+.Net dll'lerini koyabildiğimiz ortak alana <a href="http://msdn.microsoft.com/library/yf1d93sz.aspx" target="_blank" rel="noopener">Global Assembly Cache</a> (kısaca **GAC**) denmektedir.
 
-Bir .Net assembly'sini **GAC**'a eklemek için, **.Net Framework** ile birlikte gelen <a href="http://msdn.microsoft.com/library/ex0ss12c.aspx" target="_blank">gacutil</a> aracını kullanmalıyız. *Örnek kullanım :* <code>gacutil -i [assembly_yolu]</code>
+Bir .Net assembly'sini **GAC**'a eklemek için, **.Net Framework** ile birlikte gelen <a href="http://msdn.microsoft.com/library/ex0ss12c.aspx" target="_blank" rel="noopener">gacutil</a> aracını kullanmalıyız. *Örnek kullanım :* <code>gacutil -i [assembly_yolu]</code>
 
 Komut satırından gerekli parametreleri vererek **gacutil** aracını kullanabiliriz.
 

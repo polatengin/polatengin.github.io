@@ -13,7 +13,7 @@ En meşgul veritabanı, muhtemelen **en çok disk operasyonu** yapan veritabanı
 
 Sql Server ile ilgili aradığımız birçok sorunun cevabını **DMV**'lerde olduğu için, öncelikle **logical_read** ve **logical_write** miktarlarını veren **DMV** bulmalıyız.
 
-MSDN'de <a title="MSDN: SYS.DM_EXEC_QUERY_STATS" href="http://msdn.microsoft.com/en-us/library/ms189741.aspx" target="_blank">şu sayfadan</a> detaylı bilgiye ulaşabileceğiniz *SYS.DM_EXEC_QUERY_STATS*, ihtiyacımız olan *TOTAL_LOGICAL_READS*, *TOTAL_LOGICAL_WRITES*, *SQL_HANDLE* isminde üç kolona sahip.
+MSDN'de <a title="MSDN: SYS.DM_EXEC_QUERY_STATS" href="http://msdn.microsoft.com/en-us/library/ms189741.aspx" target="_blank" rel="noopener">şu sayfadan</a> detaylı bilgiye ulaşabileceğiniz *SYS.DM_EXEC_QUERY_STATS*, ihtiyacımız olan *TOTAL_LOGICAL_READS*, *TOTAL_LOGICAL_WRITES*, *SQL_HANDLE* isminde üç kolona sahip.
 
 *SQL_HANDLE* kolonunda yer alan veriyi, veritabanını bulmak için kullanabiliriz. Yapmamız gereken *SYS.DM_EXEC_SQL_TEXT* **DMF**'i ile *CROSS JOIN* işlemine tabi tutarak, *DBID* kolonuna erişmek. Böylece *DB_NAME* **sistem fonksiyonu** sayesinde veritabanının ismine ulaşabiliriz.
 

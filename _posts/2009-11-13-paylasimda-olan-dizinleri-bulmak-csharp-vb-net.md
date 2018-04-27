@@ -9,7 +9,7 @@ tags: [.net, code, csharp, ManagementObjectSearcher, source, vbnet, WMI]
 ---
 Bilgisayarda paylaşımda olan klasörleri bulmamız gerektiğinde WMI sorgusu çalıştırmamız gerekir.
 
-WMI (Windows Management Instrumentation) hakkında daha detaylı bilgiye MSDN üzerindeki <a href="http://msdn.microsoft.com/en-us/library/aa394582(VS.85).aspx" target="_blank">bu kaynaktan</a> ulaşabilirsiniz.
+WMI (Windows Management Instrumentation) hakkında daha detaylı bilgiye MSDN üzerindeki <a href="http://msdn.microsoft.com/en-us/library/aa394582(VS.85).aspx" target="_blank" rel="noopener">bu kaynaktan</a> ulaşabilirsiniz.
 
 WMI sorgusu çalıştırmak için öncelikle System.Management.dll'i projemize referans göstermeliyiz.
 
@@ -72,8 +72,8 @@ System.Management.dll'i projeye referans gösterdikten sonra form üzerine bir L
 
 ManagementObjectSearcher class'ının constructor'ına SELECT * FROM Win32_Share yazdığımıza dikkat edin.
 
-Win32_Share class'ı hakkında daha detaylı bilgiye MSDN üzerinde yeralan <a href="http://msdn.microsoft.com/en-us/library/aa394435%28VS.85%29.aspx" target="_blank">bu kaynak</a>tan ulaşabilirsiniz.
+Win32_Share class'ı hakkında daha detaylı bilgiye MSDN üzerinde yeralan <a href="http://msdn.microsoft.com/en-us/library/aa394435%28VS.85%29.aspx" target="_blank" rel="noopener">bu kaynak</a>tan ulaşabilirsiniz.
 
-C# için kaynak kodlar : <a href="/assets/uploads/2009/11/PaylasimdaOlanDizinler_C_.zip" target="_blank">PaylasimdaOlanDizinler_C#.zip</a>
-VB.NET için kaynak kodlar : <a href="/assets/uploads/2009/11/PaylasimdaOlanDizinler_VB.zip" target="_blank">PaylasimdaOlanDizinler_VB.zip</a>
+C# için kaynak kodlar : <a href="/assets/uploads/2009/11/PaylasimdaOlanDizinler_C_.zip" target="_blank" rel="noopener">PaylasimdaOlanDizinler_C#.zip</a>
+VB.NET için kaynak kodlar : <a href="/assets/uploads/2009/11/PaylasimdaOlanDizinler_VB.zip" target="_blank" rel="noopener">PaylasimdaOlanDizinler_VB.zip</a>
 

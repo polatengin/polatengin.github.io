@@ -11,4 +11,4 @@ tags: [application ui, etkinliklerim, msp, seminer, xaml]
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/https://www.youtube.com/watch?v=CDAYLz4zV5g" frameborder="0" allowfullscreen></iframe></div>
 
-Bu etkinliğin videosunu **Youtube** (<a href="https://www.youtube.com/watch?v=CDAYLz4zV5g" target="_blank">UWP Introduction to XAML and UI Controls Webinar</a>) üzerinden veya **Channel 9** (<a href="https://channel9.msdn.com/Blogs/MVP-Windows-Dev/MSP-Webinar-2016-UWP-Intro-to-XAML-and-UI-Controls" target="_blank">MSP Webinar 2016 UWP Intro to XAML and UI Controls</a>) üzerinden izleyebilirsiniz.
+Bu etkinliğin videosunu **Youtube** (<a href="https://www.youtube.com/watch?v=CDAYLz4zV5g" target="_blank" rel="noopener">UWP Introduction to XAML and UI Controls Webinar</a>) üzerinden veya **Channel 9** (<a href="https://channel9.msdn.com/Blogs/MVP-Windows-Dev/MSP-Webinar-2016-UWP-Intro-to-XAML-and-UI-Controls" target="_blank" rel="noopener">MSP Webinar 2016 UWP Intro to XAML and UI Controls</a>) üzerinden izleyebilirsiniz.

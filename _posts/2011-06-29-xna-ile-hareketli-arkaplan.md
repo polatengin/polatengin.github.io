@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [begin, class, Color, const, constructor, draw, end, graphicsdevice, instance, iskeydown, LeftShift, position, PreferredBackBufferHeight, PreferredBackBufferWidth, public, readonly, RightShift, size, spritebatch, texture2d, update, vector2, XNA, xna game studio]
 ---
-Bu yazımı okumadan önce <a href="/kategori/xna/" target="_blank">XNA ile Oyun Programlama</a> kategorisindeki diğer makalelerimi okumanızı tavsiye ederim.
+Bu yazımı okumadan önce <a href="/kategori/xna/" target="_blank" rel="noopener">XNA ile Oyun Programlama</a> kategorisindeki diğer makalelerimi okumanızı tavsiye ederim.
 
 Birçok oyunda *arkaplan görselinin* yavaşça **kaydığını** görmüşüzdür. Bu tarz bir etkiyi kendi oyunlarımızda nasıl sağlayacağımızı bu yazımda inceliyor olacağım.
 
@@ -172,5 +172,5 @@ Sonuç olarak, yukarıdaki kodları yazdıktan sonra oyun projemizi başlatırsa
 
 ![XNA ile Oyun Programlama - Hareketli Arka Plan Ekran Görüntüsü](/assets/uploads/2011/06/HareketliArkaPlan.jpg "XNA ile Oyun Programlama - Hareketli Arka Plan Ekran Görüntüsü")
 
-Hareketli ArkaPlan oyun projemizin kodlarını <a href="/assets/uploads/2011/06/HareketliArkaPlan.rar" target="_blank">buradan</a> indirebilirsiniz.
+Hareketli ArkaPlan oyun projemizin kodlarını <a href="/assets/uploads/2011/06/HareketliArkaPlan.rar" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 

@@ -8,7 +8,7 @@ category: [C#]
 tags: [binary, search, tree, node, item, iteration, foreach, loop, root, child, sibling, parent, degree, path, dotnet, console, generic, array, params, balanced, list, orderby, skip, first, remove, insert, continue, comparer, default, compare, while]
 ---
 <div class="alert alert-success" role="alert" style="margin: 10px 0px; display: block;">
-Bu makalenin kodlarına <strong>Github</strong> üzerinde <a href="https://github.com/polatengin" class="alert-link" target="_blank">polatengin</a> hesabımda yer alan <a href="https://github.com/polatengin/blog-codes/tree/master/csharp-bst" class="alert-link" target="_blank">CSharp Binary Search Tree</a> aracılığıyla erişebilirsiniz.
+Bu makalenin kodlarına <strong>Github</strong> üzerinde <a href="https://github.com/polatengin" class="alert-link" target="_blank" rel="noopener">polatengin</a> hesabımda yer alan <a href="https://github.com/polatengin/blog-codes/tree/master/csharp-bst" class="alert-link" target="_blank" rel="noopener">CSharp Binary Search Tree</a> aracılığıyla erişebilirsiniz.
 </div>
 
 Bu makale de gene *email* üzerinden aldığım bir soruyu cevaplayacağım.

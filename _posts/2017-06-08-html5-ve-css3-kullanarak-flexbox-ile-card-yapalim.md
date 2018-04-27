@@ -9,13 +9,13 @@ tags: [html5, css3, flexbox, card]
 ---
 Bu makalede aşağıdaki görselde de görebileceğiniz kartlardan yapacağız. Kartları sadece **HTML5** ve **CSS3** kullanarak kodlayacağız.
 
-Böylece <a href="https://github.com/polatengin/polatengin.github.io/issues/3" target="_blank">#3</a> numaralı *istek makale* kapanmış olacak :)
+Böylece <a href="https://github.com/polatengin/polatengin.github.io/issues/3" target="_blank" rel="noopener">#3</a> numaralı *istek makale* kapanmış olacak :)
 
-<em>Not : <a href="https://github.com/polatengin/polatengin.github.io/issues" target="_blank">Issues</a> sayfasında varolan makale isteklerini görebileceğinizi, hatta <a href="https://github.com/polatengin/polatengin.github.io/issues/new" target="_blank">yeni makale isteğinde</a> bulunabileceğinizi biliyor muydunuz?</em>
+<em>Not : <a href="https://github.com/polatengin/polatengin.github.io/issues" target="_blank" rel="noopener">Issues</a> sayfasında varolan makale isteklerini görebileceğinizi, hatta <a href="https://github.com/polatengin/polatengin.github.io/issues/new" target="_blank" rel="noopener">yeni makale isteğinde</a> bulunabileceğinizi biliyor muydunuz?</em>
 
 <img class="lazy img-responsive" data-src="/assets/uploads/2017/06/flexbox-0.png" width="723" height="567" />
 
-Öncelikle projeyi kendi bilgisayarımızda oluşturabilmek için <a href="nodejs.org" target="_blank">nodejs.org</a> adresinden en güncel **NodeJs** kurulumunu indirelim ve bilgisayarımıza kuralım.
+Öncelikle projeyi kendi bilgisayarımızda oluşturabilmek için <a href="nodejs.org" target="_blank" rel="noopener">nodejs.org</a> adresinden en güncel **NodeJs** kurulumunu indirelim ve bilgisayarımıza kuralım.
 
 Kurulum bittikten sonra hemen projemiz için yeni bir dizin oluşturalım, **Command Prompt** penceresi açalım ve aşağıdaki komutu çalıştıralım;
 
@@ -79,6 +79,6 @@ Bütün *index.css* dosyası aşağıdaki gibi olmalı;
 
 <script src="https://gist.github.com/polatengin/961fc44835c97c317899ea2a1dc28aee.js?file=index.css"></script>
 
-Tüm **Material Icon** listesini <a href="https://material.io/icons/" target="_blank">Material Icons</a> sayfasında bulabilirsiniz. Değişik *renkler* ve değişik *icon*'lar ile sizler de istediğiniz gibi bir **card** tasarımı yapabilirsiniz.
+Tüm **Material Icon** listesini <a href="https://material.io/icons/" target="_blank" rel="noopener">Material Icons</a> sayfasında bulabilirsiniz. Değişik *renkler* ve değişik *icon*'lar ile sizler de istediğiniz gibi bir **card** tasarımı yapabilirsiniz.
 
-<em><small>Not : Bu makalenin orjinalini <a href="https://hackernoon.com/build-a-minimalist-html-card-in-just-53-lines-of-code-with-flexbox-b40801927eb5" target="_blank">Build a Minimalist HTML Card in just 53 lines of code (with Flexbox)</a> adresinden okuyabilirsiniz</small></em>
+<em><small>Not : Bu makalenin orjinalini <a href="https://hackernoon.com/build-a-minimalist-html-card-in-just-53-lines-of-code-with-flexbox-b40801927eb5" target="_blank" rel="noopener">Build a Minimalist HTML Card in just 53 lines of code (with Flexbox)</a> adresinden okuyabilirsiniz</small></em>

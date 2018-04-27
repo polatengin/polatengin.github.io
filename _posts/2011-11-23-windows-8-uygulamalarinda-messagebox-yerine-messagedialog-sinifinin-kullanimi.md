@@ -9,7 +9,7 @@ tags: [async, await, background, button, Color, command, commands, constructor, 
 ---
 Geliştirdiğimiz uygulamalarda kullanıcıyı *bilgilendirmek* ve/veya *yönlendirmek* için **Mesaj Kutularını** (**MessageBox**) kullanırız.
 
-**Metro Style** uygulamalar, <a href="http://msdn.microsoft.com/library/system.windows.forms" title="System.Windows.Forms Namespace" target="_blank">System.Windows.Forms</a> namespace'inde yeralan <a href="http://msdn.microsoft.com/library/system.windows.forms.messagebox" title="MessageBox Class" target="_blank">MessageBox</a> sınıfına erişemezler. **MessageBox** sınıfı yerine <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.popups.messagedialog" title="MessageDialog Class" target="_blank">MessageDialog</a> sınıfını kullanarak kullanıcıya bilgilendirme kutusu gösterebilirler.
+**Metro Style** uygulamalar, <a href="http://msdn.microsoft.com/library/system.windows.forms" title="System.Windows.Forms Namespace" target="_blank" rel="noopener">System.Windows.Forms</a> namespace'inde yeralan <a href="http://msdn.microsoft.com/library/system.windows.forms.messagebox" title="MessageBox Class" target="_blank" rel="noopener">MessageBox</a> sınıfına erişemezler. **MessageBox** sınıfı yerine <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.popups.messagedialog" title="MessageDialog Class" target="_blank" rel="noopener">MessageDialog</a> sınıfını kullanarak kullanıcıya bilgilendirme kutusu gösterebilirler.
 
 **MessageDialog** sınıfının **constructor**'ı iki parametre alır;
 
@@ -43,7 +43,7 @@ Proje oluşturulduğunda *MainPage.xaml* dosyasının içeriği;
 
 &lt;/UserControl&gt;</pre>
 
-Öncelikle uygulamamızın *arkaplan rengini* değiştirmek için <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.grid" title="Grid Class" target="_blank">Grid</a> element'inin <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.panel.background" title="Background Class" target="_blank">Background</a> özelliğine *Maroon* değerini atayalım;
+Öncelikle uygulamamızın *arkaplan rengini* değiştirmek için <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.grid" title="Grid Class" target="_blank" rel="noopener">Grid</a> element'inin <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.panel.background" title="Background Class" target="_blank" rel="noopener">Background</a> özelliğine *Maroon* değerini atayalım;
 
 <pre class="brush:xml">&lt;UserControl x:Class="Windows8ApplicationBar.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -58,7 +58,7 @@ Proje oluşturulduğunda *MainPage.xaml* dosyasının içeriği;
 
 &lt;/UserControl&gt;</pre>
 
-**Grid** element'inin içerisine bir adet <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.button" title="Button Class" target="_blank">Button</a> elementi oluşturalım ve <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.primitives.buttonbase.click" title="Click Event" target="_blank">Click</a> olayını bir method'a yönlendirelim;
+**Grid** element'inin içerisine bir adet <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.button" title="Button Class" target="_blank" rel="noopener">Button</a> elementi oluşturalım ve <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.primitives.buttonbase.click" title="Click Event" target="_blank" rel="noopener">Click</a> olayını bir method'a yönlendirelim;
 
 <pre class="brush:xml">&lt;Button x:Name="btnMesaj" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Karşıla" Click="btnMesaj_Click" /&gt;</pre>
 
@@ -101,7 +101,7 @@ Böylece, uygulamayı çalıştırdıktan ekranın ortasında gördüğümüz bu
 
 ![](/assets/uploads/2011/11/MessageDialog-2.png "MessageDialog Form")
 
-Gösterilen **MessageDialog** sadece *Kapat* (*Close*) butonuna sahiptir. Eğer *Close* butonu yerine kendi butonlarımızı kullanmak istersek, *dialog* değişkeninin <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.popups.messagedialog.commands" title="MessageDialog.Commands Property" target="_blank">Commands</a> özelliğine <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.popups.iuicommand" title="IUICommand Interface" target="_blank">IUICommand</a> interface'ini implemente eden sınıfların birinden yeni bir instance eklememiz gerekir (Örneğin <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.popups.uicommand" title="UICommand Class" target="_blank">UICommand</a> sınıfı).
+Gösterilen **MessageDialog** sadece *Kapat* (*Close*) butonuna sahiptir. Eğer *Close* butonu yerine kendi butonlarımızı kullanmak istersek, *dialog* değişkeninin <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.popups.messagedialog.commands" title="MessageDialog.Commands Property" target="_blank" rel="noopener">Commands</a> özelliğine <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.popups.iuicommand" title="IUICommand Interface" target="_blank" rel="noopener">IUICommand</a> interface'ini implemente eden sınıfların birinden yeni bir instance eklememiz gerekir (Örneğin <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.popups.uicommand" title="UICommand Class" target="_blank" rel="noopener">UICommand</a> sınıfı).
 
 ***Not : **MessageDialog Commands özelliğine en fazla 3 adet buton ekleyebiliriz.*
 

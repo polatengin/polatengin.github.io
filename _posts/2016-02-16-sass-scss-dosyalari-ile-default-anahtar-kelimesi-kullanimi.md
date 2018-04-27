@@ -7,7 +7,7 @@ comments: true
 category: [Web]
 tags: [background, backgroundcolor, content, default, documentation, sass, scss, variable]
 ---
-<a href="http://sass-lang.com" target="_blank">SASS</a> Dokümantasyonunda <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variable_defaults_" target="_blank">Variable Defaults: !default</a> alanında yazana göre;
+<a href="http://sass-lang.com" target="_blank" rel="noopener">SASS</a> Dokümantasyonunda <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variable_defaults_" target="_blank" rel="noopener">Variable Defaults: !default</a> alanında yazana göre;
 
 *You can assign to variables if they aren’t already assigned by adding the !default flag to the end of the value. This means that if the variable has already been assigned to, it won’t be re-assigned, but if it doesn’t have a value yet, it will be given one.*
 

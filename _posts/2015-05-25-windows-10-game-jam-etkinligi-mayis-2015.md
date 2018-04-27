@@ -7,7 +7,7 @@ comments: true
 category: [Etkinlik]
 tags: [etkinliklerim, gamejam, microsoft, seminer, windows10]
 ---
-**Microsoft Türkiye Ofisi** *23 Mayıs 2015* ve *24 Mayıs 2015* tarihlerinde <a href="https://www.facebook.com/buggamelab" target="_blank">BUG (Bahçeşehir University Game Lab)</a> bünyesinde **Windows 10 Game Jam** etkinliği organize etti.
+**Microsoft Türkiye Ofisi** *23 Mayıs 2015* ve *24 Mayıs 2015* tarihlerinde <a href="https://www.facebook.com/buggamelab" target="_blank" rel="noopener">BUG (Bahçeşehir University Game Lab)</a> bünyesinde **Windows 10 Game Jam** etkinliği organize etti.
 
 ![](/assets/uploads/2015/05/Windows10GameJam.jpg)
 

@@ -9,7 +9,7 @@ tags: [action, cancel, cancellationtokensource, create, default, dispose, factor
 ---
 Uygulama geliştirirken karşılaştığımız birçok senaryoda çağırdığımız bir method'un *uzun sürede* **cevap üretmemesinden** dolayı kaynaklarımızı tükettiğini görebiliriz.
 
-Çağırılan method'un belli bir **zaman aşımı süresine** sahip olması ve bu süre sonuna kadar değer üretmediyse **sonlanması** için birçok yöntem kullanabiliriz, fakat ben <a href="http://msdn.microsoft.com/library/system.threading" title="System.Threading Namespace" target="_blank">System.Threading</a> *namespace*'inde yeralan <a href="http://msdn.microsoft.com/library/system.threading.cancellationtokensource" title="CancellationTokenSource Class" target="_blank">CancellationTokenSource</a> sınıfını kullanan aşağıdaki yöntemi tercih ediyorum;
+Çağırılan method'un belli bir **zaman aşımı süresine** sahip olması ve bu süre sonuna kadar değer üretmediyse **sonlanması** için birçok yöntem kullanabiliriz, fakat ben <a href="http://msdn.microsoft.com/library/system.threading" title="System.Threading Namespace" target="_blank" rel="noopener">System.Threading</a> *namespace*'inde yeralan <a href="http://msdn.microsoft.com/library/system.threading.cancellationtokensource" title="CancellationTokenSource Class" target="_blank" rel="noopener">CancellationTokenSource</a> sınıfını kullanan aşağıdaki yöntemi tercih ediyorum;
 
 
 
@@ -67,7 +67,7 @@ public static Tuple&lt;bool, T&gt; Execute&lt;T&gt;(Func&lt;T&gt; action, int ti
 
 Böylece değer döndürmeyen method'lar eğer **timeout**'a uğramışsa geriye *bool* tipinde **false** değeri, **timeout**'a uğramamışsa **true** değeri döndürebiliyoruz.
 
-Geriye değer döndürecek method'lar eğer **timeout**'a uğramışsa geriye <a href="http://msdn.microsoft.com/library/system.tuple" title="Tuple Class" target="_blank">Tuple</a> sınıfından yeni bir değer döndürüyoruz. İki property'li *Tuple*'ın birinci property'si **timeout** olup/olmadığını belirten *bool* tipinde, ikinci property ise çağırılan method'dan dönecek cevabın tipinin *varsayılan* değeri.
+Geriye değer döndürecek method'lar eğer **timeout**'a uğramışsa geriye <a href="http://msdn.microsoft.com/library/system.tuple" title="Tuple Class" target="_blank" rel="noopener">Tuple</a> sınıfından yeni bir değer döndürüyoruz. İki property'li *Tuple*'ın birinci property'si **timeout** olup/olmadığını belirten *bool* tipinde, ikinci property ise çağırılan method'dan dönecek cevabın tipinin *varsayılan* değeri.
 
 Bu methodlar sayesinde *hatalar* veya uzun süren method'ların *kaynaklarımızı tüketmesi* sorunları ile uğraşmadan uygulamalarımızı geliştirebiliriz.
 

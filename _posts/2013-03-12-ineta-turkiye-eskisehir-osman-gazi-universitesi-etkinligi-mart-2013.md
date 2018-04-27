@@ -7,7 +7,7 @@ comments: true
 category: [Etkinlik]
 tags: [azure, etkinliklerim, ineta, seminer, windows phone, windows8, windowsphone]
 ---
-**INETA Türkiye Üniversitenizde** etkinlikleri kapsamında, <a href="http://www.muammerbenzes.com/" title="Muammer Benzeş" target="_blank">Muammer Benzeş</a> ile birlikte *09 Mart 2013* - *10 Mart 2013* tarihlerinde **Eskişehir Osman Gazi Üniversitesi**'ndeydik.
+**INETA Türkiye Üniversitenizde** etkinlikleri kapsamında, <a href="http://www.muammerbenzes.com/" title="Muammer Benzeş" target="_blank" rel="noopener">Muammer Benzeş</a> ile birlikte *09 Mart 2013* - *10 Mart 2013* tarihlerinde **Eskişehir Osman Gazi Üniversitesi**'ndeydik.
 
 İki gün boyunca **Windows Phone 8**, **Windows 8**, **Windows Azure** konulu oturumlar yaptım.
 

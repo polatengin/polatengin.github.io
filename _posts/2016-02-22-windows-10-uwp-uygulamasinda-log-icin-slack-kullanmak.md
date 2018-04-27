@@ -7,9 +7,9 @@ comments: true
 category: [Windows]
 tags: [async, await, binding, borderbrush, button, channel, click, databinding, entegrasyon, event, header, horizontalalignment, httpclient, httpstringcontent, mainpage, margin, mode, postasync, property, public, slack, stackpanel, text, textbox, twoway, universal app, uwp, visual studio, webhook, windows10, xbind, xaml, xaml.cs]
 ---
-*Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/windows-10-uwp-uygulamasinda-xbind-kullanarak-basit-databinding/" target="_blank">Windows 10 UWP uygulamasında {x:Bind} kullanarak basit DataBinding</a> makalesini okumanızı tavsiye ederim.*
+*Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/windows-10-uwp-uygulamasinda-xbind-kullanarak-basit-databinding/" target="_blank" rel="noopener">Windows 10 UWP uygulamasında {x:Bind} kullanarak basit DataBinding</a> makalesini okumanızı tavsiye ederim.*
 
-**Slack**, <a href="http://www.slack.com" target="_blank">http://www.slack.com</a> adresinde hizmet veren, son yılların en başarılı uygulamalarından birisi. Kendi sitelerinde yazana göre;
+**Slack**, <a href="http://www.slack.com" target="_blank" rel="noopener">http://www.slack.com</a> adresinde hizmet veren, son yılların en başarılı uygulamalarından birisi. Kendi sitelerinde yazana göre;
 
 *Slack is a messaging app for teams that is on a mission to make your working life simpler, more pleasant, and more productive*
 
@@ -61,11 +61,11 @@ Projeyi oluşturduktan sonra *MainPage.xaml* dosyasını açalım ve aşağıdak
 
 &lt;/Page&gt;</pre>
 
-Önce bir <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.stackpanel" target="_blank">StackPanel</a> nesnesi oluşturduk, içerisine 4 adet <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textbox" target="_blank">Textbox</a> 1 adet <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.button" target="_blank">Button</a> nesnesi ekledik.
+Önce bir <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.stackpanel" target="_blank" rel="noopener">StackPanel</a> nesnesi oluşturduk, içerisine 4 adet <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textbox" target="_blank" rel="noopener">Textbox</a> 1 adet <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.button" target="_blank" rel="noopener">Button</a> nesnesi ekledik.
 
-**Textbox** nesnelerinin <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textbox.header" target="_blank">Header</a> özelliklerine verdiğimiz değerler ile birer *başlığa* sahip olmalarını sağladık.
+**Textbox** nesnelerinin <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textbox.header" target="_blank" rel="noopener">Header</a> özelliklerine verdiğimiz değerler ile birer *başlığa* sahip olmalarını sağladık.
 
-<a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.control.borderbrush" target="_blank">BorderBrush</a> özelliklerine verdiğimiz **Transparent** değer sayesinde çerçevelerin gözükmemesini sağladık.
+<a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.control.borderbrush" target="_blank" rel="noopener">BorderBrush</a> özelliklerine verdiğimiz **Transparent** değer sayesinde çerçevelerin gözükmemesini sağladık.
 
 Son olarak, **Text** özelliklerine ve **Click** olayına *{x:Bind}* tipinde değerler vererek **Databinding** yapıyoruz. Burada önemli olan nokta, **Textbox**'ların **Text** özelliklerine yaptığımız **Databinding**'de **Mode** özelliğine **TwoWay** değerini vererek, iki yönlü **Databinding** yapmak. Böylece ekranda bir değer değiştirildiği zaman **Databinding** yapıldığı **property**'nin değeri otomatik olarak güncellenecek.
 
@@ -90,7 +90,7 @@ private async void Send()
 }
 
 
-Böylece *Gönder* butonuna basıldığında **Slack**'te oluşturduğumuz **public channel**'ın **web service**'ine istediğimiz bilgiyi gönderebileceğiz. Bu makaledeki örnekte *Ad Soyad (EMail) : Message* formatında bilgiyi *Windows.Web.Http* **namespace**'i altında yeralan <a href="http://msdn.microsoft.com/library/windows/apps/windows.web.http.httpclient" target="_blank">HttpClient</a> sınıfının <a href="http://msdn.microsoft.com/library/windows/apps/windows.web.http.httpclient.postasync" target="_blank">PostAsync()</a> methoduna <a href="http://msdn.microsoft.com/library/windows/apps/windows.web.http.httpstringcontent" target="_blank">HttpStringContent</a> tipinde gönderiyoruz.
+Böylece *Gönder* butonuna basıldığında **Slack**'te oluşturduğumuz **public channel**'ın **web service**'ine istediğimiz bilgiyi gönderebileceğiz. Bu makaledeki örnekte *Ad Soyad (EMail) : Message* formatında bilgiyi *Windows.Web.Http* **namespace**'i altında yeralan <a href="http://msdn.microsoft.com/library/windows/apps/windows.web.http.httpclient" target="_blank" rel="noopener">HttpClient</a> sınıfının <a href="http://msdn.microsoft.com/library/windows/apps/windows.web.http.httpclient.postasync" target="_blank" rel="noopener">PostAsync()</a> methoduna <a href="http://msdn.microsoft.com/library/windows/apps/windows.web.http.httpstringcontent" target="_blank" rel="noopener">HttpStringContent</a> tipinde gönderiyoruz.
 
 *Gönder* butonuna bastığımızda, **Slack**, aşağıdaki **notification**'ı gösterecek;
 

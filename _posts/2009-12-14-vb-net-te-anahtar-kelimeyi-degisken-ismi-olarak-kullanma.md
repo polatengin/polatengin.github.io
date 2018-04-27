@@ -11,7 +11,7 @@ Daha önce yazdığım <a title="enginpolat.com: C#’ta anahtar kelimeyi deği�
 
 Değişken isminin, dilin anahtar kelimelerinden biri olmasına **verbatim identifier** deniyor.
 
-MSDN'de C# dili için <a title="MSDN: C# Verbatim Identifier" href="http://msdn.microsoft.com/en-us/library/aa664670(VS.71).aspx" target="_blank">verbatim identifier nasıl tanımlanır</a> makalesi mevcut, fakat VB.NET için nasıl yapılacağı dökümante edilmemiş.
+MSDN'de C# dili için <a title="MSDN: C# Verbatim Identifier" href="http://msdn.microsoft.com/en-us/library/aa664670(VS.71).aspx" target="_blank" rel="noopener">verbatim identifier nasıl tanımlanır</a> makalesi mevcut, fakat VB.NET için nasıl yapılacağı dökümante edilmemiş.
 
 Hala verbatim identifier tanımlamanın ***KÖTÜ*** bir fikir olduğunu düşünüyorum, fakat VB.NET'te verbatim identifier nasıl tanımlanır, merak edenler için;
 

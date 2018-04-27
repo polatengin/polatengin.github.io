@@ -11,7 +11,7 @@ Sizleri **MEA Influencer Community Program** hakkında bilgilendirmek istiyorum.
 
 ![](/assets/uploads/2013/09/mea1.jpg)
 
-<a href="http://apps.microsoft.com/windows/en-us/app/mea-influencer/d7d7af61-50a6-4bec-b91e-36b311b00bc1" title="Windows Store : MEA Influencer" target="_blank">MEA Influencer</a> *Windows 8 uygulaması* sayesinde, **Windows Azure**, **Windows Phone**, **Windows 8** konularında *MEA bölgesinde* (*Ortadoğu ve Afrika*) üretilen tüm *blog yazılarına*, *webcast'lere* ve *uygulamalara* kolaylıkla erişebilirsiniz.
+<a href="http://apps.microsoft.com/windows/en-us/app/mea-influencer/d7d7af61-50a6-4bec-b91e-36b311b00bc1" title="Windows Store : MEA Influencer" target="_blank" rel="noopener">MEA Influencer</a> *Windows 8 uygulaması* sayesinde, **Windows Azure**, **Windows Phone**, **Windows 8** konularında *MEA bölgesinde* (*Ortadoğu ve Afrika*) üretilen tüm *blog yazılarına*, *webcast'lere* ve *uygulamalara* kolaylıkla erişebilirsiniz.
 
 ![](/assets/uploads/2013/09/mea2.jpg)
 

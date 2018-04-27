@@ -11,7 +11,6 @@ tags: [cv, online]
 
 CV yazmakla uğraşmak yerine, sihirbaz kullanarak oluşturmak isteyen kullanıcılar için güzel bir alternatif buldum;
 
-<a title="JobSpice" href="http://www.jobspice.com/" target="_blank">http://www.jobspice.com/</a>
+<a title="JobSpice" href="http://www.jobspice.com/" target="_blank" rel="noopener">http://www.jobspice.com/</a>
 
 Web 2.0'ın nimetlerinden faydalanarak (son günlerde herkes web 2.0 diyor nedense??) CV'sini online ortamda oluşturmak, printer'dan çıktı almak, PDF formatında download etmek isteyenler için kullanışlı bir araç.
-

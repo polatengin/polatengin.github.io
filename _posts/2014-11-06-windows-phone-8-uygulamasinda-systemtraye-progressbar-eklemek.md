@@ -11,7 +11,7 @@ tags: [isindeterminate, isvisible, phoneapplicationpage, progressindicator, shel
 
 *Mesela, haberler sayfasında güncel haberleri web service'ten çekerken veya kullanıcının ekranda doldurduğu formu web service aracılığı ile kaydederken işlemin devam ettiğini ekranda göstermek isteriz.*
 
-Bunun için telefonda ekranın en üstünde bulunan <a href="https://msdn.microsoft.com/library/windows/apps/microsoft.phone.shell.systemtray" target="_blank">SystemTray</a>'e <a href="https://msdn.microsoft.com/library/windows/apps/microsoft.phone.shell.progressindicator" target="_blank">ProgressIndicator</a> eklememiz yeterli. Bunun için istediğimiz sayfanın **xaml** dosyasını açmalı;
+Bunun için telefonda ekranın en üstünde bulunan <a href="https://msdn.microsoft.com/library/windows/apps/microsoft.phone.shell.systemtray" target="_blank" rel="noopener">SystemTray</a>'e <a href="https://msdn.microsoft.com/library/windows/apps/microsoft.phone.shell.progressindicator" target="_blank" rel="noopener">ProgressIndicator</a> eklememiz yeterli. Bunun için istediğimiz sayfanın **xaml** dosyasını açmalı;
 
 
 
@@ -32,7 +32,7 @@ Bunun için telefonda ekranın en üstünde bulunan <a href="https://msdn.micros
 
 &lt;/phone:PhoneApplicationPage&gt;</pre>
 
-<a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.controls.phoneapplicationpage" target="_blank">PhoneApplicationPage</a> açılış ve kapanış tagları arasına aşağıdaki kod parçasını eklemeliyiz;
+<a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.controls.phoneapplicationpage" target="_blank" rel="noopener">PhoneApplicationPage</a> açılış ve kapanış tagları arasına aşağıdaki kod parçasını eklemeliyiz;
 
 <pre class="brush:xml">&lt;shell:SystemTray.ProgressIndicator&gt;
     &lt;shell:ProgressIndicator IsIndeterminate="True" IsVisible="True" Text="Güncel haberler yükleniyor..." /&gt;

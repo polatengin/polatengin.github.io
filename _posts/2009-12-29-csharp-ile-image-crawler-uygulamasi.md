@@ -74,5 +74,5 @@ Son olarak, ListBox'ın seçili elemanı her değiştiğinde, PictureBox'ta seç
 
 <a href="/assets/uploads/2009/12/ImageCrawler_2.png">![](/assets/uploads/2009/12/ImageCrawler_2.png "ImageCrawler_2")</a>
 
-Uygulamanın kaynak kodlarını <a title="enginpolat.com: Image Crawler" href="/assets/uploads/2009/12/ImageCrawler.rar" target="_blank">buradan</a> indirebilirsiniz.
+Uygulamanın kaynak kodlarını <a title="enginpolat.com: Image Crawler" href="/assets/uploads/2009/12/ImageCrawler.rar" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 

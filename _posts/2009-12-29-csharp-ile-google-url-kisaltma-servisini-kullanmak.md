@@ -10,13 +10,13 @@ tags: [code, csharp, google, source, url kısaltma, url shortener]
 Adres kısaltma servisleri ile uzun internet linklerini kısaltmak mümkündür. İnternette birçok adres kısaltma servisi şu anda hizmet vermektedir. Birkaç tanesine örnek olarak;
 
 
-*   <a href="http://tinyurl.com/" target="_blank">http://tinyurl.com/</a>
-*   <a href="http://snipurl.com/" target="_blank">http://snipurl.com/</a>
-*   <a href="http://shorl.com/" target="_blank">http://shorl.com/</a>
-*   <a href="http://tiny.cc/" target="_blank">http://tiny.cc/</a>
-**Facebook** adres kısaltma servisleri listesine <a title="Facebook Adres Kısaltma Servisi" href="http://fb.me" target="_blank">http://fb.me</a> ile katıldı.
+*   <a href="http://tinyurl.com/" target="_blank" rel="noopener">http://tinyurl.com/</a>
+*   <a href="http://snipurl.com/" target="_blank" rel="noopener">http://snipurl.com/</a>
+*   <a href="http://shorl.com/" target="_blank" rel="noopener">http://shorl.com/</a>
+*   <a href="http://tiny.cc/" target="_blank" rel="noopener">http://tiny.cc/</a>
+**Facebook** adres kısaltma servisleri listesine <a title="Facebook Adres Kısaltma Servisi" href="http://fb.me" target="_blank" rel="noopener">http://fb.me</a> ile katıldı.
 
-Tabii Google'da boş durmadı ve hemen kolları sıvayarak adres kısaltma servisi <a title="Google Url Shortener" href="http://goo.gl/" target="_blank">http://goo.gl</a> duyurdu.
+Tabii Google'da boş durmadı ve hemen kolları sıvayarak adres kısaltma servisi <a title="Google Url Shortener" href="http://goo.gl/" target="_blank" rel="noopener">http://goo.gl</a> duyurdu.
 
 Bu yazımda, *C#* ile bu servisi nasıl kullanabileceğimizi anlatacağım.
 
@@ -24,7 +24,7 @@ Bu yazımda, *C#* ile bu servisi nasıl kullanabileceğimizi anlatacağım.
 
 <a href="/assets/uploads/2009/12/GoogleUrlShortener_1.png">![](/assets/uploads/2009/12/GoogleUrlShortener_1.png "GoogleUrlShortener_1")</a>
 
-Uygulamanın anahtar parçası, *Kısalt* butonunun *Click* olayında gerçekleşiyor. **Google Url Shortener** servisini kullanmak için <a title="Google Url Shortener Service" href="http://ggl-shortener.appspot.com" target="_blank">http://ggl-shortener.appspot.com</a> adresine *url* parametresi ile kısaltılmak istenen adres geçilmeli.
+Uygulamanın anahtar parçası, *Kısalt* butonunun *Click* olayında gerçekleşiyor. **Google Url Shortener** servisini kullanmak için <a title="Google Url Shortener Service" href="http://ggl-shortener.appspot.com" target="_blank" rel="noopener">http://ggl-shortener.appspot.com</a> adresine *url* parametresi ile kısaltılmak istenen adres geçilmeli.
 
 Biz bunu şöyle gerçekleştireceğiz;
 
@@ -53,5 +53,5 @@ Artık tek yapmamız gereken, uygulamayı çalıştırmak ve bir adres girip, *K
 
 <a href="/assets/uploads/2009/12/GoogleUrlShortener_2.png">![](/assets/uploads/2009/12/GoogleUrlShortener_2.png "GoogleUrlShortener_2")</a>
 
-Uygulamanın kaynak kodlarını <a title="enginpolat.com: Google Adres Kisaltma Servisi" href="/assets/uploads/2009/12/GoogleUrlKisaltmaServisi.rar" target="_blank">buradan</a> indirebilirsiniz.
+Uygulamanın kaynak kodlarını <a title="enginpolat.com: Google Adres Kisaltma Servisi" href="/assets/uploads/2009/12/GoogleUrlKisaltmaServisi.rar" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 

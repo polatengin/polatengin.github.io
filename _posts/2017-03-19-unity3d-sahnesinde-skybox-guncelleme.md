@@ -7,7 +7,7 @@ comments: true
 category: [Unity3D]
 tags: [3d, asset, environment, scene, skybox, gameobject, unity3d, unityengine, hierarchy, camera, clearflags, component]
 ---
-*Bu makaleyi okumadan önce <a href="/kategori/unity3d/" target="_blank">Unity3D Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*
+*Bu makaleyi okumadan önce <a href="/kategori/unity3d/" target="_blank" rel="noopener">Unity3D Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*
 
 Bu makale sonunda oyun sahnenizin görülebilir en uzak noktalarını (yani sahnenin <code>Skybox</code>'ını) istediğiniz bir resim ile değiştirebileceksiniz.
 

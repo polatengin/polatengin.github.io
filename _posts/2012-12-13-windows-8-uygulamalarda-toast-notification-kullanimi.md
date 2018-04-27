@@ -7,13 +7,13 @@ comments: true
 category: [Windows]
 tags: [appendchild, appxmanifest, audio, capable, createtextnode, createtoastnotifier, enum, getelementbytagname, messagedialog, notification, package, public, static, string, toast, toastnotificationmanager, toasttemplatetype, windows8, winsoundevent]
 ---
-**Windows 8** uygulaması geliştirirken kullanıcıyı bilgilendirmek isteyebiliriz. Kullanıcıya sadece bilgi vermek için <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.popups.messagedialog" title="MessageDialog Class" target="_blank">MessageDialog</a> kullanmak doğru olmayacaktır, kullanıcı bir süre sonra rahatsızlık duymaya başlayacak ve belkide uygulamayı kullanmaktan *vazgeçecektir*.
+**Windows 8** uygulaması geliştirirken kullanıcıyı bilgilendirmek isteyebiliriz. Kullanıcıya sadece bilgi vermek için <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.popups.messagedialog" title="MessageDialog Class" target="_blank" rel="noopener">MessageDialog</a> kullanmak doğru olmayacaktır, kullanıcı bir süre sonra rahatsızlık duymaya başlayacak ve belkide uygulamayı kullanmaktan *vazgeçecektir*.
 
 Kullanıcıyı bilgilendirmenin daha doğru yolu **Toast Notification** sistemini kullanmaktır.
 
 **Toast Notification** sistemini kullanırken dikkat etmemiz gereken **ToastTemplateType** *enum* yapısıdır.
 
-**MSDN**'de yer alan <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.notifications.toasttemplatetype" title="ToastTemplateType Enum" target="_blank">ToastTemplateType enumeration</a> sayfasından hangi tiplerde **toast notification** gösterebileceğinizi öğrenebilirsiniz.
+**MSDN**'de yer alan <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.notifications.toasttemplatetype" title="ToastTemplateType Enum" target="_blank" rel="noopener">ToastTemplateType enumeration</a> sayfasından hangi tiplerde **toast notification** gösterebileceğinizi öğrenebilirsiniz.
 
 *using* kısmına
 
@@ -56,7 +56,7 @@ public static void ShowNotification(string Title, string Message, string ImageFi
     toastNotifier.Show(toast);
 }</pre>
 
-Hatta **Toast Notification** gösterimi esnasında **uyarı sesi** bile çaldırabiliriz. Bunu yapmak için <a href="http://msdn.microsoft.com/en-us/library/windows/apps/br230842.aspx" title="Toast Template Audio Element" target="_blank">audio</a> elementini kullanacağız. Sistemde kayıtlı uyarı sesleri;
+Hatta **Toast Notification** gösterimi esnasında **uyarı sesi** bile çaldırabiliriz. Bunu yapmak için <a href="http://msdn.microsoft.com/en-us/library/windows/apps/br230842.aspx" title="Toast Template Audio Element" target="_blank" rel="noopener">audio</a> elementini kullanacağız. Sistemde kayıtlı uyarı sesleri;
 
 
 

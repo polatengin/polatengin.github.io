@@ -135,7 +135,7 @@ Aynı method içerisinde *Top* nesnemizin dönüş miktarını da hesaplayabilir
 if (ks.IsKeyDown(Keys.Down))
     Top.Rotation -= MathHelper.ToRadians(10);</pre>
 
-<a href="http://msdn.microsoft.com/library/microsoft.xna.framework.mathhelper" target="_blank">MathHelper</a> sınıfının **static** <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.mathhelper.toradians" target="_blank">ToRadians</a> fonksiyonu sayesinde, Top'umuzun dönme açısını **radian** cinsinden kolaylıkla hesaplayabiliyoruz.
+<a href="http://msdn.microsoft.com/library/microsoft.xna.framework.mathhelper" target="_blank" rel="noopener">MathHelper</a> sınıfının **static** <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.mathhelper.toradians" target="_blank" rel="noopener">ToRadians</a> fonksiyonu sayesinde, Top'umuzun dönme açısını **radian** cinsinden kolaylıkla hesaplayabiliyoruz.
 
 **Top**'umuzun dönme açısının *-90* ile *+90* dereceler arasında olduğundan ve ekrandan dışarı çıkmayıp, **görünür** olduğundan emin olalım;
 

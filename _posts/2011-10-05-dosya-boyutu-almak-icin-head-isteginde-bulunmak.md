@@ -35,11 +35,11 @@ var Response = Request.GetResponse();
 var DosyaBoyut = Response.Headers[HttpResponseHeader.ContentLength];
 
 
-Öncelikle <a href="http://msdn.microsoft.com/library/system.net.webrequest" title="WebRequest" target="_blank">WebRequest</a> sınıfının *static* <a href="http://msdn.microsoft.com/en-gb/library/bw00b1dc" title="WebRequest.Create" target="_blank">Create()</a> method'u sayesinde, parametresinde adresi verilmiş dosyaya bir **istek** oluşturuyoruz.
+Öncelikle <a href="http://msdn.microsoft.com/library/system.net.webrequest" title="WebRequest" target="_blank" rel="noopener">WebRequest</a> sınıfının *static* <a href="http://msdn.microsoft.com/en-gb/library/bw00b1dc" title="WebRequest.Create" target="_blank" rel="noopener">Create()</a> method'u sayesinde, parametresinde adresi verilmiş dosyaya bir **istek** oluşturuyoruz.
 
-*Request* değişkeninin <a href="http://msdn.microsoft.com/library/system.net.webrequest.getresponse" title="WebRequest.GetResponse()" target="_blank">GetResponse()</a> method'undan sonuç bilgisini almadan önce <a href="http://msdn.microsoft.com/library/system.net.webrequest.method" title="WebRequest.Method" target="_blank">Method</a> özelliğine **HEAD** değerini atıyoruz.
+*Request* değişkeninin <a href="http://msdn.microsoft.com/library/system.net.webrequest.getresponse" title="WebRequest.GetResponse()" target="_blank" rel="noopener">GetResponse()</a> method'undan sonuç bilgisini almadan önce <a href="http://msdn.microsoft.com/library/system.net.webrequest.method" title="WebRequest.Method" target="_blank" rel="noopener">Method</a> özelliğine **HEAD** değerini atıyoruz.
 
 Böylece istek sonucunda, dosyanın içeriğinin değil **sadece başlık bilgisinin** bulunmasını sağlıyoruz.
 
-<a href="http://msdn.microsoft.com/library/system.net.httpresponseheader" title="HttpResponseHeader" target="_blank">HttpResponseHeader</a> enum'ında yeralan **ContentLength** değeri ile *Response* değişkeninin <a href="http://msdn.microsoft.com/library/system.net.webresponse.headers" title="WebResponse.Headers" target="_blank">Headers</a> özelliğinden **dosyanın boyut bilgisine** ulaşabiliyoruz.
+<a href="http://msdn.microsoft.com/library/system.net.httpresponseheader" title="HttpResponseHeader" target="_blank" rel="noopener">HttpResponseHeader</a> enum'ında yeralan **ContentLength** değeri ile *Response* değişkeninin <a href="http://msdn.microsoft.com/library/system.net.webresponse.headers" title="WebResponse.Headers" target="_blank" rel="noopener">Headers</a> özelliğinden **dosyanın boyut bilgisine** ulaşabiliyoruz.
 

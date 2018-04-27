@@ -55,7 +55,7 @@ Bir çalışmanın **proje** olması için *başlangıç* ve *bitiş* zamanları
 *   Risklere ve Fırsatlara karşı hazırlıklı olmak
 *   Daha gerçekçi hedefler belirlenebilir
 
-Dünya'nın en büyük *kar-amacı-gütmeyen* organizasyonlarından biri olan <a href="http://www.pmi.org" title="Project Management Institute" target="_blank">PMI</a>'ın *(Project Management Institute)* resmi yayını olan **PMBOK**'a *(Project Management Body of Knowledge)* göre **Proje Yönetimi Süreçleri** *(Processes)* aşağıdaki 5 madde'de toplanmıştır;
+Dünya'nın en büyük *kar-amacı-gütmeyen* organizasyonlarından biri olan <a href="http://www.pmi.org" title="Project Management Institute" target="_blank" rel="noopener">PMI</a>'ın *(Project Management Institute)* resmi yayını olan **PMBOK**'a *(Project Management Body of Knowledge)* göre **Proje Yönetimi Süreçleri** *(Processes)* aşağıdaki 5 madde'de toplanmıştır;
 
 
 

@@ -7,13 +7,13 @@ comments: true
 category: [C#]
 tags: [ClassStyle, CreateParams, csharp, DoubleBuffered, ExStyle, Form, FormBorderStyle, gölge form, override, shadow form]
 ---
-**Windows Forms** uygulamalarında **Form**'un gölge efektine sahip olmasını istiyorsak, öncelikle <a href="http://msdn.microsoft.com/library/system.windows.forms.form" target="_blank">Form</a>'un <a href="http://msdn.microsoft.com/library/system.windows.forms.form.formborderstyle" target="_blank">FormBorderStyle</a> özelliğini <a href="http://msdn.microsoft.com/library/system.windows.forms.formborderstyle" target="_blank">None</a> yapmalıyız.
+**Windows Forms** uygulamalarında **Form**'un gölge efektine sahip olmasını istiyorsak, öncelikle <a href="http://msdn.microsoft.com/library/system.windows.forms.form" target="_blank" rel="noopener">Form</a>'un <a href="http://msdn.microsoft.com/library/system.windows.forms.form.formborderstyle" target="_blank" rel="noopener">FormBorderStyle</a> özelliğini <a href="http://msdn.microsoft.com/library/system.windows.forms.formborderstyle" target="_blank" rel="noopener">None</a> yapmalıyız.
 
 
 
 this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;</pre>
 
-*Form* sınıfının <a href="http://msdn.microsoft.com/library/system.windows.forms.form.createparams" target="_blank">CreateParams</a> özelliğini **override** etmemiz gerekiyor. *CreateParams* özelliği geriye <a href="http://msdn.microsoft.com/library/system.windows.forms.createparams" target="_blank">CreateParams</a> tipinde bir nesne döndürür.
+*Form* sınıfının <a href="http://msdn.microsoft.com/library/system.windows.forms.form.createparams" target="_blank" rel="noopener">CreateParams</a> özelliğini **override** etmemiz gerekiyor. *CreateParams* özelliği geriye <a href="http://msdn.microsoft.com/library/system.windows.forms.createparams" target="_blank" rel="noopener">CreateParams</a> tipinde bir nesne döndürür.
 
 <pre class="brush:csharp">protected override CreateParams CreateParams
 {
@@ -27,7 +27,7 @@ this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;</pre>
     }
 }</pre>
 
-*CreateParams* sınıfının <a href="http://msdn.microsoft.com/library/system.windows.forms.createparams.classstyle" target="_blank">ClassStyle</a> özelliğine *0x20000* değerini ekliyoruz. Böylece formumuz çalışmaya başladığında etrafında gölge gözüküyor.
+*CreateParams* sınıfının <a href="http://msdn.microsoft.com/library/system.windows.forms.createparams.classstyle" target="_blank" rel="noopener">ClassStyle</a> özelliğine *0x20000* değerini ekliyoruz. Böylece formumuz çalışmaya başladığında etrafında gölge gözüküyor.
 
 ![Gölgeli Form](/assets/uploads/2010/07/GolgeliForm.png "GolgeliForm")
 
@@ -35,7 +35,7 @@ this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;</pre>
 
 Çoğu zaman bu durum rahatsızlık oluşturma derecesine kadar varır.
 
-Bu sorunu çözmek için, kontrollerin <a href="http://msdn.microsoft.com/library/system.windows.forms.control.doublebuffered" target="_blank">DoubleBuffered</a> özelliğini *true* değerine ayarlamamız gerekmektedir.
+Bu sorunu çözmek için, kontrollerin <a href="http://msdn.microsoft.com/library/system.windows.forms.control.doublebuffered" target="_blank" rel="noopener">DoubleBuffered</a> özelliğini *true* değerine ayarlamamız gerekmektedir.
 
 Fakat *DoubleBuffered* özelliği *Form* sınıfının değil *Control* sınıfının bir özelliği olduğundan dolayı, Form'un *titremesini* gidermek için kullanamayız.
 
@@ -53,7 +53,7 @@ Fakat *DoubleBuffered* özelliği *Form* sınıfının değil *Control* sınıf�
     }
 }</pre>
 
-Bu sefer *CreateParams* sınıfının <a href="http://msdn.microsoft.com/library/system.windows.forms.createparams.exstyle" target="_blank">ExStyle</a> özelliğine *0x02000000* değerini eklememiz gerekiyor.
+Bu sefer *CreateParams* sınıfının <a href="http://msdn.microsoft.com/library/system.windows.forms.createparams.exstyle" target="_blank" rel="noopener">ExStyle</a> özelliğine *0x02000000* değerini eklememiz gerekiyor.
 
 Örnek uygulamanın tüm kodu;
 

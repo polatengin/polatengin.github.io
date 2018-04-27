@@ -48,5 +48,5 @@ Aşağıdaki listede kullanabileceğiniz birçok *şekil* bulunmakta;
 
 ![](/assets/uploads/2012/10/css.png)
 
-*Kaynak: <a href="https://css-tricks.com/examples/ShapesOfCSS/" target="_blank">Shapes of CSS</a>*
+*Kaynak: <a href="https://css-tricks.com/examples/ShapesOfCSS/" target="_blank" rel="noopener">Shapes of CSS</a>*
 

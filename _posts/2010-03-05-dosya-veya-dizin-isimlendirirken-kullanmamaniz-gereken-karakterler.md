@@ -17,7 +17,7 @@ tags: [char, class, dizin, dosya, filename, GetInvalidFileNameChars, GetInvalidP
 
 Her iki method'dan da geriye *char[]* döner.
 
-MSDN'de <a title="MSDN: GetInvalidFileNameChars()" href="http://msdn.microsoft.com/en-us/library/system.io.path.getinvalidfilenamechars.aspx" target="_blank">şuradaki makaleden</a> *GetInvalidFileNameChars()* methodu ile ilgili ayrıntılı bilgiye ulaşabilirsiniz.
+MSDN'de <a title="MSDN: GetInvalidFileNameChars()" href="http://msdn.microsoft.com/en-us/library/system.io.path.getinvalidfilenamechars.aspx" target="_blank" rel="noopener">şuradaki makaleden</a> *GetInvalidFileNameChars()* methodu ile ilgili ayrıntılı bilgiye ulaşabilirsiniz.
 
-MSDN'de <a title="MSDN: GetInvalidPathChars()" href="http://msdn.microsoft.com/en-us/library/system.io.path.getinvalidpathchars.aspx" target="_blank">şuradaki makaleden</a> *GetInvalidPathChars()* methodu ile  ilgili ayrıntılı bilgiye ulaşabilirsiniz.
+MSDN'de <a title="MSDN: GetInvalidPathChars()" href="http://msdn.microsoft.com/en-us/library/system.io.path.getinvalidpathchars.aspx" target="_blank" rel="noopener">şuradaki makaleden</a> *GetInvalidPathChars()* methodu ile  ilgili ayrıntılı bilgiye ulaşabilirsiniz.
 

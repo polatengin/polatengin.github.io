@@ -11,7 +11,7 @@ Bir **Windows Service**'ine bağımlı uygulama geliştirdiğiniz zaman, ilgili 
 
 **ServiceController Sınıfı**
 
-<a href="http://msdn.microsoft.com/library/system.serviceprocess.servicecontroller" target="_blank">ServiceController</a> sınıfı, <a href="http://msdn.microsoft.com/library/system.serviceprocess" target="_blank">System.ServiceProcess</a> namespace'inde yer alır. *Lokal makinadaki* veya *Uzak makinadaki* bir **windows service**'ini temsil eder, ilgili service'in **sorgulanmasına** ve çeşitli özelliklerinin **değiştirilmesine** izin verir.
+<a href="http://msdn.microsoft.com/library/system.serviceprocess.servicecontroller" target="_blank" rel="noopener">ServiceController</a> sınıfı, <a href="http://msdn.microsoft.com/library/system.serviceprocess" target="_blank" rel="noopener">System.ServiceProcess</a> namespace'inde yer alır. *Lokal makinadaki* veya *Uzak makinadaki* bir **windows service**'ini temsil eder, ilgili service'in **sorgulanmasına** ve çeşitli özelliklerinin **değiştirilmesine** izin verir.
 
 **ServiceController Sınıfının Kullanımı**
 
@@ -44,9 +44,9 @@ ServiceByDisplayName.DisplayName = "Print Spooler";
 
 ServiceController ServiceByConstructor = new ServiceController("Spooler");</pre>
 
-Yukarıdaki kodda görebileceğiniz gibi **ServiceController** sınıfımızı tanımladıktan sonra, <a href="http://msdn.microsoft.com/library/system.serviceprocess.servicecontroller.status" target="_blank">Status</a> özelliğini kullanarak, servis'in durum bilgisini sorgulayabiliriz.
+Yukarıdaki kodda görebileceğiniz gibi **ServiceController** sınıfımızı tanımladıktan sonra, <a href="http://msdn.microsoft.com/library/system.serviceprocess.servicecontroller.status" target="_blank" rel="noopener">Status</a> özelliğini kullanarak, servis'in durum bilgisini sorgulayabiliriz.
 
-**Status** özelliği <a href="http://msdn.microsoft.com/library/system.serviceprocess.servicecontrollerstatus" target="_blank">ServiceControllerStatus</a> enum tipinde değer döndürür;
+**Status** özelliği <a href="http://msdn.microsoft.com/library/system.serviceprocess.servicecontrollerstatus" target="_blank" rel="noopener">ServiceControllerStatus</a> enum tipinde değer döndürür;
 
 
 
@@ -71,7 +71,7 @@ if (sc.Status == ServiceControllerStatus.Running)
 
 **Uzak makinadaki bir service'in durumunu belirleme**
 
-*Uzak makinadaki* bir service'in durumunu belirleme, *lokal makinadaki* service'in durumunu belirlemek kadar kolaydır. Tek yapmamız gereken <a href="http://msdn.microsoft.com/library/system.serviceprocess.servicecontroller.machinename" target="_blank">MachineName</a> özelliğine uzak makinanın adresini girmek.
+*Uzak makinadaki* bir service'in durumunu belirleme, *lokal makinadaki* service'in durumunu belirlemek kadar kolaydır. Tek yapmamız gereken <a href="http://msdn.microsoft.com/library/system.serviceprocess.servicecontroller.machinename" target="_blank" rel="noopener">MachineName</a> özelliğine uzak makinanın adresini girmek.
 
 Uzak makinadaki *Print Spooler* servisini sorgulamak istediğimizde;
 

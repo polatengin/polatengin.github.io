@@ -11,7 +11,7 @@ Hangi .Net yazılımcısına sorsanız, *string* tipinde değişkenin hafızada 
 
 Genel olarak kabul gören bu hesaplama yöntemi, birçok durumda gerçeğe çok yakın sonuç üretir. Fakat **sonuç tam olarak doğru değildir**.
 
-**UTF-8 (Unicode Transformation Format)** hakkında daha fazla bilgiyi **Wikipedia**'da yeralan <a title="Wikipedia: UTF-8" href="http://en.wikipedia.org/wiki/UTF-8" target="_blank">şu makale</a>'den edinebilirsiniz.
+**UTF-8 (Unicode Transformation Format)** hakkında daha fazla bilgiyi **Wikipedia**'da yeralan <a title="Wikipedia: UTF-8" href="http://en.wikipedia.org/wiki/UTF-8" target="_blank" rel="noopener">şu makale</a>'den edinebilirsiniz.
 
 Peki **string** değişkenin hafızada kapladığı alanı tam olarak nasıl hesaplayacağız?
 

@@ -16,5 +16,5 @@ Bu seminerde değindiğim konular;
 *   XNA ile ilgili bilinmesi gereken kavramlar
 *   XNA Örnek kodlar
 
-<a title="enginpolat.com: Şubat 2010 Seminerleri / XNA Game Studio" href="../wp-content/uploads/2010/02/XNAOyunGelistirme_Prezentasyon.rar" target="_blank">Powerpoint Prezentasyonu</a>
+<a title="enginpolat.com: Şubat 2010 Seminerleri / XNA Game Studio" href="../wp-content/uploads/2010/02/XNAOyunGelistirme_Prezentasyon.rar" target="_blank" rel="noopener">Powerpoint Prezentasyonu</a>
 

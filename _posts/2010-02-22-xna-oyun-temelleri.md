@@ -9,7 +9,7 @@ tags: [constructor, content, draw, getstate, iskeydown, keyboard, keyboardstate,
 ---
 **XNA** ile oyun geliştirmeye başlamadan önce, ekrana nasıl çizim yapabileceğimizi öğrenmemiz gerekiyor.
 
-***Not :** Buradan ileriye devam etmeden önce <a title="enginpolat.com : XNA - Başlangıç" href="/xna-baslangic/" target="_blank">XNA - Başlangıç</a> yazımı okumanızı tavsiye ederim.*
+***Not :** Buradan ileriye devam etmeden önce <a title="enginpolat.com : XNA - Başlangıç" href="/xna-baslangic/" target="_blank" rel="noopener">XNA - Başlangıç</a> yazımı okumanızı tavsiye ederim.*
 
 Öncelikle, ihtiyacımız olacak iki görseli bilgisayarınıza kopyalamanız gerekiyor;
 
@@ -76,5 +76,5 @@ Gördüğünüz gibi, klavyede o anda basılı tuşları *Keyboard.GetState()* i
 
 <a href="/assets/uploads/2010/02/XNA_OyunTemelleri_2.png">![XNA Oyun Temelleri](/assets/uploads/2010/02/XNA_OyunTemelleri_2.png "XNA Oyun Temelleri")</a>
 
-Oyunun kaynak kodlarını <a title="enginpolat.com : XNA Temelleri" href="/assets/uploads/2010/02/XNA_OyunTemelleri.rar" target="_blank">buradan</a> indirebilirsiniz.
+Oyunun kaynak kodlarını <a title="enginpolat.com : XNA Temelleri" href="/assets/uploads/2010/02/XNA_OyunTemelleri.rar" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 

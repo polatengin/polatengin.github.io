@@ -7,7 +7,7 @@ comments: true
 category: [Web]
 tags: [api, autoplay, body, camera, createobjecturl, css, css3, document, getelementbyid, getusermedia, head, html, html5, javascript, mandatory, minheight, minwidth, navigator, stop, stream, video]
 ---
-**HTML5** ile birlikte gelen **video** element içerisinde <a href="http://www.w3.org/TR/mediacapture-streams/" target="_blank">navigator.getUserMedia</a> *API* method'u sayesinde **Javascript** aracılığı ile cihazın **Camera** görüntüsünü gösterebiliyoruz.
+**HTML5** ile birlikte gelen **video** element içerisinde <a href="http://www.w3.org/TR/mediacapture-streams/" target="_blank" rel="noopener">navigator.getUserMedia</a> *API* method'u sayesinde **Javascript** aracılığı ile cihazın **Camera** görüntüsünü gösterebiliyoruz.
 
 Bu makale ile adım adım ilerleyerek, cihazın **Camera** gösüntüsünü **video** element içerisinde gösteren bir sayfa oluşturacağız, hemen yeni bir **html** dosyası oluşturalım ve içine aşağıdaki kodları yazalım;
 
@@ -17,7 +17,7 @@ Sayfaya bir **video** element ekleyeceğiz, **Javascript** aracılığı ile cih
 
 <script src="https://gist.github.com/polatengin/104d28edab721668a7315bc27943ae0a.js?file=Index-Video.html"></script>
 
-Böylece, sayfa açıldığında <a href="http://www.w3schools.com/jsref/obj_navigator.asp" target="_blank">navigator</a> nesnesinin <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getUserMedia" target="_blank">getUserMedia</a> method'unu kullanarak cihazın **Camera** görüntüsüne ulaşmayı deniyoruz.
+Böylece, sayfa açıldığında <a href="http://www.w3schools.com/jsref/obj_navigator.asp" target="_blank" rel="noopener">navigator</a> nesnesinin <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getUserMedia" target="_blank" rel="noopener">getUserMedia</a> method'unu kullanarak cihazın **Camera** görüntüsüne ulaşmayı deniyoruz.
 
 *Not : Eğer audio filtresine false değeri yerine true değeri verirsek sesleri de almaya başlarız.*
 
@@ -33,7 +33,7 @@ Gerekli izin verildikten sonra **Camera** görüntüsü, ilgili **video** elemen
 
 Eğer **Camera** görüntüsünü durdurmak istiyorsak, *stream*'in *stop()* methodunu çağırmamız yeterli.
 
-Ayrıca, **CSS3** stillerini kullanarak **Camera** görüntüsü üzerine **efekt**'ler de uygulayabiliriz. Bakınız, <a href="http://www.enginpolat.com/html5-video-element-css3-ile-efekt-uygulamak/" target="_blank">HTML5 video element CSS3 ile efekt uygulamak</a>
+Ayrıca, **CSS3** stillerini kullanarak **Camera** görüntüsü üzerine **efekt**'ler de uygulayabiliriz. Bakınız, <a href="http://www.enginpolat.com/html5-video-element-css3-ile-efekt-uygulamak/" target="_blank" rel="noopener">HTML5 video element CSS3 ile efekt uygulamak</a>
 
 Eğer **Camera** görüntüsünün çözünürlüğünü değiştirmek istersek, *navigator.getUserMedia()* methodunun ilk parametresinde basitçe *video: true* yazmak yerine, istediğimiz çözünürlüğü aşağıdaki gibi belirtiyoruz;
 

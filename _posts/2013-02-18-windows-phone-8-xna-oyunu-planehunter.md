@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [bool, class, const, constructor, content, Content.Load, displayorientation, draw, drawstring, elapsed, elapsedgametime, FromMilliseconds, gameloop, GameTime, getstate, intersects, isfullscreen, landscapeleft, landscaperight, loadcontent, nextdouble, prefferedbackbufferheight, prefferedbackbufferwidth, pressed, private, public, random, readonly, rectangle, sprite, spritebatch, spriteeffects, spritefont, state, static, supportedorientations, switch, texture2d, TimeSpan, TimeSpan.Zero, totalgametime, touchcollection, touchlocation, touchlocationstate, touchpanel, unloadcontent, update, vector2, xml, XNA, xna game studio]
 ---
-Bu yazımı okumadan önce <a href="/kategori/windows-phone" title="enginpolat.com : Windows Phone" target="_blank">Windows Phone</a> ve <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
+Bu yazımı okumadan önce <a href="/kategori/windows-phone" title="enginpolat.com : Windows Phone" target="_blank" rel="noopener">Windows Phone</a> ve <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank" rel="noopener">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
 
 Her zamanki gibi önce *görseller*;
 
@@ -90,7 +90,7 @@ private readonly Rectangle screenArea = new Rectangle(0, 0, PENCERE_GENISLIK, PE
 
 private readonly Random r = new Random();</target></pre>
 
-Yukarıdaki kodlar için daha önce yazmış olduğum <a href="/kategori/windows-phone" title="enginpolat.com : Windows Phone" target="_blank">Windows Phone</a> ve <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
+Yukarıdaki kodlar için daha önce yazmış olduğum <a href="/kategori/windows-phone" title="enginpolat.com : Windows Phone" target="_blank" rel="noopener">Windows Phone</a> ve <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank" rel="noopener">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
 
 *GameLoop* sınıfının **constructor**'ında aşağıdaki atama işlerini yapalım;
 
@@ -100,9 +100,9 @@ graphics.IsFullScreen = true;
 
 graphics.SupportedOrientations = DisplayOrientation.LandscapeLeft | DisplayOrientation.LandscapeRight;</pre>
 
-<a href="http://msdn.microsoft.com/library/microsoft.xna.framework.graphicsdevicemanager.supportedorientations" title="GraphicsDeviceManager SupportedOrientations Property" target="_blank">SupportedOrientations</a> özelliğine <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.displayorientation" title="DisplayOrientation Enumeration" target="_blank">DisplayOrientation</a> enum'ından *LandscapeLeft* ve *LandscapeRight* değerlerini atayarak, oyun ekranının telefon *dikey değil*, *yatay tutulduğunda* düzgün görüntüleneceğini tanımlamış olduk.
+<a href="http://msdn.microsoft.com/library/microsoft.xna.framework.graphicsdevicemanager.supportedorientations" title="GraphicsDeviceManager SupportedOrientations Property" target="_blank" rel="noopener">SupportedOrientations</a> özelliğine <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.displayorientation" title="DisplayOrientation Enumeration" target="_blank" rel="noopener">DisplayOrientation</a> enum'ından *LandscapeLeft* ve *LandscapeRight* değerlerini atayarak, oyun ekranının telefon *dikey değil*, *yatay tutulduğunda* düzgün görüntüleneceğini tanımlamış olduk.
 
-**LoadContent** method'unda <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.graphics.texture2d" title="Texture2D class" target="_blank">Texture2D</a> tipindeki değişkenlerimize değer atayalım;
+**LoadContent** method'unda <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.graphics.texture2d" title="Texture2D class" target="_blank" rel="noopener">Texture2D</a> tipindeki değişkenlerimize değer atayalım;
 
 <pre class="brush:csharp">backgroundTexture = Content.Load&lt;Texture2D&gt;("PlaneHunterBackground");
 
@@ -163,9 +163,9 @@ Yeni hedef ekleyeceğimiz zaman öncelikle hedef'i ekranın dört köşesinden *
     hedef.Area.Y = (int)hedef.Position.Y;
 }</pre>
 
-**Windows Phone** oyunlarında, oyuncunun ekrana dokunduğu noktaların listesini <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touch.touchpanel" title="TouchPanel class" target="_blank">TouchPanel</a> sınıfının *static* <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touch.touchpanel.getstate" title="TouchPanel class GetState method" target="_blank">GetState</a> methodundan dönen <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchcollection" title="TouchCollection Structure" target="_blank">TouchCollection</a> ile alabilmekteyiz.
+**Windows Phone** oyunlarında, oyuncunun ekrana dokunduğu noktaların listesini <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touch.touchpanel" title="TouchPanel class" target="_blank" rel="noopener">TouchPanel</a> sınıfının *static* <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touch.touchpanel.getstate" title="TouchPanel class GetState method" target="_blank" rel="noopener">GetState</a> methodundan dönen <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchcollection" title="TouchCollection Structure" target="_blank" rel="noopener">TouchCollection</a> ile alabilmekteyiz.
 
-**TouchCollection** koleksiyonunun her bir elemanı <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchlocation" title="TouchLocation structure" target="_blank">TouchLocation</a> tipindedir, <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchlocation.state" title="TouchLocation structure State property" target="_blank">State</a> özelliğinin <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchlocationstate" title="TouchLocationState Enumeration" target="_blank">TouchLocationState</a> enum'ından *Pressed* değerinde olduğunu kontrol ederek, ilgili noktaya dokunulduğu durumu yakalayabilir, eğer bir hedef ile kesişiyorsa, hedefi öldürebiliriz;
+**TouchCollection** koleksiyonunun her bir elemanı <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchlocation" title="TouchLocation structure" target="_blank" rel="noopener">TouchLocation</a> tipindedir, <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchlocation.state" title="TouchLocation structure State property" target="_blank" rel="noopener">State</a> özelliğinin <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchlocationstate" title="TouchLocationState Enumeration" target="_blank" rel="noopener">TouchLocationState</a> enum'ından *Pressed* değerinde olduğunu kontrol ederek, ilgili noktaya dokunulduğu durumu yakalayabilir, eğer bir hedef ile kesişiyorsa, hedefi öldürebiliriz;
 
 <pre class="brush:csharp">TouchCollection tc = TouchPanel.GetState();
 foreach (TouchLocation tl in tc)
@@ -228,5 +228,5 @@ Oyunumuzdan bir kare;
 
 ![Windows Phone - XNA Oyunu : PlaneHunter](/assets/uploads/2013/02/PlaneHunter-2.png)
 
-Oyunun kodlarını <a href="/assets/uploads/2013/02/PlaneHunter.rar" title="Windows Phone - XNA Game : PlaneHunter" target="_blank">buradan</a> indirebilirsiniz.
+Oyunun kodlarını <a href="/assets/uploads/2013/02/PlaneHunter.rar" title="Windows Phone - XNA Game : PlaneHunter" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 

@@ -37,11 +37,11 @@ Projenin **Assets** dizinine yuvarlak göstermek istediğimiz resmi ekleyelim, b
 
 &lt;/Page&gt;</pre>
 
-Böylece ekrana bir <a href="http://msdn.microsoft.com/library/system.windows.controls.image" target="_blank">Image</a> nesnesi ekledik ve içerisinde *Bora Kaşmer*'in resmini aşağıdaki gibi gösterdik;
+Böylece ekrana bir <a href="http://msdn.microsoft.com/library/system.windows.controls.image" target="_blank" rel="noopener">Image</a> nesnesi ekledik ve içerisinde *Bora Kaşmer*'in resmini aşağıdaki gibi gösterdik;
 
 ![](/assets/uploads/2016/03/avatar3.jpg)
 
-Eğer bu resmi *kare* değil, *yuvarlak* göstermek istiyorsak, <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid" target="_blank">Grid</a> nesnesinin içindeki <a href="http://msdn.microsoft.com/library/system.windows.controls.image" target="_blank">Image</a> nesnesini <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.ellipse" target="_blank">Ellipse</a> nesnesi ile değiştirip, <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.shape.fill" target="_blank">Fill</a> özelliğine <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.media.imagebrush" target="_blank">ImageBrush</a> nesnesi ekliyoruz;
+Eğer bu resmi *kare* değil, *yuvarlak* göstermek istiyorsak, <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid" target="_blank" rel="noopener">Grid</a> nesnesinin içindeki <a href="http://msdn.microsoft.com/library/system.windows.controls.image" target="_blank" rel="noopener">Image</a> nesnesini <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.ellipse" target="_blank" rel="noopener">Ellipse</a> nesnesi ile değiştirip, <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.shape.fill" target="_blank" rel="noopener">Fill</a> özelliğine <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.media.imagebrush" target="_blank" rel="noopener">ImageBrush</a> nesnesi ekliyoruz;
 
 <pre class="brush:xml">&lt;Page
     x:Class="YuvarlakAvatarResim.MainPage"

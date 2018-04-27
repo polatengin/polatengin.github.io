@@ -20,7 +20,7 @@ public void IsNullOrEmpty&lt;T&gt;(IEnumerable&lt;T&gt; koleksiyon)
     }
 }</pre>
 
-Yukarıdaki **method** <a href="http://msdn.microsoft.com/library/system.collections.ienumerable" target="_blank">IEnumerable</a> **generic** tipinde **parametre** alıyor, <a href="http://msdn.microsoft.com/library/edakx9da.aspx" target="_blank">null</a> veya boş olup/olmadığını kontrol ediyor.
+Yukarıdaki **method** <a href="http://msdn.microsoft.com/library/system.collections.ienumerable" target="_blank" rel="noopener">IEnumerable</a> **generic** tipinde **parametre** alıyor, <a href="http://msdn.microsoft.com/library/edakx9da.aspx" target="_blank" rel="noopener">null</a> veya boş olup/olmadığını kontrol ediyor.
 
 Karşılaştırmada kullanılan,
 
@@ -28,13 +28,13 @@ Karşılaştırmada kullanılan,
 
 kod parçası dikkatimi çekti.
 
-Eğer <a href="http://msdn.microsoft.com/library/system.string.isnullorempty" target="_blank">IsNullOrEmpty</a> fonksiyonuna **parametre** olarak <a href="http://msdn.microsoft.com/library/system.collections.icollection" target="_blank">ICollection&lt;T&gt;</a> **interface**'ini **implemente** *etmeyen* tipten bir değer gönderecek olursak (mesela **LINQ sorgusu** sonucu olarak <a href="http://msdn.microsoft.com/library/system.linq.iqueryable" target="_blank">IQueryable</a>) <a href="http://msdn.microsoft.com/library/system.linq.enumerable.count" target="_blank">Count</a> method'u **tüm liste üzerinde satır-satır ilerleyerek** listedeki *eleman adedini* hesaplayacaktır.
+Eğer <a href="http://msdn.microsoft.com/library/system.string.isnullorempty" target="_blank" rel="noopener">IsNullOrEmpty</a> fonksiyonuna **parametre** olarak <a href="http://msdn.microsoft.com/library/system.collections.icollection" target="_blank" rel="noopener">ICollection&lt;T&gt;</a> **interface**'ini **implemente** *etmeyen* tipten bir değer gönderecek olursak (mesela **LINQ sorgusu** sonucu olarak <a href="http://msdn.microsoft.com/library/system.linq.iqueryable" target="_blank" rel="noopener">IQueryable</a>) <a href="http://msdn.microsoft.com/library/system.linq.enumerable.count" target="_blank" rel="noopener">Count</a> method'u **tüm liste üzerinde satır-satır ilerleyerek** listedeki *eleman adedini* hesaplayacaktır.
 
-Eğer fonksiyona parametre olarak <a href="http://msdn.microsoft.com/library/system.collections.ienumerable" target="_blank">IEnumerable</a> **interface**'ini **implemente** *eden* tipten bir değer gönderecek olursak, <a href="http://msdn.microsoft.com/library/system.linq.enumerable.count" target="_blank">Count</a> method'u, **optimize** edilmiş haliyle, sadece koleksiyonun **Count özelliğini** sorgulayacaktır.
+Eğer fonksiyona parametre olarak <a href="http://msdn.microsoft.com/library/system.collections.ienumerable" target="_blank" rel="noopener">IEnumerable</a> **interface**'ini **implemente** *eden* tipten bir değer gönderecek olursak, <a href="http://msdn.microsoft.com/library/system.linq.enumerable.count" target="_blank" rel="noopener">Count</a> method'u, **optimize** edilmiş haliyle, sadece koleksiyonun **Count özelliğini** sorgulayacaktır.
 
 Türkçe ifadesiyle; "*Koleksiyonda eleman var mı?*" sorusu yerine "*Koleksiyon'da sıfır eleman mı var?*" sorusunu sormuş oluyoruz.
 
-Aslında çözüm basit, <a href="http://msdn.microsoft.com/library/system.linq" target="_blank">System.Linq</a> **namespace**'inde yeralan <a href="http://msdn.microsoft.com/en-us/library/bb337697.aspx" target="_blank">Any</a> **extension method**'unu kullanmamız gerekiyor;
+Aslında çözüm basit, <a href="http://msdn.microsoft.com/library/system.linq" target="_blank" rel="noopener">System.Linq</a> **namespace**'inde yeralan <a href="http://msdn.microsoft.com/en-us/library/bb337697.aspx" target="_blank" rel="noopener">Any</a> **extension method**'unu kullanmamız gerekiyor;
 
 <pre class="brush:csharp">public void Test&lt;T&gt;(IEnumerable&lt;T&gt; koleksiyon)
 {
@@ -45,7 +45,7 @@ Aslında çözüm basit, <a href="http://msdn.microsoft.com/library/system.linq"
     }
 }</pre>
 
-Bu yöntemin güzelliği, **IEnumerable** **interface**'inin <a href="http://msdn.microsoft.com/library/system.collections.ienumerator.movenext" target="_blank">MoveNext</a> methodunu sadece bir kere çağırması. Koleksiyonda bulunan *eleman adedi* ne olursa olsun, **Any** methodu sonucu **çok hızlı** birşekilde döndürecektir.
+Bu yöntemin güzelliği, **IEnumerable** **interface**'inin <a href="http://msdn.microsoft.com/library/system.collections.ienumerator.movenext" target="_blank" rel="noopener">MoveNext</a> methodunu sadece bir kere çağırması. Koleksiyonda bulunan *eleman adedi* ne olursa olsun, **Any** methodu sonucu **çok hızlı** birşekilde döndürecektir.
 
 Hatta kendi **extension method**'umuzu da **Any** methodunu kullanarak yazabiliriz;
 

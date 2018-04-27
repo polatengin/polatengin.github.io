@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [add, array, clear, collection, dizi, foreach, int, max, min, property, reverse, sortedset, static, string]
 ---
-<a href="http://msdn.microsoft.com/library/dd412070.aspx" target="_blank">SortedSet</a> sınıfı, **.Net Framework 4.0** ile birlikte gelen en yeni sınıflardan biridir ve listesine eklenen elemanları **sıralı** bir şekilde tutar.
+<a href="http://msdn.microsoft.com/library/dd412070.aspx" target="_blank" rel="noopener">SortedSet</a> sınıfı, **.Net Framework 4.0** ile birlikte gelen en yeni sınıflardan biridir ve listesine eklenen elemanları **sıralı** bir şekilde tutar.
 
 Bir örnek ile göstermek gerekirse;
 
@@ -53,7 +53,7 @@ Mehmet</pre>
 
 <pre>*Çıktı : *1, 2, 3, 4, 5, 6, 7, 8, 9, 10</pre>
 
-*Tüm koleksiyonlara* uygulayabildiğimiz <a href="http://msdn.microsoft.com/library/dd412080.aspx" target="_blank">Reverse()</a> methodu **SortedSet** sınıfında da kullanılabiliyor;
+*Tüm koleksiyonlara* uygulayabildiğimiz <a href="http://msdn.microsoft.com/library/dd412080.aspx" target="_blank" rel="noopener">Reverse()</a> methodu **SortedSet** sınıfında da kullanılabiliyor;
 
 <pre class="brush:csharp">public static void Main(string[] args)
 {
@@ -80,7 +80,7 @@ Mehmet</pre>
     Console.ReadLine();
 }</pre>
 
-<a href="http://msdn.microsoft.com/library/dd411719.aspx" target="_blank">Min</a> ve <a href="http://msdn.microsoft.com/library/dd382351.aspx" target="_blank">Max</a> özellikleri sayesinde listedeki **en küçük** ve **en büyük** değerli elemanlara ulaşabiliriz;
+<a href="http://msdn.microsoft.com/library/dd411719.aspx" target="_blank" rel="noopener">Min</a> ve <a href="http://msdn.microsoft.com/library/dd382351.aspx" target="_blank" rel="noopener">Max</a> özellikleri sayesinde listedeki **en küçük** ve **en büyük** değerli elemanlara ulaşabiliriz;
 
 <pre class="brush:csharp">public static void Main(string[] args)
 {

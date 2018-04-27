@@ -7,7 +7,7 @@ comments: true
 category: [Web]
 tags: [attribute, body, charset, Color, css, css3, font-family, head, html, html5, lang, meta, seo, style, text to speech]
 ---
-**HTML** ve **HTML5** sayfalarında aşağıdaki sebeplerden ötürü <a href="http://www.w3schools.com/tags/att_global_lang.asp" target="_blank">lang</a> ve <a href="http://www.w3schools.com/tags/att_meta_charset.asp" target="_blank">charset</a> **attribute**'lerini kullanmak faydalıdır;
+**HTML** ve **HTML5** sayfalarında aşağıdaki sebeplerden ötürü <a href="http://www.w3schools.com/tags/att_global_lang.asp" target="_blank" rel="noopener">lang</a> ve <a href="http://www.w3schools.com/tags/att_meta_charset.asp" target="_blank" rel="noopener">charset</a> **attribute**'lerini kullanmak faydalıdır;
 
 
 

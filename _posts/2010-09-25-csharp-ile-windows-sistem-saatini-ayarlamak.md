@@ -11,13 +11,13 @@ Bazı windows uygulamalarının veya servislerinin *Windows sistem saatini* **de
 
 C# ile geliştirdiğiniz *uygulamalarda veya servislerde* sistem saatini, basit bir **Windows API** çağrısı yaparak **değiştirebilirsiniz**.
 
-Bu makale ile, <a href="http://msdn.microsoft.com/en-us/library/ms724950.aspx" target="_blank">SYSTEMTIME</a> yapısını ve <a href="http://msdn.microsoft.com/en-us/library/ms724942.aspx" target="_blank">SetSystemTime</a> fonksiyonunu nasıl **tanımlayacağınızı** ve **kullanacağınızı** anlatacağım.
+Bu makale ile, <a href="http://msdn.microsoft.com/en-us/library/ms724950.aspx" target="_blank" rel="noopener">SYSTEMTIME</a> yapısını ve <a href="http://msdn.microsoft.com/en-us/library/ms724942.aspx" target="_blank" rel="noopener">SetSystemTime</a> fonksiyonunu nasıl **tanımlayacağınızı** ve **kullanacağınızı** anlatacağım.
 
 **SetSystemTime** fonksiyonu bir **Windows API** çağrısıdır ve işletim sisteminin **tarih/saat** bilgisini **değiştirmek** için kullanılır.
 
 **kernel32.dll** içerisinde tanımlanmış bu **Windows API** fonksiyonu, C# ile **Platform Invocation Services** *(P/Invoke)* çağrısı yapılarak kullanılabilir.
 
-Öncelikle kod dosyamızın üstünde bulunan **using** kısmına <a href="http://msdn.microsoft.com/library/system.runtime.interopservices" target="_blank">System.Runtime.InteropServices</a> **namespace**'ini ekleyelim;
+Öncelikle kod dosyamızın üstünde bulunan **using** kısmına <a href="http://msdn.microsoft.com/library/system.runtime.interopservices" target="_blank" rel="noopener">System.Runtime.InteropServices</a> **namespace**'ini ekleyelim;
 
 
 

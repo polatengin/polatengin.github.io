@@ -7,7 +7,7 @@ comments: true
 category: [Programlama]
 tags: [between retries, current_execution_status, executing, idle, msdb, name, performing completion actions, service, sp_help_job, SQL, sql agent, sql server, status, stored procedure, suspended, waiting for thread]
 ---
-**SQL Server** servislerinden **SQL Agent** servisinin çalışıp çalışmadığını anlamamız gerektiği durumlarda <a href="http://msdn.microsoft.com/en-us/library/ms187112.aspx" target="_blank">msdb veritabanında</a> tanımlı <a href="http://msdn.microsoft.com/en-us/library/aa933458.aspx" target="_blank">sp_help_job</a> **stored procedure**'ünü kullanabiliriz;
+**SQL Server** servislerinden **SQL Agent** servisinin çalışıp çalışmadığını anlamamız gerektiği durumlarda <a href="http://msdn.microsoft.com/en-us/library/ms187112.aspx" target="_blank" rel="noopener">msdb veritabanında</a> tanımlı <a href="http://msdn.microsoft.com/en-us/library/aa933458.aspx" target="_blank" rel="noopener">sp_help_job</a> **stored procedure**'ünü kullanabiliriz;
 
 
 

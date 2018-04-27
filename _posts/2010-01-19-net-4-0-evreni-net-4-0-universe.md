@@ -11,5 +11,5 @@ tags: [.net]
 
 Microsoft .Net Framework ailesinin en yeni üyesi olacak 4.0 versiyon için aşağıdaki PDF dokümanını yayınladı.
 
-PDF Formatında indirmek için <a title="Microsoft: .Net 4.0 Universe" href="/assets/uploads/2010/01/Net4_Universe.pdf" target="_blank">buraya</a> tıklayınız.
+PDF Formatında indirmek için <a title="Microsoft: .Net 4.0 Universe" href="/assets/uploads/2010/01/Net4_Universe.pdf" target="_blank" rel="noopener">buraya</a> tıklayınız.
 

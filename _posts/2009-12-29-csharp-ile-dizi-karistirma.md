@@ -90,5 +90,5 @@ Form'umuzun *Load* olayında, ***Parallel For*** yeteneklerinden faydalanarak, 1
 
 <a href="/assets/uploads/2009/12/ShuffleList_2.png">![](/assets/uploads/2009/12/ShuffleList_2.png "ShuffleList_2")</a>
 
-Uygulamanın kaynak kodlarını <a title="enginpolat.com: Shuffle List" href="/assets/uploads/2009/12/ShuffleList.rar" target="_blank">buradan</a> indirebilirsiniz.
+Uygulamanın kaynak kodlarını <a title="enginpolat.com: Shuffle List" href="/assets/uploads/2009/12/ShuffleList.rar" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 

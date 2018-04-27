@@ -9,7 +9,7 @@ tags: [background, border, borderbrush, button, controls, foreground, mainpage, 
 ---
 **Windows 10 UWP** uygulaması geliştirirken ekranda göstereceğimiz nesnelerin varsayılandan **farklı** gözükmesini isteriz.
 
-Bunun için istediğimiz nesnelerin *stillerini* (<a href="http://msdn.microsoft.com/library/system.windows.style" target="_blank">Style</a>) değiştirmemiz gerekir.
+Bunun için istediğimiz nesnelerin *stillerini* (<a href="http://msdn.microsoft.com/library/system.windows.style" target="_blank" rel="noopener">Style</a>) değiştirmemiz gerekir.
 
 Hemen yeni bir proje oluşturalım ve stilleri nasıl değiştireceğimizi inceleyelim;
 
@@ -19,7 +19,7 @@ Projeyi oluşturduktan sonra, **MainPage.xaml** dosyasını açalım ve içerisi
 
 <script src="https://gist.github.com/polatengin/d664ccd8ec99c0c79f7f1dfd6de0a617.js?file=MainPage.xaml"></script>
 
-Stilini değiştirmek istediğimiz nesnenin özelliklerini kullanarak farklı gözükmesini sağlayabiliyoruz. Örneğin, sayfaya bir <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.button" target="_blank">Button</a> nesnesi ekleyerek aşağıdaki özelliklerini değiştirebilir, ekranda varsayılan halinden farklı gözükmesini sağlayabiliriz;
+Stilini değiştirmek istediğimiz nesnenin özelliklerini kullanarak farklı gözükmesini sağlayabiliyoruz. Örneğin, sayfaya bir <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.button" target="_blank" rel="noopener">Button</a> nesnesi ekleyerek aşağıdaki özelliklerini değiştirebilir, ekranda varsayılan halinden farklı gözükmesini sağlayabiliriz;
 
 *   Background
 *   Foreground

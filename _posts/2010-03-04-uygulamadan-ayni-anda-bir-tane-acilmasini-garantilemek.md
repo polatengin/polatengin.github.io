@@ -31,5 +31,5 @@ static void Main()
     }
 }
 
-*Mutex* sınıfı ile ilgili daha detaylı bilgiye **MSDN**'deki şu <a title="MSDN: Mutex" href="http://msdn.microsoft.com/en-us/library/system.threading.mutex.aspx" target="_blank">makaleden</a> ulaşabilirsiniz.
+*Mutex* sınıfı ile ilgili daha detaylı bilgiye **MSDN**'deki şu <a title="MSDN: Mutex" href="http://msdn.microsoft.com/en-us/library/system.threading.mutex.aspx" target="_blank" rel="noopener">makaleden</a> ulaşabilirsiniz.
 

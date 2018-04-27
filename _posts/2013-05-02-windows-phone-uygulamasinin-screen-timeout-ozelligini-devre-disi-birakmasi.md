@@ -22,5 +22,5 @@ Fakat video izlerken, kitap/haber okurken ekranın 1-2 dakikada bir kapanması k
 Guide.IsScreenSaverEnabled = false;
 
 
-*XNA Framework* içerisinde yeralan <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.gamerservices.guide" title="MSDN : Guide Class" target="_blank">Guide</a> sınıfının <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.gamerservices.guide.isscreensaverenabled" title="MSDN : Guide.IsScreenSaverEnabled Property" target="_blank">IsScreenSaverEnabled</a> property'sine *false* değeri verdiğimizde ekran otomatik olarak *kapanmayacaktır*.
+*XNA Framework* içerisinde yeralan <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.gamerservices.guide" title="MSDN : Guide Class" target="_blank" rel="noopener">Guide</a> sınıfının <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.gamerservices.guide.isscreensaverenabled" title="MSDN : Guide.IsScreenSaverEnabled Property" target="_blank" rel="noopener">IsScreenSaverEnabled</a> property'sine *false* değeri verdiğimizde ekran otomatik olarak *kapanmayacaktır*.
 

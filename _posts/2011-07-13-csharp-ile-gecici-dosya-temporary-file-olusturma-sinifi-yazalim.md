@@ -9,9 +9,9 @@ tags: [class, constructor, create, delete, exists, extension, file, FileSystem, 
 ---
 Projelerimizde *dosya sistemi* üzerinde *geçici* olarak **dosya oluşturma** ve işimiz bittiğinde **silme** ihtiyacı hissedebiliriz.
 
-Bu yazıyı okumadan önce <a href="http://www.enginpolat.com/hem-benzersiz-hem-de-gecici-dosya-olusturmanin-en-kolay-yolu/" target="_blank">Hem benzersiz hem de geçici dosya oluşturmanın en kolay yolu</a> ve <a href="http://www.enginpolat.com/c-ile-gecici-dosya-olusturmak/" target="_blank">C# ile Geçici Dosya Oluşturmak</a> başlıklı yazılarımı okumanızı öneririm.
+Bu yazıyı okumadan önce <a href="http://www.enginpolat.com/hem-benzersiz-hem-de-gecici-dosya-olusturmanin-en-kolay-yolu/" target="_blank" rel="noopener">Hem benzersiz hem de geçici dosya oluşturmanın en kolay yolu</a> ve <a href="http://www.enginpolat.com/c-ile-gecici-dosya-olusturmak/" target="_blank" rel="noopener">C# ile Geçici Dosya Oluşturmak</a> başlıklı yazılarımı okumanızı öneririm.
 
-Bu <a href="http://www.vcskicks.com/code-snippet/temp-file-class.php" target="_blank">linkte</a> bulduğum yöntemi çok kullanışlı buldum ve sizler (*aynı zamanda kendim*) için türkçeleştirdim;
+Bu <a href="http://www.vcskicks.com/code-snippet/temp-file-class.php" target="_blank" rel="noopener">linkte</a> bulduğum yöntemi çok kullanışlı buldum ve sizler (*aynı zamanda kendim*) için türkçeleştirdim;
 
 
 

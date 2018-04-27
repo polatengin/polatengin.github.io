@@ -7,11 +7,11 @@ comments: true
 category: [Cordova]
 tags: [command prompt, cordova, css, debug, emulator, environment, html, html5, ionicframework, javascript, sass, scss, sensor, template, terminal, typescript, visual studio code]
 ---
-<a href="http://ionicframework.com/" target="_blank">ionicframework</a> ile **html**-**javascript**-**css** (hatta **typescript** ve **sass**) kullanarak **cross-platform** uygulama geliştirebiliyoruz.
+<a href="http://ionicframework.com/" target="_blank" rel="noopener">ionicframework</a> ile **html**-**javascript**-**css** (hatta **typescript** ve **sass**) kullanarak **cross-platform** uygulama geliştirebiliyoruz.
 
 **Cross-Platform** projemizi tamamen ücretsiz ve tüm platformlarda varolan **Visual Studio Code** editorü ile geliştirebiliyoruz.
 
-**Visual Studio Code** ile geliştirdiğimiz <a href="http://ionicframework.com/" target="_blank">ionicframework</a> projesini nasıl **debug** edebileceğimizi ve **emulator**'u nasıl kullanabileceğimizi inceleyeceğiz.
+**Visual Studio Code** ile geliştirdiğimiz <a href="http://ionicframework.com/" target="_blank" rel="noopener">ionicframework</a> projesini nasıl **debug** edebileceğimizi ve **emulator**'u nasıl kullanabileceğimizi inceleyeceğiz.
 
 Öncelikle projeyi oluşturmak istediğimiz dizine **Command Prompt** (*Windows*) veya **Terminal** (*MacOS*, *Linux*) içerisinden gidelim ve aşağıdaki kodları çalıştıralım;
 
@@ -25,9 +25,9 @@ Bu komutun şablonu;
 
 Proje şablonu olarak aşağıdaki hazır template'lerden birini belirleyebilirsiniz;
 
-*   <a href="https://github.com/driftyco/ionic-starter-blank" target="_blank">blank</a>
-*   <a href="https://github.com/driftyco/ionic-starter-tabs" target="_blank">tabs</a>
-*   <a href="https://github.com/driftyco/ionic-starter-sidemenu" target="_blank">sidemenu</a>
+*   <a href="https://github.com/driftyco/ionic-starter-blank" target="_blank" rel="noopener">blank</a>
+*   <a href="https://github.com/driftyco/ionic-starter-tabs" target="_blank" rel="noopener">tabs</a>
+*   <a href="https://github.com/driftyco/ionic-starter-sidemenu" target="_blank" rel="noopener">sidemenu</a>
 
 Proje oluşturulduktan sonra **Visual Studio Code** ile ilgili dizini açalım ve projenin dosyalarını aşağıdaki gibi gördüğümüzden emin olalım;
 

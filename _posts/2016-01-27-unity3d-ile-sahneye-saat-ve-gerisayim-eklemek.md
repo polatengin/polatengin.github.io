@@ -7,7 +7,7 @@ comments: true
 category: [Unity3D]
 tags: [add component, camera, canvas, Color, datetime, deltatime, find, font, fontsize, gameobject, getcomponent, hierarchy, inspector, ortographic, projection, recttransform, rendercamera, rendermode, screenspace, script, start, text, time, unity3d, update]
 ---
-*Bu makaleyi okumadan önce <a href="/kategori/unity3d/" target="_blank">Unity3D Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*
+*Bu makaleyi okumadan önce <a href="/kategori/unity3d/" target="_blank" rel="noopener">Unity3D Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*
 
 Bu makale sonunda sahneye saati ve 60 saniyeden geri sayımı gösteren iki yazı koyabileceksiniz.
 
@@ -82,7 +82,7 @@ public class TimeManager : MonoBehaviour
 
 **Update()** methodunda 60 saniyeden geri sayma yapabilmek için *countdownTo* değişkeninden geçen süreyi çıkartıyoruz ve elde ettiğimiz değeri sahnedeki *CountdownText* nesnesinde gösteriyoruz.
 
-Son olarak **Update()** methodunda <a href="https://msdn.microsoft.com/library/system.datetime" target="_blank">DateTime</a> sınıfının <a href="https://msdn.microsoft.com/library/system.datetime.now" target="_blank">Now</a> özelliğinden elde ettiğimiz değeri *saat:dakika:saniye* formatına çeviriyoruz ve sahnedeki *TimerText* nesnesinde gösteriyoruz.
+Son olarak **Update()** methodunda <a href="https://msdn.microsoft.com/library/system.datetime" target="_blank" rel="noopener">DateTime</a> sınıfının <a href="https://msdn.microsoft.com/library/system.datetime.now" target="_blank" rel="noopener">Now</a> özelliğinden elde ettiğimiz değeri *saat:dakika:saniye* formatına çeviriyoruz ve sahnedeki *TimerText* nesnesinde gösteriyoruz.
 
 Eğer oyunu başlatacak olursak 60 saniyeden geri sayım ve bilgisayarın saati ekranda gözükecek;
 

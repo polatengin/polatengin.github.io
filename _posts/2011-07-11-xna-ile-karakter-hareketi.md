@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [Color, content, Content.Load, draw, getstate, graphics, graphicsdevice, GraphicsDeviceManager, iskeydown, Keyboard.GetState, keyboardstate, loadcontent, PreferredBackBufferHeight, PreferredBackBufferWidth, rectangle, sprite, spritebatch, texture2d, unloadcontent, update, vector2, XNA, xna game studio]
 ---
-Bu yazımı okumadan önce <a href="/kategori/xna/" target="_blank">XNA ile Oyun Programlama</a> konulu diğer yazılarımı okumanızı tavsiye ederim.
+Bu yazımı okumadan önce <a href="/kategori/xna/" target="_blank" rel="noopener">XNA ile Oyun Programlama</a> konulu diğer yazılarımı okumanızı tavsiye ederim.
 
 Her oyunda bir **ana karakter** vardır ve biz oyuncular olarak, bu ana karakteri *mouse*/*klavye*/*joystik* aracılığıyla **oyun evreninde** kontrol ederiz.
 
@@ -24,11 +24,11 @@ Bu yazımda önce bir oyun evreni **oluşturacak**, sonra da ana oyun karakterin
 Texture2D KarakterSprite;
 Texture2D ArkaplanCim;</pre>
 
-Klavye bilgisini alabilmek için <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.keyboardstate" target="_blank">KeyboardState</a> sınıfından bir değişken ekleyelim;
+Klavye bilgisini alabilmek için <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.keyboardstate" target="_blank" rel="noopener">KeyboardState</a> sınıfından bir değişken ekleyelim;
 
 <pre class="brush:csharp">KeyboardState ks;</pre>
 
-<a href="http://msdn.microsoft.com/library/microsoft.xna.framework.vector2" target="_blank">Vector2</a> sınıfından bir değişken ile, ana karakterimizin oyun penceresinde konumunu tutalım;
+<a href="http://msdn.microsoft.com/library/microsoft.xna.framework.vector2" target="_blank" rel="noopener">Vector2</a> sınıfından bir değişken ile, ana karakterimizin oyun penceresinde konumunu tutalım;
 
 <pre class="brush:csharp">Vector2 KarakterKonum;</pre>
 
@@ -58,7 +58,7 @@ Karakterimize **yürüme efekti** vermek için, aslında **birden fazla** görse
 
 Sırayla görselin *herbir parçasını* ekranda karakterimiz olarak çizdiğimizde, karaktere **yürüme efektini** vermiş oluyoruz.
 
-Bir **Sprite**'ın bir parçasını ekrana çizdirmek için, <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.graphics.spritebatch" target="_blank">SpriteBatch</a> sınıfının <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.graphics.spritebatch.draw" target="_blank">Draw()</a> method'undan faydalanırız;
+Bir **Sprite**'ın bir parçasını ekrana çizdirmek için, <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.graphics.spritebatch" target="_blank" rel="noopener">SpriteBatch</a> sınıfının <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.graphics.spritebatch.draw" target="_blank" rel="noopener">Draw()</a> method'undan faydalanırız;
 
 <pre class="brush:csharp">SpriteBatch.Draw(Texture2D, Vector2, Rectangle, Color);</pre>
 
@@ -145,11 +145,11 @@ spriteBatch.Draw(KarakterSprite, KarakterKonum, Karakter, Color.White);
 spriteBatch.End();
 
 
-Öncelikle <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.rectangle" target="_blank">Rectangle</a> tipinde *Karakter* değişkenine, *KarakterSprite* değişkeninin hangi **parçasını** ekrana çizmek istediğimizi belirteceğimiz değeri atıyoruz.
+Öncelikle <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.rectangle" target="_blank" rel="noopener">Rectangle</a> tipinde *Karakter* değişkenine, *KarakterSprite* değişkeninin hangi **parçasını** ekrana çizmek istediğimizi belirteceğimiz değeri atıyoruz.
 
 Sonra *arkaplan* ve *karakterimizi* oyun penceresine **çizdiriyoruz**.
 
 ![XNA ile Oyun Programlama - Karakter Hareket Oyun Ekranı](/assets/uploads/2011/07/XNAKarakterHareket.png "XNA ile Oyun Programlama - Karakter Hareket Oyun Ekranı")
 
-<a href="/assets/uploads/2011/07/KarakterHareket.rar" target="_blank">Oyunun kodlarını</a> indirmek için tıklayınız.
+<a href="/assets/uploads/2011/07/KarakterHareket.rar" target="_blank" rel="noopener">Oyunun kodlarını</a> indirmek için tıklayınız.
 

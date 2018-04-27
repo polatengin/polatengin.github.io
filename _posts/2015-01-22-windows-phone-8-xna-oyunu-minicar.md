@@ -7,9 +7,9 @@ comments: true
 category: [XNA]
 tags: [bool, class, const, constructor, content, Content.Load, draw, elapsed, elapsedgametime, FromMilliseconds, gameloop, GameTime, getstate, intersects, isfullscreen, keyboardstate, loadcontent, prefferedbackbufferheight, prefferedbackbufferwidth, private, public, random, readonly, rectangle, SoundEffect, SoundEffectInstance, sprite, spritebatch, spritefont, state, static, texture2d, TimeSpan, TimeSpan.Zero, totalgametime, unloadcontent, update, vector2, XNA, xna game studio]
 ---
-Bu yazımı okumadan önce <a title="enginpolat.com : Windows Phone" href="/kategori/windows-phone" target="_blank">Windows Phone</a> ve <a title="enginpolat.com : XNA" href="/kategori/xna/" target="_blank">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
+Bu yazımı okumadan önce <a title="enginpolat.com : Windows Phone" href="/kategori/windows-phone" target="_blank" rel="noopener">Windows Phone</a> ve <a title="enginpolat.com : XNA" href="/kategori/xna/" target="_blank" rel="noopener">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
 
-Önce görseller ve oyunun <a href="/assets/uploads/2015/01/BackgroundLoop.wav" target="_blank">arkaplan ses dosyası</a>;
+Önce görseller ve oyunun <a href="/assets/uploads/2015/01/BackgroundLoop.wav" target="_blank" rel="noopener">arkaplan ses dosyası</a>;
 
 ![MiniCar : Background](/assets/uploads/2015/01/Background.jpg)![MiniCar : MainCar](/assets/uploads/2015/01/MainCar.png)![MiniCar : Car1](/assets/uploads/2015/01/Car1.png)![MiniCar : Car2](/assets/uploads/2015/01/Car2.png)![MiniCar : Car3](/assets/uploads/2015/01/Car3.png)![MiniCar : Car4](/assets/uploads/2015/01/Car4.png)![MiniCar : Car5](/assets/uploads/2015/01/Car5.png)![MiniCar : Car6](/assets/uploads/2015/01/Car6.png)![MiniCar : Car7](/assets/uploads/2015/01/Car7.png)![MiniCar : Car8](/assets/uploads/2015/01/Car8.png)
 
@@ -77,7 +77,7 @@ Random r = new Random();
 
 Texture2D[] CarTextures = new Texture2D[8];</pre>
 
-Klavyedeki hangi tuşlara basıldığını kontrol edebilmek için <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.keyboardstate" target="_blank">KeyboardState</a> değişkenlerimizi, arkaplanda sürekli tekrar eden ses çaldırmak için <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.audio.soundeffectinstance" target="_blank">SoundEffectInstance</a> değişkenimizi ve oyunun bittiğini takip edeceğimiz *bool* değişkeni de sınıf seviyesinde ekleyelim;
+Klavyedeki hangi tuşlara basıldığını kontrol edebilmek için <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.keyboardstate" target="_blank" rel="noopener">KeyboardState</a> değişkenlerimizi, arkaplanda sürekli tekrar eden ses çaldırmak için <a href="http://msdn.microsoft.com/library/microsoft.xna.framework.audio.soundeffectinstance" target="_blank" rel="noopener">SoundEffectInstance</a> değişkenimizi ve oyunun bittiğini takip edeceğimiz *bool* değişkeni de sınıf seviyesinde ekleyelim;
 
 <pre class="brush:csharp">KeyboardState ks;
 KeyboardState pks;

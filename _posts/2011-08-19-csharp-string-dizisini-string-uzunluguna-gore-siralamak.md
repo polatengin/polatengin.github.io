@@ -9,7 +9,7 @@ tags: [array, collections, comparison, delegate, delegate method, extensionmetho
 ---
 Geliştirdiğimiz projelerde ekrana listeleyeceğimiz dizileri *harf uzunluklarına göre* **sıralamak** isteyebiliriz.
 
-Bu makale ile, <a href="http://msdn.microsoft.com/library/system.collections.ienumerable" target="_blank">IEnumerable&lt;string&gt;</a> tipinden değişkenlere bu özelliği nasıl ekleyeceğimizi göreceğiz.
+Bu makale ile, <a href="http://msdn.microsoft.com/library/system.collections.ienumerable" target="_blank" rel="noopener">IEnumerable&lt;string&gt;</a> tipinden değişkenlere bu özelliği nasıl ekleyeceğimizi göreceğiz.
 
 Öncelikle **Extension Method**'umuzu **static** bir sınıf içerisine (*ExtensionManager*) yazmamız lazım;
 
@@ -49,7 +49,7 @@ public static class ExtensionManager
     }
 }</pre>
 
-Yukarıdaki kod'da <a href="http://msdn.microsoft.com/library/system.array" target="_blank">Array</a> sınıfının **static** <a href="http://msdn.microsoft.com/library/system.array.sort" target="_blank">Sort</a> method'unu çağırıyoruz. Karşılaştırma koşulunu, ikinci parametre'de **delegate method** olarak yazıyoruz.
+Yukarıdaki kod'da <a href="http://msdn.microsoft.com/library/system.array" target="_blank" rel="noopener">Array</a> sınıfının **static** <a href="http://msdn.microsoft.com/library/system.array.sort" target="_blank" rel="noopener">Sort</a> method'unu çağırıyoruz. Karşılaştırma koşulunu, ikinci parametre'de **delegate method** olarak yazıyoruz.
 
 Kullanımı;
 

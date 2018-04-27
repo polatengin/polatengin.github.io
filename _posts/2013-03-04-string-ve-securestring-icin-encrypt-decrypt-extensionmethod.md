@@ -7,13 +7,13 @@ comments: true
 category: [C#]
 tags: [byte, cryptography, currentuser, dataprotectionscope, decrypt, dpapi, encoding, encrypt, encryption, extensionmethod, intptr, localmachine, makereadonly, Marshal, protect, protecteddata, securestring, securestringtocotaskmemunicode, string, unprotect, zerofreecotaskmemunicode]
 ---
-<a href="http://msdn.microsoft.com/library/system.security.cryptography.protecteddata" title="ProtectedData Class" target="_blank">Windows Data Protection API</a> (**DPAPI**) encryption key'e ihtiyaç duymadan, kullanıcının oturumuna özel şifreleme yapabilen bir yapıdır.
+<a href="http://msdn.microsoft.com/library/system.security.cryptography.protecteddata" title="ProtectedData Class" target="_blank" rel="noopener">Windows Data Protection API</a> (**DPAPI**) encryption key'e ihtiyaç duymadan, kullanıcının oturumuna özel şifreleme yapabilen bir yapıdır.
 
-*DPAPI'yi kullanabilmek için <a href="http://msdn.microsoft.com/library/system.security" title="System.Security Namespace" target="_blank">System.Security</a> referans'ının proje'ye eklenmesi gerekmektedir.*
+*DPAPI'yi kullanabilmek için <a href="http://msdn.microsoft.com/library/system.security" title="System.Security Namespace" target="_blank" rel="noopener">System.Security</a> referans'ının proje'ye eklenmesi gerekmektedir.*
 
 *.Net 2.0* versiyonundan beri **.Net Framework**'un bir parçası olan *DPAPI* sayesinde metin şifreleme ve şifre çözme çok kolaylaşmıştır.
 
-*byte[]* tipinde yapıların şifrelenmesi <a href="http://msdn.microsoft.com/library/system.security.cryptography.protecteddata.protect" title="ProtectedData.Protect Method" target="_blank">Protect()</a> method'u ile, şifre çözülmesi ise <a href="http://msdn.microsoft.com/library/system.security.cryptography.protecteddata.unprotect" title="ProtectedData.Unprotect Method" target="_blank">Unprotect()</a> method'u ile yapılmaktadır;
+*byte[]* tipinde yapıların şifrelenmesi <a href="http://msdn.microsoft.com/library/system.security.cryptography.protecteddata.protect" title="ProtectedData.Protect Method" target="_blank" rel="noopener">Protect()</a> method'u ile, şifre çözülmesi ise <a href="http://msdn.microsoft.com/library/system.security.cryptography.protecteddata.unprotect" title="ProtectedData.Unprotect Method" target="_blank" rel="noopener">Unprotect()</a> method'u ile yapılmaktadır;
 
 
 
@@ -54,13 +54,13 @@ Bu yapının *string* tipindeki değişkenler ile de kullanılabilmesi için aş
     }
 }</pre>
 
-*ProtectedData* sınıfının *Protect()* ve *Unprotect()* method'larının üçüncü parametresi <a href="http://msdn.microsoft.com/library/system.security.cryptography.dataprotectionscope" title="DataProtectionScope Enumeration" target="_blank">DataProtectionScope</a> *enum* tipindedir ve *CurrentUser*, *LocalMachine* değerlerinden birini alabilir.
+*ProtectedData* sınıfının *Protect()* ve *Unprotect()* method'larının üçüncü parametresi <a href="http://msdn.microsoft.com/library/system.security.cryptography.dataprotectionscope" title="DataProtectionScope Enumeration" target="_blank" rel="noopener">DataProtectionScope</a> *enum* tipindedir ve *CurrentUser*, *LocalMachine* değerlerinden birini alabilir.
 
-Artık <a href="http://msdn.microsoft.com/library/system.string" title="String Class" target="_blank">string</a> tipindeki değişkenleri *Encrypt()* ve *Decrypt()* method'ları ile şifreleyebilir, şifrelerini çözebiliriz. Fakat bu değişkenlerin değerleri hafızada hala okunabilir formatta tutuluyor olacak.
+Artık <a href="http://msdn.microsoft.com/library/system.string" title="String Class" target="_blank" rel="noopener">string</a> tipindeki değişkenleri *Encrypt()* ve *Decrypt()* method'ları ile şifreleyebilir, şifrelerini çözebiliriz. Fakat bu değişkenlerin değerleri hafızada hala okunabilir formatta tutuluyor olacak.
 
-Eğer değişkenlerin içeriğinin hafızada *daha güvenli* tutulmasını istiyorsak <a href="http://msdn.microsoft.com/library/system.security.securestring" title="SecureString Class" target="_blank">SecureString</a> tipini kullanmalıyız.
+Eğer değişkenlerin içeriğinin hafızada *daha güvenli* tutulmasını istiyorsak <a href="http://msdn.microsoft.com/library/system.security.securestring" title="SecureString Class" target="_blank" rel="noopener">SecureString</a> tipini kullanmalıyız.
 
-(*MSDN'de yeralan <a href="http://blogs.msdn.com/b/shawnfa/archive/2004/05/27/143254.aspx" title="Making Strings More Secure" target="_blank">Making Strings More Secure</a> makalesini okumanızı tavsiye ederim.*)
+(*MSDN'de yeralan <a href="http://blogs.msdn.com/b/shawnfa/archive/2004/05/27/143254.aspx" title="Making Strings More Secure" target="_blank" rel="noopener">Making Strings More Secure</a> makalesini okumanızı tavsiye ederim.*)
 
 **SecureString** tipi için de *Encrypt()* ve *Decrypt()* **extension method**'ları yazalım;
 

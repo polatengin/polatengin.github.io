@@ -21,7 +21,7 @@ Haliyle, oyun geliştirmeye başlamak isteyenler için güzel bir başlangıç n
 
 XNA ile geliştirilmiş oyunlar, .Net Compiler aracılığıyla **MSIL**'e derlendiği için, ya olduğu gibi ya da çok az modifikasyonla framework kurulu tüm platformlarda çalıştırılabilir.
 
-XNA geliştirmek için yapmamız gereken, bilgisayarımıza **XNA Game Studio** kurmak. Şu anda en güncel versiyon olan XNA Game Studio 3.1 <a title="Microsoft: XNA Game Development 3.1" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=80782277-D584-42D2-8024-893FCD9D3E82&amp;displaylang=en" target="_blank">şuradan</a> indirilebilir.
+XNA geliştirmek için yapmamız gereken, bilgisayarımıza **XNA Game Studio** kurmak. Şu anda en güncel versiyon olan XNA Game Studio 3.1 <a title="Microsoft: XNA Game Development 3.1" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=80782277-D584-42D2-8024-893FCD9D3E82&amp;displaylang=en" target="_blank" rel="noopener">şuradan</a> indirilebilir.
 
 Ne yazık ki XNA Game Studio 3.1 ve **Visual Studio 2010** birbirlerini pek sevmiyorlar. O yüzden **Visual Studio 2008** içerisinde XNA Game Project Template'lerinin nasıl göründüğüne bakalım;
 

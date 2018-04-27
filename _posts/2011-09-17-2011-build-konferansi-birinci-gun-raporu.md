@@ -7,7 +7,7 @@ comments: true
 category: [Genel]
 tags: [api, build konferans, csharp, Daron Yöndem, gesture login, html5, javascript, kernel, MetroUI, microsoft, silverlight, task manager, vbnet, visual studio, windows api, windows store, windows8, winrt, x64, x86]
 ---
-Blog'umun **200. yazısını** beni kırmayarak sevgili **Daron Yöndem** yazdı. Aslında tek bir yazı yazacaktı, fakat **Microsoft**'un <a href="http://www.buildwindows.com/" target="_blank">Build Konferans</a>'ına katıldığı için bir yazı serisine dönüştü. Hergün izlenimlerini  sizlerle paylaşıyor olacağım. Yazıların orjinallerini <a href="http://daron.yondem.com" target="_blank">Daron Yöndem</a>'in kendi blog'undan da takip edebilirsiniz. Ayrıca **twitter**'dan da takip etmenizi öneririm; <a href="http://twitter.com/daronyondem" title="Twitter / Daron Yöndem" target="_blank">@daronyondem</a>
+Blog'umun **200. yazısını** beni kırmayarak sevgili **Daron Yöndem** yazdı. Aslında tek bir yazı yazacaktı, fakat **Microsoft**'un <a href="http://www.buildwindows.com/" target="_blank" rel="noopener">Build Konferans</a>'ına katıldığı için bir yazı serisine dönüştü. Hergün izlenimlerini  sizlerle paylaşıyor olacağım. Yazıların orjinallerini <a href="http://daron.yondem.com" target="_blank" rel="noopener">Daron Yöndem</a>'in kendi blog'undan da takip edebilirsiniz. Ayrıca **twitter**'dan da takip etmenizi öneririm; <a href="http://twitter.com/daronyondem" title="Twitter / Daron Yöndem" target="_blank" rel="noopener">@daronyondem</a>
 
 Söz Daron'da...<!--more-->
 
@@ -93,7 +93,7 @@ Konferansın ilk günü ile beraber güzel bir haber daha geldi. Windows 8'in De
 
 ![Microsoft Build Konferans](/assets/uploads/2011/09/build_1_12.jpg "Microsoft Build Konferans")
 
-Windows 8 Developer Preview'u <a href="http://dev.windows.com/" target="_blank">http://dev.windows.com</a> adresinden indirebilirsiniz. Söz konusu adreste x86, x64 sürümlerinin haricinde iki farklı download ayrımı daha var. Downloadlardan biri MetroUI konusunda development testleri yapabilmeniz için Visual Studio 2011'in bir Express Preview ve Expression Blend 5'in Preview sürümlerini de yüklü olarak içeriyor, diğeri ise sadece Windows 8 Developer Preview download.
+Windows 8 Developer Preview'u <a href="http://dev.windows.com/" target="_blank" rel="noopener">http://dev.windows.com</a> adresinden indirebilirsiniz. Söz konusu adreste x86, x64 sürümlerinin haricinde iki farklı download ayrımı daha var. Downloadlardan biri MetroUI konusunda development testleri yapabilmeniz için Visual Studio 2011'in bir Express Preview ve Expression Blend 5'in Preview sürümlerini de yüklü olarak içeriyor, diğeri ise sadece Windows 8 Developer Preview download.
 
 **Visual Studio ve Expression Studio artık aynı motoru kullanıyor.**
 
@@ -105,7 +105,7 @@ Yukarıdaki ekran görüntüsünde de görebileceğiniz üzere artık Visual Stu
 
 *Ve böylece ilk gün biter...*
 
-Tahmin edebileceğiniz üzere uzun ve yoğun bir gün oldu. Gün içinde olabildiğince anlık durumları <a href="http://twitter.com/daronyondem" target="_blank">twitter</a>'dan geçmeye çalıştım. Konferans alanındaki internet bağlantısı pek sağlıklı olmadığı için (aşağıdaki manzaraya bakın herkes bağlanmaya çalışıyordu orada :D) maalesef ancak text tweetler yollayabildim :)
+Tahmin edebileceğiniz üzere uzun ve yoğun bir gün oldu. Gün içinde olabildiğince anlık durumları <a href="http://twitter.com/daronyondem" target="_blank" rel="noopener">twitter</a>'dan geçmeye çalıştım. Konferans alanındaki internet bağlantısı pek sağlıklı olmadığı için (aşağıdaki manzaraya bakın herkes bağlanmaya çalışıyordu orada :D) maalesef ancak text tweetler yollayabildim :)
 
 ![Microsoft Build Konferans](/assets/uploads/2011/09/build_1_14.jpg "Microsoft Build Konferans")
 

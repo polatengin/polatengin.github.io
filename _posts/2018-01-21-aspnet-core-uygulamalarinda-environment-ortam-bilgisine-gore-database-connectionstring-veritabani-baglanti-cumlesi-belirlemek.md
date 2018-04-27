@@ -15,7 +15,7 @@ Eğer **Asp.Net Core Web API** uygulamasının, çalıştığı ortama göre (*E
 
 Hatta, her *developer*ın bilgisayarının isminin de **ConnectionString**'te olmasını sağlayabilirsem, aynı anda geliştirme yapan birden fazla *developer*'ın, birbirlerinin veritabanı değişikliklerinden etkilenmesini de engelleyebilirdim.
 
-Bunu gerçekleştirmek için, öncelikle projede yeni bir *AppDataContext.cs* dosyası oluşturdum ve <a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/" target="_blank">Microsoft.EntityFrameworkCore</a> kütüphanesini kullanarak veritabanını ve tabloları modelledim;
+Bunu gerçekleştirmek için, öncelikle projede yeni bir *AppDataContext.cs* dosyası oluşturdum ve <a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/" target="_blank" rel="noopener">Microsoft.EntityFrameworkCore</a> kütüphanesini kullanarak veritabanını ve tabloları modelledim;
 
 <script src="https://gist.github.com/polatengin/464d78a39de20e32bd4c33f62b847bbf.js?file=AppDataContext.cs"></script>
 
@@ -44,4 +44,4 @@ Son olarak, *AppConnectionString* değişkenini, *appsettings.json* dosyası iç
 
 <script src="https://gist.github.com/polatengin/464d78a39de20e32bd4c33f62b847bbf.js?file=appsettings.json"></script>
 
-<small><em>Not : Bu makaleyi yazarken <a href="https://dasmulli.blog/2018/01/18/auto-modifying-connection-strings-based-on-the-environment/" target="_blank">Martin Ullrich</a>'in makalesinden de faydalandım</em></small>
+<small><em>Not : Bu makaleyi yazarken <a href="https://dasmulli.blog/2018/01/18/auto-modifying-connection-strings-based-on-the-environment/" target="_blank" rel="noopener">Martin Ullrich</a>'in makalesinden de faydalandım</em></small>

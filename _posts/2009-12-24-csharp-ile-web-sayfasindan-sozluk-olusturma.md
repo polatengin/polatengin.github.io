@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [code, csharp, generic, html, list, regex, source]
 ---
-Bir web sayfasının (<a title="enginpolat.com" href="http://www.enginpolat.com" target="_self">Bir programcının dünyası</a>, <a title="Karalamalar" href="http://www.karalamalar.net" target="_blank">Karalamalar</a>, <a title="Fatih Durğut" href="http://www.durgut.com" target="_blank">Fatih Durğut</a>,  <a title="NTVMSNBC" href="http://www.ntvmsnbc.com" target="_blank">NTVMSNBC</a>, <a title="Wikipedia" href="http://www.wikipedia.org" target="_blank">Wikipedia</a> gibi..) içeriğini okuduktan sonra, Html taglarından ayıklayıp bir sözlük oluşturabiliriz.
+Bir web sayfasının (<a title="enginpolat.com" href="http://www.enginpolat.com" target="_self">Bir programcının dünyası</a>, <a title="Karalamalar" href="http://www.karalamalar.net" target="_blank" rel="noopener">Karalamalar</a>, <a title="Fatih Durğut" href="http://www.durgut.com" target="_blank" rel="noopener">Fatih Durğut</a>,  <a title="NTVMSNBC" href="http://www.ntvmsnbc.com" target="_blank" rel="noopener">NTVMSNBC</a>, <a title="Wikipedia" href="http://www.wikipedia.org" target="_blank" rel="noopener">Wikipedia</a> gibi..) içeriğini okuduktan sonra, Html taglarından ayıklayıp bir sözlük oluşturabiliriz.
 
 Bu yazımda, *C#* ve *Regex* kullanarak böyle bir uygulamayı nasıl yazabileceğimizi anlatacağım.
 
@@ -40,5 +40,5 @@ txtSozluk.Text = sb.ToString();
 
 Son olarakta, *Generic List* içerisindeki kelimeleri *TextBox* aracılığı ile ekrana yazdırıyoruz.
 
-Uygulamanın kaynak kodlarına <a title="enginpolat.com: Web Sayfasından Sözlük Oluşturma" href="/assets/uploads/2009/12/WebSayfasindanSozlukOlusturma.rar" target="_blank">buradan</a> erişebilirsiniz.
+Uygulamanın kaynak kodlarına <a title="enginpolat.com: Web Sayfasından Sözlük Oluşturma" href="/assets/uploads/2009/12/WebSayfasindanSozlukOlusturma.rar" target="_blank" rel="noopener">buradan</a> erişebilirsiniz.
 

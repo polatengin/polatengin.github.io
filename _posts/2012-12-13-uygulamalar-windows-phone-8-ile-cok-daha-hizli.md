@@ -31,7 +31,7 @@ Ayrıca **Windows Phone 8**, öncüllerinden farklı olarak *.Net Compact Framew
 
 Asenkron kütüphanelerin *(hemen hemen)* tamamı **.Net Framework** içerisine gömülmüş durumda. Fakat bazı kütüphanelere async desteğinin (özellikle *System.Net* namespace'i altındakiler) **NuGet** aracılığı ile indirilmesi gerekiyor.
 
-*Microsoft.Bcl.Async* paketini *NuGet* üzerinden indirebilirsiniz. Daha ayrıntılı bilgi için MSDN'deki <a href="http://blogs.msdn.com/b/bclteam/archive/2012/10/19/using-async-await-without-net-framework-4-5.aspx" title="BCL Blog" target="_blank">BCL Blog</a> makalesini okumanızı tavsiye ederim.
+*Microsoft.Bcl.Async* paketini *NuGet* üzerinden indirebilirsiniz. Daha ayrıntılı bilgi için MSDN'deki <a href="http://blogs.msdn.com/b/bclteam/archive/2012/10/19/using-async-await-without-net-framework-4-5.aspx" title="BCL Blog" target="_blank" rel="noopener">BCL Blog</a> makalesini okumanızı tavsiye ederim.
 
 **Cloud Derleyici ile çok daha hızlı kod**
 

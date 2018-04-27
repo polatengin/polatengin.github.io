@@ -9,7 +9,7 @@ tags: [action, capability, class, constructor, content, datatemplate, delegate, 
 ---
 **Windows Phone 8** için şehir-şehir radyo frekanslarını görebileceğimiz bir uygulama geliştireceğiz.
 
-Bu uygulamanın geliştirilmesi sırasında <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.pivot" title="Pivot Class" target="_blank">Pivot</a>, <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.pivotitem" title="PivotItem Class" target="_blank">PivotItem</a>, <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.longlistselector" title="LongListSelector Class" target="_blank">LongListSelector</a>, <a href="http://msdn.microsoft.com/library/system.windows.datatemplate" title="DataTemplate Class" target="_blank">DataTemplate</a>, <a href="http://msdn.microsoft.com/library/system.net.webclient" title="WebClient Class" target="_blank">WebClient</a> gibi sınıfları kullandığımız kodlar yazacağız.
+Bu uygulamanın geliştirilmesi sırasında <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.pivot" title="Pivot Class" target="_blank" rel="noopener">Pivot</a>, <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.pivotitem" title="PivotItem Class" target="_blank" rel="noopener">PivotItem</a>, <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.longlistselector" title="LongListSelector Class" target="_blank" rel="noopener">LongListSelector</a>, <a href="http://msdn.microsoft.com/library/system.windows.datatemplate" title="DataTemplate Class" target="_blank" rel="noopener">DataTemplate</a>, <a href="http://msdn.microsoft.com/library/system.net.webclient" title="WebClient Class" target="_blank" rel="noopener">WebClient</a> gibi sınıfları kullandığımız kodlar yazacağız.
 
 Öncelikle *RadyoListe* isimli yeni bir *Windows Phone App* projesi oluşturalım;
 
@@ -27,9 +27,9 @@ Uygulama ihtiyaç duyduğu veriyi internetten indireceği için *WMAppManifest.x
     &lt;Capability Name="ID_CAP_NETWORKING" /&gt;
 &lt;/Capabilities&gt;</pre>
 
-Radyo listesi için *json* formatında hazırladığım veriyi kendi sunucuma <a href="enginpolat.com/application-data/radyolar.json" title="Radyo Listesi" target="_blank">radyolar.json</a> ismi ile yükledim.
+Radyo listesi için *json* formatında hazırladığım veriyi kendi sunucuma <a href="enginpolat.com/application-data/radyolar.json" title="Radyo Listesi" target="_blank" rel="noopener">radyolar.json</a> ismi ile yükledim.
 
-**Json formatında** okuyacağımız bu veriyi işlemek için *References* içerisine <a href="http://nuget.org/packages/newtonsoft.json" title="Newtonsoft Json.net Nuget Package" target="_blank">Newtonsoft Json.Net (4.5.11)</a> **Nuget paketini** eklemeliyiz;
+**Json formatında** okuyacağımız bu veriyi işlemek için *References* içerisine <a href="http://nuget.org/packages/newtonsoft.json" title="Newtonsoft Json.net Nuget Package" target="_blank" rel="noopener">Newtonsoft Json.Net (4.5.11)</a> **Nuget paketini** eklemeliyiz;
 
 ![Newtonsoft Json.Net Nuget Package](/assets/uploads/2012/12/RadyoListe3.png)
 
@@ -123,7 +123,7 @@ Sınıf seviyesinde tanımlanan *LiveData* tipindeki *ViewModel* değişkeni, *L
 
 Bu sayede uygulamanın açılışı esnasında *internetten verinin indirilmesi* ve *deserialize edilmesi* **asenkron** olarak yapılmış olur.
 
-*MainPage.xaml* dosyasında ekranda sadece bir <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.pivot" title="Pivot Class" target="_blank">Pivot</a> kontrolünün gösterilmesini sağlayalım;
+*MainPage.xaml* dosyasında ekranda sadece bir <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.pivot" title="Pivot Class" target="_blank" rel="noopener">Pivot</a> kontrolünün gösterilmesini sağlayalım;
 
 <pre class="brush:xml">&lt;Grid x:Name="LayoutRoot" Background="Transparent"&gt;
     &lt;Grid.RowDefinitions&gt;
@@ -154,15 +154,15 @@ Artık *MainPage.xaml.cs* dosyasındaki **constructor**'a giderek ekranı doldur
     }
 };</pre>
 
-Böylece *App* sınıfında, *ViewModel* değişkenine değer yükledikten sonra tetiklediğimiz <a href="http://msdn.microsoft.com/library/system.action" title="Action Class" target="_blank">Action</a> içerisinde bir <a href="http://msdn.microsoft.com/library/vstudio/ttw7t8t6" title="foreach Loop" target="_blank">foreach</a> döngüsü çağırmış oluyoruz.
+Böylece *App* sınıfında, *ViewModel* değişkenine değer yükledikten sonra tetiklediğimiz <a href="http://msdn.microsoft.com/library/system.action" title="Action Class" target="_blank" rel="noopener">Action</a> içerisinde bir <a href="http://msdn.microsoft.com/library/vstudio/ttw7t8t6" title="foreach Loop" target="_blank" rel="noopener">foreach</a> döngüsü çağırmış oluyoruz.
 
-Döngü içerisinde ilk önce yeni bir <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.pivotitem" title="PivotItem Class" target="_blank">PivotItem</a> tipinde değişken oluşturuyoruz ve <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.pivotitem.header" title="PivotItem Class Header Property" target="_blank">Header</a> özelliğine döngü değişkeninden elde ettiğimiz *şehir ismi* bilgisini atıyoruz.
+Döngü içerisinde ilk önce yeni bir <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.pivotitem" title="PivotItem Class" target="_blank" rel="noopener">PivotItem</a> tipinde değişken oluşturuyoruz ve <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.pivotitem.header" title="PivotItem Class Header Property" target="_blank" rel="noopener">Header</a> özelliğine döngü değişkeninden elde ettiğimiz *şehir ismi* bilgisini atıyoruz.
 
-*PivotItem* tipindeki değişkenin <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.pivotitem.content" title="PivotItem Class Content Property" target="_blank">Content</a> özelliğine, <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.longlistselector" title="LongListSelector Class" target="_blank">LongListSelector</a> tipinde yeni bir değişken atıyoruz.
+*PivotItem* tipindeki değişkenin <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.pivotitem.content" title="PivotItem Class Content Property" target="_blank" rel="noopener">Content</a> özelliğine, <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.longlistselector" title="LongListSelector Class" target="_blank" rel="noopener">LongListSelector</a> tipinde yeni bir değişken atıyoruz.
 
-*LongListSelector* tipindeki değişkenin <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.longlistselector.itemssource" title="LongListSelector Class ItemsSource Property" target="_blank">ItemsSource</a> özelliğine *App.ViewModel* değişkenindeki değerlerden **LINQ Expression** ile oluşturduğumuz listeyi atıyoruz.
+*LongListSelector* tipindeki değişkenin <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.longlistselector.itemssource" title="LongListSelector Class ItemsSource Property" target="_blank" rel="noopener">ItemsSource</a> özelliğine *App.ViewModel* değişkenindeki değerlerden **LINQ Expression** ile oluşturduğumuz listeyi atıyoruz.
 
-Aynı şekilde *LongListSelector* tipindeki değişkenin <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.longlistselector.itemtemplate" title="LongListSelector Class ItemTemplate Property" target="_blank">ItemTemplate</a> özelliğine
+Aynı şekilde *LongListSelector* tipindeki değişkenin <a href="http://msdn.microsoft.com/library/microsoft.phone.controls.longlistselector.itemtemplate" title="LongListSelector Class ItemTemplate Property" target="_blank" rel="noopener">ItemTemplate</a> özelliğine
 
 <pre class="brush:csharp">Application.Current.Resources["FrequencyListItemTemplate"] as DataTemplate;</pre>
 
@@ -184,5 +184,5 @@ Uygulamayı çalıştırdığımızda aşağıdaki ekran görüntüsünü görü
 
 ![Radyo Liste Windows Phone 8 Application](/assets/uploads/2012/12/RadyoListe4.png)
 
-Projenin kodlarını <a href="/assets/uploads/2012/12/RadyoListe.rar" title="Radyo Liste Windows Phone 8 Application Kaynak Kodlar" target="_blank">buradan</a> indirebilirsiniz.
+Projenin kodlarını <a href="/assets/uploads/2012/12/RadyoListe.rar" title="Radyo Liste Windows Phone 8 Application Kaynak Kodlar" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 

@@ -41,7 +41,7 @@ Backup alma süreleri açısından karşılaştırma,
 
 Ne yazık ki, CPU kullanım oranlarını ölçemedim. Eğer ölçebilen varsa, yorumlarınızı duymak isterim.
 
-MSDN'de yeralan <a title="MSDN: Backup Compression" href="http://msdn.microsoft.com/en-us/library/bb933863.aspx" target="_blank">şu sayfada</a> yazdığına göre, **backup** işlemine **compression** eklemek, **CPU** kullanımında önemli bir artışa yol açarmış.
+MSDN'de yeralan <a title="MSDN: Backup Compression" href="http://msdn.microsoft.com/en-us/library/bb933863.aspx" target="_blank" rel="noopener">şu sayfada</a> yazdığına göre, **backup** işlemine **compression** eklemek, **CPU** kullanımında önemli bir artışa yol açarmış.
 
 Varsayılan olarak alınacak tüm backup'larda sıkıştırma özelliğini açmak istersek;
 
@@ -49,4 +49,4 @@ Varsayılan olarak alınacak tüm backup'larda sıkıştırma özelliğini açma
 
 *script*'ini çalıştırmak yeterli.
 
-Kaynak : <a title="Technet: Backup Compression Default Option" href="http://technet.microsoft.com/en-us/library/bb677250.aspx" target="_blank">Technet</a>, <a title="MSDN: Backup Compression" href="http://msdn.microsoft.com/en-us/library/bb933863.aspx" target="_blank">MSDN</a>
+Kaynak : <a title="Technet: Backup Compression Default Option" href="http://technet.microsoft.com/en-us/library/bb677250.aspx" target="_blank" rel="noopener">Technet</a>, <a title="MSDN: Backup Compression" href="http://msdn.microsoft.com/en-us/library/bb933863.aspx" target="_blank" rel="noopener">MSDN</a>

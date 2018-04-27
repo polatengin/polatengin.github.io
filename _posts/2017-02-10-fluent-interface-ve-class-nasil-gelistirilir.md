@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: []
 ---
-Geçen günlerde <a href="https://msdn.microsoft.com/en-us/library/bb308959.aspx" target="_blank">LINQ: .NET Language-Integrated Query</a> tarzı kütüphaneler nasıl yazılıyor diye düşünürken ve internette gezinirken <a href="https://twitter.com/VinKamat" target="_blank">VinKamat</a> kullanıcısının *02 Temmuz 2009* tarihinde attığı aşağıdaki tweet'e denk geldim;
+Geçen günlerde <a href="https://msdn.microsoft.com/en-us/library/bb308959.aspx" target="_blank" rel="noopener">LINQ: .NET Language-Integrated Query</a> tarzı kütüphaneler nasıl yazılıyor diye düşünürken ve internette gezinirken <a href="https://twitter.com/VinKamat" target="_blank" rel="noopener">VinKamat</a> kullanıcısının *02 Temmuz 2009* tarihinde attığı aşağıdaki tweet'e denk geldim;
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">FI(Fluent Interface) - when you use method chaining, after finishing the functionality, &quot;return this&quot;, and that&#39;s how you make it fluent</p>&mdash; Vin (@VinKamat) <a href="https://twitter.com/VinKamat/status/2440745544">July 2, 2009</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

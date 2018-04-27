@@ -9,7 +9,7 @@ tags: [background, Color, constructor, coreinputdevicetypes, emulator, grid, ink
 ---
 Geçen hafta **email** ile aldığım bir soruyu cevaplamak üzere bu **makaleyi** yazıyorum.
 
-**Windows 10 UWP** uygulamalarında eğer kullanıcının *imzasını* ekran üzerinde almak isterseniz <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.inkcanvas" target="_blank">InkCanvas</a> sınıfını kullanabilirsiniz.
+**Windows 10 UWP** uygulamalarında eğer kullanıcının *imzasını* ekran üzerinde almak isterseniz <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.inkcanvas" target="_blank" rel="noopener">InkCanvas</a> sınıfını kullanabilirsiniz.
 
 Hemen **Visual Studio** açıp yeni bir **proje** oluşturarak nasıl yapabileceğimizi inceleyelim;
 
@@ -47,7 +47,7 @@ Eğer uygulamamızı **Windows 10 Mobile Emulator**'ünde açacak olursak aşağ
 
 ![](/assets/uploads/2016/02/InkCanvas-2.png)
 
-*Dokunmatik ekran* ve *Mouse* ile <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.inkcanvas" target="_blank">InkCanvas</a>'ın kullanılabilmesi için *MainPage.xaml.cs* dosyasında bulunan **constructor**'da <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.inkcanvas.inkpresenter" target="_blank">InkPresenter</a> **property**'sinde yeralan <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.input.inking.inkpresenter.inputdevicetypes" target="_blank">InputDeviceTypes</a> özelliğine <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.core.coreinputdevicetypes" target="_blank">CoreInputDeviceTypes</a> enum'ında bulunan **Mouse** ve **Touch** değerlerini aşağıdaki şekilde eklememiz gerekli;
+*Dokunmatik ekran* ve *Mouse* ile <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.inkcanvas" target="_blank" rel="noopener">InkCanvas</a>'ın kullanılabilmesi için *MainPage.xaml.cs* dosyasında bulunan **constructor**'da <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.inkcanvas.inkpresenter" target="_blank" rel="noopener">InkPresenter</a> **property**'sinde yeralan <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.input.inking.inkpresenter.inputdevicetypes" target="_blank" rel="noopener">InputDeviceTypes</a> özelliğine <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.core.coreinputdevicetypes" target="_blank" rel="noopener">CoreInputDeviceTypes</a> enum'ında bulunan **Mouse** ve **Touch** değerlerini aşağıdaki şekilde eklememiz gerekli;
 
 <pre class="brush:csharp">ink.InkPresenter.InputDeviceTypes = CoreInputDeviceTypes.Mouse | CoreInputDeviceTypes.Touch;</pre>
 
@@ -55,7 +55,7 @@ Böylece uygulamada imza atmak için bir boşluk oluşturmuş olduk;
 
 ![](/assets/uploads/2016/02/InkCanvas-3.png)
 
-Eğer istersek, **InkCanvas** sınıfının **InkPresenter** property'sinde yeralan <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.input.inking.inkpresenter.updatedefaultdrawingattributes" target="_blank">UpdateDefaultDrawingAttributes()</a> methoduna yeni bir <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.input.inking.inkdrawingattributes" target="_blank">InkDrawingAttributes</a> sınıfından değişken tanımlayabilir ve **InkCanvas** üzerine yapılan çizimlerin *kalemini* değiştirebiliriz;
+Eğer istersek, **InkCanvas** sınıfının **InkPresenter** property'sinde yeralan <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.input.inking.inkpresenter.updatedefaultdrawingattributes" target="_blank" rel="noopener">UpdateDefaultDrawingAttributes()</a> methoduna yeni bir <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.input.inking.inkdrawingattributes" target="_blank" rel="noopener">InkDrawingAttributes</a> sınıfından değişken tanımlayabilir ve **InkCanvas** üzerine yapılan çizimlerin *kalemini* değiştirebiliriz;
 
 <pre class="brush:csharp">var attr = new InkDrawingAttributes();
 attr.Color = Colors.Red;

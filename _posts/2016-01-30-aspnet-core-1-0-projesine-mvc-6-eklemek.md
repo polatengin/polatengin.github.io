@@ -7,7 +7,7 @@ comments: true
 category: [Web]
 tags: [action, addmvc, aspnet, aspnetcore, code, command prompt, configure, configureservices, controller, dependencies, dnu, dnx, html, iactionresult, linux, macos, maproute, mvc, restore, startup.cs, terminal, usemvc, view, visual studio code, web, windows, yeoman]
 ---
-*Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/asp-net-core-1-0-ile-web-uygulama-gelistirmeye-baslamak/" target="_blank">Asp.Net Core 1.0 ile web uygulama geliştirmeye başlamak</a> makalesini okumanızı tavsiye ederim.*
+*Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/asp-net-core-1-0-ile-web-uygulama-gelistirmeye-baslamak/" target="_blank" rel="noopener">Asp.Net Core 1.0 ile web uygulama geliştirmeye başlamak</a> makalesini okumanızı tavsiye ederim.*
 
 Projeyi oluşturmak istediğimiz dizine **Command Prompt** (*Windows*) veya **Terminal** (*MacOS*, *Linux*) içerisinden gidiyoruz ve aşağıdaki kodları çalıştırıyoruz;
 

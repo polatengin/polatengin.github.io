@@ -19,7 +19,7 @@ Eğer uygulamanın *kırmızı* değil, *mavi* tema ile gözükmesini istersek *
 
 Eğer **css** dosyasının başında **değişkenler**, **fonksiyonlar** tanımlayabilseydik ve stillerde bu değişkenleri, fonksiyonları kullanabilseydik, değişiklikleri *çok daha kolay* yapabilecektik.
 
-<a href="http://sass-lang.com/" target="_blank">SASS</a> ve <a href="http://lesscss.org/" target="_blank">LESS</a>, tam olarak bu sorunu çözmeye çalışıyorlar.
+<a href="http://sass-lang.com/" target="_blank" rel="noopener">SASS</a> ve <a href="http://lesscss.org/" target="_blank" rel="noopener">LESS</a>, tam olarak bu sorunu çözmeye çalışıyorlar.
 
 Bu makalede **SASS**'ın nasıl çalıştığını inceleyeceğiz, hemen örnek projemizi oluşturmak istediğimiz dizini **Visual Studio Code** ile açıyoruz ve içerisinde *index.html* ve *package.json* dosyalarını oluşturuyoruz;
 
@@ -48,7 +48,7 @@ Bu makalede **SASS**'ın nasıl çalıştığını inceleyeceğiz, hemen örnek 
     "private": true
 }</pre>
 
-*Eğer daha önce kurulumunu yapmadıysak <a href="https://www.npmjs.com/package/node-sass" target="_blank">node-sass</a> paketini <a href="https://www.npmjs.com/" target="_blank">npm</a> üzerinden kurmamız gerekiyor. Eğer aşağıdaki komutu daha önce çalıştırdıysanız, tekrar çalıştırmaya gerek yok.*
+*Eğer daha önce kurulumunu yapmadıysak <a href="https://www.npmjs.com/package/node-sass" target="_blank" rel="noopener">node-sass</a> paketini <a href="https://www.npmjs.com/" target="_blank" rel="noopener">npm</a> üzerinden kurmamız gerekiyor. Eğer aşağıdaki komutu daha önce çalıştırdıysanız, tekrar çalıştırmaya gerek yok.*
 
 <pre class="brush:csharp">npm install -g node-sass</pre>
 
@@ -64,7 +64,7 @@ Böylece *npm run build-sass* komutunu çalıştırabileceğiz ve **node-sass** 
 
 Projemizin olduğu dizinde **css** dizininin oluşturulduğunu ve içerisine **style.css** dosyasının eklendiğini görebiliriz, henüz *scss/main.scss* dosyası boş olduğu için *css/style.css* dosyasının içerisi de boş.
 
-**html** dosyasını tarayıcıda açıp içeriğini görebilmek için bir **web server**'a ihtiyacımız olacaktır, eğer bilgisayarınıza daha önce bir **web server** kurmadıysanız, **npm** üzerinden <a href="https://www.npmjs.com/package/http-server" target="_blank">http-server</a> **web server**'ını kurabiliriz;
+**html** dosyasını tarayıcıda açıp içeriğini görebilmek için bir **web server**'a ihtiyacımız olacaktır, eğer bilgisayarınıza daha önce bir **web server** kurmadıysanız, **npm** üzerinden <a href="https://www.npmjs.com/package/http-server" target="_blank" rel="noopener">http-server</a> **web server**'ını kurabiliriz;
 
 <pre class="brush:csharp">npm install -g http-server</pre>
 

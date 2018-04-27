@@ -7,7 +7,7 @@ comments: true
 category: [Etkinlik]
 tags: [ASP.NET, aspnet, etkinliklerim, mvc, seminer, XNA]
 ---
-**INETA Türkiye Üniversitenizde** etkinlikleri kapsamında, <a href="http://www.muammerbenzes.com/" title="Muammer Benzeş" target="_blank">Muammer Benzeş</a> ve <a href="http://www.cub-e.net/" title="Barış Kanlıca" target="_blank">Barış Kanlıca</a> ile birlikte 04 Mayıs 2012 tarihinde **Elazığ Fırat Üniversitesi**'ndeydik.
+**INETA Türkiye Üniversitenizde** etkinlikleri kapsamında, <a href="http://www.muammerbenzes.com/" title="Muammer Benzeş" target="_blank" rel="noopener">Muammer Benzeş</a> ve <a href="http://www.cub-e.net/" title="Barış Kanlıca" target="_blank" rel="noopener">Barış Kanlıca</a> ile birlikte 04 Mayıs 2012 tarihinde **Elazığ Fırat Üniversitesi**'ndeydik.
 
 **XNA ile Oyun Programlama** ve **ASP.NET MVC ile Uygulama Geliştirme** konulu iki oturumum oldu.
 

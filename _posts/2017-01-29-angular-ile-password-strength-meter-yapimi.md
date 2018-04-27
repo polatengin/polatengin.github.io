@@ -8,7 +8,7 @@ category: [Web]
 tags: [angular, attribute, bootstrap, button, cli, command prompt, css, dependencies, framework, head, html, keyup, ngmodel, npm, terminal, typescript]
 ---
 <div class="alert alert-success" role="alert" style="margin: 10px 0px; display: block;">
-Bu makalenin kodlarına <strong>Github</strong> üzerinde <a href="https://github.com/polatengin" class="alert-link" target="_blank">polatengin</a> hesabımda yer alan <a href="https://github.com/polatengin/blog-codes/tree/master/password-strength-meter" class="alert-link" target="_blank">Password Strength Meter</a> aracılığıyla erişebilirsiniz.
+Bu makalenin kodlarına <strong>Github</strong> üzerinde <a href="https://github.com/polatengin" class="alert-link" target="_blank" rel="noopener">polatengin</a> hesabımda yer alan <a href="https://github.com/polatengin/blog-codes/tree/master/password-strength-meter" class="alert-link" target="_blank" rel="noopener">Password Strength Meter</a> aracılığıyla erişebilirsiniz.
 </div>
 
 Bu makalede '<em>Bir Angular projesinin üyelik formunda şifrenin yeteri kadar güçlü girildiğinden nasıl emin olabilirim?</em>' sorusunu cevaplayacağız.
@@ -21,7 +21,7 @@ Hemen projeyi oluşturmak istediğimiz dizine <strong>Command Prompt</strong> (<
 
 <img class="lazy img-responsive" data-src="/assets/uploads/2017/01/psm0.png" width="600" height="300" />
 
-<a href="https://cli.angular.io/" target="_blank">Angular CLI</a>, projeyi oluşturduktan sonra <a href="http://npmjs.org" target="_blank">npm</a> aracılığıya gerekli tüm <strong>dependency</strong>'leri <em>download</em> edecek.
+<a href="https://cli.angular.io/" target="_blank" rel="noopener">Angular CLI</a>, projeyi oluşturduktan sonra <a href="http://npmjs.org" target="_blank" rel="noopener">npm</a> aracılığıya gerekli tüm <strong>dependency</strong>'leri <em>download</em> edecek.
 
 <img class="lazy img-responsive" data-src="/assets/uploads/2017/01/psm1.png" width="600" height="300" />
 
@@ -31,7 +31,7 @@ Projeyi oluşturduğumuz dizinde aşağıdaki komutu çalıştıralım, böylece
 
 <img class="lazy img-responsive" data-src="/assets/uploads/2017/01/psm2.png" width="600" height="300" />
 
-Projenin <em>src</em> dizininde yer alan <em>index.html</em> dosyasının <strong>head</strong> taglarının arasına aşağıdaki satırı ekleyelim ve projede <a href="http://getbootstrap.com/" target="_blank">Bootstrap 4</a> <strong>css framework</strong>'ünü kullanmaya başlayalım;
+Projenin <em>src</em> dizininde yer alan <em>index.html</em> dosyasının <strong>head</strong> taglarının arasına aşağıdaki satırı ekleyelim ve projede <a href="http://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap 4</a> <strong>css framework</strong>'ünü kullanmaya başlayalım;
 
 <script src="https://gist.github.com/polatengin/8ad151c2f36a1660380cb3c77fdf314a.js?file=index-bootstrap.html"></script>
 
@@ -65,10 +65,10 @@ Ayrıca <strong>Kaydol</strong> butonuna tıklandığında yapılacak işleri ya
 
 <em>Şifre</em> alanında <strong>keyup</strong> <em>event</em>'i tetiklendikçe (<em>yani şifre belirlenirken</em>) çağırılan <em>updateMeter()</em> methodunda şifrenin karmaşıklık seviyesini hesaplayacağımız kodları yazıyoruz.
 
-<blockquote>Şifrenin karmaşıklık seviyesini belirlemek için internetten yardım aldım, <a href="http://stackoverflow.com/" target="_blank">stackoverflow</a>'daki çeşitli örnek kodları inceledim ve birkaç tanesini birleştirerek bu makaledeki kodu yazdım. Sizler kendiniz de bir kod geliştirebilir veya benim yaptığım gibi <em>hazır yazılmışlardan</em> faydalanabilirsiniz ;)</blockquote>
+<blockquote>Şifrenin karmaşıklık seviyesini belirlemek için internetten yardım aldım, <a href="http://stackoverflow.com/" target="_blank" rel="noopener">stackoverflow</a>'daki çeşitli örnek kodları inceledim ve birkaç tanesini birleştirerek bu makaledeki kodu yazdım. Sizler kendiniz de bir kod geliştirebilir veya benim yaptığım gibi <em>hazır yazılmışlardan</em> faydalanabilirsiniz ;)</blockquote>
 
 Eğer sayfayı yenileyecek ve sonuca bakacak olursak, aşağıdaki ekranı görmemiz lazım;
 
 <img class="lazy img-responsive" data-src="/assets/uploads/2017/01/psm4.gif" width="600" height="700" />
 
-Bu makalenin kodlarına <strong>Github</strong> üzerinde <a href="https://github.com/polatengin" target="_blank">polatengin</a> hesabımda yer alan <a href="https://github.com/polatengin/blog-codes/tree/master/password-strength-meter" target="_blank">Password-Strength-Meter</a> aracılığıyla erişebilirsiniz.
+Bu makalenin kodlarına <strong>Github</strong> üzerinde <a href="https://github.com/polatengin" target="_blank" rel="noopener">polatengin</a> hesabımda yer alan <a href="https://github.com/polatengin/blog-codes/tree/master/password-strength-meter" target="_blank" rel="noopener">Password-Strength-Meter</a> aracılığıyla erişebilirsiniz.

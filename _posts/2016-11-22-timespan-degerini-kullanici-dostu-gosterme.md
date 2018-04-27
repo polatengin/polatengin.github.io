@@ -7,16 +7,16 @@ comments: true
 category: [C#]
 tags: [timespan, extensionmethod]
 ---
-<a href="https://msdn.microsoft.com/library/system.timespan" title="TimeSpan struct" target="_blank">TimeSpan</a> sınıfı ile iki zaman arasında (<a href="https://msdn.microsoft.com/library/system.datetime" target="_blank">DateTime</a> *instance*) ne kadar süre geçtiğini hesaplayabiliyor, tutabiliyoruz.
+<a href="https://msdn.microsoft.com/library/system.timespan" title="TimeSpan struct" target="_blank" rel="noopener">TimeSpan</a> sınıfı ile iki zaman arasında (<a href="https://msdn.microsoft.com/library/system.datetime" target="_blank" rel="noopener">DateTime</a> *instance*) ne kadar süre geçtiğini hesaplayabiliyor, tutabiliyoruz.
 
 **TimeSpan** sınıfı, aşağıdaki özellikleri (*property*) aracılığıyla bize iki tarih arasındaki sürenin ne kadar olduğunu söyleyebiliyor;
 
 <ul>
-    <li><a target="_blank" href="https://msdn.microsoft.com/library/system.timespan/milliseconds">Milliseconds</a></li>
-    <li><a target="_blank" href="https://msdn.microsoft.com/library/system.timespan/seconds">Seconds</a></li>
-    <li><a target="_blank" href="https://msdn.microsoft.com/library/system.timespan/minutes">Minutes</a></li>
-    <li><a target="_blank" href="https://msdn.microsoft.com/library/system.timespan/hours">Hours</a></li>
-    <li><a target="_blank" href="https://msdn.microsoft.com/library/system.timespan/days">Days</a></li>
+    <li><a target="_blank" rel="noopener" href="https://msdn.microsoft.com/library/system.timespan/milliseconds">Milliseconds</a></li>
+    <li><a target="_blank" rel="noopener" href="https://msdn.microsoft.com/library/system.timespan/seconds">Seconds</a></li>
+    <li><a target="_blank" rel="noopener" href="https://msdn.microsoft.com/library/system.timespan/minutes">Minutes</a></li>
+    <li><a target="_blank" rel="noopener" href="https://msdn.microsoft.com/library/system.timespan/hours">Hours</a></li>
+    <li><a target="_blank" rel="noopener" href="https://msdn.microsoft.com/library/system.timespan/days">Days</a></li>
 </ul>
 
 Eğer iki tarih arasında geçen süreyi aşağıdaki formatta ekranda göstermemiz gerekiyorsa;

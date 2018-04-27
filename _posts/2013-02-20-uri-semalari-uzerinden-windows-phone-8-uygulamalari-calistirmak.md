@@ -7,7 +7,7 @@ comments: true
 category: [Programlama]
 tags: [async, asynchronous, launchuriasync, uri]
 ---
-**Windows Phone 8** işletim sisteminin çeşitli ayarlarının ekranlarını veya üzerinde yüklü gelen uygulamaları çalıştırmak isterseniz aşağıdaki adresleri <a href="http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh701476.aspx" title="Launcher.LaunchUriAsync methods" target="_blank">LaunchUriAsync()</a> method'u ile çağırmanız yeterlidir.
+**Windows Phone 8** işletim sisteminin çeşitli ayarlarının ekranlarını veya üzerinde yüklü gelen uygulamaları çalıştırmak isterseniz aşağıdaki adresleri <a href="http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh701476.aspx" title="Launcher.LaunchUriAsync methods" target="_blank" rel="noopener">LaunchUriAsync()</a> method'u ile çağırmanız yeterlidir.
 
 <table>
 <tbody>

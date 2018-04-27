@@ -22,7 +22,7 @@ Bu framework sayesinde, zengin 2D ve 3D oyunlar geliştirebiliriz
 
 **Windows Phone 7 Uygulama Geliştirme Gereksinimleri**
 
-*Visual Studio 2010* kurulu bilgisayarımıza <a href="http://www.microsoft.com/download/en/details.aspx?id=27570" title="Windows Phone SDK 7.1" target="_blank">Windows Phone SDK 7.1</a> indirip kurmamız gerekiyor.
+*Visual Studio 2010* kurulu bilgisayarımıza <a href="http://www.microsoft.com/download/en/details.aspx?id=27570" title="Windows Phone SDK 7.1" target="_blank" rel="noopener">Windows Phone SDK 7.1</a> indirip kurmamız gerekiyor.
 
 *Windows Phone SDK 7.1* kurulumu sonrasında bilgisayarımıza aşağıdaki araçlar kurulmuş olacak;
 
@@ -40,11 +40,11 @@ Bu framework sayesinde, zengin 2D ve 3D oyunlar geliştirebiliriz
 
 Ayrıca *Visual Studio 2010* kurulumumuza, *New Project* dialog penceresinden erişebileceğimiz yeni proje şablonları da eklenmiş oluyor.
 
-*Not : <a href="http://create.msdn.com/en-us/education/basics/developer_resources" title="App Hub - Developer Resources" target="_blank">App Hub - Developer Resources</a> sayfasından, hem ihtiyacımız olacak araçlara, hem de faydalı dokümanlara ulaşabiliriz.*
+*Not : <a href="http://create.msdn.com/en-us/education/basics/developer_resources" title="App Hub - Developer Resources" target="_blank" rel="noopener">App Hub - Developer Resources</a> sayfasından, hem ihtiyacımız olacak araçlara, hem de faydalı dokümanlara ulaşabiliriz.*
 
 **Windows Phone 7 Mimarisi**
 
-*MSDN*'de yer alan <a href="http://msdn.microsoft.com/en-us/library/ff402531(v=vs.92).aspx" title="Application Platform Overview for Windows Phone" target="_blank">Application Platform Overview for Windows Phone</a> makalesine göre, mimari şu şekilde;
+*MSDN*'de yer alan <a href="http://msdn.microsoft.com/en-us/library/ff402531(v=vs.92).aspx" title="Application Platform Overview for Windows Phone" target="_blank" rel="noopener">Application Platform Overview for Windows Phone</a> makalesine göre, mimari şu şekilde;
 
 ![](http://i.msdn.microsoft.com/dynimg/IC513005.jpg "Application Platform Overview for Windows Phone")
 
@@ -71,7 +71,7 @@ XNA, temelde zengin 2D ve 3D oyunlar geliştirmek için kullanılır.
 
 *Windows Phone 7* için geliştirdiğimiz uygulamaları, **Market Place**'e göndermeden önce kontrol etmemiz gereken, *WP7*'ye özgü maddeler vardır.
 
-Bu maddelere *MSDN*'de yeralan <a href="http://msdn.microsoft.com/en-us/library/hh184843(v=VS.92).aspx" title="Application Certification Requirements for Windows Phone" target="_blank">Application Certification Requirements for Windows Phone</a> sayfasından ulaşabiliriz.
+Bu maddelere *MSDN*'de yeralan <a href="http://msdn.microsoft.com/en-us/library/hh184843(v=VS.92).aspx" title="Application Certification Requirements for Windows Phone" target="_blank" rel="noopener">Application Certification Requirements for Windows Phone</a> sayfasından ulaşabiliriz.
 
 **Donanım**
 

@@ -9,9 +9,9 @@ tags: [csharp, for, foreach, performance, loop, variable, iteration, perfomans]
 ---
 Bu makalede <strong>C#</strong> ile <code>for</code> ve <code>foreach</code> döngüleri arasındaki farkları inceleyeceğiz.
 
-Böylece <a href="https://github.com/polatengin/polatengin.github.io/issues/1" target="_blank">#1</a> numaralı istek makaleyi yazmış olacağım :)
+Böylece <a href="https://github.com/polatengin/polatengin.github.io/issues/1" target="_blank" rel="noopener">#1</a> numaralı istek makaleyi yazmış olacağım :)
 
-<em>Not : <a href="https://github.com/polatengin/polatengin.github.io/issues" target="_blank">Issues</a> sayfasında varolan makale isteklerini görebileceğinizi, hatta <a href="https://github.com/polatengin/polatengin.github.io/issues/new" target="_blank">yeni makale isteğinde</a> bulunabileceğinizi biliyor muydunuz?</em>
+<em>Not : <a href="https://github.com/polatengin/polatengin.github.io/issues" target="_blank" rel="noopener">Issues</a> sayfasında varolan makale isteklerini görebileceğinizi, hatta <a href="https://github.com/polatengin/polatengin.github.io/issues/new" target="_blank" rel="noopener">yeni makale isteğinde</a> bulunabileceğinizi biliyor muydunuz?</em>
 
 Öncelikle **for** ve **foreach** döngülerini **C#** programlama dilinde nasıl kullanıyoruz, nasıl yazıyoruz, hemen hatırlayalım;
 

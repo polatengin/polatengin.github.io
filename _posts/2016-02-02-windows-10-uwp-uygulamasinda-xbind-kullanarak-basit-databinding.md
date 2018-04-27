@@ -7,7 +7,7 @@ comments: true
 category: [Windows]
 tags: [binding, databinding, grid, mainpage, onnavigatedto, override, page, private, property, protected, public, text, textblock, universal app, uwp, windows, windows10, xbind, xaml, xaml.cs]
 ---
-*Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/windows-10-uwp-uygulamasinda-page-resources-icinde-style-kullanmak/" target="_blank">Windows 10 UWP uygulamasında Page.Resources içinde Style kullanmak</a> makalesini okumanızı tavsiye ederim.*
+*Bu makaleyi okumadan önce <a href="http://www.enginpolat.com/windows-10-uwp-uygulamasinda-page-resources-icinde-style-kullanmak/" target="_blank" rel="noopener">Windows 10 UWP uygulamasında Page.Resources içinde Style kullanmak</a> makalesini okumanızı tavsiye ederim.*
 
 En son **geliştirdiğimiz** hali ile ekranımız aşağıdaki şekilde *gözüküyor* olmalı;
 
@@ -31,7 +31,7 @@ public string Second1 { get; set; } = "0";
 
 public string Second2 { get; set; } = "0";</pre>
 
-Artık ekrandaki <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock" target="_blank">Textblock</a> nesnelerini güncelleyebiliriz, *RefreshDisplay()* methodunu tanımlayıp, içerisinde yukarıda tanımladığımız **property**'lere değer ataması yapıyoruz;
+Artık ekrandaki <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock" target="_blank" rel="noopener">Textblock</a> nesnelerini güncelleyebiliriz, *RefreshDisplay()* methodunu tanımlayıp, içerisinde yukarıda tanımladığımız **property**'lere değer ataması yapıyoruz;
 
 <pre class="brush:csharp">private void RefreshDisplays()
 {
@@ -53,7 +53,7 @@ Artık ekrandaki <a href="https://msdn.microsoft.com/library/windows/apps/window
 
 Sayfa açıldığında *RefreshDisplays()* methodunu çağırabilmek için **sayfanın açıldığı anı** bilmemiz ve tam orada *RefreshDisplays()* methodunu çağırmamız lazım.
 
-**Windows 10 UWP** uygulamalarında bir sayfanın açıldığı anı <a href="https://msdn.microsoft.com/library/windows.ui.xaml.controls.page" target="_blank">Page</a> sınıfında tanımlı olan <a href="https://msdn.microsoft.com/library/windows.ui.xaml.controls.page.onnavigatedto" target="_blank">OnNavigatedTo()</a> methodunda yakalayabiliyoruz.
+**Windows 10 UWP** uygulamalarında bir sayfanın açıldığı anı <a href="https://msdn.microsoft.com/library/windows.ui.xaml.controls.page" target="_blank" rel="noopener">Page</a> sınıfında tanımlı olan <a href="https://msdn.microsoft.com/library/windows.ui.xaml.controls.page.onnavigatedto" target="_blank" rel="noopener">OnNavigatedTo()</a> methodunda yakalayabiliyoruz.
 
 *MainPage* sınıfımızın **base class**'ı olan **Page** sınıfında tanımlı olan **OnNavigatedTo()** methodunda kod çalıştırabilmek için **OnNavigatedTo** methodunu **override** etmemiz lazım;
 
@@ -70,7 +70,7 @@ Sayfa açıldığında *RefreshDisplays()* methodunu çağırabilmek için **say
 
 *MainPage.xaml* dosyasında yeralan nesnelerden **binding** yapmak istediklerimizin, **binding** yapmak istediğimiz **property**'lerine değer olarak **{x:Bind}** ataması yapmalıyız.
 
-Bu örnekte, **Textblock** nesnelerinin **Text** *property*'lerine **binding** yapmak istiyoruz, *MainPage.xaml* dosyasındaki <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid" target="_blank">Grid</a> elementini aşağıdaki kodlara dönüştürüyoruz;
+Bu örnekte, **Textblock** nesnelerinin **Text** *property*'lerine **binding** yapmak istiyoruz, *MainPage.xaml* dosyasındaki <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid" target="_blank" rel="noopener">Grid</a> elementini aşağıdaki kodlara dönüştürüyoruz;
 
 <pre class="brush:xml">&lt;Grid&gt;
     &lt;Grid.ColumnDefinitions&gt;

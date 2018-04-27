@@ -7,17 +7,17 @@ comments: true
 category: [C#]
 tags: [MetroUI, windows8]
 ---
-<a href="http://www.microsoft.com/presspass/features/2011/jun11/06-01corporatenews.aspx" title="Windows 8" target="_blank">Windows 8</a> henüz piyasa sürülmeden (aslında *Beta sürümü* bile çıkmadan) hayatımıza girmeye başladı.
+<a href="http://www.microsoft.com/presspass/features/2011/jun11/06-01corporatenews.aspx" title="Windows 8" target="_blank" rel="noopener">Windows 8</a> henüz piyasa sürülmeden (aslında *Beta sürümü* bile çıkmadan) hayatımıza girmeye başladı.
 
-<a href="http://www.enginpolat.com/etiket/windows8/" title="Windows 8 Programlama" target="_blank">Windows 8 Programlama</a> başlığı altında **Windows 8** üzerinde (özellikle **Metro Style**) uygulama geliştirme tecrübelerimi paylaşıyor olacağım.
+<a href="http://www.enginpolat.com/etiket/windows8/" title="Windows 8 Programlama" target="_blank" rel="noopener">Windows 8 Programlama</a> başlığı altında **Windows 8** üzerinde (özellikle **Metro Style**) uygulama geliştirme tecrübelerimi paylaşıyor olacağım.
 
 Bu yazıyı yazdığım gün **Windows 8**'in **Geliştiricilere Özel** sürümleri *ücretsiz* olarak *Microsoft*'un kendi sitesinden indirilebiliyor;
 
-<a href="http://wdp.dlws.microsoft.com/WDPDL/9B8DFDFF736C5B1DBF956B89D8A9D4FD925DACD2/WindowsDeveloperPreview-64bit-English-Developer.iso" target="_blank">Windows Developer Preview with developer tools English, 64-bit (x64)</a> *(4.8 GB)*
+<a href="http://wdp.dlws.microsoft.com/WDPDL/9B8DFDFF736C5B1DBF956B89D8A9D4FD925DACD2/WindowsDeveloperPreview-64bit-English-Developer.iso" target="_blank" rel="noopener">Windows Developer Preview with developer tools English, 64-bit (x64)</a> *(4.8 GB)*
 
-<a href="http://wdp.dlws.microsoft.com/WDPDL/9B8DFDFF736C5B1DBF956B89D8A9D4FD925DACD2/WindowsDeveloperPreview-64bit-English.iso" target="_blank">Windows Developer Preview English, 64-bit (x64)</a> *(3.6 GB)*
+<a href="http://wdp.dlws.microsoft.com/WDPDL/9B8DFDFF736C5B1DBF956B89D8A9D4FD925DACD2/WindowsDeveloperPreview-64bit-English.iso" target="_blank" rel="noopener">Windows Developer Preview English, 64-bit (x64)</a> *(3.6 GB)*
 
-<a href="http://wdp.dlws.microsoft.com/WDPDL/9B8DFDFF736C5B1DBF956B89D8A9D4FD925DACD2/WindowsDeveloperPreview-32bit-English.iso" target="_blank">Windows Developer Preview English, 32-bit (x86)</a> *(2.8 GB)*
+<a href="http://wdp.dlws.microsoft.com/WDPDL/9B8DFDFF736C5B1DBF956B89D8A9D4FD925DACD2/WindowsDeveloperPreview-32bit-English.iso" target="_blank" rel="noopener">Windows Developer Preview English, 32-bit (x86)</a> *(2.8 GB)*
 
 **Sistem Gereksinimleri**
 
@@ -34,5 +34,5 @@ Ben temiz bir bilgisayara **Windows Developer Preview with developer tools Engli
 
 Böylece *Windows*'un üzerine kurulu gelen **Visual Studio 2011 Express Edition**'da henüz oluşturamadığımız proje şablonlarını da görebilmiş oldum.
 
-<a href="http://www.enginpolat.com/etiket/windows8/" title="Windows 8 Programlama" target="_blank">Windows 8 Programlama</a> makalelerimde yazacağım uygulamalar için *Express Edition* yeterli olacak.
+<a href="http://www.enginpolat.com/etiket/windows8/" title="Windows 8 Programlama" target="_blank" rel="noopener">Windows 8 Programlama</a> makalelerimde yazacağım uygulamalar için *Express Edition* yeterli olacak.
 

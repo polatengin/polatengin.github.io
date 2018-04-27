@@ -9,9 +9,9 @@ tags: [string, extensionmethod, static, class, readonly, hashset, char, return, 
 ---
 Bu makalede <strong>C#</strong> ile geliştirdiğimiz projede yeralan bir <code>string</code> değişkenin içerisindeki *metni* keseceğiz (*örneğin ilk 50 karakter gibi*) fakat <em>kesme işlemi bir kelimenin ortasına denk geliyorsa kelimenin ortadan bölünmesini engelleyeceğiz</em>.
 
-Bu işlemi yapmak için <a href="https://msdn.microsoft.com/library/system.string" target="_blank">string</a> tipine bir **ExtensionMethod** yazacağız.
+Bu işlemi yapmak için <a href="https://msdn.microsoft.com/library/system.string" target="_blank" rel="noopener">string</a> tipine bir **ExtensionMethod** yazacağız.
 
-*Not : <a href="/etiketler/#extensionmethod-ref" target="_blank">ExtensionMethod</a>'lar ile ilgili diğer makalelerimi okuyabilirsiniz.*
+*Not : <a href="/etiketler/#extensionmethod-ref" target="_blank" rel="noopener">ExtensionMethod</a>'lar ile ilgili diğer makalelerimi okuyabilirsiniz.*
 
 İnternette yaptığım küçük araştırmada bile bir sürü kaynağa denk geldim, birçoğundan esinlenerek bulduğum benim çözümüm ise şöyle oldu;
 

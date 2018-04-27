@@ -13,9 +13,9 @@ Bunun için basitçe;
 
 
 
-*   <a href="http://msdn.microsoft.com/library/windows/apps/microsoft.phone.tasks.connectionsettingstask" target="_blank">ConnectionSettingsTask</a> sınıfından yeni bir **instance** oluşturmamız
-*   <a href="https://msdn.microsoft.com/library/windows/apps/microsoft.phone.tasks.connectionsettingstask.connectionsettingstype" target="_blank">ConnectionSettingsType</a> özelliğine <a href="http://msdn.microsoft.com/library/windows/apps/microsoft.phone.tasks.connectionsettingstype" target="_blank">WiFi</a> değerini atamamız
-*   <a href="http://msdn.microsoft.com/library/windows/apps/microsoft.phone.tasks.connectionsettingstask.show" target="_blank">Show()</a> methodunu çağırmamız
+*   <a href="http://msdn.microsoft.com/library/windows/apps/microsoft.phone.tasks.connectionsettingstask" target="_blank" rel="noopener">ConnectionSettingsTask</a> sınıfından yeni bir **instance** oluşturmamız
+*   <a href="https://msdn.microsoft.com/library/windows/apps/microsoft.phone.tasks.connectionsettingstask.connectionsettingstype" target="_blank" rel="noopener">ConnectionSettingsType</a> özelliğine <a href="http://msdn.microsoft.com/library/windows/apps/microsoft.phone.tasks.connectionsettingstype" target="_blank" rel="noopener">WiFi</a> değerini atamamız
+*   <a href="http://msdn.microsoft.com/library/windows/apps/microsoft.phone.tasks.connectionsettingstask.show" target="_blank" rel="noopener">Show()</a> methodunu çağırmamız
 
 yeterlidir.
 

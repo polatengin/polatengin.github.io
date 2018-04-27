@@ -11,4 +11,4 @@ tags: [applifecycle, backgroundexecution, etkinliklerim, msp, seminer, universal
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oBWfmENZkck" frameborder="0" allowfullscreen></iframe></div>
 
-Bu etkinliğin videosunu **Youtube** (<a href="https://youtu.be/oBWfmENZkck" target="_blank">UWP AppLifeCycle ve BackgroundExecution</a>) üzerinden veya **Channel 9** (<a href="https://channel9.msdn.com/Blogs/MVP-Windows-Dev/MSP-Webinar-2016-UWP-AppLifeCycle-ve-BackgroundExecution" target="_blank">MSP Webinar 2016 UWP AppLifeCycle ve BackgroundExecution</a>) üzerinden izleyebilirsiniz.
+Bu etkinliğin videosunu **Youtube** (<a href="https://youtu.be/oBWfmENZkck" target="_blank" rel="noopener">UWP AppLifeCycle ve BackgroundExecution</a>) üzerinden veya **Channel 9** (<a href="https://channel9.msdn.com/Blogs/MVP-Windows-Dev/MSP-Webinar-2016-UWP-AppLifeCycle-ve-BackgroundExecution" target="_blank" rel="noopener">MSP Webinar 2016 UWP AppLifeCycle ve BackgroundExecution</a>) üzerinden izleyebilirsiniz.

@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [begin, class, Color, const, content, Content.Load, draw, drawstring, end, float, GameTime, getstate, graphics, graphicsdevice, GraphicsDeviceManager, int, intersect, intersects, loadcontent, mouse, mousestate, play, prefferedbackbufferheight, prefferedbackbufferwidth, random, rectangle, sound, SoundEffect, SoundEffectInstance, sprite, spritebatch, spriteeffects, spritefont, texture2d, TimeSpan, TimeSpan.Zero, totalgametime, unloadcontent, update, vector2, XNA, xna game studio]
 ---
-Bu yazımı okumadan önce <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank">XNA konusundaki diğer makalelerimi</a> okumanızı öneririm.
+Bu yazımı okumadan önce <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank" rel="noopener">XNA konusundaki diğer makalelerimi</a> okumanızı öneririm.
 
 Her zamanki gibi önce görseller;
 
@@ -75,9 +75,9 @@ Başlayalım oyunumuzu yazmaya; *VahsiBati* projemizi oluşturduktan ve *Game1.c
     public bool IsDead = false;
 }</pre>
 
-**Target** sınıfı sayesinde, ekrana getireceğimiz *hedef*'lerin ekranın neresinden çıkıp, hangi yöne doğru gideceğini bileceğiz, hedefin vurulup/vurulmadığını bileceğiz, *çarpışma testi* yapabilmek için ekranda kapladığı alanı bileceğiz, hızını bileceğiz, ayrıca *hedef*'imizin harekete sahip olmasını sağlayabileceğiz (bknz; <a href="http://www.enginpolat.com/xna-ile-karakter-hareketi/" title="enginpolat.com : XNA ile Karakter Hareketi" target="_blank">XNA ile Karakter Hareketi</a>)
+**Target** sınıfı sayesinde, ekrana getireceğimiz *hedef*'lerin ekranın neresinden çıkıp, hangi yöne doğru gideceğini bileceğiz, hedefin vurulup/vurulmadığını bileceğiz, *çarpışma testi* yapabilmek için ekranda kapladığı alanı bileceğiz, hızını bileceğiz, ayrıca *hedef*'imizin harekete sahip olmasını sağlayabileceğiz (bknz; <a href="http://www.enginpolat.com/xna-ile-karakter-hareketi/" title="enginpolat.com : XNA ile Karakter Hareketi" target="_blank" rel="noopener">XNA ile Karakter Hareketi</a>)
 
-*GameLoop.cs* dosyasına geri dönelim, ilk önce arkaplanımızın hareketli olması için (bknz; <a href="http://www.enginpolat.com/xna-ile-hareketli-arkaplan/" title="XNA ile Hareketli Arkaplan" target="_blank">XNA ile Hareketli Arkaplan</a>) sınıf seviyesinde şu değişkenleri tanımlayalım;
+*GameLoop.cs* dosyasına geri dönelim, ilk önce arkaplanımızın hareketli olması için (bknz; <a href="http://www.enginpolat.com/xna-ile-hareketli-arkaplan/" title="XNA ile Hareketli Arkaplan" target="_blank" rel="noopener">XNA ile Hareketli Arkaplan</a>) sınıf seviyesinde şu değişkenleri tanımlayalım;
 
 <pre class="brush:csharp">Rectangle Screen;
 
@@ -296,7 +296,7 @@ spriteBatch.DrawString(SkorFont, "Skor : " + Score, SkorPosition + Vector2.One, 
 spriteBatch.DrawString(SkorFont, "Skor : " + Score, SkorPosition, Color.White);
 
 
-İşte *Vahşi Batı* oyunundan bir ekran görüntüsü. Oyunun kaynak kodlarını <a href="/assets/uploads/2012/06/VahsiBati.rar" title="XNA : Vahşi Batı" target="_blank">buradan</a> indirebilirsiniz.
+İşte *Vahşi Batı* oyunundan bir ekran görüntüsü. Oyunun kaynak kodlarını <a href="/assets/uploads/2012/06/VahsiBati.rar" title="XNA : Vahşi Batı" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 
 ![XNA Oyun : Vahşi Batı](/assets/uploads/2012/06/VahsiBati.jpg "XNA Oyun : Vahşi Batı")
 

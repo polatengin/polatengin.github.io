@@ -7,11 +7,11 @@ comments: true
 category: [C#]
 tags: [ComputeHash, crypto, csharp, encoding, foreach, getbytes, instance, md5, MD5CryptoServiceProvider, namespace, return, string, stringbuilder, System.Secuity.Cryptography, tostring, using]
 ---
-Aşağıdaki küçük fonksiyon yardımıyla **string** tipindeki değişkenlerin içeriğini <a href="http://tr.wikipedia.org/wiki/MD5" title="MD5 Şifreleme Yöntemi" target="_blank">MD5</a> yöntemi ile şifreleyebiliriz.
+Aşağıdaki küçük fonksiyon yardımıyla **string** tipindeki değişkenlerin içeriğini <a href="http://tr.wikipedia.org/wiki/MD5" title="MD5 Şifreleme Yöntemi" target="_blank" rel="noopener">MD5</a> yöntemi ile şifreleyebiliriz.
 
-Öncelikle kodumuzun **using** kısmına <a href="http://msdn.microsoft.com/library/system.security.cryptography" target="_blank">System.Security.Cryptography</a> **namespace**'ini eklememiz lazım.
+Öncelikle kodumuzun **using** kısmına <a href="http://msdn.microsoft.com/library/system.security.cryptography" target="_blank" rel="noopener">System.Security.Cryptography</a> **namespace**'ini eklememiz lazım.
 
-Böylece <a href="http://msdn.microsoft.com/library/system.security.cryptography.md5cryptoserviceprovider" target="_blank">MD5CryptoServiceProvider</a> sınıfından yeni bir *örnek* (**instance**) oluşturabilir, ve *şifreleme sağlayıcısı* (**crypto service provider**) olarak kullanabiliriz.
+Böylece <a href="http://msdn.microsoft.com/library/system.security.cryptography.md5cryptoserviceprovider" target="_blank" rel="noopener">MD5CryptoServiceProvider</a> sınıfından yeni bir *örnek* (**instance**) oluşturabilir, ve *şifreleme sağlayıcısı* (**crypto service provider**) olarak kullanabiliriz.
 
 
 

@@ -8,14 +8,14 @@ category: [Web]
 tags: [aspnetcore, browser, clients, command prompt, config, contentroot, coreclr, dependencies, dotnet, edge, html, hub, iapplicationbuilder, iis, iservicecollection, javascript, jquery, kestrel, nuget, packageSources, project.json, restore, signalr, usestaticfiles, webhostbuilder, websocket, wwwroot]
 ---
 <div class="alert alert-success" role="alert" style="margin: 10px 0px; display: block;">
-Bu makalenin kodlarına <strong>Github</strong> üzerinde <a href="https://github.com/polatengin" class="alert-link" target="_blank">polatengin</a> hesabımda yer alan <a href="https://github.com/polatengin/blog-codes/tree/master/dotnet-core-signalr" class="alert-link" target="_blank">Asp.Net Core SignalR</a> aracılığıyla erişebilirsiniz.
+Bu makalenin kodlarına <strong>Github</strong> üzerinde <a href="https://github.com/polatengin" class="alert-link" target="_blank" rel="noopener">polatengin</a> hesabımda yer alan <a href="https://github.com/polatengin/blog-codes/tree/master/dotnet-core-signalr" class="alert-link" target="_blank" rel="noopener">Asp.Net Core SignalR</a> aracılığıyla erişebilirsiniz.
 </div>
 
-Sevgili arkadaşım <a href="http://www.borakasmer.com" target="_blank">Bora Kaşmer</a> yeni yapacağı bir proje ile ilgili konuşurken **Asp.Net Core** üzerinde **SignalR** çalıştırmak istediğini söyledi, ben de bu makaleyi yazdım :)
+Sevgili arkadaşım <a href="http://www.borakasmer.com" target="_blank" rel="noopener">Bora Kaşmer</a> yeni yapacağı bir proje ile ilgili konuşurken **Asp.Net Core** üzerinde **SignalR** çalıştırmak istediğini söyledi, ben de bu makaleyi yazdım :)
 
 Bu makalede adım adım ilerleyerek, **dotnet CLI** ile projeyi oluşturacak, **Visual Studio Code** ile geliştirecek ve **Microsoft Edge** tarayıcısı ile test edeceğiz.
 
-*Öncelikle, eğer bilgisayarınızda <a href="https://www.microsoft.com/net" target="_blank">.Net Core</a> yüklü değilse yüklemeniz gerekiyor.*
+*Öncelikle, eğer bilgisayarınızda <a href="https://www.microsoft.com/net" target="_blank" rel="noopener">.Net Core</a> yüklü değilse yüklemeniz gerekiyor.*
 
 Hemen proje için yeni bir dizin oluşturalım ve *Command Prompt* açarak **dotnet new** komutu ile projeyi oluşturalım;
 
@@ -69,4 +69,4 @@ Basitçe, mesajların sayfada görüntülenebilmesi için bir textarea, mesaj g�
 
 <img class="lazy img-responsive" data-src="/assets/uploads/2016/09/dotnet-core-signalr-3.gif" />
 
-Projenin kodlarını <a href="https://github.com/polatengin" target="_blank">Github</a> hesabım üzerinden <a href="https://github.com/polatengin/blog-codes/tree/master/dotnet-core-signalr" target="_blank">dotnet-core-signalr</a> dizininde bulabilirsiniz.
+Projenin kodlarını <a href="https://github.com/polatengin" target="_blank" rel="noopener">Github</a> hesabım üzerinden <a href="https://github.com/polatengin/blog-codes/tree/master/dotnet-core-signalr" target="_blank" rel="noopener">dotnet-core-signalr</a> dizininde bulabilirsiniz.

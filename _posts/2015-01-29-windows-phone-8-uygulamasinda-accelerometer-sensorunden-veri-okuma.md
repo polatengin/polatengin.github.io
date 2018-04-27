@@ -17,11 +17,11 @@ tags: [accelerationx, accelerationy, accelerationz, accelerometer, accelerometer
 
 using Microsoft.Devices.Sensors;</pre>
 
-**Accelerometer** sensörüne erişebilmek ve verisini okuyabilmek için <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometer" target="_blank">Accelerometer</a> sınıfından yeni bir *instance* oluşturmalıyız, bunun için *static* olan <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometer.getdefault" target="_blank">GetDefault()</a> methodunu kullanabiliriz;
+**Accelerometer** sensörüne erişebilmek ve verisini okuyabilmek için <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometer" target="_blank" rel="noopener">Accelerometer</a> sınıfından yeni bir *instance* oluşturmalıyız, bunun için *static* olan <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometer.getdefault" target="_blank" rel="noopener">GetDefault()</a> methodunu kullanabiliriz;
 
 <pre class="brush:csharp">var _accelerometer = Accelerometer.GetDefault();</pre>
 
-Sensör verisini bir defa okumak için *_accelerometer* değişkeninin <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometer.getcurrentreading" target="_blank">GetCurrentReading()</a> methodunu kullanıyoruz. Methoddan geri dönen <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometerreading" target="_blank">AccelerometerReading</a> tipindeki cevabın içerisindeki <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometerreading.accelerationx" target="_blank">AccelerationX</a>, <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometerreading.accelerationy" target="_blank">AccelerationY</a>, <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometerreading.accelerationz" target="_blank">AccelerationZ</a> *property*'leri sayesinde ivme bilgisini elde edebiliriz;
+Sensör verisini bir defa okumak için *_accelerometer* değişkeninin <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometer.getcurrentreading" target="_blank" rel="noopener">GetCurrentReading()</a> methodunu kullanıyoruz. Methoddan geri dönen <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometerreading" target="_blank" rel="noopener">AccelerometerReading</a> tipindeki cevabın içerisindeki <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometerreading.accelerationx" target="_blank" rel="noopener">AccelerationX</a>, <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometerreading.accelerationy" target="_blank" rel="noopener">AccelerationY</a>, <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometerreading.accelerationz" target="_blank" rel="noopener">AccelerationZ</a> *property*'leri sayesinde ivme bilgisini elde edebiliriz;
 
 <pre class="brush:csharp">var reading = _accelerometer.GetCurrentReading();
 if (reading != null)
@@ -31,7 +31,7 @@ if (reading != null)
     var z = string.Format("{0,5:0.00}", reading.AccelerationZ);
 }</pre>
 
-Eğer ivme bilgisini sürekli okumamız gerekiyorsa *_accelerometer* değişkeninin <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometer.readingchanged" target="_blank">ReadingChanged</a> event'ini kullanabiliriz, <a href="http://msdn.microsoft.com/library/windows/apps/microsoft.devices.sensors.accelerometer.start" target="_blank">Start()</a> method'unu çağırmayı unutmamamız lazım;
+Eğer ivme bilgisini sürekli okumamız gerekiyorsa *_accelerometer* değişkeninin <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometer.readingchanged" target="_blank" rel="noopener">ReadingChanged</a> event'ini kullanabiliriz, <a href="http://msdn.microsoft.com/library/windows/apps/microsoft.devices.sensors.accelerometer.start" target="_blank" rel="noopener">Start()</a> method'unu çağırmayı unutmamamız lazım;
 
 <pre class="brush:csharp">_accelerometer.ReadingChanged += new EventHandler&lt;AccelerometerReadingEventArgs&gt;(AccelerometerReadingChanged);
 
@@ -44,7 +44,7 @@ _accelerometer.Start();</pre>
     var z = string.Format("{0,5:0.00}", e.Z);
 }</pre>
 
-**Accelerometer** verisine ihtiyacımız kalmadığında *_accelerometer* değişkeninin <a href="http://msdn.microsoft.com/library/windows/apps/microsoft.devices.sensors.accelerometer.stop" target="_blank">Stop()</a> method'unu çağırmalıyız;
+**Accelerometer** verisine ihtiyacımız kalmadığında *_accelerometer* değişkeninin <a href="http://msdn.microsoft.com/library/windows/apps/microsoft.devices.sensors.accelerometer.stop" target="_blank" rel="noopener">Stop()</a> method'unu çağırmalıyız;
 
 <pre class="brush:csharp">_accelerometer.Stop();</pre>
 
@@ -52,9 +52,9 @@ _accelerometer.Start();</pre>
 
 *Start()* methodu çağırıldıktan sonra yaklaşık olarak *50Hz* hızında yani saniyede yaklaşık *50* defa *ReadingChanged* event'i tetiklenecektir.
 
-Eğer *ReadingChanged* event'inin tetiklenme hızını değiştirmek istiyorsak *_accelerometer* değişkeninin <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometer.reportinterval" target="_blank">ReportInterval</a> property'sine yeni bir değer ataması yapmalıyız.
+Eğer *ReadingChanged* event'inin tetiklenme hızını değiştirmek istiyorsak *_accelerometer* değişkeninin <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometer.reportinterval" target="_blank" rel="noopener">ReportInterval</a> property'sine yeni bir değer ataması yapmalıyız.
 
-Son olarak, *_accelerometer* değişkeninin <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometer.shaken" target="_blank">Shaken</a> event'ini kullanarak telefonun sallanma durumunu yakalayabiliriz;
+Son olarak, *_accelerometer* değişkeninin <a href="http://msdn.microsoft.com/library/windows/apps/windows.devices.sensors.accelerometer.shaken" target="_blank" rel="noopener">Shaken</a> event'ini kullanarak telefonun sallanma durumunu yakalayabiliriz;
 
 <pre class="brush:csharp">_accelerometer.Shaken += new TypedEventHandler&lt;Accelerometer, AccelerometerShakenEventArgs&gt;(Shaken);
 

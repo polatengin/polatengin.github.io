@@ -7,7 +7,7 @@ comments: true
 category: [Web]
 tags: [aspnet, aspnetcore, command prompt, configure, css, dnu, dnx, html, iapplicationbuilder, javascript, jpg, linux, localhost, macos, png, project.json, restore, startup.cs, staticfiles, terminal, usestaticfiles, visual studio code, web, windows]
 ---
-*Bu makaleyi okumadan önce <a href="/kategori/asp-net/" target="_blank">Asp.Net Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*
+*Bu makaleyi okumadan önce <a href="/kategori/asp-net/" target="_blank" rel="noopener">Asp.Net Kategorisi</a>ndeki diğer makalelerimi okumanızı tavsiye ederim.*
 
 **AspNet Core 1.0** projelerinde eğer *html*, *js*, *css*, *jpg*, *png* gibi dosyalar kullanacaksanız bu makalede anlatıldığı gibi **StaticFile** desteğini projenize eklemeniz gerekmektedir.
 

@@ -9,7 +9,7 @@ tags: [convert, float, int, rand, random, seed, select, smallint, SQL, sql serve
 ---
 **C#** tarafında rastgele sayıya ihtiyacımız olduğunda *Random* class'ından yeni bir nesne üretip kullanabiliyoruz. Eğer rastgele sayıya **Sql** tarafında ihtiyacımız olursa yapmamız gereken, *RAND()* fonksiyonunu kullanmaktır.
 
-*RAND()* fonksiyonu ile ilgili detaylı bilgiye **MSDN**'de yeralan şu <a title="MSDN: RAND()" href="http://msdn.microsoft.com/en-us/library/ms177610.aspx" target="_blank">makale</a>den ulaşabilirsiniz.
+*RAND()* fonksiyonu ile ilgili detaylı bilgiye **MSDN**'de yeralan şu <a title="MSDN: RAND()" href="http://msdn.microsoft.com/en-us/library/ms177610.aspx" target="_blank" rel="noopener">makale</a>den ulaşabilirsiniz.
 
 *RAND([seed])* fonksiyonu parametre olarak **seed** değeri alabilir ve geriye **float** tipinde sonuç döner.
 

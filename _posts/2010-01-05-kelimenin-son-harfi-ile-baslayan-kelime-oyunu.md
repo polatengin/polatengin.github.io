@@ -111,5 +111,5 @@ Oyun, Bilgisayar Oyuncusu'nun kelime bulamamasına kadar devam ediyor.
 
 <a href="/assets/uploads/2010/01/KSHBKO_4.png">![](/assets/uploads/2010/01/KSHBKO_4.png "KSHBKO_4")</a>
 
-Oyunun kaynak kodlarını <a title="enginpolat.com: Kelimenin Son Harfi ile Başlayan Kelime Oyunu" href="/assets/uploads/2010/01/KelimeninSonHarfiIleBaslayanKelimeOyunu.rar" target="_blank">buradan</a> indirebilirsiniz.
+Oyunun kaynak kodlarını <a title="enginpolat.com: Kelimenin Son Harfi ile Başlayan Kelime Oyunu" href="/assets/uploads/2010/01/KelimeninSonHarfiIleBaslayanKelimeOyunu.rar" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 

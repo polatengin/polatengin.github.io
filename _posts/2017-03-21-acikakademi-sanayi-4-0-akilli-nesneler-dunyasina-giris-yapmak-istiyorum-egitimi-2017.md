@@ -7,9 +7,9 @@ comments: true
 category: [Windows]
 tags: [acikakademi, etkinliklerim, uwp, iot, azure]
 ---
-<a href="http://www.acikakademi.com/" target="_blank">AçıkAkademi</a> üzerinde yayınlanan 33 video'luk **Sanayi 4.0 Akıllı Nesneler Dünyasına Giriş Yapmak İstiyorum** eğitim seti yayına alındı.
+<a href="http://www.acikakademi.com/" target="_blank" rel="noopener">AçıkAkademi</a> üzerinde yayınlanan 33 video'luk **Sanayi 4.0 Akıllı Nesneler Dünyasına Giriş Yapmak İstiyorum** eğitim seti yayına alındı.
 
-Sevgili arkadaşlarım *Umut Erkal* ve *Faruk Çelik* ile hazırladığımız eğitim setini sizler de <a href="https://www.acikakademi.com/portal/egitimler/sanayi-4-0.aspx" target="_blank">Sanayi 4.0 Akıllı Nesneler Dünyasına Giriş Yapmak İstiyorum</a> başlıklı **AçıkAkademi** sayfasından izleyebilirsiniz. Eğitim konu listesi;
+Sevgili arkadaşlarım *Umut Erkal* ve *Faruk Çelik* ile hazırladığımız eğitim setini sizler de <a href="https://www.acikakademi.com/portal/egitimler/sanayi-4-0.aspx" target="_blank" rel="noopener">Sanayi 4.0 Akıllı Nesneler Dünyasına Giriş Yapmak İstiyorum</a> başlıklı **AçıkAkademi** sayfasından izleyebilirsiniz. Eğitim konu listesi;
 
 *   Amaç ve Kapsam
 *   Nesnelerin İnterneti

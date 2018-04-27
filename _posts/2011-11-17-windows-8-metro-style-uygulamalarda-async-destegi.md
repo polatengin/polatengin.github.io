@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [acceptreturn, async, asynchronous, await, button, class, click, compiled, content, ensuresuccessstatuscode, event, explicitcapture, foreach, get, getasync, httpclient, httpcontent, httpresponsemessage, ignorecase, instance, itemssource, listbox, match, matchcollection, matches, maxresponsecontentbuffersize, MetroUI, msdn, multiline, namespace, None, property, readasstring, regex, regexoptions, regularexpressions, routedeventargs, scrollviewer, singleline, task parallel library, text, textbox, textwrapping, tpl, verticalscrollbarvisibility, visual studio 2011, windows8, xaml]
 ---
-<a href="http://www.enginpolat.com/etiket/windows8/" title="Windows 8 Programlama" target="_blank">Windows 8 Programlama</a> makale serisine, **Async Desteği** ile devam ediyoruz.
+<a href="http://www.enginpolat.com/etiket/windows8/" title="Windows 8 Programlama" target="_blank" rel="noopener">Windows 8 Programlama</a> makale serisine, **Async Desteği** ile devam ediyoruz.
 
 **Asenkron programlama** *ölçeklendirilebilir* ve *yanıt veren (donmayan)* uygulama geliştirmek için uzun yıllardır bilinen bir teknik. Uzun yıllardır bilinmesine rağmen, uygulama geliştiriciler olarak **asenkron programlama** bize hep **zor** gelmiştir.
 
@@ -44,7 +44,7 @@ Proje oluşturulduğunda *MainPage.xaml* dosyasının içeriği;
 
 &lt;/UserControl&gt;</pre>
 
-İlk önce uygulamamıza bir <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.textbox" title="TextBox Control" target="_blank">TextBox</a>, bir <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.button" title="Button Control" target="_blank">Button</a> ve bir <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.listbox" title="ListBox Control" target="_blank">ListBox</a> nesnesi ekliyoruz;
+İlk önce uygulamamıza bir <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.textbox" title="TextBox Control" target="_blank" rel="noopener">TextBox</a>, bir <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.button" title="Button Control" target="_blank" rel="noopener">Button</a> ve bir <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.listbox" title="ListBox Control" target="_blank" rel="noopener">ListBox</a> nesnesi ekliyoruz;
 
 <pre class="brush:xml">&lt;Grid x:Name="LayoutRoot" Background="#FF0C0C0C"&gt;
 
@@ -58,13 +58,13 @@ Böylece uygulama ekranımız şu şekilde gözüküyor;
 
 ![](/assets/uploads/2011/11/Async-3.png "Visual Studio 2011 - Metro Style Application")
 
-**TextBox** kontrolünün <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.textbox.text" title="TextBox Text Property" target="_blank">Text</a> özelliğine web sitesinin kaynak html'ini atayacağımız için, çok satır gösterebilir olması lazım (*MultiLine*)
+**TextBox** kontrolünün <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.textbox.text" title="TextBox Text Property" target="_blank" rel="noopener">Text</a> özelliğine web sitesinin kaynak html'ini atayacağımız için, çok satır gösterebilir olması lazım (*MultiLine*)
 
 *WPF* *TextBox* kontrolünün **MultiLine** olabilmesi için, **TextBox** element'ine şu özellikleri ekliyoruz;
 
 <pre class="brush:csharp">TextWrapping="Wrap" AcceptsReturn="True" ScrollViewer.VerticalScrollBarVisibility="Visible"</pre>
 
-**Button** kontrolüne basıldığında tarama işlemini başlatmak için, *Button* element'inde <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.primitives.buttonbase.click" title="Button Click Event" target="_blank">Click</a> olayını yakalıyoruz;
+**Button** kontrolüne basıldığında tarama işlemini başlatmak için, *Button* element'inde <a href="http://msdn.microsoft.com/library/windows.ui.xaml.controls.primitives.buttonbase.click" title="Button Click Event" target="_blank" rel="noopener">Click</a> olayını yakalıyoruz;
 
 <pre class="brush:csharp">Click="btnTara_Click"</pre>
 
@@ -98,21 +98,21 @@ Böylece uygulamamızın **XAML** kod'u aşağıdaki hale gelmiş oluyor;
 
 <pre class="brush:csharp">List&lt;string&gt; UrlList = new List&lt;string&gt;();</pre>
 
-<a href="http://msdn.microsoft.com/library/system.net.http.httpclient(v=VS.110)" title="HttpClient Class" target="_blank">HttpClient</a> sınıfından yeni bir *instance* oluşturup, <a href="http://msdn.microsoft.com/en-gb/library/hh138154(v=VS.110)" title="HttpClient Get Method" target="_blank">Get()</a> method'una, tarayacağımız sitenin adresini yazalım.
+<a href="http://msdn.microsoft.com/library/system.net.http.httpclient(v=VS.110)" title="HttpClient Class" target="_blank" rel="noopener">HttpClient</a> sınıfından yeni bir *instance* oluşturup, <a href="http://msdn.microsoft.com/en-gb/library/hh138154(v=VS.110)" title="HttpClient Get Method" target="_blank" rel="noopener">Get()</a> method'una, tarayacağımız sitenin adresini yazalım.
 
-*Get()* method'undan dönen <a href="http://msdn.microsoft.com/library/system.net.http.httpresponsemessage(v=vs.110)" title="HttpResponseMessage Class" target="_blank">HttpResponseMessage</a> tipindeki cevabı bir değişkene atayalım;
+*Get()* method'undan dönen <a href="http://msdn.microsoft.com/library/system.net.http.httpresponsemessage(v=vs.110)" title="HttpResponseMessage Class" target="_blank" rel="noopener">HttpResponseMessage</a> tipindeki cevabı bir değişkene atayalım;
 
 <pre class="brush:csharp">var HttpCagri = new HttpClient().Get("http://www.enginpolat.com");</pre>
 
-**HttpClient** sınıfı <a href="http://msdn.microsoft.com/library/system.net.http(v=vs.110)" title="System.Net.Http Namespace" target="_blank">System.Net.Http</a> **namespace**'inde yer aldığı için, *MainPage.xaml.cs* dosyasının **using** kısmına
+**HttpClient** sınıfı <a href="http://msdn.microsoft.com/library/system.net.http(v=vs.110)" title="System.Net.Http Namespace" target="_blank" rel="noopener">System.Net.Http</a> **namespace**'inde yer aldığı için, *MainPage.xaml.cs* dosyasının **using** kısmına
 
 <pre class="brush:csharp">using System.Net.Http;</pre>
 
 satırını ekleyelim.
 
-*HttpCagri* değişkeninin sitenin kaynak html'ini okuyabildiğinden emin olmak için, <a href="http://msdn.microsoft.com/library/system.net.http.httpresponsemessage.ensuresuccessstatuscode(v=vs.110)" title="EnsureSuccessStatusCode Method" target="_blank">EnsureSuccessStatusCode()</a> method'unu çağıralım.
+*HttpCagri* değişkeninin sitenin kaynak html'ini okuyabildiğinden emin olmak için, <a href="http://msdn.microsoft.com/library/system.net.http.httpresponsemessage.ensuresuccessstatuscode(v=vs.110)" title="EnsureSuccessStatusCode Method" target="_blank" rel="noopener">EnsureSuccessStatusCode()</a> method'unu çağıralım.
 
-Böylece <a href="http://msdn.microsoft.com/library/system.net.http.httpcontent(v=vs.110)" title="HttpContent Class" target="_blank">HttpContent</a> tipindeki <a href="http://msdn.microsoft.com/library/system.net.http.httpresponsemessage.content(v=vs.110)" title="Content Property" target="_blank">Content</a> özelliğine erişebilir olacağız. **Content** özelliğinin <a href="http://msdn.microsoft.com/library/system.net.http.httpcontent.readasstring(v=vs.110)" title="ReadAsString Method" target="_blank">ReadAsString()</a> method'u kaynak html'ini döndürecek, biz de bir değişken aracılığıyla bu html'i saklayacağız.
+Böylece <a href="http://msdn.microsoft.com/library/system.net.http.httpcontent(v=vs.110)" title="HttpContent Class" target="_blank" rel="noopener">HttpContent</a> tipindeki <a href="http://msdn.microsoft.com/library/system.net.http.httpresponsemessage.content(v=vs.110)" title="Content Property" target="_blank" rel="noopener">Content</a> özelliğine erişebilir olacağız. **Content** özelliğinin <a href="http://msdn.microsoft.com/library/system.net.http.httpcontent.readasstring(v=vs.110)" title="ReadAsString Method" target="_blank" rel="noopener">ReadAsString()</a> method'u kaynak html'ini döndürecek, biz de bir değişken aracılığıyla bu html'i saklayacağız.
 
 <pre class="brush:csharp">var KaynakHtml = HttpCagri.EnsureSuccessStatusCode().Content.ReadAsString();</pre>
 
@@ -120,15 +120,15 @@ Elimizdeki bu html verisini, arayüzdeki *txtKaynakHtml* **TextBox**'ında göst
 
 <pre class="brush:csharp">txtKaynakHtml.Text = KaynakHtml;</pre>
 
-Şimdi yapmamız gereken, *KaynakHtml* değişkenindeki **url**'leri bulmak. Bunun için <a href="http://msdn.microsoft.com/library/system.text.regularexpressions.regex" title="Regex Class" target="_blank">Regex</a> sınıfından faydalanacağız ve yazacağımız **Regular Expression**'a uyan url'leri *UrlList* değişkeninde biriktireceğiz.
+Şimdi yapmamız gereken, *KaynakHtml* değişkenindeki **url**'leri bulmak. Bunun için <a href="http://msdn.microsoft.com/library/system.text.regularexpressions.regex" title="Regex Class" target="_blank" rel="noopener">Regex</a> sınıfından faydalanacağız ve yazacağımız **Regular Expression**'a uyan url'leri *UrlList* değişkeninde biriktireceğiz.
 
-**Regex** sınıfı <a href="http://msdn.microsoft.com/library/system.text.regularexpressions" title="System.Text.RegularExpression Namespace" target="_blank">System.Text.RegularExpressions</a> namespace'inde olduğu için, *MainPage.xaml.cs* dosyasının **using** kısmına
+**Regex** sınıfı <a href="http://msdn.microsoft.com/library/system.text.regularexpressions" title="System.Text.RegularExpression Namespace" target="_blank" rel="noopener">System.Text.RegularExpressions</a> namespace'inde olduğu için, *MainPage.xaml.cs* dosyasının **using** kısmına
 
 <pre class="brush:csharp">using System.Text.RegularExpressions;</pre>
 
 satırını ekleyelim.
 
-Öncelikle **Regex** sınıfının *static* <a href="http://msdn.microsoft.com/library/system.text.regularexpressions.regex.matches" title="Regex Matches Method" target="_blank">Matches</a> method'una *KaynakHtml* değişkenini, *Regular Expression* metnini ve arama yaparken büyük/küçük harf ayrımı yapmaması için <a href="http://msdn.microsoft.com/library/system.text.regularexpressions.regexoptions" title="RegexOptions Enumeration" target="_blank">RegexOptions.IgnoreCase</a> değerini parametre olarak veriyoruz.
+Öncelikle **Regex** sınıfının *static* <a href="http://msdn.microsoft.com/library/system.text.regularexpressions.regex.matches" title="Regex Matches Method" target="_blank" rel="noopener">Matches</a> method'una *KaynakHtml* değişkenini, *Regular Expression* metnini ve arama yaparken büyük/küçük harf ayrımı yapmaması için <a href="http://msdn.microsoft.com/library/system.text.regularexpressions.regexoptions" title="RegexOptions Enumeration" target="_blank" rel="noopener">RegexOptions.IgnoreCase</a> değerini parametre olarak veriyoruz.
 
 **RegexOptions** parametresine verebileceğimiz diğer değerler;
 
@@ -145,11 +145,11 @@ satırını ekleyelim.
 *   RegexOptions.ECMAScript
 *   RegexOptions.CultureInvariant
 
-Method'dan dönen <a href="http://msdn.microsoft.com/library/system.text.regularexpressions.matchcollection" title="MatchCollection Class" target="_blank">MatchCollection</a> tipindeki cevabı bir değişkende saklıyoruz;
+Method'dan dönen <a href="http://msdn.microsoft.com/library/system.text.regularexpressions.matchcollection" title="MatchCollection Class" target="_blank" rel="noopener">MatchCollection</a> tipindeki cevabı bir değişkende saklıyoruz;
 
 <pre class="brush:csharp">var mc = Regex.Matches(KaynakHtml, "href\\s*=\\s*(?:\"(?&lt;1&gt;http://[^\"]*)\")", RegexOptions.IgnoreCase);</pre>
 
-Bir **foreach** döngüsü ile **MatchCollection**'daki her <a href="http://msdn.microsoft.com/library/system.text.regularexpressions.match" title="Match Class" target="_blank">Match</a>'i *UrlList*'e ekliyoruz;
+Bir **foreach** döngüsü ile **MatchCollection**'daki her <a href="http://msdn.microsoft.com/library/system.text.regularexpressions.match" title="Match Class" target="_blank" rel="noopener">Match</a>'i *UrlList*'e ekliyoruz;
 
 <pre class="brush:csharp">foreach (Match m in mc)
 {
@@ -168,9 +168,9 @@ Son olarak arayüzdeki *lbUrlList* **ListBox**'ında bu listeyi gösteriyoruz;
 
 Bu hataya, kaynak html'ini aldığımız siteden dönen cevabın *65536* karakterden büyük olması yol açıyor. Çözüm aslında basit;
 
-**HttpClient** tipindeki değişkenin <a href="http://msdn.microsoft.com/library/system.net.http.httpclient.maxresponsecontentbuffersize(v=vs.110)" title="MaxResponseContentBufferSize Property" target="_blank">MaxResponseContentBufferSize</a> özelliğine sitenin kaynak html'inin karakter sayısı kadar büyük bir değer vermemiz lazım.
+**HttpClient** tipindeki değişkenin <a href="http://msdn.microsoft.com/library/system.net.http.httpclient.maxresponsecontentbuffersize(v=vs.110)" title="MaxResponseContentBufferSize Property" target="_blank" rel="noopener">MaxResponseContentBufferSize</a> özelliğine sitenin kaynak html'inin karakter sayısı kadar büyük bir değer vermemiz lazım.
 
-Bu örnek için ben verilebilecek en büyük değer olan <a href="http://msdn.microsoft.com/library/system.int32.maxvalue" title="int MaxValue Constant" target="_blank">int.MaxValue</a> değerini seçtim, *HttpCagri* değişkenini tanımladığımız satırı şöyle güncelliyoruz;
+Bu örnek için ben verilebilecek en büyük değer olan <a href="http://msdn.microsoft.com/library/system.int32.maxvalue" title="int MaxValue Constant" target="_blank" rel="noopener">int.MaxValue</a> değerini seçtim, *HttpCagri* değişkenini tanımladığımız satırı şöyle güncelliyoruz;
 
 <pre class="brush:csharp">var HttpCagri = new HttpClient() { MaxResponseContentBufferSize = int.MaxValue }.Get("http://www.enginpolat.com");</pre>
 
@@ -186,7 +186,7 @@ Kullanıcı dostu bir uygulamanın her zaman kullanıcıya yanıt vermesi beklen
 
 <pre class="brush:csharp">private async void btnTara_Click(object sender, RoutedEventArgs e)</pre>
 
-Uygulamanın donmasına sebep olan en uzun iş, internet sitesinin cevabının alındığı **HttpClient** sınıfının **Get()** method'u. Bu yüzden **Get()** method'unu *asenkron* özellikte olan <a href="http://msdn.microsoft.com/library/hh158944(v=VS.110)" title="GetAsync Method" target="_blank">GetAsync()</a> method'u ile değiştiriyoruz.
+Uygulamanın donmasına sebep olan en uzun iş, internet sitesinin cevabının alındığı **HttpClient** sınıfının **Get()** method'u. Bu yüzden **Get()** method'unu *asenkron* özellikte olan <a href="http://msdn.microsoft.com/library/hh158944(v=VS.110)" title="GetAsync Method" target="_blank" rel="noopener">GetAsync()</a> method'u ile değiştiriyoruz.
 
 *HttpCagri* değişkenine değer atamadan önce **await** anahtar kelimesi ile *asenkron* yaptığımız çağrının sonuçlanmasını beklemeliyiz. İlgili satırı aşağıdaki şekilde güncelleyelim;
 

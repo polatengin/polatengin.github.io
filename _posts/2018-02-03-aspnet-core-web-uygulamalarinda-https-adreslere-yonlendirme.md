@@ -9,7 +9,7 @@ tags: [http, https, aspnetcore, action, controller, attribute, filters, requireh
 ---
 Bir **Asp.Net Core** web uygulamasında, **HTTP** adresleri engellemek ve **HTTPS** adresleri kullanmak isteyebiliriz.
 
-**Action** methodların üzerine, **Controller** sınıflarının üzerine veya **GlobalFilters** listesine ekleyebildiğimiz <a href="https://docs.microsoft.com/en-us/dotnet/api/Microsoft.AspNetCore.Mvc.RequireHttpsAttribute" target="_blank">RequireHttpsAttribute</a> sınıfı sayesinde, web uygulamamızdaki adreslerin **HTTP** üzerinden erişilmesini *engelleyebiliyoruz*.
+**Action** methodların üzerine, **Controller** sınıflarının üzerine veya **GlobalFilters** listesine ekleyebildiğimiz <a href="https://docs.microsoft.com/en-us/dotnet/api/Microsoft.AspNetCore.Mvc.RequireHttpsAttribute" target="_blank" rel="noopener">RequireHttpsAttribute</a> sınıfı sayesinde, web uygulamamızdaki adreslerin **HTTP** üzerinden erişilmesini *engelleyebiliyoruz*.
 
 <script src="https://gist.github.com/polatengin/db8f5c184e3c555e0c3401a9bc6506fb.js?file=RequireHttpsAttribute.cs"></script>
 
@@ -19,4 +19,4 @@ Bir **Asp.Net Core** web uygulamasında, **HTTP** adresleri engellemek ve **HTTP
 
 <script src="https://gist.github.com/polatengin/db8f5c184e3c555e0c3401a9bc6506fb.js?file=Configure.cs"></script>
 
-<a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/startup#the-configure-method" target="_blank">Configure()</a> methodu içerisinde çağırdığımız <code>UseRewrite(options)</code> methodu ile, **HTTP** istekleri **HTTPS** adreslere dönüştürebiliyoruz.
+<a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/startup#the-configure-method" target="_blank" rel="noopener">Configure()</a> methodu içerisinde çağırdığımız <code>UseRewrite(options)</code> methodu ile, **HTTP** istekleri **HTTPS** adreslere dönüştürebiliyoruz.

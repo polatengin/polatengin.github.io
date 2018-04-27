@@ -7,11 +7,11 @@ comments: true
 category: [C#]
 tags: [ComputeHash, csharp, decrypt, encrypt, hash, md5, sha1, SHA1CryptoServiceProvider, sha256, sha384, sha512, System.Secuity.Cryptography]
 ---
-**Sql Server** ile nasıl **hash** yapabileceğimizi daha önce <a title="enginpolat.com: Sql Server'da Hash işlemi" href="/sql-serverda-hash-islemi/" target="_blank">Sql Server'da Hash işlemi</a> isimli makalemde yazmıştım. Bu sefer, **.net** üzerinde **C#** ile nasıl **hash** işlemi yapabileceğimizi yazacağım.
+**Sql Server** ile nasıl **hash** yapabileceğimizi daha önce <a title="enginpolat.com: Sql Server'da Hash işlemi" href="/sql-serverda-hash-islemi/" target="_blank" rel="noopener">Sql Server'da Hash işlemi</a> isimli makalemde yazmıştım. Bu sefer, **.net** üzerinde **C#** ile nasıl **hash** işlemi yapabileceğimizi yazacağım.
 
 *Hash*, büyük boyutta girdi verisi için sabit boyutlu üretilen benzersiz değerdir. Hash algoritmalarının yapısından dolayı, **girdi verisindeki küçük değişiklikler sonuç verisinde büyük farklılıklara yol açmaktadır**.
 
-*.Net Framework* üzerinde bulunan <a title="MSDN: System.Security.Cryptography" href="http://msdn.microsoft.com/en-us/library/system.security.cryptography.aspx" target="_blank">System.Security.Cryptography</a> namespace'i, güvenli şifreleme ve çözme işlemleri için **şifreleme servislerini** barındırır.
+*.Net Framework* üzerinde bulunan <a title="MSDN: System.Security.Cryptography" href="http://msdn.microsoft.com/en-us/library/system.security.cryptography.aspx" target="_blank" rel="noopener">System.Security.Cryptography</a> namespace'i, güvenli şifreleme ve çözme işlemleri için **şifreleme servislerini** barındırır.
 
 .Net Framework şu hash algoritmalarını destekler;
 

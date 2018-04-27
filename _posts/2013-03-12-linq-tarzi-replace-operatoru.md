@@ -11,7 +11,7 @@ Bir **dizi**deki elemanlardan, *belli bir değere* sahip olanları *başka bir d
 
 *Language-Integrated Query* (**LINQ**) bu amaç için standart bir sorgu işlecini **sağlamaz** ama oluşturması *basittir*.
 
-*Örneğin;* <a href="http://msdn.microsoft.com/library/system.string" title="MSDN : string Class" target="_blank">string</a> sınıfı <a href="http://msdn.microsoft.com/library/system.string.replace" title="MSDN : string Class Replace Method" target="_blank">Replace()</a> isminde bir method barındırır ve değişkenin değerinde yer alan belli bir karakterin tamamını başka bir karakter ile *değiştirir*.
+*Örneğin;* <a href="http://msdn.microsoft.com/library/system.string" title="MSDN : string Class" target="_blank" rel="noopener">string</a> sınıfı <a href="http://msdn.microsoft.com/library/system.string.replace" title="MSDN : string Class Replace Method" target="_blank" rel="noopener">Replace()</a> isminde bir method barındırır ve değişkenin değerinde yer alan belli bir karakterin tamamını başka bir karakter ile *değiştirir*.
 
 Aynı mantık ile *diziler* üzerinde çalışan bir *method* olsaydı **çok kullanışlı** olurdu.
 

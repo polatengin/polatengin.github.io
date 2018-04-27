@@ -26,7 +26,7 @@ public class EventTest
     }
 }</pre>
 
-*Devlicious*'da gördüğüm makalede, <a href="http://devlicio.us/blogs/rob_eisenberg/archive/2008/03/20/net-event-techniques.aspx" target="_blank">Rob Eisenberg</a> yeni bir yöntem öneriyor.
+*Devlicious*'da gördüğüm makalede, <a href="http://devlicio.us/blogs/rob_eisenberg/archive/2008/03/20/net-event-techniques.aspx" target="_blank" rel="noopener">Rob Eisenberg</a> yeni bir yöntem öneriyor.
 
 Makaleye göre, yukarıdaki **event** yayınlama kodunu aşağıdaki gibi de yazabiliriz;
 

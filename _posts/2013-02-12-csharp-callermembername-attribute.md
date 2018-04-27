@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [attribute, callerfilepath, callerfilepathattribute, callerlinenumber, callerlinenumberattribute, callermembername, callermembernameattribute, compilerservices, dependencyobject, exception, namespace, onpropertychanged, propertychangedeventargs, propertychangedeventhandler, serialize]
 ---
-*.Net 4.5* ve *C# 5* ile duyurulan <a href="http://msdn.microsoft.com/library/system.runtime.compilerservices.callermembernameattribute" title="CallerMemberNameAttribute Class" target="_blank">CallerMemberName</a> attribute'unun Loglama ve <a href="http://msdn.microsoft.com/library/system.windows.dependencyobject.onpropertychanged" title="DependencyObject.OnPropertyChanged Method" target="_blank">OnPropertyChanged</a> method'unu daha kolay tetiklemek dışında ne işe yarayacağını uzun süre düşündükten sonra, internette gördüğüm bir makale ile aklıma bir fikir geldi. **CallerMemberName** *attribute*'unun kullanım alanlarını inceleyelim;
+*.Net 4.5* ve *C# 5* ile duyurulan <a href="http://msdn.microsoft.com/library/system.runtime.compilerservices.callermembernameattribute" title="CallerMemberNameAttribute Class" target="_blank" rel="noopener">CallerMemberName</a> attribute'unun Loglama ve <a href="http://msdn.microsoft.com/library/system.windows.dependencyobject.onpropertychanged" title="DependencyObject.OnPropertyChanged Method" target="_blank" rel="noopener">OnPropertyChanged</a> method'unu daha kolay tetiklemek dışında ne işe yarayacağını uzun süre düşündükten sonra, internette gördüğüm bir makale ile aklıma bir fikir geldi. **CallerMemberName** *attribute*'unun kullanım alanlarını inceleyelim;
 
 ***Loglama***
 

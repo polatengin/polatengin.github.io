@@ -9,7 +9,7 @@ tags: [aspnet, crawler, description, http, keywords, redirect, response, seo, ur
 ---
 **Search Engine Optimization (Arama Motoru Optimizasyonu)**, internette yayınlanan her site için çok önemlidir. Günümüzde sitelerin trafiklerinin büyük oranı arama motorlarından gelmektedir. Web sitelerinin arama sonuçlarında daha iyi yer edinmeleri alacakları trafik açısından gittikçe daha önemli hale gelmektedir.
 
-Web sitenizin SEO-Uyumluluğunu <a title="Google Analytics" href="http://www.google.com/analytics" target="_blank">Google Analytics</a> ile kolaylıkla ölçebilirsiniz.
+Web sitenizin SEO-Uyumluluğunu <a title="Google Analytics" href="http://www.google.com/analytics" target="_blank" rel="noopener">Google Analytics</a> ile kolaylıkla ölçebilirsiniz.
 
 **ASP.NET 4.0 SEO Geliştirmeleri**
 

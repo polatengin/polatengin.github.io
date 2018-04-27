@@ -7,7 +7,7 @@ comments: true
 category: [C#]
 tags: [accelerometer, additional tools, gps, landscape flat, landscape standing, location, marketplace, orientation, portrait flat, portrait standing, recorded data, screenshot, visual studio 2010, windows phone emulator, wp7]
 ---
-<a title="Windows Phone 7 (WP7) ile programlamaya başlangıç" href="http://www.enginpolat.com/windows-phone-7-wp7-ile-programlamaya-baslangic/" target="_blank">Windows Phone 7 (WP7) ile programlamaya başlangıç</a> makalesi ile başladığımız *Windows Phone 7* serisine <a title="Windows Phone Emulator" href="http://msdn.microsoft.com/en-us/library/ff402563.aspx" target="_blank">Windows Phone Emülatör</a> özellikleri ile devam ediyoruz.
+<a title="Windows Phone 7 (WP7) ile programlamaya başlangıç" href="http://www.enginpolat.com/windows-phone-7-wp7-ile-programlamaya-baslangic/" target="_blank" rel="noopener">Windows Phone 7 (WP7) ile programlamaya başlangıç</a> makalesi ile başladığımız *Windows Phone 7* serisine <a title="Windows Phone Emulator" href="http://msdn.microsoft.com/en-us/library/ff402563.aspx" target="_blank" rel="noopener">Windows Phone Emülatör</a> özellikleri ile devam ediyoruz.
 
 *Visual Studio 2010* ile *New Project* dialog penceresini açalım, *Installed Templates* kısmında yer alan proje şablon gruplarından *Silverlight for Windows Phone*'u seçelim.
 
@@ -45,7 +45,7 @@ Ayrıca telefonun tam ortasında gözüken turuncu noktayı, sağa-sola-yukarı-
 
 ![](/assets/uploads/2012/06/WP7_Emulator_03.png "Windows Phone 7 Emulator - Location")
 
-Son olarak, **Screenshot** tab'ında uygulamanın o anda ekran görüntüsünü alabiliriz. Özellikle uygulamayı <a href="http://www.windowsphone.com/marketplace" title="Windows Phone Marketplace" target="_blank">Marketplace</a>'e gönderirken birden fazla ekran görüntüsünün alınmasında fayda var.
+Son olarak, **Screenshot** tab'ında uygulamanın o anda ekran görüntüsünü alabiliriz. Özellikle uygulamayı <a href="http://www.windowsphone.com/marketplace" title="Windows Phone Marketplace" target="_blank" rel="noopener">Marketplace</a>'e gönderirken birden fazla ekran görüntüsünün alınmasında fayda var.
 
 ![](/assets/uploads/2012/06/WP7_Emulator_04.png "Windows Phone 7 Emulator - Screenshot")
 

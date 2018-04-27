@@ -11,7 +11,7 @@ Neden olduğunu anlayamadığım bir sebepten dolayı **Microsoft** tablodaki bi
 
 Peki bir kolonun ismini değiştirmek istersek ne yapmalıyız?
 
-**MSDN**'de yer alan şu <a title="MSDN : sp_rename" href="http://msdn.microsoft.com/en-us/library/ms188351.aspx" target="_blank">makale</a>de anlatıldığı gibi, *sp_rename* **stored procedure**'ünü kullanabiliriz.
+**MSDN**'de yer alan şu <a title="MSDN : sp_rename" href="http://msdn.microsoft.com/en-us/library/ms188351.aspx" target="_blank" rel="noopener">makale</a>de anlatıldığı gibi, *sp_rename* **stored procedure**'ünü kullanabiliriz.
 
 Örneğin;
 

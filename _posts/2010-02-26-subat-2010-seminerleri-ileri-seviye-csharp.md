@@ -23,5 +23,5 @@ Bu seminerde değindiğim konular;
 *   Auto Implemented Properties
 *   Obsolete Attribute
 *   Extension Methods
-<a title="enginpolat.com: Şubat 2010 Seminerleri / İleri Seviye C#" href="../wp-content/uploads/2010/02/CSharpIleriSeviye_Prezentasyon.rar" target="_blank">Powerpoint Prezentasyonu</a>
+<a title="enginpolat.com: Şubat 2010 Seminerleri / İleri Seviye C#" href="../wp-content/uploads/2010/02/CSharpIleriSeviye_Prezentasyon.rar" target="_blank" rel="noopener">Powerpoint Prezentasyonu</a>
 

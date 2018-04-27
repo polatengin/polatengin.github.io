@@ -7,7 +7,7 @@ comments: true
 category: [Etkinlik]
 tags: [etkinliklerim, iis, ineta, seminer, webmatrix, windows8, wp7, XNA]
 ---
-**INETA Türkiye Üniversitenizde** etkinlikleri kapsamında, <a title="Muammer Benzeş" href="http://www.muammerbenzes.com" target="_blank">Muammer Benzeş</a> ile birlikte *18 Nisan 2012* tarihinde **İstanbul Üniversitesi**'ndeydik.
+**INETA Türkiye Üniversitenizde** etkinlikleri kapsamında, <a title="Muammer Benzeş" href="http://www.muammerbenzes.com" target="_blank" rel="noopener">Muammer Benzeş</a> ile birlikte *18 Nisan 2012* tarihinde **İstanbul Üniversitesi**'ndeydik.
 
 **XNA ile Oyun Programlama** ve **Windows Phone 7** konulu iki oturumum oldu.
 

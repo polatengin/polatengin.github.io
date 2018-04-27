@@ -7,7 +7,7 @@ comments: true
 category: [Programlama]
 tags: [appid, getattribute, linkuri, marketplace, msdn, productid, readtodescendant, sharelinktask, windows phone, windowsphone, wmappmanifest, wp8, xml, xmlreader, xmlreadersettings, xmlresolver, xmlxapresolver]
 ---
-<a href="http://www.enginpolat.com/windows-phone-8-icin-share-task-larinin-kullanimi/" title="Windows Phone 8 için Share Task'larının kullanımı" target="_blank">Windows Phone 8 için Share Task'larının kullanımı</a> makalesinde ele aldığımız <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharelinktask" title="ShareLinkTask Class" target="_blank">ShareLinkTask</a> sınıfını kullanarak **Windows Phone** uygulamaları içerisinden link paylaşabiliyoruz;
+<a href="http://www.enginpolat.com/windows-phone-8-icin-share-task-larinin-kullanimi/" title="Windows Phone 8 için Share Task'larının kullanımı" target="_blank" rel="noopener">Windows Phone 8 için Share Task'larının kullanımı</a> makalesinde ele aldığımız <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharelinktask" title="ShareLinkTask Class" target="_blank" rel="noopener">ShareLinkTask</a> sınıfını kullanarak **Windows Phone** uygulamaları içerisinden link paylaşabiliyoruz;
 
 
 
@@ -21,14 +21,14 @@ Kullanıcının telefonuna eklediği hesaplara bağlı olarak yukarıdaki kod pa
 
 Peki uygulamamızın **Windows Phone Marketplace**'deki sayfasını paylaşmak istiyorsak ne yapmalıyız?
 
-<a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharelinktask.title" title="ShareLinkTask.Title Property" target="_blank">Title</a> ve <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharelinktask.message" title="ShareLinkTask.Message Property" target="_blank">Message</a> özelliklerine uygun değerleri girmek kolay, işin karıştığı nokta <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharelinktask.linkuri" title="ShareLinkTask.LinkUri Property" target="_blank">LinkUri</a> özelliğine girilecek değerde.
+<a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharelinktask.title" title="ShareLinkTask.Title Property" target="_blank" rel="noopener">Title</a> ve <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharelinktask.message" title="ShareLinkTask.Message Property" target="_blank" rel="noopener">Message</a> özelliklerine uygun değerleri girmek kolay, işin karıştığı nokta <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharelinktask.linkuri" title="ShareLinkTask.LinkUri Property" target="_blank" rel="noopener">LinkUri</a> özelliğine girilecek değerde.
 
-Örneğin, <a href="http://windowsphone.com/s?appid=20489228-9fe9-4bf9-b313-d81f31aa02ac" title="Programcıdan Programcıya Windows Phone Uygulaması" target="_blank">Programcıdan Programcıya</a> uygulamasının linki, <a href="http://windowsphone.com/s?appid=20489228-9fe9-4bf9-b313-d81f31aa02ac" title="Programcıdan Programcıya Windows Phone Uygulaması" target="_blank">http://windowsphone.com/s?appid=20489228-9fe9-4bf9-b313-d81f31aa02ac
+Örneğin, <a href="http://windowsphone.com/s?appid=20489228-9fe9-4bf9-b313-d81f31aa02ac" title="Programcıdan Programcıya Windows Phone Uygulaması" target="_blank" rel="noopener">Programcıdan Programcıya</a> uygulamasının linki, <a href="http://windowsphone.com/s?appid=20489228-9fe9-4bf9-b313-d81f31aa02ac" title="Programcıdan Programcıya Windows Phone Uygulaması" target="_blank" rel="noopener">http://windowsphone.com/s?appid=20489228-9fe9-4bf9-b313-d81f31aa02ac
 </a>
 
 *appid* parametresine verilecek değer **WMAppManifest.xml** dosyası içerisindeki **ProductID** özelliğinden edinilmeli.
 
-Fakat **MSDN**'deki <a href="http://msdn.microsoft.com/library/windowsphone/develop/ff769509" title="App manifest file for Windows Phone" target="_blank">App manifest file for Windows Phone</a> makalesinde **ProductID** için önemli bir bilgi veriliyor;
+Fakat **MSDN**'deki <a href="http://msdn.microsoft.com/library/windowsphone/develop/ff769509" title="App manifest file for Windows Phone" target="_blank" rel="noopener">App manifest file for Windows Phone</a> makalesinde **ProductID** için önemli bir bilgi veriliyor;
 
 <pre>Orjinali; During the app submission process, a new product ID is inserted into the manifest file</pre>
 
@@ -54,9 +54,9 @@ Bu problemin üstesinden gelmek için çalışma zamanında *WMAppManifest.xml* 
 }
 
 
-Yukarıdaki kod parçasında öncelikle <a href="http://msdn.microsoft.com/library/system.xml.xmlreadersettings" title="XmlReaderSettings Class" target="_blank">XmlReaderSettings</a> sınıfından yeni bir değişken oluşturuyoruz ve <a href="http://msdn.microsoft.com/library/system.xml.xmlreadersettings.xmlresolver" title="XmlReaderSettings.XmlResolver Property" target="_blank">XmlResolver</a> özelliğine <a href="http://msdn.microsoft.com/library/system.xml.xmlxapresolver" title="XmlXapResolver Class" target="_blank">XmlXapResolver</a> sınıfından yeni bir instance veriyoruz.
+Yukarıdaki kod parçasında öncelikle <a href="http://msdn.microsoft.com/library/system.xml.xmlreadersettings" title="XmlReaderSettings Class" target="_blank" rel="noopener">XmlReaderSettings</a> sınıfından yeni bir değişken oluşturuyoruz ve <a href="http://msdn.microsoft.com/library/system.xml.xmlreadersettings.xmlresolver" title="XmlReaderSettings.XmlResolver Property" target="_blank" rel="noopener">XmlResolver</a> özelliğine <a href="http://msdn.microsoft.com/library/system.xml.xmlxapresolver" title="XmlXapResolver Class" target="_blank" rel="noopener">XmlXapResolver</a> sınıfından yeni bir instance veriyoruz.
 
-Ardından <a href="http://msdn.microsoft.com/library/system.xml.xmlreader" title="XmlReader Class" target="_blank">XmlReader</a> sınıfının static <a href="http://msdn.microsoft.com/library/ms162474" title="XmlReader.Create Method (String, XmlReaderSettings)" target="_blank">Create()</a> methodunu kullanarak *WMAppManifest.xml* dosyasını açıyoruz, <a href="http://msdn.microsoft.com/library/system.xml.xmlreader.readtodescendant" title="XmlReader.ReadToDescendant Method" target="_blank">ReadToDescendant()</a> method'u ile *App* node'una gidip, <a href="http://msdn.microsoft.com/library/sxy2cd1w" title="XmlReader.GetAttribute Method (String)" target="_blank">GetAttribute()</a> method'u ile **ProductID** değerini okuyoruz.
+Ardından <a href="http://msdn.microsoft.com/library/system.xml.xmlreader" title="XmlReader Class" target="_blank" rel="noopener">XmlReader</a> sınıfının static <a href="http://msdn.microsoft.com/library/ms162474" title="XmlReader.Create Method (String, XmlReaderSettings)" target="_blank" rel="noopener">Create()</a> methodunu kullanarak *WMAppManifest.xml* dosyasını açıyoruz, <a href="http://msdn.microsoft.com/library/system.xml.xmlreader.readtodescendant" title="XmlReader.ReadToDescendant Method" target="_blank" rel="noopener">ReadToDescendant()</a> method'u ile *App* node'una gidip, <a href="http://msdn.microsoft.com/library/sxy2cd1w" title="XmlReader.GetAttribute Method (String)" target="_blank" rel="noopener">GetAttribute()</a> method'u ile **ProductID** değerini okuyoruz.
 
 Bu sayede uygulamanın **ProductID** değerini okuyabilir ve paylaşmak için *http://windowsphone.com/s?appid={ProductID}* formatında link hazırlayabiliriz.
 

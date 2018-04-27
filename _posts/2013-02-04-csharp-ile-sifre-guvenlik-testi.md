@@ -151,5 +151,5 @@ strength = checker.GetPasswordStrength("P45Sword!");    /// Güçlü
 strength = checker.GetPasswordStrength("ASriws34#!");   /// Güvenli
 
 
-*Kaynak : <a href="http://www.blackwasp.co.uk/PasswordStrength.aspx" title="blackwasp" target="_blank">blackwasp</a>*
+*Kaynak : <a href="http://www.blackwasp.co.uk/PasswordStrength.aspx" title="blackwasp" target="_blank" rel="noopener">blackwasp</a>*
 

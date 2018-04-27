@@ -9,7 +9,7 @@ tags: [cameracapturetask, click, columndefinition, content, event, filepath, gri
 ---
 **Windows Phone 8** için *share task*'ları kullanacağımız bir uygulama geliştireceğiz.
 
-Bu uygulamanın geliştirilmesi sırasında <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharestatustask" title="ShareStatusTask Class" target="_blank">ShareStatusTask</a>, <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharelinktask" title="ShareLinkTask Class" target="_blank">ShareLinkTask</a>, <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharemediatask" title="ShareMediaTask Class" target="_blank">ShareMediaTask</a>, <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.cameracapturetask" title="CameraCaptureTask Class" target="_blank">CameraCaptureTask</a> gibi yapıları kullandığımız kodlar yazacağız.
+Bu uygulamanın geliştirilmesi sırasında <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharestatustask" title="ShareStatusTask Class" target="_blank" rel="noopener">ShareStatusTask</a>, <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharelinktask" title="ShareLinkTask Class" target="_blank" rel="noopener">ShareLinkTask</a>, <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharemediatask" title="ShareMediaTask Class" target="_blank" rel="noopener">ShareMediaTask</a>, <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.cameracapturetask" title="CameraCaptureTask Class" target="_blank" rel="noopener">CameraCaptureTask</a> gibi yapıları kullandığımız kodlar yazacağız.
 
 Öncelikle *ShareTasks* isimli yeni bir **Windows Phone App** projesi oluşturalım;
 
@@ -106,11 +106,11 @@ private void CameraCaptureTask_Completed(object sender, PhotoResult e)
 }
 
 
-<a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharestatustask" title="ShareStatusTask Class" target="_blank">ShareStatusTask</a>, <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharelinktask" title="ShareLinkTask Class" target="_blank">ShareLinkTask</a>, <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharemediatask" title="ShareMediaTask Class" target="_blank">ShareMediaTask</a> sınıflarından yeni bir örnek oluşturulup, <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharetaskbase.show" title="ShareTaskBase Class Show Method" target="_blank">Show()</a> method'u çağırıldığı zaman, telefonuna bağlı hesaplardan oluşan *bir liste* ekrana gelir ve *seçilen hesap* üzerinden *paylaşım gerçekleştirilir*.
+<a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharestatustask" title="ShareStatusTask Class" target="_blank" rel="noopener">ShareStatusTask</a>, <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharelinktask" title="ShareLinkTask Class" target="_blank" rel="noopener">ShareLinkTask</a>, <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharemediatask" title="ShareMediaTask Class" target="_blank" rel="noopener">ShareMediaTask</a> sınıflarından yeni bir örnek oluşturulup, <a href="http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.tasks.sharetaskbase.show" title="ShareTaskBase Class Show Method" target="_blank" rel="noopener">Show()</a> method'u çağırıldığı zaman, telefonuna bağlı hesaplardan oluşan *bir liste* ekrana gelir ve *seçilen hesap* üzerinden *paylaşım gerçekleştirilir*.
 
 Uygulamayı çalıştırdığımızda ve Paylaş butonlarından birine bastığınızda aşağıdaki aşağıdaki ekran görüntülerini görüyor olmamız lazım;
 
 ![Share Tasks Windows Phone 8 Application](/assets/uploads/2012/12/ShareTasks3.png) ![Share Tasks Windows Phone 8 Application](/assets/uploads/2012/12/ShareTasks4.png)
 
-Projenin kodlarını <a href="/assets/uploads/2012/12/ShareTasks.rar" title="Share Status Windows Phone 8 Application Source Code" target="_blank">buradan</a> indirebilirsiniz.
+Projenin kodlarını <a href="/assets/uploads/2012/12/ShareTasks.rar" title="Share Status Windows Phone 8 Application Source Code" target="_blank" rel="noopener">buradan</a> indirebilirsiniz.
 

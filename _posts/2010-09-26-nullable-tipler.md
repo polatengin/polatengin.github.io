@@ -11,11 +11,11 @@ tags: [class, generic, hasvalue, null, nullable, public, read-only, sadece okuna
 
 Basit olarak, *değişkenin değer içerip içermediği bilgisini saklar.*
 
-**Nullable tipler**, <a href="http://msdn.microsoft.com/library/system.nullable" target="_blank">System.Nullable&lt;T&gt;</a> türündedirler (*T, değer tipi olmalıdır*)
+**Nullable tipler**, <a href="http://msdn.microsoft.com/library/system.nullable" target="_blank" rel="noopener">System.Nullable&lt;T&gt;</a> türündedirler (*T, değer tipi olmalıdır*)
 
 **Unutmayın!** *Sadece değer tipleri (value type) nullable olabilir.*
 
-C# dili [değer tipi listesi](http://www.enginpolat.com/csharp-veri-tipleri)'ne daha önce yazdığım **makale** veya <a href="http://msdn.microsoft.com/library/s1ax56ch.aspx" target="_blank">MSDN üzerinden</a> ulaşabilirsiniz.
+C# dili [değer tipi listesi](http://www.enginpolat.com/csharp-veri-tipleri)'ne daha önce yazdığım **makale** veya <a href="http://msdn.microsoft.com/library/s1ax56ch.aspx" target="_blank" rel="noopener">MSDN üzerinden</a> ulaşabilirsiniz.
 
 C# dilinde, **Nullable tipte** değişkenler **iki şekilde** tanımlanabilir.
 
@@ -59,7 +59,7 @@ Eğer değişken **null değilse**, *değer içeriyor* demektir.
 
 Eğer değişken **değer içeriyorsa**, *değeri okumak için*, değişkenin **System.Nullable** tipinden gelen **Value** özelliği kullanılır.
 
-Eğer **değer içermeyen** *nullable* bir değişkenin **Value** özelliğinden değer okumaya çalışırsanız, <a href="http://msdn.microsoft.com/library/system.invalidoperationexception" target="_blank">System.InvalidOperationException</a> istisnası **fırlatılır**.
+Eğer **değer içermeyen** *nullable* bir değişkenin **Value** özelliğinden değer okumaya çalışırsanız, <a href="http://msdn.microsoft.com/library/system.invalidoperationexception" target="_blank" rel="noopener">System.InvalidOperationException</a> istisnası **fırlatılır**.
 
 <pre class="brush:csharp">using System;
 

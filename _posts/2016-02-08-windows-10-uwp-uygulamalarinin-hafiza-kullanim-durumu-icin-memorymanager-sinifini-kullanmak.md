@@ -9,7 +9,7 @@ tags: [appmemoryusage, appmemoryusagelimit, class, constructor, dispatchertimer,
 ---
 **Windows 10 UWP** uygulaması geliştirirken *hafıza*'nın ne kadarını kullandığınızı ve kullanabileceğiniz ne kadar hafıza alanı kaldığını bulmanız gerekebilir.
 
-Bu durumda <a href="http://msdn.microsoft.com/library/windows/apps/windows.system" target="_blank">Windows.System</a> **namespace**'i altında yeralan <a href="http://msdn.microsoft.com/library/windows/apps/windows.system.memorymanager" target="_blank">MemoryManager</a> sınıfını kullanabiliriz.
+Bu durumda <a href="http://msdn.microsoft.com/library/windows/apps/windows.system" target="_blank" rel="noopener">Windows.System</a> **namespace**'i altında yeralan <a href="http://msdn.microsoft.com/library/windows/apps/windows.system.memorymanager" target="_blank" rel="noopener">MemoryManager</a> sınıfını kullanabiliriz.
 
 Hemen **Visual Studio** açarak yeni bir proje oluşturalım;
 
@@ -36,7 +36,7 @@ Hemen **Visual Studio** açarak yeni bir proje oluşturalım;
 
 &lt;/Page&gt;</pre>
 
-Şimdi *MainPage.xaml.cs* dosyasını açalım ve <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.dispatchertimer" target="_blank">DispatcherTimer</a> sınıfından yeni bir **değişken** tanımlayıp, *MainPage* sınıfının **constructor**'ında, her 1 saniyede bir *tetiklenmesini* sağlayalım;
+Şimdi *MainPage.xaml.cs* dosyasını açalım ve <a href="http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.dispatchertimer" target="_blank" rel="noopener">DispatcherTimer</a> sınıfından yeni bir **değişken** tanımlayıp, *MainPage* sınıfının **constructor**'ında, her 1 saniyede bir *tetiklenmesini* sağlayalım;
 
 <pre class="brush:csharp">DispatcherTimer timer = null;
 
@@ -59,9 +59,9 @@ Artık *timer_Tick()* metodumuzu yazabiliriz;
 }
 
 
-Yukarıdaki metodun içerisinde öncelikle <a href="http://msdn.microsoft.com/library/windows/apps/windows.system.memorymanager" target="_blank">MemoryManager</a> sınıfının <a href="http://msdn.microsoft.com/library/windows/apps/windows.system.memorymanager.appmemoryusage" target="_blank">AppMemorryUsage</a> **property**'sinin değerini okuduk ve bunu (*1024* x *1024*) değerine bölerek kaç **megabayt** (*MB*) yaptığını hesapladık, *AppMemoryUsage* isimli <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock" target="_blank">Textblock</a> nesnesinde gösterdik.
+Yukarıdaki metodun içerisinde öncelikle <a href="http://msdn.microsoft.com/library/windows/apps/windows.system.memorymanager" target="_blank" rel="noopener">MemoryManager</a> sınıfının <a href="http://msdn.microsoft.com/library/windows/apps/windows.system.memorymanager.appmemoryusage" target="_blank" rel="noopener">AppMemorryUsage</a> **property**'sinin değerini okuduk ve bunu (*1024* x *1024*) değerine bölerek kaç **megabayt** (*MB*) yaptığını hesapladık, *AppMemoryUsage* isimli <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock" target="_blank" rel="noopener">Textblock</a> nesnesinde gösterdik.
 
-Aynı şekilde <a href="http://msdn.microsoft.com/library/windows/apps/windows.system.memorymanager" target="_blank">MemoryManager</a> sınıfının <a href="http://msdn.microsoft.com/library/windows/apps/windows.system.memorymanager.appmemoryusagelimit" target="_blank">AppMemorryUsageLimit</a> **property**'sinin değerini okuduk ve bunu (*1024* x *1024* x *1024*) değerine bölerek kaç **gigabayt** (*GB*) yaptığını hesapladık, *AppMemoryUsageLimit* isimli <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock" target="_blank">Textblock</a> nesnesinde gösterdik.
+Aynı şekilde <a href="http://msdn.microsoft.com/library/windows/apps/windows.system.memorymanager" target="_blank" rel="noopener">MemoryManager</a> sınıfının <a href="http://msdn.microsoft.com/library/windows/apps/windows.system.memorymanager.appmemoryusagelimit" target="_blank" rel="noopener">AppMemorryUsageLimit</a> **property**'sinin değerini okuduk ve bunu (*1024* x *1024* x *1024*) değerine bölerek kaç **gigabayt** (*GB*) yaptığını hesapladık, *AppMemoryUsageLimit* isimli <a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock" target="_blank" rel="noopener">Textblock</a> nesnesinde gösterdik.
 
 Uygulama açıldıktan sonra her 1 saniyede bir, uygulamanın o anda *kullandığı* **hafıza miktarı** ve *kullanabileceği* **hafıza miktarı** ekranda gösterilecek.
 

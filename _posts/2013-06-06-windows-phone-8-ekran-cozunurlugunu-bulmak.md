@@ -29,7 +29,7 @@ tags: [720p, content, resolution, scalefactor, screen, windows phone, windowspho
 </div>
 
 <div class="alignleft">
-Eğer programatik olarak *ekran çözünürlüğünü* bulmak istiyorsanız, *App.Current.Host.Content* altında tanımlı olan <a href="http://msdn.microsoft.com/library/windowsphone/develop/system.windows.interop.content.scalefactor" title="Content.ScaleFactor Property" target="_blank">ScaleFactor</a> özelliğini kullanmanız gerekiyor;
+Eğer programatik olarak *ekran çözünürlüğünü* bulmak istiyorsanız, *App.Current.Host.Content* altında tanımlı olan <a href="http://msdn.microsoft.com/library/windowsphone/develop/system.windows.interop.content.scalefactor" title="Content.ScaleFactor Property" target="_blank" rel="noopener">ScaleFactor</a> özelliğini kullanmanız gerekiyor;
 
 
 

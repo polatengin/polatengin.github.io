@@ -7,9 +7,9 @@ comments: true
 category: [Etkinlik]
 tags: [acikakademi, css, css3, etkinliklerim, html, html5, jquery, video, webmatrix]
 ---
-<a href="http://www.acikakademi.com" target="_blank">AçıkAkademi</a> üzerinde yayınlanan *29 video*'luk **Html, Css ve jQuery** eğitim seti yayına alındı.
+<a href="http://www.acikakademi.com" target="_blank" rel="noopener">AçıkAkademi</a> üzerinde yayınlanan *29 video*'luk **Html, Css ve jQuery** eğitim seti yayına alındı.
 
-Sevgili arkadaşım *Bora Kaşmer* ile hazırladığımız eğitim setini sizler de <a href="https://www.acikakademi.com/portal/egitimler/html-css-js.aspx" target="_blank">Web sitesi yapmayı öğrenerek programlamaya başlamak istiyorum</a> başlıklı **AçıkAkademi** sayfasından izleyebilirsiniz. *Eğitim konu listesi*;
+Sevgili arkadaşım *Bora Kaşmer* ile hazırladığımız eğitim setini sizler de <a href="https://www.acikakademi.com/portal/egitimler/html-css-js.aspx" target="_blank" rel="noopener">Web sitesi yapmayı öğrenerek programlamaya başlamak istiyorum</a> başlıklı **AçıkAkademi** sayfasından izleyebilirsiniz. *Eğitim konu listesi*;
 
 
 

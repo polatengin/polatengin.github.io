@@ -25,7 +25,7 @@ private void PickPhotoClick(object sender, RoutedEventArgs e)
 }
 
 
-Gördüğünüz gibi sadece <a href="https://msdn.microsoft.com/microsoft.phone.tasks.photochoosertask" target="_blank">PhotoChooserTask</a> tipindeki değişkenin <a href="https://msdn.microsoft.com/microsoft.phone.tasks.photochoosertask.pixelwidth" target="_blank">PixelWidth</a> ve <a href="https://msdn.microsoft.com/microsoft.phone.tasks.photochoosertask.pixelheight" target="_blank">PixelHeight</a> özelliklerine istediğim *en x boy* oranlarını atamam yeterli oldu.
+Gördüğünüz gibi sadece <a href="https://msdn.microsoft.com/microsoft.phone.tasks.photochoosertask" target="_blank" rel="noopener">PhotoChooserTask</a> tipindeki değişkenin <a href="https://msdn.microsoft.com/microsoft.phone.tasks.photochoosertask.pixelwidth" target="_blank" rel="noopener">PixelWidth</a> ve <a href="https://msdn.microsoft.com/microsoft.phone.tasks.photochoosertask.pixelheight" target="_blank" rel="noopener">PixelHeight</a> özelliklerine istediğim *en x boy* oranlarını atamam yeterli oldu.
 
 ![](/assets/uploads/2014/12/ImageCrop.jpg)
 

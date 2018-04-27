@@ -23,7 +23,7 @@ Projeyi oluşturmak istediğimiz dizine giderek komut satırına
 
 yo aspnet</pre>
 
-yazarak çalıştırıyoruz. Böylece <a href="http://yeoman.io/" target="_blank">Yeoman</a> kullanarak <a href="https://github.com/omnisharp/generator-aspnet" target="_blank">Asp.Net Core 1.0</a> projesi oluşturacağız.
+yazarak çalıştırıyoruz. Böylece <a href="http://yeoman.io/" target="_blank" rel="noopener">Yeoman</a> kullanarak <a href="https://github.com/omnisharp/generator-aspnet" target="_blank" rel="noopener">Asp.Net Core 1.0</a> projesi oluşturacağız.
 
 ![](/assets/uploads/2016/01/aspnetcore-2.png)
 
@@ -31,7 +31,7 @@ Eğer bilgisayarda **Yeoman** kurulu değilse yukarıdaki kod çalışmayacaktı
 
 <pre class="brush:csharp">npm install -g yo</pre>
 
-Eğer bilgisayarda **npm** kurulu değilse, <a href="https://nodejs.org" target="_blank">Node.js</a> anasayfasından indirerek kurabilirsiniz.
+Eğer bilgisayarda **npm** kurulu değilse, <a href="https://nodejs.org" target="_blank" rel="noopener">Node.js</a> anasayfasından indirerek kurabilirsiniz.
 
 **Yeoman** *aspnet* komutunu çalıştırırken bize ne tip bir proje oluşturmak istediğimizi sorar, listeden **Empty Application** seçeneğini seçebiliriz.
 

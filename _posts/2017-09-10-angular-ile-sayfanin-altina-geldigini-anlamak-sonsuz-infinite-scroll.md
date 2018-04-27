@@ -7,11 +7,11 @@ comments: true
 category: [Web]
 tags: [html5, angular, scroll, infinite, window, command prompt, terminal, javascript, ng, new, window, scroll, event, attach, innerHeight, document, documentElement, offsetHeight, body, scrollHeight, clientHeight, math, max, component, selector, export, class, addEventListener, function]
 ---
-<mark><em>Bu makaleyi okumadan önce <a href="/etiketler/#angular-ref" target="_blank">Angular</a> etiketindeki diğer makalelerimi okumanızı tavsiye ederim.</em></mark>
+<mark><em>Bu makaleyi okumadan önce <a href="/etiketler/#angular-ref" target="_blank" rel="noopener">Angular</a> etiketindeki diğer makalelerimi okumanızı tavsiye ederim.</em></mark>
 
 Bazı web sitelerinde sitenin en altına indiğinizde yeni verilerin otomatik olarak yüklendiğini farketmişsinizdir.
 
-Örneğin, <a href="https://facebook.com" target="_blank">facebook</a>, <a href="https://twitter.com" target="_blank">twitter</a> gibi uygulamalar sayfanın en altına gittiğinizde yeni post'ları sayfaya yükler.
+Örneğin, <a href="https://facebook.com" target="_blank" rel="noopener">facebook</a>, <a href="https://twitter.com" target="_blank" rel="noopener">twitter</a> gibi uygulamalar sayfanın en altına gittiğinizde yeni post'ları sayfaya yükler.
 
 **Angular** ile geliştirdiğimiz uygulamada biz de aynı şekilde sayfanın en altına geldiğimizde daha fazla veri yüklenmesini veya bir sonraki haberin sayfaya getirilmesini sağlayabiliriz.
 

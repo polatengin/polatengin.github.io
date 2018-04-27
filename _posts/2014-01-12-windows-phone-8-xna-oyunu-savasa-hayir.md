@@ -7,7 +7,7 @@ comments: true
 category: [XNA]
 tags: [bool, class, const, constructor, content, Content.Load, draw, elapsed, elapsedgametime, FromMilliseconds, gameloop, GameTime, getstate, intersects, isfullscreen, loadcontent, nextdouble, prefferedbackbufferheight, prefferedbackbufferwidth, pressed, private, public, random, readonly, rectangle, sprite, spritebatch, spriteeffects, spritefont, state, static, switch, texture2d, TimeSpan, TimeSpan.Zero, totalgametime, touchcollection, touchlocation, touchlocationstate, touchpanel, unloadcontent, update, vector2, xml, XNA, xna game studio]
 ---
-Bu yazımı okumadan önce <a href="/kategori/windows-phone" title="enginpolat.com : Windows Phone" target="_blank">Windows Phone</a> ve <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
+Bu yazımı okumadan önce <a href="/kategori/windows-phone" title="enginpolat.com : Windows Phone" target="_blank" rel="noopener">Windows Phone</a> ve <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank" rel="noopener">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
 
 Önce görseller;
 
@@ -70,7 +70,7 @@ int PlaneCount;
 int DropCount;
 int HelpCount;</pre>
 
-Yukarıdaki kodlar için daha önce yazmış olduğum <a href="/kategori/windows-phone" title="enginpolat.com : Windows Phone" target="_blank">Windows Phone</a> ve <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
+Yukarıdaki kodlar için daha önce yazmış olduğum <a href="/kategori/windows-phone" title="enginpolat.com : Windows Phone" target="_blank" rel="noopener">Windows Phone</a> ve <a href="/kategori/xna/" title="enginpolat.com : XNA" target="_blank" rel="noopener">XNA</a> konusundaki diğer makalelerimi okumanızı öneririm.
 
 *GameLoop* sınıfının **constructor**'ında aşağıdaki atama işlerini yapalım;
 
@@ -89,7 +89,7 @@ Yukarıdaki kodlar için daha önce yazmış olduğum <a href="/kategori/windows
     graphics.IsFullScreen = true;
 }</pre>
 
-**LoadContent** method'unda <a title="Texture2D class" href="http://msdn.microsoft.com/library/microsoft.xna.framework.graphics.texture2d" target="_blank">Texture2D</a> tipindeki değişkenlerimize değer atayalım;
+**LoadContent** method'unda <a title="Texture2D class" href="http://msdn.microsoft.com/library/microsoft.xna.framework.graphics.texture2d" target="_blank" rel="noopener">Texture2D</a> tipindeki değişkenlerimize değer atayalım;
 
 <pre class="brush:csharp">spriteBatch = new SpriteBatch(GraphicsDevice);
 
@@ -137,9 +137,9 @@ if (LastPlaneDate > TimeSpan.FromMilliseconds(5000))
     LastPlaneDate = TimeSpan.Zero;
 }</pre>
 
-**Windows Phone** oyunlarında, oyuncunun ekrana dokunduğu noktaların listesini <a title="TouchPanel class" href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touch.touchpanel" target="_blank">TouchPanel</a> sınıfının *static* <a title="TouchPanel class GetState method" href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touch.touchpanel.getstate" target="_blank">GetState</a> methodundan dönen <a title="TouchCollection Structure" href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchcollection" target="_blank">TouchCollection</a> ile alabilmekteyiz.
+**Windows Phone** oyunlarında, oyuncunun ekrana dokunduğu noktaların listesini <a title="TouchPanel class" href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touch.touchpanel" target="_blank" rel="noopener">TouchPanel</a> sınıfının *static* <a title="TouchPanel class GetState method" href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touch.touchpanel.getstate" target="_blank" rel="noopener">GetState</a> methodundan dönen <a title="TouchCollection Structure" href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchcollection" target="_blank" rel="noopener">TouchCollection</a> ile alabilmekteyiz.
 
-**TouchCollection** koleksiyonunun her bir elemanı <a title="TouchLocation structure" href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchlocation" target="_blank">TouchLocation</a> tipindedir, <a title="TouchLocation structure State property" href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchlocation.state" target="_blank">State</a> özelliğinin <a title="TouchLocationState Enumeration" href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchlocationstate" target="_blank">TouchLocationState</a> enum'ından *Pressed* değerinde olduğunu kontrol ederek, ilgili noktaya dokunulduğu durumu yakalayabiliriz.
+**TouchCollection** koleksiyonunun her bir elemanı <a title="TouchLocation structure" href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchlocation" target="_blank" rel="noopener">TouchLocation</a> tipindedir, <a title="TouchLocation structure State property" href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchlocation.state" target="_blank" rel="noopener">State</a> özelliğinin <a title="TouchLocationState Enumeration" href="http://msdn.microsoft.com/library/microsoft.xna.framework.input.touchlocationstate" target="_blank" rel="noopener">TouchLocationState</a> enum'ından *Pressed* değerinde olduğunu kontrol ederek, ilgili noktaya dokunulduğu durumu yakalayabiliriz.
 
 Eğer dokunulan nokta bir *Plane* ile kesişiyorsa, rastgele yeni bir *Drop* düşürebiliriz, *Drop* ile kesişiyorsa paraşütünün açılmasını sağlayabiliriz;
 

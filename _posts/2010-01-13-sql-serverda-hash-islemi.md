@@ -9,7 +9,7 @@ tags: [hash, hashbytes, insert, md5, procedure, select, SQL, sql server, varbina
 ---
 Uygulamalarımızda verileri **hash**'lemeye her zaman ihtiyaç duyarız. Verileri hash'lemek için kullanabileceğimiz birçok araç vardır.
 
-Eğer veriyi veritabanı katmanında (**Sql Server**) hash'lemek istiyorsak, **MSDN**'de <a title="MSDN: HASHBYTES" href="http://msdn.microsoft.com/en-us/library/ms174415.aspx" target="_blank">şu sayfada</a> bulunan makalede okuyabileceğiniz gibi *HASHBYTES* fonksiyonu ile  yapabiliriz.
+Eğer veriyi veritabanı katmanında (**Sql Server**) hash'lemek istiyorsak, **MSDN**'de <a title="MSDN: HASHBYTES" href="http://msdn.microsoft.com/en-us/library/ms174415.aspx" target="_blank" rel="noopener">şu sayfada</a> bulunan makalede okuyabileceğiniz gibi *HASHBYTES* fonksiyonu ile  yapabiliriz.
 
 *HASHBYTES* fonksiyonu iki parametre alır;
 
@@ -59,5 +59,5 @@ WHERE
 
 Güvenlik ihtiyaçlarından ötürü kıymetli bilgilerin network'ten ulaşılmasını önlemek için, veriyi taşımadan önce **hash**'lemek isteyebilirsiniz. *HASHBYTES* fonksiyonu bu işin son derece kullanışlı gözüküyor.
 
-***Not :** Yazıyı yazdıktan sonra gördüm ki, Emre Ayrılmaz <a title="Emre Ayrilmaz: HashBytes" href="http://www.ayrilmaz.com/Home/Post/hashbytes-ile-veri-katmaninda-hash-islemi.aspx" target="_blank">şuradaki</a> makalesinde aynı konuyu işlemiş, okunmasında fayda var.*
+***Not :** Yazıyı yazdıktan sonra gördüm ki, Emre Ayrılmaz <a title="Emre Ayrilmaz: HashBytes" href="http://www.ayrilmaz.com/Home/Post/hashbytes-ile-veri-katmaninda-hash-islemi.aspx" target="_blank" rel="noopener">şuradaki</a> makalesinde aynı konuyu işlemiş, okunmasında fayda var.*
 
