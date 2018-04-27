@@ -5,10 +5,10 @@ layout: default
 <div class="blog-index">
   <a href="{{ root_url }}{{ post.url }}"><h3 class="entry-title">{{ post.title }}</h3></a>
   <div class="info">
-    <a class="btnz share facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}">Facebook Paylaş</a>
-    <a class="btnz share twitter" target="_blank" href="https://twitter.com/home?status={{ site.url }}{{ post.url }}">Twitter Paylaş</a>
-    <a class="btnz share linkedin" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ post.url }}&title={{ post.title }}">LinkedIn Paylaş</a>
-    <a class="btnz share github" target="_blank" href="https://github.com/{{ site.author.github }}/polatengin.github.io/blob/master/_posts/{{ post.date | date: "%Y-%m-%d" }}-{{ post.url | replace: '/', '' }}.md">Github Üzerinden Katkıda Bulun</a>
+    <a rel="noopener" class="btnz share facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}">Facebook Paylaş</a>
+    <a rel="noopener" class="btnz share twitter" target="_blank" href="https://twitter.com/home?status={{ site.url }}{{ post.url }}">Twitter Paylaş</a>
+    <a rel="noopener" class="btnz share linkedin" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ post.url }}&title={{ post.title }}">LinkedIn Paylaş</a>
+    <a rel="noopener" class="btnz share github" target="_blank" href="https://github.com/{{ site.author.github }}/polatengin.github.io/blob/master/_posts/{{ post.date | date: "%Y-%m-%d" }}-{{ post.url | replace: '/', '' }}.md">Github Üzerinden Katkıda Bulun</a>
     <div class="btnz calendar">
       <span class="calendar-icon"></span>
       <span>{{ post.date | date: "%d" }} {% assign m = post.date | date: "%-m" %}{% case m %}{% when '1' %}Ocak {% when '2' %}Şubat {% when '3' %}Mart {% when '4' %}Nisan {% when '5' %}Mayıs {% when '6' %}Haziran {% when '7' %}Temmuz {% when '8' %}Ağustos {% when '9' %}Eylül {% when '10' %}Ekim {% when '11' %}Kasım {% when '12' %}Aralık {% endcase %}{{ post.date | date: "%Y" }}</span>
