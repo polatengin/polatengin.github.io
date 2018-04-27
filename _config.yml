@@ -15,6 +15,8 @@ author :
 
 production_url : http://polatengin.github.io
 
+url: https://enginpolat.com
+
 compress_html:
   clippings: all
   comments: all
