@@ -44,4 +44,4 @@ Son olarak, *AppConnectionString* değişkenini, *appsettings.json* dosyası iç
 
 <script src="https://gist.github.com/polatengin/464d78a39de20e32bd4c33f62b847bbf.js?file=appsettings.json"></script>
 
-<small>Bu makaleyi yazarken <a href="https://dasmulli.blog/2018/01/18/auto-modifying-connection-strings-based-on-the-environment/" target="_blank">Martin Ullrich</a>'in makalesinden de faydalandım</small>
+<small><em>Not : Bu makaleyi yazarken <a href="https://dasmulli.blog/2018/01/18/auto-modifying-connection-strings-based-on-the-environment/" target="_blank">Martin Ullrich</a>'in makalesinden de faydalandım</em></small>
