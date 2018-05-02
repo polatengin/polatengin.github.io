@@ -172,7 +172,7 @@ layout: compress
       document.querySelectorAll('.lazy').forEach(a => { a.src = a.dataset.src; });
     }
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js');
+      navigator.serviceWorker.register('/sw.js?v1', { scope: './' });
     }
   </script>
 </body>
