@@ -42,15 +42,15 @@ body { letter-spacing: 0.01rem; }
   }
 }
 @media (min-width: 992px) {
-  .site-title {
-    display: inline-block;
-  }
   .col-md-10-12 {
     width: 10%;
     float: left;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
+  .site-title {
+    display: inline-block;
+  }
   .col-lg-10-12 {
     width: 10%;
     float: left;
