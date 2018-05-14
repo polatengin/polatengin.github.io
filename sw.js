@@ -7,7 +7,7 @@ self.addEventListener('install', function (event) {
 });
 
 self.addEventListener('fetch', function (event) {
-  if (e.request.cache === 'only-if-cached' && e.request.mode !== 'same-origin') {
+  if (event.request.cache === 'only-if-cached' && event.request.mode !== 'same-origin') {
     return;
   }
   event.respondWith(checkResponse(event.request).catch(function () { return returnFromCache(event.request) }));
