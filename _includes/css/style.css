@@ -24,13 +24,7 @@ body { letter-spacing: 0.01rem; }
   width: 10%;
   float: left;
 }
-.search-bar {
-  margin:0 15px;
-}
 @media (min-width: 768px) {
-  .search-bar {
-    margin:0;
-  }
   .site-menu {
     display: block;
   }
