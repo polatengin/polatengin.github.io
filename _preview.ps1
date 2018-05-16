@@ -1,1 +1,1 @@
-bundle exec jekyll serve --watch --drafts --limit_posts 10 --config _preview.yml
+bundle exec jekyll serve --limit_posts 10
