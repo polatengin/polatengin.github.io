@@ -3,7 +3,6 @@ _site
 _drafts
 
 Thumbs.db
-Gemfile.lock
 .DS_Store
 
 !.gitkeep
@@ -11,3 +10,5 @@ Gemfile.lock
 .rbenv-version
 .rvmrc
 .jekyll-metadata
+
+Gemfile.lock
