@@ -19,6 +19,8 @@ Benim de yaptığım gibi <a href="http://code.visualstudio.com/" target="_blank
 
 Sayfaya ekleyeceğimiz **fade** animasyonunu görebilmek için sayfada *yazılar*-*resimler*-vs olması gerekiyor. <a href="http://www.lipsum.com" target="_blank" rel="noopener">Lorem Ipsum</a> sitesinde istediğimiz kadar rastgele yazı oluşturabilmeye yarayan bir sayfa var.
 
+*Ayrıca <a href="https://www.websiteplanet.com/tr/webtools/lorem-ipsum/" target="_blank" rel="noopener">Lorem Ipsum Generator</a> sayfasında reklamsız/ücretsiz Lorem Ipsum oluşturucu bulabilirsiniz. Türkçe desteği ile birlikte benim favorim oldu :)*
+
 <img class="lazy img-responsive" data-src="http://www.enginpolat.com/wp-content/uploads/2017/01/lipsum.png" />
 
 Ben **10** paragraflık rastgele yazı oluşturdum ve *html* sayfasının *body* taglarının arasına aşağıdaki şekilde ekledim;
