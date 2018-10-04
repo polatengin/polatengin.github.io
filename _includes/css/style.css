@@ -7,7 +7,7 @@ body { letter-spacing: 0.01rem; }
 .p-8 { padding:8px; }
 .mb-10 { margin-bottom:10px; }
 .entry-content a { text-decoration: underline; }
-.site-title { font-size: 1em; display: inline; margin-top: 15px; }
+.site-title { font-size: 1em; display: inline; margin-top: 13px; }
 .site-menu {
   display: none;
 }
@@ -58,6 +58,7 @@ body { letter-spacing: 0.01rem; }
   display:inline-block;
   vertical-align:middle;
   background:url(/assets/images.png) -60px 40px;
+  margin-top:3px;
 }
 .profile-image {
   padding:30px;
