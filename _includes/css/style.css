@@ -130,97 +130,42 @@ body { letter-spacing: 0.01rem; }
 .info .share:last-of-type {
     border-radius: 0 3px 3px 0;
 }
-.sprite.rd-banner {
-  background: url(/assets/images.png) 0 -97px;
-  width: 238px;
-  height: 50px;
+.sprite {
+  width: 20px;
+  height: 20px;
   text-indent: -9999px;
-}
-.sprite.mvp-banner {
-  background: url(/assets/images.png) 0 0;
-  width: 242px;
-  height: 96px;
-  text-indent: -9999px;
+  margin: 2.5px;
+  display: inline-block;
 }
 .sprite.linkedin-logo {
   background: url(/assets/images.png) -140px -148px;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  text-indent: -9999px;
-  margin: 2.5px;
 }
 .sprite.twitter-logo {
   background: url(/assets/images.png) -60px -148px;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  text-indent: -9999px;
-  margin: 2.5px;
 }
 .sprite.rss-logo {
   background: url(/assets/images.png) -80px -148px;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  text-indent: -9999px;
-  margin: 2.5px;
 }
 .sprite.youtube-logo {
   background: url(/assets/images.png) -180px -148px;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  text-indent: -9999px;
-  margin: 2.5px;
 }
 .sprite.meetup-logo {
   background: url(/assets/images.png) -100px -148px;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  text-indent: -9999px;
-  margin: 2.5px;
 }
 .sprite.channel9-logo {
   background: url(/assets/images.png) -160px -148px;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  text-indent: -9999px;
-  margin: 2.5px;
 }
 .sprite.me-logo {
   background: url(/assets/images.png) -120px -148px;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  text-indent: -9999px;
-  margin: 2.5px;
 }
 .sprite.mvp-logo {
   background: url(/assets/images.png) -200px -148px;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  text-indent: -9999px;
-  margin: 2.5px;
 }
 .sprite.rd-logo {
   background: url(/assets/images.png) -116px -168px;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  text-indent: -9999px;
-  margin: 2.5px;
 }
 .sprite.email-logo {
   background: url(/assets/images.png) -96px -168px;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  text-indent: -9999px;
-  margin: 2.5px;
 }
 .navbar-fixed-top {
   border-bottom: 3px solid #86ab08;
