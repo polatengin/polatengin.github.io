@@ -11,7 +11,7 @@ tags: [css, javascript, animasyon, html, html5]
 
 İlginç sorulardan biri, '*Bir html sayfasının açılışını nasıl animatif hale getirebilirim?*' idi.
 
-Bu makalede önce bir **html** sayfası oluşturacağız, **javascript** ve **css** kullanarak bu sayfanın açılışına yaklaşık *750ms*'lik **fade** (*yavaşça belirme*) animasyonu ekleyeceğiz.
+Bu makalede önce bir **html** sayfası oluşturacağız, **javascript** ve **css** kullanarak bu sayfanın açılışına *1200 ms*'lik **fade** (*yavaşça belirme*) animasyonu ekleyeceğiz.
 
 Benim de yaptığım gibi <a href="http://code.visualstudio.com/" target="_blank" rel="noopener">Visual Studio Code</a> editorünü veya başka favori editorünüzü açarak *index.html* isimli bir dosya oluşturalım ve aşağıdaki **html** şablonunu yazalım.
 
@@ -31,7 +31,7 @@ Artık sayfanın açılışına **fade** animasyonu ekleyebiliriz, öncelikle *b
 
 <script src="https://gist.github.com/polatengin/fcdff64c8edf66f3648c32a3e24a3fae.js?file=index-style.html"></script>
 
-Böylece *body* tag'ında **fade** *css class*'ı var olduğunda sayfa ekranda gözükmeyecek (**opacity** özelliği *0* olduğu için), **fade** *css class*'ını kaldırdığımızda sayfa *750ms* içerisinde görünür olacak (**opacity** özelliği *1* olduğu için)
+Böylece *body* tag'ında **fade** *css class*'ı var olduğunda sayfa ekranda gözükmeyecek (**opacity** özelliği *0* olduğu için), **fade** *css class*'ını kaldırdığımızda sayfa *1200 ms* içerisinde görünür olacak (**opacity** özelliği *1* olduğu için)
 
 Şimdi tek yapmamız gereken sayfa yüklendiğinde **fade** *css class*'ını **body** *tag*'ından kaldırmak, bunu aşağıdaki **javascript** kodu ile gerçekleştirebiliriz;
 
