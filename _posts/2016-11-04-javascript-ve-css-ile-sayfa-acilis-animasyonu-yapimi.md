@@ -21,7 +21,7 @@ Sayfaya ekleyeceğimiz **fade** animasyonunu görebilmek için sayfada *yazılar
 
 *Ayrıca <a href="https://www.websiteplanet.com/tr/webtools/lorem-ipsum/" target="_blank" rel="noopener">Lorem Ipsum Generator</a> sayfasında reklamsız/ücretsiz Lorem Ipsum oluşturucu bulabilirsiniz. Türkçe desteği ile birlikte benim favorim oldu :)*
 
-<img class="lazy img-responsive" data-src="http://www.enginpolat.com/wp-content/uploads/2017/01/lipsum.png" />
+<img class="lazy img-responsive" data-src="/assets/uploads/2016/11/lipsum.png" />
 
 Ben **10** paragraflık rastgele yazı oluşturdum ve *html* sayfasının *body* taglarının arasına aşağıdaki şekilde ekledim;
 
