@@ -11,7 +11,6 @@ tags: [access modifiers, anonymous methods, anonymous types, auto implemented pr
 
 Bu seminerde değindiğim konular;
 
-
 *   Access Modifiers
 *   Anonymous Types
 *   Anonymous Methods
@@ -23,5 +22,4 @@ Bu seminerde değindiğim konular;
 *   Auto Implemented Properties
 *   Obsolete Attribute
 *   Extension Methods
-<a title="enginpolat.com: Şubat 2010 Seminerleri / İleri Seviye C#" href="../wp-content/uploads/2010/02/CSharpIleriSeviye_Prezentasyon.rar" target="_blank" rel="noopener">Powerpoint Prezentasyonu</a>
-
+<a title="enginpolat.com: Şubat 2010 Seminerleri / İleri Seviye C#" href="/assets/uploads/2010/02/CSharpIleriSeviye_Prezentasyon.rar" target="_blank" rel="noopener">Powerpoint Prezentasyonu</a>

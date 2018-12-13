@@ -11,10 +11,8 @@ tags: [etkinliklerim, oyun geliştirme, seminer, XNA, xna game studio]
 
 Bu seminerde değindiğim konular;
 
-
 *   Oyun Geliştirme ile ilgili bilinmesi gereken kavramlar
 *   XNA ile ilgili bilinmesi gereken kavramlar
 *   XNA Örnek kodlar
 
-<a title="enginpolat.com: Şubat 2010 Seminerleri / XNA Game Studio" href="../wp-content/uploads/2010/02/XNAOyunGelistirme_Prezentasyon.rar" target="_blank" rel="noopener">Powerpoint Prezentasyonu</a>
-
+<a title="enginpolat.com: Şubat 2010 Seminerleri / XNA Game Studio" href="/assets/uploads/2010/02/XNAOyunGelistirme_Prezentasyon.rar" target="_blank" rel="noopener">Powerpoint Prezentasyonu</a>
