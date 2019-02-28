@@ -13,8 +13,6 @@ Bu yazı dizisi ile birlikte **Windows Phone 7** (**WP7**) uygulama geliştirme 
 
 **WP7**, uygulama geliştirmemiz için temel olarak *iki framework* sağlar;
 
-
-
 *   **Silverlight Framework**
 Bu framework ile olay tabanlı (XAML sayesinde) uygulamalar geliştirebiliriz
 *   **XNA Games Framework**
@@ -25,8 +23,6 @@ Bu framework sayesinde, zengin 2D ve 3D oyunlar geliştirebiliriz
 *Visual Studio 2010* kurulu bilgisayarımıza <a href="http://www.microsoft.com/download/en/details.aspx?id=27570" title="Windows Phone SDK 7.1" target="_blank" rel="noopener">Windows Phone SDK 7.1</a> indirip kurmamız gerekiyor.
 
 *Windows Phone SDK 7.1* kurulumu sonrasında bilgisayarımıza aşağıdaki araçlar kurulmuş olacak;
-
-
 
 *   Microsoft Visual Studio 2010 Express for Windows Phone
 *   Windows Phone Emulator
@@ -46,11 +42,9 @@ Ayrıca *Visual Studio 2010* kurulumumuza, *New Project* dialog penceresinden er
 
 *MSDN*'de yer alan <a href="http://msdn.microsoft.com/en-us/library/ff402531(v=vs.92).aspx" title="Application Platform Overview for Windows Phone" target="_blank" rel="noopener">Application Platform Overview for Windows Phone</a> makalesine göre, mimari şu şekilde;
 
-![](http://i.msdn.microsoft.com/dynimg/IC513005.jpg "Application Platform Overview for Windows Phone")
+![](//i.msdn.microsoft.com/dynimg/IC513005.jpg "Application Platform Overview for Windows Phone")
 
 WP7 mimarisinin 4 temel bileşeni;
-
-
 
 *   **Runtimes**
 Silverlight ve XNA framework, optimize edilmiş uygulama oluşturmak için geliştiriciler için mükemmel bir ortam sağlar
@@ -115,4 +109,3 @@ Proje oluşturulduktan sonra çalıştıracak olursak eğer, ilk olarak *Windows
 ![](/assets/uploads/2012/03/WP7_Baslangic_Emulator_Load.png "Windows Phone 7 Emulator Yuklenme")
 
 ![](/assets/uploads/2012/03/WP7_Baslangic_Emulator_First_Project.png "Windows Phone 7 İlk Proje")
-

@@ -13,9 +13,7 @@ tags: [array, ASP.NET, aspnet, background, css, darken, dictionary, for, foreach
 
 Örneğin **SASS** dosyamızda aşağıdaki değişkenleri tanımlamış olalım;
 
-
-
-$Twitter: #41b7d8;
+<pre>$Twitter: #41b7d8;
 $Facebook: #3b5997;
 $GooglePlus: #d64937;
 $Linkedin: #0073b2;</pre>
@@ -91,8 +89,6 @@ Yukarıdaki **SASS** kodunun **css** çıktısı aşağıdaki gibi olacaktır;
 
 **darken()** methodunu da kullanarak yazı renginin *arkaplan* renginden *35%* daha **koyu** olmasını sağladık. Hatta **background-image** stiline **dizi** elemanının isminden değer vermek için aşağıdaki kodu kullanabiliriz;
 
-<pre class="brush:csharp">background-image: url('/images/#{$name}.png');
-
+<pre class="brush:csharp">background-image: url('/images/#{$name}.png');</pre>
 
 *Kaynak : <a href="http://www.sassmeister.com/gist/9378629" target="_blank" rel="noopener">SASSMeister</a>*
-

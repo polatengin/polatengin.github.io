@@ -25,8 +25,7 @@ Bu makalede **SASS**'ın nasıl çalıştığını inceleyeceğiz, hemen örnek 
 
 *index.html* dosyasının içeriği;
 
-
-&lt;html&gt;
+<pre>&lt;html&gt;
     &lt;head&gt;
         &lt;link rel="stylesheet" href="css/style.css" /&gt;
     &lt;/head&gt;
@@ -246,6 +245,4 @@ article {
     font-family: "Helvetica";
     background-color: #47c4fd;
     padding: 15px;
-}
-
-
+}</pre>

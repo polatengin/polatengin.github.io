@@ -9,15 +9,15 @@ tags: [background, backgroundcolor, content, default, documentation, sass, scss,
 ---
 <a href="http://sass-lang.com" target="_blank" rel="noopener">SASS</a> Dokümantasyonunda <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variable_defaults_" target="_blank" rel="noopener">Variable Defaults: !default</a> alanında yazana göre;
 
-*You can assign to variables if they aren’t already assigned by adding the !default flag to the end of the value. This means that if the variable has already been assigned to, it won’t be re-assigned, but if it doesn’t have a value yet, it will be given one.*
+<pre>You can assign to variables if they aren’t already assigned by adding the !default flag to the end of the value. This means that if the variable has already been assigned to, it won’t be re-assigned, but if it doesn’t have a value yet, it will be given one</pre>
 
-yani, *!default anahtar kelimesi ile biten bir değişken tanımı varsa ve o ana kadar o değişken daha önce tanımlanmadıysa tanımlanır ve değer ataması yapılır, daha önce tanımlandıysa görmezden gelinir*
+yani
+
+<pre>!default anahtar kelimesi ile biten bir değişken tanımı varsa ve o ana kadar o değişken daha önce tanımlanmadıysa tanımlanır ve değer ataması yapılır, daha önce tanımlandıysa görmezden gelinir</pre>
 
 Hemen bir örnek ile inceleyelim;
 
-
-
-$ornek: 'ilk içerik';
+<pre>$ornek: 'ilk içerik';
 
 $ornek: 'ikinci içerik' !default;
 
@@ -45,6 +45,4 @@ $renk: blue !default;
 
 <pre class="brush:css">#main {
     background-color: red;
-}
-
-
+}</pre>
