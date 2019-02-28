@@ -165,11 +165,11 @@ layout: compress
       request.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
           var xml = this.responseXML;
-          var list = xml.getElementsByTagName("link");
+          var list = xml.getElementsByTagName('entry');
 
           var randomIndex = Math.floor(Math.random() * list.length);
 
-          var link = list[randomIndex].getAttribute('href');
+          var link = list[randomIndex].getElementsByTagName('link')[0].getAttribute('href');
           location.href = link;
         }
       };
