@@ -47,9 +47,9 @@ layout: compress
       </div>
       <div class="site-menu navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li {% if page.url == "/kategori/windows/" %}class="active"{% endif %}><a {% if page.url == "/kategori/windows/" %}class="active"{% endif %} href="/kategori/windows/" title="Windows kategorisindeki makaleler">Windows</a></li>
-          <li {% if page.url == "/kategori/unity3d/" %}class="active"{% endif %}><a {% if page.url == "/kategori/unity3d/" %}class="active"{% endif %} href="/kategori/unity3d/" title="Unity3D kategorisindeki makaleler">Unity3D</a></li>
-          <li {% if page.url == "/kategori/web/" %}class="active"{% endif %}><a {% if page.url == "/kategori/web/" %}class="active"{% endif %} href="/kategori/web/" title="Web kategorisindeki makaleler">Web</a></li>
+          <li {% if page.url=="/kategori/windows/" %}class="active"{% endif %}><a {% if page.url=="/kategori/windows/" %}class="active"{% endif %} href="/kategori/windows/" title="Windows kategorisindeki makaleler">Windows</a></li>
+          <li {% if page.url=="/kategori/unity3d/" %}class="active"{% endif %}><a {% if page.url=="/kategori/unity3d/" %}class="active"{% endif %} href="/kategori/unity3d/" title="Unity3D kategorisindeki makaleler">Unity3D</a></li>
+          <li {% if page.url=="/kategori/web/" %}class="active"{% endif %}><a {% if page.url=="/kategori/web/" %}class="active"{% endif %} href="/kategori/web/" title="Web kategorisindeki makaleler">Web</a></li>
         {% assign sorted_pages = site.pages | sort:"order" %}
         {% for node in sorted_pages %} {% if node.title != null and node.group == 'navigation' %}
           {% if page.url == node.url %}
@@ -59,6 +59,7 @@ layout: compress
           {% endif %}
           {% endif %}
         {% endfor %}
+          <li><a id="randomPostButton" href="/rastgele">Rastgele</a></li>
         </ul>
       </div>
     </div>
@@ -159,6 +160,26 @@ layout: compress
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js?20180514', { scope: './' });
     }
+    document.getElementById('randomPostButton').addEventListener('click', function(e) {
+      var request = new XMLHttpRequest();
+      request.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var xml = this.responseXML;
+          var list = xml.getElementsByTagName("link");
+
+          var randomIndex = Math.floor(Math.random() * list.length);
+
+          var link = list[randomIndex].getAttribute('href');
+          location.href = link;
+        }
+      };
+      request.open("GET", "atom.xml", true);
+      request.send();
+
+      e.preventDefault();
+
+      return false;
+    });
   </script>
 </body>
 </html>
