@@ -20,7 +20,7 @@ layout: compress
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="post-date" content="{{ page.date | date:"%Y-%m-%d" }}" />
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" />
-  <link rel="stylesheet" href="/assets/bundle.min.css?v20180514" async />
+  <link rel="stylesheet" href="/assets/bundle.min.css?v20190306" async />
   <link rel="alternate" href="/atom.xml" type="application/atom+xml" title="ATOM Feed" />
   <link rel="alternate" href="/rss.xml" type="application/rss+xml" title="RSS Feed" />
   <meta property="og:image" content="/assets/logo-192.png" />
@@ -60,10 +60,29 @@ layout: compress
           {% endif %}
         {% endfor %}
           <li><a id="randomPostButton" href="/rastgele">Rastgele</a></li>
+          <li>
+            <label class="switch">
+              <input type="checkbox" id="switchDarkLightMode">
+              <span class="slider round"></span>
+            </label>
+            <a id="mode"></a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
+  <script>
+    var modeElement = document.getElementById('switchDarkLightMode');
+    if(localStorage.getItem('mode') === 'dark') {
+      modeElement.checked = true;
+      document.querySelector('body').classList.add('dark');
+      document.getElementById('mode').innerText = 'Dark Mode';
+    } else {
+      modeElement.checked = false;
+      document.querySelector('body').classList.remove('dark');
+      document.getElementById('mode').innerText = 'Light Mode';
+    }
+  </script>
   <div class="container" style="margin-top:50px;margin-bottom:30px;padding:0;">
     <div class="col-sm-9">{{ content }}</div>
     <div class="col-sm-3" style="margin-top:2px;">
@@ -179,6 +198,17 @@ layout: compress
       e.preventDefault();
 
       return false;
+    });
+    modeElement.addEventListener('change', function() {
+      if (localStorage.getItem('mode') === 'light') {
+        localStorage.setItem('mode', 'dark');
+        document.querySelector('body').classList.add('dark');
+        document.getElementById('mode').innerText = 'Dark Mode';
+      } else {
+        localStorage.setItem('mode', 'light');
+        document.querySelector('body').classList.remove('dark');
+        document.getElementById('mode').innerText = 'Light Mode';
+      }
     });
   </script>
 </body>
