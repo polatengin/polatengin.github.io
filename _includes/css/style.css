@@ -182,6 +182,8 @@ body { letter-spacing: 0.01rem; }
   width: 0.50em;
   margin: 10px 3px 0 0;
   text-indent: -9000px;
+  background: transparent;
+  padding: 0;
 }
 .about-image-0 {
   background-image:url(https://aboutme.imgix.net/users/p/o/l/polatengin_1498303086_09.jpg?q=80&dpr=2&auto=format&fit=crop&w=45&h=45&crop=faces);

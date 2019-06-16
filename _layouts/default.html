@@ -149,7 +149,7 @@ layout: compress
   </div>
   <nav class="navbar-inverse navbar-fixed-bottom" style="z-index:99;min-height:25px;">
     <div class="container">
-      <a class="chevron" href="/" onclick="document.documentElement.scrollTop=0;return false;">Yukarı</a>
+      <button class="chevron" href="/">Yukarı</button>
       <span class="text-muted" style="margin-top:2px;display:inline-block;">Tüm hakları saklıdır &copy; 2009 - {{ site.time | date: '%Y' }} {{ site.author.name }} ({{ site.tagline }})</span>
     </div>
   </nav>
@@ -179,6 +179,17 @@ layout: compress
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js?20180514', { scope: './' });
     }
+    document.querySelector('.chevron').addEventListener('click', function(e) {
+      window.scrollTo({
+        left:0,
+        top:0,
+        behavior:'smooth'
+      });
+
+      e.preventDefault();
+
+      return false;
+    }, false);
     document.getElementById('randomPostButton').addEventListener('click', function(e) {
       var request = new XMLHttpRequest();
       request.onreadystatechange = function() {
