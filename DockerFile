@@ -1,0 +1,34 @@
+FROM ruby:2.6.3 as builder
+
+COPY . /project
+
+WORKDIR /project
+
+RUN gem install jekyll
+
+RUN gem install bundler
+
+RUN bundle install
+
+RUN bundle exec jekyll build
+
+######
+
+FROM nginx:1.17.0-alpine as server
+
+USER root
+
+MAINTAINER Engin Polat (polatengin) <engin@enginpolat.com>
+
+COPY --from=builder ./project/_site /usr/share/nginx/html
+
+RUN nginx
+
+EXPOSE 80
+
+LABEL maintainer="Engin Polat (polatengin) <engin@enginpolat.com>" \
+      org.label-schema.docker.dockerfile="/Dockerfile" \
+      org.label-schema.license="MIT" \
+      org.label-schema.name="Engin Polat'ın kişisel web sitesi" \
+      org.label-schema.vcs-type="Git" \
+      org.label-schema.vcs-url="https://github.com/polatengin/polatengin.github.io"
