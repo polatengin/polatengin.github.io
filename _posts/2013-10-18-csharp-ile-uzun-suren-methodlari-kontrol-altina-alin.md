@@ -11,59 +11,7 @@ Uygulama geliştirirken karşılaştığımız birçok senaryoda çağırdığı
 
 Çağırılan method'un belli bir **zaman aşımı süresine** sahip olması ve bu süre sonuna kadar değer üretmediyse **sonlanması** için birçok yöntem kullanabiliriz, fakat ben <a href="http://msdn.microsoft.com/library/system.threading" title="System.Threading Namespace" target="_blank" rel="noopener">System.Threading</a> *namespace*'inde yeralan <a href="http://msdn.microsoft.com/library/system.threading.cancellationtokensource" title="CancellationTokenSource Class" target="_blank" rel="noopener">CancellationTokenSource</a> sınıfını kullanan aşağıdaki yöntemi tercih ediyorum;
 
-
-
-/// &lt;summary&gt;
-/// Timeout süresinde tamamlanmayan method'u otomatik sonlandırır
-/// &lt;/summary&gt;
-/// &lt;param name="action"&gt;Çağırılacak method&lt;/param&gt;
-/// &lt;param name="timeout"&gt;Milisaniye cinsinden zamanaşımı süresi&lt;/param&gt;
-/// &lt;returns&gt;&lt;/returns&gt;
-public static bool Execute(Action action, int timeout)
-{
-    var tokenSource = new CancellationTokenSource();
-
-    var token = tokenSource.Token;
-
-    var task = Task.Factory.StartNew(action, token);
-
-    if (!task.Wait(timeout, token))
-    {
-        tokenSource.Cancel();
-
-        return false;
-    }
-
-    task.Dispose();
-
-    return true;
-}
-
-/// &lt;summary&gt;
-/// Timeout süresinde tamamlanmayan method'u otomatik sonlandırır
-/// &lt;/summary&gt;
-/// &lt;param name="action"&gt;Çağırılacak method&lt;/param&gt;
-/// &lt;param name="timeout"&gt;Milisaniye cinsinden zamanaşımı süresi&lt;/param&gt;
-/// &lt;returns&gt;&lt;/returns&gt;
-public static Tuple&lt;bool, T&gt; Execute&lt;T&gt;(Func&lt;T&gt; action, int timeout)
-{
-    var result = Tuple.Create(false, default(T));
-
-    var tokenSource = new CancellationTokenSource();
-
-    var token = tokenSource.Token;
-
-    var task = Task.Factory.StartNew(() =&gt; { result = Tuple.Create(true, action.Invoke()); }, token);
-
-    if (!task.Wait(timeout, token))
-    {
-        tokenSource.Cancel();
-    }
-
-    task.Dispose();
-
-    return result;
-}</pre>
+<script src="https://gist.github.com/polatengin/28cfed0e33b4bbbfb3c4587039ea2863.js?file=LongRunningTasksExecute.cs"></script>
 
 Böylece değer döndürmeyen method'lar eğer **timeout**'a uğramışsa geriye *bool* tipinde **false** değeri, **timeout**'a uğramamışsa **true** değeri döndürebiliyoruz.
 
@@ -77,8 +25,6 @@ Geriye değer **döndürmeyen** method'ları aşağıdaki örnek kullanım ile �
 
 <pre class="brush:csharp">var result = Execute(LongRunningProcess, 3000);</pre>
 
-Geriye değer **döndüren** method'ları (*örneğin int*) aşağıdaki örnek kullanım ile çağırabiliriz
+Geriye değer **döndüren** method'ları (_örneğin_ `int`) aşağıdaki örnek kullanım ile çağırabiliriz
 
-<pre class="brush:csharp">var result = Execute&lt;int&gt;(LongRunningProcess, 5000);
-
-
+<pre class="brush:csharp">var result = Execute&lt;int&gt;(LongRunningProcess, 5000);</pre>
